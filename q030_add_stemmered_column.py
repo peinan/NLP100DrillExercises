@@ -20,4 +20,4 @@ if __name__ == '__main__':
       col1, col2 = line.strip().split('\t')
       sys.stdout.write('%s\t%s\t%s\n' % (col1, col2, stemWords(col2)))
     except ValueError:
-      print
+      sys.stdout.write(line)
