@@ -7,12 +7,13 @@
 import sys
 from collections import defaultdict
 
-def sortSecWFreq():
+def sortSecWFreq(filepath):
   stringFreq = defaultdict(lambda: 0)
-  for line in open('col2.txt'):
-    stringFreq[line] += 1
-  for k, v in sorted(stringFreq.items(), key=lambda x: x[1], reverse=True):
-    sys.stdout.write('%s' % k)
+  for line in open(filepath):
+    stringFreq[line.strip().decode('utf-8')] += 1
+  return stringFreq
 
 if __name__ == '__main__':
-  sortSecWFreq()
+  stringFreq = sortSecWFreq(sys.argv[1])
+  for k, v in sorted(stringFreq.items(), key=lambda x: x[1], reverse=True):
+    sys.stdout.write('%3d %s\n' % (v, k.encode('utf-8')))
