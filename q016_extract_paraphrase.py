@@ -7,7 +7,8 @@
 import sys, re
 
 def extractParaphrase(line):
-  paraSet = re.compile(ur'([一-龠]+)(（|\()([a-zA-Z_\-0-9]+)(）|\))')
+  # paraSet = re.compile(ur'([一-龠]+)(（|\()([a-zA-Z_\-0-9]+)(）|\))')
+  paraSet = re.compile(ur'([一-龠]+)(（|\()([A-Z]+)(）|\))')
   m = paraSet.search(line)
   if m != None:
     return m.groups() 
