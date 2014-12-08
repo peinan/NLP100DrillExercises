@@ -21,4 +21,4 @@ if __name__ == '__main__':
   unigram_freq = sortSecWFreq('data/medline.txt.sent.tok')
   bigram_freq  = calcBigramFreq(sys.stdin.readlines(), unigram_freq)
   for k, v in sorted(bigram_freq.items(), key=lambda x: x[1], reverse=True):
-    sys.stdout.write('%f\t%s\n' % (v, k))
+    sys.stdout.write('%f\t%s\n' % (v, k.encode('utf-8')))
