@@ -13,7 +13,7 @@ class Morph:
     self.cabochaResult = cabochaParse(sentence)
     self.parsedMorphs = []
     for line in self.cabochaResult.splitlines():
-      if line[0] != '*' and line.strip() != 'EOS':
+      if line[:2] != '* ' and line.strip() != 'EOS':
         srf, result = line.split('\t')
         results = result.split(',')
         base = results[6]
