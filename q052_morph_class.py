@@ -42,10 +42,11 @@ class Morph:
 
 
 if __name__ == '__main__':
-  newMorph = Morph(sys.stdin.readline())
-  print newMorph.getCabochaResult()
-  print newMorph.getParsedMorphs()
-  print newMorph.getSurfaces()
-  print newMorph.getPoses()
-  print newMorph.getPos1s()
-  print newMorph.getBases()
+  for line in sys.stdin.readlines():
+    newMorph = Morph(line)
+    print newMorph.getCabochaResult()
+    print newMorph.getParsedMorphs()
+    print newMorph.getSurfaces()
+    print newMorph.getPoses()
+    print newMorph.getPos1s()
+    print newMorph.getBases()

@@ -12,5 +12,5 @@ def cabochaParse(sentence):
   return tree.toString(CaboCha.FORMAT_LATTICE)
 
 if __name__ == '__main__':
-  print cabochaParse(sys.stdin.readline())
-  # print raw_input()
+  for line in sys.stdin.readlines():
+    print cabochaParse(line)
