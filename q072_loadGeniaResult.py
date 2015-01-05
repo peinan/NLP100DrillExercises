@@ -26,6 +26,7 @@ if __name__ == '__main__':
       if len(sent) == 0:
         continue
       doc.append(sent)
+      sent = []
       continue
     cols = lines[i].strip().split('\t')
 

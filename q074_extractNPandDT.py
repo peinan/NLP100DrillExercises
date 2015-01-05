@@ -29,6 +29,8 @@ if __name__ == '__main__':
         if BIOs == 'B' and len(aNP) > 0:
           printLine(aNP)
           aNP = []
-          aNP.append(tok['w'])
-          continue
         aNP.append(tok['w'])
+    if 'NP' in tok['chk'] and len(aNP) > 0:
+      printLine(aNP)
+    aNP = []
+    
