@@ -1,0 +1,2 @@
+> db.tweets.find({ reply_url: "http://twitter.com/naaa015/status/485829609514991618" }, {body: 1})
+{ "_id" : ObjectId("54c4dcc3fff5b27c5935ab29"), "body" : "@naaa015 @7291n リツイートしたいよー。" }

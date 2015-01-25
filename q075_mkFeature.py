@@ -60,8 +60,7 @@ def mkFeatures(NPtokens):
   return feature_of 
 
 
-if __name__ == '__main__':
-  geniaResult = pickle.load(open(sys.argv[1]))
+def extractNPs(geniaResult):
   aNP = []
   NPtokens = []
   for sent in geniaResult:
@@ -83,3 +82,8 @@ if __name__ == '__main__':
           continue
         aNP.append(tok['w'])
         NPtokens.append(tok)
+
+
+if __name__ == '__main__':
+  geniaResult = pickle.load(open(sys.argv[1]))
+  extractNPs(geniaResult)

@@ -6,8 +6,7 @@
 
 import sys, pickle
 
-if __name__ == '__main__':
-  geniaResult = pickle.load(open(sys.argv[1]))
+def extractNP(geniaResult):
   aNP = []
   for sent in geniaResult:
     for tok in sent:
@@ -22,3 +21,8 @@ if __name__ == '__main__':
           aNP.append(tok['w'])
           continue
         aNP.append(tok['w'])
+
+
+if __name__ == '__main__':
+  geniaResult = pickle.load(open(sys.argv[1]))
+  extractNP(geniaResult)

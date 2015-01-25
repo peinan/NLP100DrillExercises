@@ -1,0 +1,2 @@
+> db.tweets.find({ url: "http://twitter.com/mirepiyo_berry/status/485830086889701376" }, {body: 1})
+{ "_id" : ObjectId("54c4dcc3fff5b27c5935ab2f"), "body" : "@seudish あかん記憶力鈍りまくっとる。" }

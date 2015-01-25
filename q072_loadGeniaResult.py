@@ -6,19 +6,7 @@
 
 import sys, pickle
 
-# def loadGeniaResult(line):
-#   pass
-
-
-if __name__ == '__main__':
-  """Format
-  doc = [sent_1, sent_2, ... , sent_n]
-  sent = [tok_1, tok_2, ... , tok_n]
-  tok_n = {'w': surface, 'lem': lemma, 'pos': POS, 'chk': chunk, \
-      '-1': {'w': tok[n-1]['w'], 'pos': tok[n-1]['pos']}, \
-      '+1': {'w': tok[n+1]['w'], 'pos': tok[n+1]['pos']}}
-  """
-  lines = open(sys.argv[1]).readlines()
+def loadGeniaResult(lines):
   doc  = []
   sent = []
   for i in range(len(lines)):
@@ -48,5 +36,18 @@ if __name__ == '__main__':
 
     sent.append(tok)
 
-# print doc[0][0]
+  return doc
+
+
+if __name__ == '__main__':
+  """Format
+  doc = [sent_1, sent_2, ... , sent_n]
+  sent = [tok_1, tok_2, ... , tok_n]
+  tok_n = {'w': surface, 'lem': lemma, 'pos': POS, 'chk': chunk, \
+      '-1': {'w': tok[n-1]['w'], 'pos': tok[n-1]['pos']}, \
+      '+1': {'w': tok[n+1]['w'], 'pos': tok[n+1]['pos']}}
+  """
+
+  lines = open(sys.argv[1]).readlines()
+  doc = loadGeniaResult(lines)
   pickle.dump(doc, open(sys.argv[2], 'w'))

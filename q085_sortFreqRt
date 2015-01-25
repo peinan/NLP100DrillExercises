@@ -1,0 +1,2 @@
+> db.tweets.find({$query:{user:"2300909472"}, $orderby:{freq_rted:1}}).limit(10)
+{ "_id" : ObjectId("54c4dcc3fff5b27c5935ab2a"), "body" : "世界各地のワインが楽しめる、世界一周ワイン6本セット！http://t.co/dQ6Vy2pZcQ", "date" : "Sun Jul 06 16:58:12 +0000 2014", "rt_url" : null, "user" : "2300909472", "url" : "http://twitter.com/like_gourmet44/status/485830082699608065", "freq_rted" : 0, "nickname" : "料理を引き立てる旨い酒はこれ！", "reply_url" : null }
