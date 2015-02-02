@@ -7,11 +7,15 @@
 import sys
 
 lines = sys.stdin.readlines()
+NPlines = open('NPs.txt').readlines()
 
-# ref, pred
-for line in lines:
-  ref, pred = line.strip().split('\t')
-  print '%s\t%s' % (ref, pred),
+print
+print 'NP\tREF\tPRED'
+print '-'*30
+for i in range(len(lines)):
+  ref, pred = lines[i].strip().split('\t')
+  print '%s\t%s\t%s' % (NPlines[i].strip(), ref, pred),
   if ref != pred:
     print '# Mistake!',
   print
+ 

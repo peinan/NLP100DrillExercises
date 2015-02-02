@@ -1,7 +1,7 @@
 # The 2013–14 Thai political crisis
 THE	w[-1]=NONE	fw=The	fpos=DT	w[0]=2013–14 Thai political crisis	fw|fpos=The|DT	hw=crisis	hw|hpos=crisis|NN	hpos=NN	w[1]=is	pos[-1]=NONE	pos[1]=is
 # an ongoing period
-A	w[-1]=is	fw=an	fpos=DT	w[0]=ongoing period	fw|fpos=an|DT	hw=period	hw|hpos=period|NN	hpos=NN	w[1]=of	pos[-1]=VBZ	pos[1]=of
+AN	w[-1]=is	fw=an	fpos=DT	w[0]=ongoing period	fw|fpos=an|DT	hw=period	hw|hpos=period|NN	hpos=NN	w[1]=of	pos[-1]=VBZ	pos[1]=of
 # political instability
 NONE	w[-1]=of	fw=political	fpos=JJ	w[0]=political instability	fw|fpos=political|JJ	hw=instability	hw|hpos=instability|NN	hpos=NN	w[1]=in	pos[-1]=IN	pos[1]=in
 # Thailand
@@ -53,7 +53,7 @@ NONE	w[-1]=on	fw=Thai	fpos=JJ	w[0]=Thai politics	fw|fpos=Thai|JJ	hw=politics	hw|
 # the creation
 THE	w[-1]=and	fw=the	fpos=DT	w[0]=creation	fw|fpos=the|DT	hw=creation	hw|hpos=creation|NN	hpos=NN	w[1]=of	pos[-1]=CC	pos[1]=of
 # an unelected `` people
-A	w[-1]=of	fw=an	fpos=DT	w[0]=unelected `` people	fw|fpos=an|DT	hw=people	hw|hpos=people|NNS	hpos=NNS	w[1]='s	pos[-1]=IN	pos[1]='s
+AN	w[-1]=of	fw=an	fpos=DT	w[0]=unelected `` people	fw|fpos=an|DT	hw=people	hw|hpos=people|NNS	hpos=NNS	w[1]='s	pos[-1]=IN	pos[1]='s
 # 's council
 NONE	w[-1]=people	fw='s	fpos=POS	w[0]='s council	fw|fpos='s|POS	hw=council	hw|hpos=council|NN	hpos=NN	w[1]=''	pos[-1]=NNS	pos[1]=''
 # reforms
@@ -189,7 +189,7 @@ NONE	w[-1]=blocking	fw=entry	fpos=NN	w[0]=entry	fw|fpos=entry|NN	hw=entry	hw|hpo
 # stations
 NONE	w[-1]=polling	fw=stations	fpos=NNS	w[0]=stations	fw|fpos=stations|NNS	hw=stations	hw|hpos=stations|NNS	hpos=NNS	w[1]=,	pos[-1]=VBG	pos[1]=,
 # an annulment
-A	w[-1]=to	fw=an	fpos=DT	w[0]=annulment	fw|fpos=an|DT	hw=annulment	hw|hpos=annulment|NN	hpos=NN	w[1]=of	pos[-1]=TO	pos[1]=of
+AN	w[-1]=to	fw=an	fpos=DT	w[0]=annulment	fw|fpos=an|DT	hw=annulment	hw|hpos=annulment|NN	hpos=NN	w[1]=of	pos[-1]=TO	pos[1]=of
 # the result
 THE	w[-1]=of	fw=the	fpos=DT	w[0]=result	fw|fpos=the|DT	hw=result	hw|hpos=result|NN	hpos=NN	w[1]=by	pos[-1]=IN	pos[1]=by
 # the Constitutional Court
@@ -249,7 +249,7 @@ NONE	w[-1]=of	fw=Yingluck	fpos=NN	w[0]=Yingluck and critics	fw|fpos=Yingluck|NN	
 # the move
 THE	w[-1]=that	fw=the	fpos=DT	w[0]=move	fw|fpos=the|DT	hw=move	hw|hpos=move|NN	hpos=NN	w[1]=was	pos[-1]=IN	pos[1]=was
 # an abuse
-A	w[-1]=and	fw=an	fpos=DT	w[0]=abuse	fw|fpos=an|DT	hw=abuse	hw|hpos=abuse|NN	hpos=NN	w[1]=of	pos[-1]=CC	pos[1]=of
+AN	w[-1]=and	fw=an	fpos=DT	w[0]=abuse	fw|fpos=an|DT	hw=abuse	hw|hpos=abuse|NN	hpos=NN	w[1]=of	pos[-1]=CC	pos[1]=of
 # judicial power
 NONE	w[-1]=of	fw=judicial	fpos=JJ	w[0]=judicial power	fw|fpos=judicial|JJ	hw=power	hw|hpos=power|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
 # 20 May
@@ -403,7 +403,7 @@ NONE	w[-1]=in	fw=which	fpos=WDT	w[0]=which	fw|fpos=which|WDT	hw=which	hw|hpos=wh
 # her Pheu Thai Party
 NONE	w[-1]=which	fw=her	fpos=PRP$	w[0]=her Pheu Thai Party	fw|fpos=her|PRP$	hw=Party	hw|hpos=Party|NNP	hpos=NNP	w[1]=won	pos[-1]=WDT	pos[1]=won
 # an outright majority
-A	w[-1]=won	fw=an	fpos=DT	w[0]=outright majority	fw|fpos=an|DT	hw=majority	hw|hpos=majority|NN	hpos=NN	w[1]=.	pos[-1]=VBD	pos[1]=.
+AN	w[-1]=won	fw=an	fpos=DT	w[0]=outright majority	fw|fpos=an|DT	hw=majority	hw|hpos=majority|NN	hpos=NN	w[1]=.	pos[-1]=VBD	pos[1]=.
 # Yingluck
 NONE	w[-1]=NONE	fw=Yingluck	fpos=NN	w[0]=Yingluck	fw|fpos=Yingluck|NN	hw=Yingluck	hw|hpos=Yingluck|NN	hpos=NN	w[1]=is	pos[-1]=NONE	pos[1]=is
 # a sister
@@ -499,7 +499,7 @@ NONE	w[-1]=NONE	fw=Street	fpos=NN	w[0]=Street protests	fw|fpos=Street|NN	hw=prot
 # the parliamentary session
 THE	w[-1]=to	fw=the	fpos=DT	w[0]=parliamentary session	fw|fpos=the|DT	hw=session	hw|hpos=session|NN	hpos=NN	w[1]=were	pos[-1]=TO	pos[1]=were
 # an anti-Thaksin group
-A	w[-1]=by	fw=an	fpos=DT	w[0]=anti-Thaksin group	fw|fpos=an|DT	hw=group	hw|hpos=group|NN	hpos=NN	w[1]=calling	pos[-1]=IN	pos[1]=calling
+AN	w[-1]=by	fw=an	fpos=DT	w[0]=anti-Thaksin group	fw|fpos=an|DT	hw=group	hw|hpos=group|NN	hpos=NN	w[1]=calling	pos[-1]=IN	pos[1]=calling
 # itself
 NONE	w[-1]=calling	fw=itself	fpos=PRP	w[0]=itself	fw|fpos=itself|PRP	hw=itself	hw|hpos=itself|PRP	hpos=PRP	w[1]=the	pos[-1]=VBG	pos[1]=the
 # People
@@ -583,7 +583,7 @@ THE	w[-1]=of	fw=the	fpos=DT	w[0]=events	fw|fpos=the|DT	hw=events	hw|hpos=events|
 # This section
 NONE	w[-1]=NONE	fw=This	fpos=DT	w[0]=section	fw|fpos=This|DT	hw=section	hw|hpos=section|NN	hpos=NN	w[1]=may	pos[-1]=NONE	pos[1]=may
 # an excessive amount
-A	w[-1]=contain	fw=an	fpos=DT	w[0]=excessive amount	fw|fpos=an|DT	hw=amount	hw|hpos=amount|NN	hpos=NN	w[1]=of	pos[-1]=VB	pos[1]=of
+AN	w[-1]=contain	fw=an	fpos=DT	w[0]=excessive amount	fw|fpos=an|DT	hw=amount	hw|hpos=amount|NN	hpos=NN	w[1]=of	pos[-1]=VB	pos[1]=of
 # intricate detail
 NONE	w[-1]=of	fw=intricate	fpos=JJ	w[0]=intricate detail	fw|fpos=intricate|JJ	hw=detail	hw|hpos=detail|NN	hpos=NN	w[1]=that	pos[-1]=IN	pos[1]=that
 # that
@@ -699,7 +699,7 @@ NONE	w[-1]=issued	fw=statements	fpos=NNS	w[0]=statements	fw|fpos=statements|NNS	
 # the bill
 THE	w[-1]=condemning	fw=the	fpos=DT	w[0]=bill	fw|fpos=the|DT	hw=bill	hw|hpos=bill|NN	hpos=NN	w[1]=.	pos[-1]=VBG	pos[1]=.
 # an independent poll
-A	w[-1]=,	fw=an	fpos=DT	w[0]=independent poll	fw|fpos=an|DT	hw=poll	hw|hpos=poll|NN	hpos=NN	w[1]=conducted	pos[-1]=,	pos[1]=conducted
+AN	w[-1]=,	fw=an	fpos=DT	w[0]=independent poll	fw|fpos=an|DT	hw=poll	hw|hpos=poll|NN	hpos=NN	w[1]=conducted	pos[-1]=,	pos[1]=conducted
 # 11 and 13 November
 NONE	w[-1]=between	fw=11	fpos=CD	w[0]=11 and 13 November	fw|fpos=11|CD	hw=November	hw|hpos=November|NNP	hpos=NNP	w[1]=reported	pos[-1]=IN	pos[1]=reported
 # the majority
@@ -799,7 +799,7 @@ NONE	w[-1]=undertake	fw=civil	fpos=JJ	w[0]=civil disobedience	fw|fpos=civil|JJ	h
 # The protests
 THE	w[-1]=NONE	fw=The	fpos=DT	w[0]=protests	fw|fpos=The|DT	hw=protests	hw|hpos=protests|NNS	hpos=NNS	w[1]=gradually	pos[-1]=NONE	pos[1]=gradually
 # an anti-government agenda
-A	w[-1]=towards	fw=an	fpos=DT	w[0]=anti-government agenda	fw|fpos=an|DT	hw=agenda	hw|hpos=agenda|NN	hpos=NN	w[1]=,	pos[-1]=IN	pos[1]=,
+AN	w[-1]=towards	fw=an	fpos=DT	w[0]=anti-government agenda	fw|fpos=an|DT	hw=agenda	hw|hpos=agenda|NN	hpos=NN	w[1]=,	pos[-1]=IN	pos[1]=,
 # Yingluck
 NONE	w[-1]=criticizing	fw=Yingluck	fpos=NN	w[0]=Yingluck	fw|fpos=Yingluck|NN	hw=Yingluck	hw|hpos=Yingluck|NN	hpos=NN	w[1]=and	pos[-1]=VBG	pos[1]=and
 # her government
@@ -809,7 +809,7 @@ NONE	w[-1]=being	fw=proxies	fpos=NNS	w[0]=proxies	fw|fpos=proxies|NNS	hw=proxies
 # Thaksin
 NONE	w[-1]=for	fw=Thaksin	fpos=NN	w[0]=Thaksin	fw|fpos=Thaksin|NN	hw=Thaksin	hw|hpos=Thaksin|NN	hpos=NN	w[1]=and	pos[-1]=IN	pos[1]=and
 # an elective dictatorship
-A	w[-1]=being	fw=an	fpos=DT	w[0]=elective dictatorship	fw|fpos=an|DT	hw=dictatorship	hw|hpos=dictatorship|NN	hpos=NN	w[1]=.	pos[-1]=VBG	pos[1]=.
+AN	w[-1]=being	fw=an	fpos=DT	w[0]=elective dictatorship	fw|fpos=an|DT	hw=dictatorship	hw|hpos=dictatorship|NN	hpos=NN	w[1]=.	pos[-1]=VBG	pos[1]=.
 # The protests
 THE	w[-1]=NONE	fw=The	fpos=DT	w[0]=protests	fw|fpos=The|DT	hw=protests	hw|hpos=protests|NNS	hpos=NNS	w[1]=consisted	pos[-1]=NONE	pos[1]=consisted
 # several groups
@@ -915,7 +915,7 @@ THE	w[-1]=and	fw=the	fpos=DT	w[0]=new draft	fw|fpos=the|DT	hw=draft	hw|hpos=draf
 # the sessions
 THE	w[-1]=to	fw=the	fpos=DT	w[0]=sessions	fw|fpos=the|DT	hw=sessions	hw|hpos=sessions|NNS	hpos=NNS	w[1]=without	pos[-1]=TO	pos[1]=without
 # an introductory motion
-A	w[-1]=without	fw=an	fpos=DT	w[0]=introductory motion	fw|fpos=an|DT	hw=motion	hw|hpos=motion|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
+AN	w[-1]=without	fw=an	fpos=DT	w[0]=introductory motion	fw|fpos=an|DT	hw=motion	hw|hpos=motion|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
 # The court
 THE	w[-1]=NONE	fw=The	fpos=DT	w[0]=court	fw|fpos=The|DT	hw=court	hw|hpos=court|NN	hpos=NN	w[1]=also	pos[-1]=NONE	pos[1]=also
 # the time limit
@@ -999,7 +999,7 @@ THE	w[-1]=to	fw=the	fpos=DT	w[0]=former defects	fw|fpos=the|DT	hw=defects	hw|hpo
 # which
 NONE	w[-1]=defects	fw=which	fpos=WDT	w[0]=which	fw|fpos=which|WDT	hw=which	hw|hpos=which|WDT	hpos=WDT	w[1]=are	pos[-1]=NNS	pos[1]=are
 # an end
-A	w[-1]=bring	fw=an	fpos=DT	w[0]=end	fw|fpos=an|DT	hw=end	hw|hpos=end|NN	hpos=NN	w[1]=to	pos[-1]=VB	pos[1]=to
+AN	w[-1]=bring	fw=an	fpos=DT	w[0]=end	fw|fpos=an|DT	hw=end	hw|hpos=end|NN	hpos=NN	w[1]=to	pos[-1]=VB	pos[1]=to
 # the faith and harmony
 THE	w[-1]=to	fw=the	fpos=DT	w[0]=faith and harmony	fw|fpos=the|DT	hw=harmony	hw|hpos=harmony|NN	hpos=NN	w[1]=of	pos[-1]=TO	pos[1]=of
 # the majority
@@ -1009,7 +1009,7 @@ THE	w[-1]=of	fw=the	fpos=DT	w[0]=Thai people	fw|fpos=the|DT	hw=people	hw|hpos=pe
 # It
 NONE	w[-1]=NONE	fw=It	fpos=PRP	w[0]=It	fw|fpos=It|PRP	hw=It	hw|hpos=It|PRP	hpos=PRP	w[1]=is	pos[-1]=NONE	pos[1]=is
 # an attempt
-A	w[-1]=is	fw=an	fpos=DT	w[0]=attempt	fw|fpos=an|DT	hw=attempt	hw|hpos=attempt|NN	hpos=NN	w[1]=to	pos[-1]=VBZ	pos[1]=to
+AN	w[-1]=is	fw=an	fpos=DT	w[0]=attempt	fw|fpos=an|DT	hw=attempt	hw|hpos=attempt|NN	hpos=NN	w[1]=to	pos[-1]=VBZ	pos[1]=to
 # the Nation
 THE	w[-1]=draw	fw=the	fpos=DT	w[0]=Nation	fw|fpos=the|DT	hw=Nation	hw|hpos=Nation|NN	hpos=NN	w[1]=back	pos[-1]=VB	pos[1]=back
 # the canal
@@ -1021,7 +1021,7 @@ THE	w[-1]=bring	fw=the	fpos=DT	w[0]=Senate	fw|fpos=the|DT	hw=Senate	hw|hpos=Sena
 # the state
 THE	w[-1]=to	fw=the	fpos=DT	w[0]=state	fw|fpos=the|DT	hw=state	hw|hpos=state|NN	hpos=NN	w[1]=of	pos[-1]=TO	pos[1]=of
 # an assembly
-A	w[-1]=being	fw=an	fpos=DT	w[0]=assembly	fw|fpos=an|DT	hw=assembly	hw|hpos=assembly|NN	hpos=NN	w[1]=of	pos[-1]=VBG	pos[1]=of
+AN	w[-1]=being	fw=an	fpos=DT	w[0]=assembly	fw|fpos=an|DT	hw=assembly	hw|hpos=assembly|NN	hpos=NN	w[1]=of	pos[-1]=VBG	pos[1]=of
 # relatives
 NONE	w[-1]=of	fw=relatives	fpos=NNS	w[0]=relatives	fw|fpos=relatives|NNS	hw=relatives	hw|hpos=relatives|NNS	hpos=NNS	w[1]=,	pos[-1]=IN	pos[1]=,
 # assembly
@@ -1047,7 +1047,7 @@ THE	w[-1]=for	fw=the	fpos=DT	w[0]=House	fw|fpos=the|DT	hw=House	hw|hpos=House|NN
 # Representatives
 NONE	w[-1]=of	fw=Representatives	fpos=NNPS	w[0]=Representatives	fw|fpos=Representatives|NNPS	hw=Representatives	hw|hpos=Representatives|NNPS	hpos=NNPS	w[1]=,	pos[-1]=IN	pos[1]=,
 # an echo
-A	w[-1]=be	fw=an	fpos=DT	w[0]=echo	fw|fpos=an|DT	hw=echo	hw|hpos=echo|NN	hpos=NN	w[1]=of	pos[-1]=VB	pos[1]=of
+AN	w[-1]=be	fw=an	fpos=DT	w[0]=echo	fw|fpos=an|DT	hw=echo	hw|hpos=echo|NN	hpos=NN	w[1]=of	pos[-1]=VB	pos[1]=of
 # the people
 THE	w[-1]=of	fw=the	fpos=DT	w[0]=people	fw|fpos=the|DT	hw=people	hw|hpos=people|NNS	hpos=NNS	w[1]=from	pos[-1]=IN	pos[1]=from
 # the same group
@@ -1071,7 +1071,7 @@ NONE	w[-1]=of	fw=various	fpos=JJ	w[0]=various sectors and professions	fw|fpos=va
 # The amendment
 THE	w[-1]=NONE	fw=The	fpos=DT	w[0]=amendment	fw|fpos=The|DT	hw=amendment	hw|hpos=amendment|NN	hpos=NN	w[1]=is	pos[-1]=NONE	pos[1]=is
 # an effort
-A	w[-1]=thus	fw=an	fpos=DT	w[0]=effort	fw|fpos=an|DT	hw=effort	hw|hpos=effort|NN	hpos=NN	w[1]=of	pos[-1]=RB	pos[1]=of
+AN	w[-1]=thus	fw=an	fpos=DT	w[0]=effort	fw|fpos=an|DT	hw=effort	hw|hpos=effort|NN	hpos=NN	w[1]=of	pos[-1]=RB	pos[1]=of
 # its initiators
 NONE	w[-1]=of	fw=its	fpos=PRP$	w[0]=its initiators	fw|fpos=its|PRP$	hw=initiators	hw|hpos=initiators|NNS	hpos=NNS	w[1]=to	pos[-1]=IN	pos[1]=to
 # the national government power
@@ -1087,7 +1087,7 @@ NONE	w[-1]=of	fw=Law	fpos=NNP	w[0]=Law Nantawat Boramanand	fw|fpos=Law|NNP	hw=Bo
 # the statement
 THE	w[-1]=viewed	fw=the	fpos=DT	w[0]=statement	fw|fpos=the|DT	hw=statement	hw|hpos=statement|NN	hpos=NN	w[1]=as	pos[-1]=VBD	pos[1]=as
 # an expression
-A	w[-1]=as	fw=an	fpos=DT	w[0]=expression	fw|fpos=an|DT	hw=expression	hw|hpos=expression|NN	hpos=NN	w[1]=of	pos[-1]=IN	pos[1]=of
+AN	w[-1]=as	fw=an	fpos=DT	w[0]=expression	fw|fpos=an|DT	hw=expression	hw|hpos=expression|NN	hpos=NN	w[1]=of	pos[-1]=IN	pos[1]=of
 # disapproval
 NONE	w[-1]=of	fw=disapproval	fpos=NN	w[0]=disapproval	fw|fpos=disapproval|NN	hw=disapproval	hw|hpos=disapproval|NN	hpos=NN	w[1]=towards	pos[-1]=IN	pos[1]=towards
 # the Pheu Thai
@@ -1441,7 +1441,7 @@ NONE	w[-1]=and	fw=fifty-seven	fpos=CD	w[0]=fifty-seven people	fw|fpos=fifty-seve
 # The gunman
 THE	w[-1]=NONE	fw=The	fpos=DT	w[0]=gunman	fw|fpos=The|DT	hw=gunman	hw|hpos=gunman|NN	hpos=NN	w[1]=was	pos[-1]=NONE	pos[1]=was
 # an eyewitness
-A	w[-1]=by	fw=an	fpos=DT	w[0]=eyewitness	fw|fpos=an|DT	hw=eyewitness	hw|hpos=eyewitness|NN	hpos=NN	w[1]=as	pos[-1]=IN	pos[1]=as
+AN	w[-1]=by	fw=an	fpos=DT	w[0]=eyewitness	fw|fpos=an|DT	hw=eyewitness	hw|hpos=eyewitness|NN	hpos=NN	w[1]=as	pos[-1]=IN	pos[1]=as
 # a red shirt protester
 A	w[-1]=as	fw=a	fpos=DT	w[0]=red shirt protester	fw|fpos=a|DT	hw=protester	hw|hpos=protester|NN	hpos=NN	w[1]=,	pos[-1]=IN	pos[1]=,
 # PDRC core member Sathit Wongnongtoey
@@ -1503,7 +1503,7 @@ THE	w[-1]=escalate	fw=the	fpos=DT	w[0]=protests	fw|fpos=the|DT	hw=protests	hw|hp
 # 1 December
 NONE	w[-1]=on	fw=1	fpos=CD	w[0]=1 December	fw|fpos=1|CD	hw=December	hw|hpos=December|NNP	hpos=NNP	w[1]=in	pos[-1]=IN	pos[1]=in
 # an attempt
-A	w[-1]=in	fw=an	fpos=DT	w[0]=attempt	fw|fpos=an|DT	hw=attempt	hw|hpos=attempt|NN	hpos=NN	w[1]=of	pos[-1]=IN	pos[1]=of
+AN	w[-1]=in	fw=an	fpos=DT	w[0]=attempt	fw|fpos=an|DT	hw=attempt	hw|hpos=attempt|NN	hpos=NN	w[1]=of	pos[-1]=IN	pos[1]=of
 # a `` people
 A	w[-1]=of	fw=a	fpos=DT	w[0]=`` people	fw|fpos=a|DT	hw=people	hw|hpos=people|NNS	hpos=NNS	w[1]='s	pos[-1]=IN	pos[1]='s
 # 's coup
@@ -1541,7 +1541,7 @@ NONE	w[-1]=,	fw=Yingluck	fpos=NNP	w[0]=Yingluck	fw|fpos=Yingluck|NNP	hw=Yingluck
 # planned media interviews
 NONE	w[-1]=cancel	fw=planned	fpos=VBN	w[0]=planned media interviews	fw|fpos=planned|VBN	hw=interviews	hw|hpos=interviews|NNS	hpos=NNS	w[1]=and	pos[-1]=VB	pos[1]=and
 # an undisclosed location
-A	w[-1]=to	fw=an	fpos=DT	w[0]=undisclosed location	fw|fpos=an|DT	hw=location	hw|hpos=location|NN	hpos=NN	w[1]=when	pos[-1]=TO	pos[1]=when
+AN	w[-1]=to	fw=an	fpos=DT	w[0]=undisclosed location	fw|fpos=an|DT	hw=location	hw|hpos=location|NN	hpos=NN	w[1]=when	pos[-1]=TO	pos[1]=when
 # the building
 THE	w[-1]=when	fw=the	fpos=DT	w[0]=building	fw|fpos=the|DT	hw=building	hw|hpos=building|NN	hpos=NN	w[1]=she	pos[-1]=WRB	pos[1]=she
 # she
@@ -1561,7 +1561,7 @@ A	w[-1]=broadcast	fw=a	fpos=DT	w[0]=public address	fw|fpos=a|DT	hw=address	hw|hp
 # Suthep
 NONE	w[-1]=by	fw=Suthep	fpos=NN	w[0]=Suthep	fw|fpos=Suthep|NN	hw=Suthep	hw|hpos=Suthep|NN	hpos=NN	w[1]=,	pos[-1]=IN	pos[1]=,
 # an act
-A	w[-1]=,	fw=an	fpos=DT	w[0]=act	fw|fpos=an|DT	hw=act	hw|hpos=act|NN	hpos=NN	w[1]=condemned	pos[-1]=,	pos[1]=condemned
+AN	w[-1]=,	fw=an	fpos=DT	w[0]=act	fw|fpos=an|DT	hw=act	hw|hpos=act|NN	hpos=NN	w[1]=condemned	pos[-1]=,	pos[1]=condemned
 # three media organizations
 NONE	w[-1]=by	fw=three	fpos=CD	w[0]=three media organizations	fw|fpos=three|CD	hw=organizations	hw|hpos=organizations|NNS	hpos=NNS	w[1]=.	pos[-1]=IN	pos[1]=.
 # a televised address
@@ -1583,7 +1583,7 @@ NONE	w[-1]=that	fw=he	fpos=PRP	w[0]=he	fw|fpos=he|PRP	hw=he	hw|hpos=he|PRP	hpos=
 # Prime Minister Yingluck
 NONE	w[-1]=with	fw=Prime	fpos=NNP	w[0]=Prime Minister Yingluck	fw|fpos=Prime|NNP	hw=Yingluck	hw|hpos=Yingluck|NNP	hpos=NNP	w[1]=in	pos[-1]=IN	pos[1]=in
 # an ultimatum
-A	w[-1]=deliver	fw=an	fpos=DT	w[0]=ultimatum	fw|fpos=an|DT	hw=ultimatum	hw|hpos=ultimatum|NN	hpos=NN	w[1]=to	pos[-1]=VB	pos[1]=to
+AN	w[-1]=deliver	fw=an	fpos=DT	w[0]=ultimatum	fw|fpos=an|DT	hw=ultimatum	hw|hpos=ultimatum|NN	hpos=NN	w[1]=to	pos[-1]=VB	pos[1]=to
 # power
 NONE	w[-1]=return	fw=power	fpos=NN	w[0]=power	fw|fpos=power|NN	hw=power	hw|hpos=power|NN	hpos=NN	w[1]=to	pos[-1]=VB	pos[1]=to
 # people
@@ -1609,7 +1609,7 @@ NONE	w[-1]=repeated	fw=his	fpos=PRP$	w[0]=his calls	fw|fpos=his|PRP$	hw=calls	hw
 # elected officials
 NONE	w[-1]=replace	fw=elected	fpos=VBN	w[0]=elected officials	fw|fpos=elected|VBN	hw=officials	hw|hpos=officials|NNS	hpos=NNS	w[1]=with	pos[-1]=VB	pos[1]=with
 # an unelected `` People
-A	w[-1]=with	fw=an	fpos=DT	w[0]=unelected `` People	fw|fpos=an|DT	hw=People	hw|hpos=People|NNS	hpos=NNS	w[1]='s	pos[-1]=IN	pos[1]='s
+AN	w[-1]=with	fw=an	fpos=DT	w[0]=unelected `` People	fw|fpos=an|DT	hw=People	hw|hpos=People|NNS	hpos=NNS	w[1]='s	pos[-1]=IN	pos[1]='s
 # 's Council
 NONE	w[-1]=People	fw='s	fpos=POS	w[0]='s Council	fw|fpos='s|POS	hw=Council	hw|hpos=Council|NNP	hpos=NNP	w[1]=''	pos[-1]=NNS	pos[1]=''
 # that
@@ -2047,7 +2047,7 @@ THE	w[-1]=solve	fw=the	fpos=DT	w[0]=problem.	fw|fpos=the|DT	hw=problem.	hw|hpos=
 # the same period
 THE	w[-1]=During	fw=the	fpos=DT	w[0]=same period	fw|fpos=the|DT	hw=period	hw|hpos=period|NN	hpos=NN	w[1]=,	pos[-1]=IN	pos[1]=,
 # an arrest warrant
-A	w[-1]=,	fw=an	fpos=DT	w[0]=arrest warrant	fw|fpos=an|DT	hw=warrant	hw|hpos=warrant|NN	hpos=NN	w[1]=was	pos[-1]=,	pos[1]=was
+AN	w[-1]=,	fw=an	fpos=DT	w[0]=arrest warrant	fw|fpos=an|DT	hw=warrant	hw|hpos=warrant|NN	hpos=NN	w[1]=was	pos[-1]=,	pos[1]=was
 # Suthep
 NONE	w[-1]=for	fw=Suthep	fpos=NN	w[0]=Suthep	fw|fpos=Suthep|NN	hw=Suthep	hw|hpos=Suthep|NN	hpos=NN	w[1]=by	pos[-1]=IN	pos[1]=by
 # authorities
@@ -2559,7 +2559,7 @@ NONE	w[-1]=on	fw=her	fpos=PRP$	w[0]=her Facebook page	fw|fpos=her|PRP$	hw=page	h
 # that
 NONE	w[-1]=page	fw=that	fpos=IN	w[0]=that	fw|fpos=that|IN	hw=that	hw|hpos=that|IN	hpos=IN	w[1]=an	pos[-1]=NN	pos[1]=an
 # an election
-A	w[-1]=that	fw=an	fpos=DT	w[0]=election	fw|fpos=an|DT	hw=election	hw|hpos=election|NN	hpos=NN	w[1]=is	pos[-1]=IN	pos[1]=is
+AN	w[-1]=that	fw=an	fpos=DT	w[0]=election	fw|fpos=an|DT	hw=election	hw|hpos=election|NN	hpos=NN	w[1]=is	pos[-1]=IN	pos[1]=is
 # the best way
 THE	w[-1]=is	fw=the	fpos=DT	w[0]=best way	fw|fpos=the|DT	hw=way	hw|hpos=way|NN	hpos=NN	w[1]=for	pos[-1]=VBZ	pos[1]=for
 # the political conflict
@@ -2601,7 +2601,7 @@ A	w[-1]=at	fw=a	fpos=DT	w[0]=press conference	fw|fpos=a|DT	hw=conference	hw|hpos
 # the government
 THE	w[-1]=that	fw=the	fpos=DT	w[0]=government	fw|fpos=the|DT	hw=government	hw|hpos=government|NN	hpos=NN	w[1]=may	pos[-1]=IN	pos[1]=may
 # an emergency decree
-A	w[-1]=implement	fw=an	fpos=DT	w[0]=emergency decree	fw|fpos=an|DT	hw=decree	hw|hpos=decree|NN	hpos=NN	w[1]=in	pos[-1]=VB	pos[1]=in
+AN	w[-1]=implement	fw=an	fpos=DT	w[0]=emergency decree	fw|fpos=an|DT	hw=decree	hw|hpos=decree|NN	hpos=NN	w[1]=in	pos[-1]=VB	pos[1]=in
 # the event
 THE	w[-1]=in	fw=the	fpos=DT	w[0]=event	fw|fpos=the|DT	hw=event	hw|hpos=event|NN	hpos=NN	w[1]=of	pos[-1]=IN	pos[1]=of
 # violence
@@ -2667,7 +2667,7 @@ NONE	w[-1]=on	fw=6	fpos=CD	w[0]=6 January	fw|fpos=6|CD	hw=January	hw|hpos=Januar
 # Yingluck
 NONE	w[-1]=,	fw=Yingluck	fpos=NNP	w[0]=Yingluck	fw|fpos=Yingluck|NNP	hw=Yingluck	hw|hpos=Yingluck|NNP	hpos=NNP	w[1]=confirmed	pos[-1]=,	pos[1]=confirmed
 # an emergency decree
-A	w[-1]=that	fw=an	fpos=DT	w[0]=emergency decree	fw|fpos=an|DT	hw=decree	hw|hpos=decree|NN	hpos=NN	w[1]=is	pos[-1]=IN	pos[1]=is
+AN	w[-1]=that	fw=an	fpos=DT	w[0]=emergency decree	fw|fpos=an|DT	hw=decree	hw|hpos=decree|NN	hpos=NN	w[1]=is	pos[-1]=IN	pos[1]=is
 # a last resort
 A	w[-1]=is	fw=a	fpos=DT	w[0]=last resort	fw|fpos=a|DT	hw=resort	hw|hpos=resort|NN	hpos=NN	w[1]=,	pos[-1]=VBZ	pos[1]=,
 # her family home
@@ -2993,7 +2993,7 @@ THE	w[-1]=On	fw=the	fpos=DT	w[0]=evening	fw|fpos=the|DT	hw=evening	hw|hpos=eveni
 # 14 January 2014
 NONE	w[-1]=of	fw=14	fpos=CD	w[0]=14 January 2014	fw|fpos=14|CD	hw=2014	hw|hpos=2014|CD	hpos=CD	w[1]=,	pos[-1]=IN	pos[1]=,
 # an additional attack
-A	w[-1]=,	fw=an	fpos=DT	w[0]=additional attack	fw|fpos=an|DT	hw=attack	hw|hpos=attack|NN	hpos=NN	w[1]=was	pos[-1]=,	pos[1]=was
+AN	w[-1]=,	fw=an	fpos=DT	w[0]=additional attack	fw|fpos=an|DT	hw=attack	hw|hpos=attack|NN	hpos=NN	w[1]=was	pos[-1]=,	pos[1]=was
 # the Democrat Party
 THE	w[-1]=against	fw=the	fpos=DT	w[0]=Democrat Party	fw|fpos=the|DT	hw=Party	hw|hpos=Party|NNP	hpos=NNP	w[1]=.	pos[-1]=IN	pos[1]=.
 # this instance
@@ -3007,7 +3007,7 @@ NONE	w[-1]=of	fw=Democrat	fpos=NNP	w[0]=Democrat Party leader Abhisit Vejjajiva	
 # The attack
 THE	w[-1]=NONE	fw=The	fpos=DT	w[0]=attack	fw|fpos=The|DT	hw=attack	hw|hpos=attack|NN	hpos=NN	w[1]=failed	pos[-1]=NONE	pos[1]=failed
 # an Explosive Ordnance Disposal
-A	w[-1]=and	fw=an	fpos=DT	w[0]=Explosive Ordnance Disposal	fw|fpos=an|DT	hw=Disposal	hw|hpos=Disposal|NN	hpos=NN	w[1]=(	pos[-1]=CC	pos[1]=(
+AN	w[-1]=and	fw=an	fpos=DT	w[0]=Explosive Ordnance Disposal	fw|fpos=an|DT	hw=Disposal	hw|hpos=Disposal|NN	hpos=NN	w[1]=(	pos[-1]=CC	pos[1]=(
 # EOD
 NONE	w[-1]=(	fw=EOD	fpos=NN	w[0]=EOD	fw|fpos=EOD|NN	hw=EOD	hw|hpos=EOD|NN	hpos=NN	w[1]=)	pos[-1]=(	pos[1]=)
 # team
@@ -3225,7 +3225,7 @@ NONE	w[-1]=on	fw=Ratchadamnoen	fpos=NNP	w[0]=Ratchadamnoen Nok Avenue	fw|fpos=Ra
 # a gunshot
 A	w[-1]=by	fw=a	fpos=DT	w[0]=gunshot	fw|fpos=a|DT	hw=gunshot	hw|hpos=gunshot|NN	hpos=NN	w[1]=from	pos[-1]=IN	pos[1]=from
 # an unknown shooter
-A	w[-1]=from	fw=an	fpos=DT	w[0]=unknown shooter	fw|fpos=an|DT	hw=shooter	hw|hpos=shooter|NN	hpos=NN	w[1]=in	pos[-1]=IN	pos[1]=in
+AN	w[-1]=from	fw=an	fpos=DT	w[0]=unknown shooter	fw|fpos=an|DT	hw=shooter	hw|hpos=shooter|NN	hpos=NN	w[1]=in	pos[-1]=IN	pos[1]=in
 # the late evening
 THE	w[-1]=in	fw=the	fpos=DT	w[0]=late evening	fw|fpos=the|DT	hw=evening	hw|hpos=evening|NN	hpos=NN	w[1]=of	pos[-1]=IN	pos[1]=of
 # 19 January
@@ -3281,9 +3281,9 @@ THE	w[-1]=was	fw=the	fpos=DT	w[0]=target	fw|fpos=the|DT	hw=target	hw|hpos=target
 # the bomb
 THE	w[-1]=of	fw=the	fpos=DT	w[0]=bomb	fw|fpos=the|DT	hw=bomb	hw|hpos=bomb|NN	hpos=NN	w[1]=,	pos[-1]=IN	pos[1]=,
 # an unidentified man
-A	w[-1]=,	fw=an	fpos=DT	w[0]=unidentified man	fw|fpos=an|DT	hw=man	hw|hpos=man|NN	hpos=NN	w[1]=threw	pos[-1]=,	pos[1]=threw
+AN	w[-1]=,	fw=an	fpos=DT	w[0]=unidentified man	fw|fpos=an|DT	hw=man	hw|hpos=man|NN	hpos=NN	w[1]=threw	pos[-1]=,	pos[1]=threw
 # an explosive device
-A	w[-1]=threw	fw=an	fpos=DT	w[0]=explosive device	fw|fpos=an|DT	hw=device	hw|hpos=device|NN	hpos=NN	w[1]=near	pos[-1]=VBD	pos[1]=near
+AN	w[-1]=threw	fw=an	fpos=DT	w[0]=explosive device	fw|fpos=an|DT	hw=device	hw|hpos=device|NN	hpos=NN	w[1]=near	pos[-1]=VBD	pos[1]=near
 # a press centre tent
 A	w[-1]=near	fw=a	fpos=DT	w[0]=press centre tent	fw|fpos=a|DT	hw=tent	hw|hpos=tent|NN	hpos=NN	w[1]=behind	pos[-1]=IN	pos[1]=behind
 # the rally stage
@@ -3445,7 +3445,7 @@ THE	w[-1]=and	fw=the	fpos=DT	w[0]=government	fw|fpos=the|DT	hw=government	hw|hpo
 # this option
 NONE	w[-1]=considering	fw=this	fpos=DT	w[0]=option	fw|fpos=this|DT	hw=option	hw|hpos=option|NN	hpos=NN	w[1]=very	pos[-1]=VBG	pos[1]=very
 # an agreement.
-A	w[-1]=to	fw=an	fpos=DT	w[0]=agreement.	fw|fpos=an|DT	hw=agreement.	hw|hpos=agreement.|NN	hpos=NN	w[1]=''	pos[-1]=TO	pos[1]=''
+AN	w[-1]=to	fw=an	fpos=DT	w[0]=agreement.	fw|fpos=an|DT	hw=agreement.	hw|hpos=agreement.|NN	hpos=NN	w[1]=''	pos[-1]=TO	pos[1]=''
 # their tactics change
 NONE	w[-1]=if	fw=their	fpos=PRP$	w[0]=their tactics change	fw|fpos=their|PRP$	hw=change	hw|hpos=change|NN	hpos=NN	w[1]=and	pos[-1]=IN	pos[1]=and
 # they
@@ -3535,7 +3535,7 @@ NONE	w[-1]=declare	fw=parts	fpos=NNS	w[0]=parts	fw|fpos=parts|NNS	hw=parts	hw|hp
 # the country
 THE	w[-1]=of	fw=the	fpos=DT	w[0]=country	fw|fpos=the|DT	hw=country	hw|hpos=country|NN	hpos=NN	w[1]=inaccessible	pos[-1]=IN	pos[1]=inaccessible
 # an official statement
-A	w[-1]=to	fw=an	fpos=DT	w[0]=official statement	fw|fpos=an|DT	hw=statement	hw|hpos=statement|NN	hpos=NN	w[1]=from	pos[-1]=TO	pos[1]=from
+AN	w[-1]=to	fw=an	fpos=DT	w[0]=official statement	fw|fpos=an|DT	hw=statement	hw|hpos=statement|NN	hpos=NN	w[1]=from	pos[-1]=TO	pos[1]=from
 # the Thai foreign minister Surapong Tovichakchaikul
 THE	w[-1]=from	fw=the	fpos=DT	w[0]=Thai foreign minister Surapong Tovichakchaikul	fw|fpos=the|DT	hw=Tovichakchaikul	hw|hpos=Tovichakchaikul|NNP	hpos=NNP	w[1]=,	pos[-1]=IN	pos[1]=,
 # protesters
@@ -3625,7 +3625,7 @@ THE	w[-1]=On	fw=the	fpos=DT	w[0]=same day	fw|fpos=the|DT	hw=day	hw|hpos=day|NN	h
 # the New York Times
 THE	w[-1]=,	fw=the	fpos=DT	w[0]=New York Times	fw|fpos=the|DT	hw=Times	hw|hpos=Times|NNP	hpos=NNP	w[1]=published	pos[-1]=,	pos[1]=published
 # an article
-A	w[-1]=published	fw=an	fpos=DT	w[0]=article	fw|fpos=an|DT	hw=article	hw|hpos=article|NN	hpos=NN	w[1]=containing	pos[-1]=VBD	pos[1]=containing
+AN	w[-1]=published	fw=an	fpos=DT	w[0]=article	fw|fpos=an|DT	hw=article	hw|hpos=article|NN	hpos=NN	w[1]=containing	pos[-1]=VBD	pos[1]=containing
 # interviews
 NONE	w[-1]=containing	fw=interviews	fpos=NNS	w[0]=interviews	fw|fpos=interviews|NNS	hw=interviews	hw|hpos=interviews|NNS	hpos=NNS	w[1]=with	pos[-1]=VBG	pos[1]=with
 # a number
@@ -3755,7 +3755,7 @@ NONE	w[-1]=and	fw=more	fpos=JJR	w[0]=more than two million voters	fw|fpos=more|J
 # the advance polls
 THE	w[-1]=for	fw=the	fpos=DT	w[0]=advance polls	fw|fpos=the|DT	hw=polls	hw|hpos=polls|NNS	hpos=NNS	w[1]=,	pos[-1]=IN	pos[1]=,
 # an EC statement
-A	w[-1]=to	fw=an	fpos=DT	w[0]=EC statement	fw|fpos=an|DT	hw=statement	hw|hpos=statement|NN	hpos=NN	w[1]=released	pos[-1]=TO	pos[1]=released
+AN	w[-1]=to	fw=an	fpos=DT	w[0]=EC statement	fw|fpos=an|DT	hw=statement	hw|hpos=statement|NN	hpos=NN	w[1]=released	pos[-1]=TO	pos[1]=released
 # 24 January
 NONE	w[-1]=on	fw=24	fpos=CD	w[0]=24 January	fw|fpos=24|CD	hw=January	hw|hpos=January|NNP	hpos=NNP	w[1]=.	pos[-1]=IN	pos[1]=.
 # 26 January 2014
@@ -3771,7 +3771,7 @@ NONE	w[-1]=of	fw=Suthep	fpos=NN	w[0]=Suthep	fw|fpos=Suthep|NN	hw=Suthep	hw|hpos=
 # the charge
 THE	w[-1]=on	fw=the	fpos=DT	w[0]=charge	fw|fpos=the|DT	hw=charge	hw|hpos=charge|NN	hpos=NN	w[1]=of	pos[-1]=IN	pos[1]=of
 # an insurrection
-A	w[-1]=leading	fw=an	fpos=DT	w[0]=insurrection	fw|fpos=an|DT	hw=insurrection	hw|hpos=insurrection|NN	hpos=NN	w[1]=.	pos[-1]=VBG	pos[1]=.
+AN	w[-1]=leading	fw=an	fpos=DT	w[0]=insurrection	fw|fpos=an|DT	hw=insurrection	hw|hpos=insurrection|NN	hpos=NN	w[1]=.	pos[-1]=VBG	pos[1]=.
 # Chalerm
 NONE	w[-1]=NONE	fw=Chalerm	fpos=NNP	w[0]=Chalerm	fw|fpos=Chalerm|NNP	hw=Chalerm	hw|hpos=Chalerm|NNP	hpos=NNP	w[1]=warned	pos[-1]=NONE	pos[1]=warned
 # any loss
@@ -4075,7 +4075,7 @@ A	w[-1]=that	fw=a	fpos=DT	w[0]=further 190 , 000 officers	fw|fpos=a|DT	hw=office
 # the nation
 THE	w[-1]=throughout	fw=the	fpos=DT	w[0]=nation	fw|fpos=the|DT	hw=nation	hw|hpos=nation|NN	hpos=NN	w[1]=,	pos[-1]=IN	pos[1]=,
 # an emphasis
-A	w[-1]=with	fw=an	fpos=DT	w[0]=emphasis	fw|fpos=an|DT	hw=emphasis	hw|hpos=emphasis|NN	hpos=NN	w[1]=on	pos[-1]=IN	pos[1]=on
+AN	w[-1]=with	fw=an	fpos=DT	w[0]=emphasis	fw|fpos=an|DT	hw=emphasis	hw|hpos=emphasis|NN	hpos=NN	w[1]=on	pos[-1]=IN	pos[1]=on
 # Bangkok and Thailand
 NONE	w[-1]=on	fw=Bangkok	fpos=NNP	w[0]=Bangkok and Thailand	fw|fpos=Bangkok|NNP	hw=Thailand	hw|hpos=Thailand|NNP	hpos=NNP	w[1]='s	pos[-1]=IN	pos[1]='s
 # 's ten southern provinces
@@ -4313,7 +4313,7 @@ NONE	w[-1]=:	fw=Thai	fpos=JJ	w[0]=Thai general election	fw|fpos=Thai|JJ	hw=elect
 # 2014
 NONE	w[-1]=,	fw=2014	fpos=CD	w[0]=2014	fw|fpos=2014|CD	hw=2014	hw|hpos=2014|CD	hpos=CD	w[1]=NONE	pos[-1]=,	pos[1]=NONE
 # an announcement
-A	w[-1]=Despite	fw=an	fpos=DT	w[0]=announcement	fw|fpos=an|DT	hw=announcement	hw|hpos=announcement|NN	hpos=NN	w[1]=by	pos[-1]=IN	pos[1]=by
+AN	w[-1]=Despite	fw=an	fpos=DT	w[0]=announcement	fw|fpos=an|DT	hw=announcement	hw|hpos=announcement|NN	hpos=NN	w[1]=by	pos[-1]=IN	pos[1]=by
 # the PDRC
 THE	w[-1]=by	fw=the	fpos=DT	w[0]=PDRC	fw|fpos=the|DT	hw=PDRC	hw|hpos=PDRC|NN	hpos=NN	w[1]=that	pos[-1]=IN	pos[1]=that
 # they
@@ -4655,7 +4655,7 @@ THE	w[-1]=oversee	fw=the	fpos=DT	w[0]=voting booths	fw|fpos=the|DT	hw=booths	hw|
 # the Thai capital
 THE	w[-1]=in	fw=the	fpos=DT	w[0]=Thai capital	fw|fpos=the|DT	hw=capital	hw|hpos=capital|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
 # An EC commissioner
-A	w[-1]=NONE	fw=An	fpos=DT	w[0]=EC commissioner	fw|fpos=An|DT	hw=commissioner	hw|hpos=commissioner|NN	hpos=NN	w[1]=explained	pos[-1]=NONE	pos[1]=explained
+AN	w[-1]=NONE	fw=An	fpos=DT	w[0]=EC commissioner	fw|fpos=An|DT	hw=commissioner	hw|hpos=commissioner|NN	hpos=NN	w[1]=explained	pos[-1]=NONE	pos[1]=explained
 # the media
 THE	w[-1]=to	fw=the	fpos=DT	w[0]=media	fw|fpos=the|DT	hw=media	hw|hpos=media|NNS	hpos=NNS	w[1]=that	pos[-1]=TO	pos[1]=that
 # a total
@@ -4707,7 +4707,7 @@ NONE	w[-1]=for	fw=those	fpos=DT	w[0]=constituencies	fw|fpos=those|DT	hw=constitu
 # that
 NONE	w[-1]=constituencies	fw=that	fpos=WDT	w[0]=that	fw|fpos=that|WDT	hw=that	hw|hpos=that|WDT	hpos=WDT	w[1]=are	pos[-1]=NNS	pos[1]=are
 # An army spokesman
-A	w[-1]=NONE	fw=An	fpos=DT	w[0]=army spokesman	fw|fpos=An|DT	hw=spokesman	hw|hpos=spokesman|NN	hpos=NN	w[1]=stated	pos[-1]=NONE	pos[1]=stated
+AN	w[-1]=NONE	fw=An	fpos=DT	w[0]=army spokesman	fw|fpos=An|DT	hw=spokesman	hw|hpos=spokesman|NN	hpos=NN	w[1]=stated	pos[-1]=NONE	pos[1]=stated
 # soldiers
 NONE	w[-1]=that	fw=soldiers	fpos=NNS	w[0]=soldiers	fw|fpos=soldiers|NNS	hw=soldiers	hw|hpos=soldiers|NNS	hpos=NNS	w[1]=will	pos[-1]=IN	pos[1]=will
 # all polling stations
@@ -5553,7 +5553,7 @@ NONE	w[-1]=on	fw=her	fpos=PRP$	w[0]=her Facebook page	fw|fpos=her|PRP$	hw=page	h
 # that
 NONE	w[-1]=page	fw=that	fpos=WDT	w[0]=that	fw|fpos=that|WDT	hw=that	hw|hpos=that|WDT	hpos=WDT	w[1]=indicated	pos[-1]=NN	pos[1]=indicated
 # an openness
-A	w[-1]=indicated	fw=an	fpos=DT	w[0]=openness	fw|fpos=an|DT	hw=openness	hw|hpos=openness|NN	hpos=NN	w[1]=to	pos[-1]=VBD	pos[1]=to
+AN	w[-1]=indicated	fw=an	fpos=DT	w[0]=openness	fw|fpos=an|DT	hw=openness	hw|hpos=openness|NN	hpos=NN	w[1]=to	pos[-1]=VBD	pos[1]=to
 # the involvement
 THE	w[-1]=to	fw=the	fpos=DT	w[0]=involvement	fw|fpos=the|DT	hw=involvement	hw|hpos=involvement|NN	hpos=NN	w[1]=of	pos[-1]=TO	pos[1]=of
 # a third-party broker
@@ -5595,7 +5595,7 @@ THE	w[-1]=,	fw=the	fpos=DT	w[0]=Democrats	fw|fpos=the|DT	hw=Democrats	hw|hpos=De
 # the election
 THE	w[-1]=identified	fw=the	fpos=DT	w[0]=election	fw|fpos=the|DT	hw=election	hw|hpos=election|NN	hpos=NN	w[1]=as	pos[-1]=VBD	pos[1]=as
 # an attempt
-A	w[-1]=as	fw=an	fpos=DT	w[0]=attempt	fw|fpos=an|DT	hw=attempt	hw|hpos=attempt|NN	hpos=NN	w[1]=by	pos[-1]=IN	pos[1]=by
+AN	w[-1]=as	fw=an	fpos=DT	w[0]=attempt	fw|fpos=an|DT	hw=attempt	hw|hpos=attempt|NN	hpos=NN	w[1]=by	pos[-1]=IN	pos[1]=by
 # the government
 THE	w[-1]=by	fw=the	fpos=DT	w[0]=government	fw|fpos=the|DT	hw=government	hw|hpos=government|NN	hpos=NN	w[1]=to	pos[-1]=IN	pos[1]=to
 # administrative power
@@ -5621,7 +5621,7 @@ NONE	w[-1]=in	fw=November	fpos=NNP	w[0]=November 2013	fw|fpos=November|NNP	hw=20
 # Section 68
 NONE	w[-1]=NONE	fw=Section	fpos=NN	w[0]=Section 68	fw|fpos=Section|NN	hw=68	hw|hpos=68|CD	hpos=CD	w[1]=prohibits	pos[-1]=NONE	pos[1]=prohibits
 # an attempt
-A	w[-1]=prohibits	fw=an	fpos=DT	w[0]=attempt	fw|fpos=an|DT	hw=attempt	hw|hpos=attempt|NN	hpos=NN	w[1]=to	pos[-1]=VBZ	pos[1]=to
+AN	w[-1]=prohibits	fw=an	fpos=DT	w[0]=attempt	fw|fpos=an|DT	hw=attempt	hw|hpos=attempt|NN	hpos=NN	w[1]=to	pos[-1]=VBZ	pos[1]=to
 # the `` democratic regime
 THE	w[-1]=undermine	fw=the	fpos=DT	w[0]=`` democratic regime	fw|fpos=the|DT	hw=regime	hw|hpos=regime|NN	hpos=NN	w[1]=of	pos[-1]=VB	pos[1]=of
 # government
@@ -5679,7 +5679,7 @@ NONE	w[-1]=Party	fw='s	fpos=POS	w[0]='s request	fw|fpos='s|POS	hw=request	hw|hpo
 # the election
 THE	w[-1]=invalidate	fw=the	fpos=DT	w[0]=election	fw|fpos=the|DT	hw=election	hw|hpos=election|NN	hpos=NN	w[1]=is	pos[-1]=VB	pos[1]=is
 # an attempt
-A	w[-1]=is	fw=an	fpos=DT	w[0]=attempt	fw|fpos=an|DT	hw=attempt	hw|hpos=attempt|NN	hpos=NN	w[1]=to	pos[-1]=VBZ	pos[1]=to
+AN	w[-1]=is	fw=an	fpos=DT	w[0]=attempt	fw|fpos=an|DT	hw=attempt	hw|hpos=attempt|NN	hpos=NN	w[1]=to	pos[-1]=VBZ	pos[1]=to
 # the government
 THE	w[-1]=topple	fw=the	fpos=DT	w[0]=government	fw|fpos=the|DT	hw=government	hw|hpos=government|NN	hpos=NN	w[1]=outside	pos[-1]=VB	pos[1]=outside
 # the rule
@@ -5699,7 +5699,7 @@ NONE	w[-1]=citing	fw=both	fpos=DT	w[0]=sets	fw|fpos=both|DT	hw=sets	hw|hpos=sets
 # claims
 NONE	w[-1]=of	fw=claims	fpos=NNS	w[0]=claims	fw|fpos=claims|NNS	hw=claims	hw|hpos=claims|NNS	hpos=NNS	w[1]=as	pos[-1]=IN	pos[1]=as
 # an interview
-A	w[-1]=In	fw=an	fpos=DT	w[0]=interview	fw|fpos=an|DT	hw=interview	hw|hpos=interview|NN	hpos=NN	w[1]=with	pos[-1]=IN	pos[1]=with
+AN	w[-1]=In	fw=an	fpos=DT	w[0]=interview	fw|fpos=an|DT	hw=interview	hw|hpos=interview|NN	hpos=NN	w[1]=with	pos[-1]=IN	pos[1]=with
 # the Bloomberg media company
 THE	w[-1]=with	fw=the	fpos=DT	w[0]=Bloomberg media company	fw|fpos=the|DT	hw=company	hw|hpos=company|NN	hpos=NN	w[1]=on	pos[-1]=IN	pos[1]=on
 # 7 February 2014
@@ -5905,7 +5905,7 @@ THE	w[-1]=to	fw=the	fpos=DT	w[0]=media	fw|fpos=the|DT	hw=media	hw|hpos=media|NNS
 # the operation
 THE	w[-1]=that	fw=the	fpos=DT	w[0]=operation	fw|fpos=the|DT	hw=operation	hw|hpos=operation|NN	hpos=NN	w[1]=is	pos[-1]=IN	pos[1]=is
 # an indication
-A	w[-1]=is	fw=an	fpos=DT	w[0]=indication	fw|fpos=an|DT	hw=indication	hw|hpos=indication|NN	hpos=NN	w[1]=of	pos[-1]=VBZ	pos[1]=of
+AN	w[-1]=is	fw=an	fpos=DT	w[0]=indication	fw|fpos=an|DT	hw=indication	hw|hpos=indication|NN	hpos=NN	w[1]=of	pos[-1]=VBZ	pos[1]=of
 # the caretaker government
 THE	w[-1]=of	fw=the	fpos=DT	w[0]=caretaker government	fw|fpos=the|DT	hw=government	hw|hpos=government|NN	hpos=NN	w[1]='s	pos[-1]=IN	pos[1]='s
 # 's response
@@ -5943,7 +5943,7 @@ A	w[-1]=after	fw=a	fpos=DT	w[0]=group	fw|fpos=a|DT	hw=group	hw|hpos=group|NN	hpo
 # demonstrators
 NONE	w[-1]=of	fw=demonstrators	fpos=NNS	w[0]=demonstrators	fw|fpos=demonstrators|NNS	hw=demonstrators	hw|hpos=demonstrators|NNS	hpos=NNS	w[1]=returned	pos[-1]=IN	pos[1]=returned
 # an intact protest site
-A	w[-1]=to	fw=an	fpos=DT	w[0]=intact protest site	fw|fpos=an|DT	hw=site	hw|hpos=site|NN	hpos=NN	w[1]=near	pos[-1]=TO	pos[1]=near
+AN	w[-1]=to	fw=an	fpos=DT	w[0]=intact protest site	fw|fpos=an|DT	hw=site	hw|hpos=site|NN	hpos=NN	w[1]=near	pos[-1]=TO	pos[1]=near
 # the Government House
 THE	w[-1]=near	fw=the	fpos=DT	w[0]=Government House	fw|fpos=the|DT	hw=House	hw|hpos=House|NNP	hpos=NNP	w[1]=.	pos[-1]=IN	pos[1]=.
 # About 1 , 000 protesters
@@ -6109,7 +6109,7 @@ NONE	w[-1]=(	fw=OHCHR	fpos=NN	w[0]=OHCHR	fw|fpos=OHCHR|NN	hw=OHCHR	hw|hpos=OHCHR
 # the protest violence
 THE	w[-1]=denounced	fw=the	fpos=DT	w[0]=protest violence	fw|fpos=the|DT	hw=violence	hw|hpos=violence|NN	hpos=NN	w[1]=in	pos[-1]=VBD	pos[1]=in
 # an official press statement
-A	w[-1]=in	fw=an	fpos=DT	w[0]=official press statement	fw|fpos=an|DT	hw=statement	hw|hpos=statement|NN	hpos=NN	w[1]=that	pos[-1]=IN	pos[1]=that
+AN	w[-1]=in	fw=an	fpos=DT	w[0]=official press statement	fw|fpos=an|DT	hw=statement	hw|hpos=statement|NN	hpos=NN	w[1]=that	pos[-1]=IN	pos[1]=that
 # that
 NONE	w[-1]=statement	fw=that	fpos=WDT	w[0]=that	fw|fpos=that|WDT	hw=that	hw|hpos=that|WDT	hpos=WDT	w[1]=was	pos[-1]=NN	pos[1]=was
 # 21 February 2014
@@ -6651,15 +6651,15 @@ THE	w[-1]=lamented	fw=the	fpos=DT	w[0]=decision	fw|fpos=the|DT	hw=decision	hw|hp
 # the country
 THE	w[-1]=that	fw=the	fpos=DT	w[0]=country	fw|fpos=the|DT	hw=country	hw|hpos=country|NN	hpos=NN	w[1]=has	pos[-1]=IN	pos[1]=has
 # an opportunity
-A	w[-1]=lost	fw=an	fpos=DT	w[0]=opportunity	fw|fpos=an|DT	hw=opportunity	hw|hpos=opportunity|NN	hpos=NN	w[1]=to	pos[-1]=VBN	pos[1]=to
+AN	w[-1]=lost	fw=an	fpos=DT	w[0]=opportunity	fw|fpos=an|DT	hw=opportunity	hw|hpos=opportunity|NN	hpos=NN	w[1]=to	pos[-1]=VBN	pos[1]=to
 # the court
 THE	w[-1]=and	fw=the	fpos=DT	w[0]=court	fw|fpos=the|DT	hw=court	hw|hpos=court|NN	hpos=NN	w[1]=had	pos[-1]=CC	pos[1]=had
 # an `` infamous standard
-A	w[-1]=established	fw=an	fpos=DT	w[0]=`` infamous standard	fw|fpos=an|DT	hw=standard	hw|hpos=standard|NN	hpos=NN	w[1]=''	pos[-1]=VBN	pos[1]=''
+AN	w[-1]=established	fw=an	fpos=DT	w[0]=`` infamous standard	fw|fpos=an|DT	hw=standard	hw|hpos=standard|NN	hpos=NN	w[1]=''	pos[-1]=VBN	pos[1]=''
 # which
 NONE	w[-1]=by	fw=which	fpos=WDT	w[0]=which	fw|fpos=which|WDT	hw=which	hw|hpos=which|WDT	hpos=WDT	w[1]=an	pos[-1]=IN	pos[1]=an
 # an entire election
-A	w[-1]=which	fw=an	fpos=DT	w[0]=entire election	fw|fpos=an|DT	hw=election	hw|hpos=election|NN	hpos=NN	w[1]=can	pos[-1]=WDT	pos[1]=can
+AN	w[-1]=which	fw=an	fpos=DT	w[0]=entire election	fw|fpos=an|DT	hw=election	hw|hpos=election|NN	hpos=NN	w[1]=can	pos[-1]=WDT	pos[1]=can
 # disruptions
 NONE	w[-1]=of	fw=disruptions	fpos=NNS	w[0]=disruptions	fw|fpos=disruptions|NNS	hw=disruptions	hw|hpos=disruptions|NNS	hpos=NNS	w[1]=at	pos[-1]=IN	pos[1]=at
 # some polling stations
@@ -6673,7 +6673,7 @@ A	w[-1]=``	fw=a	fpos=DT	w[0]=standard	fw|fpos=a|DT	hw=standard	hw|hpos=standard|
 # you
 NONE	w[-1]=if	fw=you	fpos=PRP	w[0]=you	fw|fpos=you|PRP	hw=you	hw|hpos=you|PRP	hpos=PRP	w[1]=want	pos[-1]=IN	pos[1]=want
 # an election
-A	w[-1]=overturn	fw=an	fpos=DT	w[0]=election	fw|fpos=an|DT	hw=election	hw|hpos=election|NN	hpos=NN	w[1]=,	pos[-1]=VB	pos[1]=,
+AN	w[-1]=overturn	fw=an	fpos=DT	w[0]=election	fw|fpos=an|DT	hw=election	hw|hpos=election|NN	hpos=NN	w[1]=,	pos[-1]=VB	pos[1]=,
 # you
 NONE	w[-1]=,	fw=you	fpos=PRP	w[0]=you	fw|fpos=you|PRP	hw=you	hw|hpos=you|PRP	hpos=PRP	w[1]=just	pos[-1]=,	pos[1]=just
 # someones
@@ -6841,7 +6841,7 @@ THE	w[-1]=disrupt	fw=the	fpos=DT	w[0]=new elections	fw|fpos=the|DT	hw=elections	
 # their goal
 NONE	w[-1]=until	fw=their	fpos=PRP$	w[0]=their goal	fw|fpos=their|PRP$	hw=goal	hw|hpos=goal|NN	hpos=NN	w[1]=to	pos[-1]=IN	pos[1]=to
 # an unelected people
-A	w[-1]=create	fw=an	fpos=DT	w[0]=unelected people	fw|fpos=an|DT	hw=people	hw|hpos=people|NNS	hpos=NNS	w[1]='s	pos[-1]=VB	pos[1]='s
+AN	w[-1]=create	fw=an	fpos=DT	w[0]=unelected people	fw|fpos=an|DT	hw=people	hw|hpos=people|NNS	hpos=NNS	w[1]='s	pos[-1]=VB	pos[1]='s
 # 's council
 NONE	w[-1]=people	fw='s	fpos=POS	w[0]='s council	fw|fpos='s|POS	hw=council	hw|hpos=council|NN	hpos=NN	w[1]=is	pos[-1]=NNS	pos[1]=is
 # Continued protests
@@ -7157,7 +7157,7 @@ NONE	w[-1]=against	fw=Yinluck	fpos=NNP	w[0]=Yinluck	fw|fpos=Yinluck|NNP	hw=Yinlu
 # Suthep
 NONE	w[-1]=,	fw=Suthep	fpos=NNP	w[0]=Suthep	fw|fpos=Suthep|NNP	hw=Suthep	hw|hpos=Suthep|NNP	hpos=NNP	w[1]=called	pos[-1]=,	pos[1]=called
 # an immediate mass mobilization
-A	w[-1]=for	fw=an	fpos=DT	w[0]=immediate mass mobilization	fw|fpos=an|DT	hw=mobilization	hw|hpos=mobilization|NN	hpos=NN	w[1]=so	pos[-1]=IN	pos[1]=so
+AN	w[-1]=for	fw=an	fpos=DT	w[0]=immediate mass mobilization	fw|fpos=an|DT	hw=mobilization	hw|hpos=mobilization|NN	hpos=NN	w[1]=so	pos[-1]=IN	pos[1]=so
 # he
 NONE	w[-1]=that	fw=he	fpos=PRP	w[0]=he	fw|fpos=he|PRP	hw=he	hw|hpos=he|PRP	hpos=PRP	w[1]=can	pos[-1]=IN	pos[1]=can
 # the role
@@ -7283,7 +7283,7 @@ THE	w[-1]=of	fw=the	fpos=DT	w[0]=National Security Council	fw|fpos=the|DT	hw=Cou
 # NSC
 NONE	w[-1]=(	fw=NSC	fpos=NNP	w[0]=NSC	fw|fpos=NSC|NNP	hw=NSC	hw|hpos=NSC|NNP	hpos=NNP	w[1]=)	pos[-1]=(	pos[1]=)
 # an office
-A	w[-1]=to	fw=an	fpos=DT	w[0]=office	fw|fpos=an|DT	hw=office	hw|hpos=office|NN	hpos=NN	w[1]=of	pos[-1]=TO	pos[1]=of
+AN	w[-1]=to	fw=an	fpos=DT	w[0]=office	fw|fpos=an|DT	hw=office	hw|hpos=office|NN	hpos=NN	w[1]=of	pos[-1]=TO	pos[1]=of
 # Prime Minister Advisor
 NONE	w[-1]=of	fw=Prime	fpos=NNP	w[0]=Prime Minister Advisor	fw|fpos=Prime|NNP	hw=Advisor	hw|hpos=Advisor|NNP	hpos=NNP	w[1]=.	pos[-1]=IN	pos[1]=.
 # Police General Wichian Photphosri
@@ -7309,7 +7309,7 @@ THE	w[-1]=as	fw=the	fpos=DT	w[0]=new RTP Commissioner General	fw|fpos=the|DT	hw=
 # Thawin
 NONE	w[-1]=NONE	fw=Thawin	fpos=NNP	w[0]=Thawin	fw|fpos=Thawin|NNP	hw=Thawin	hw|hpos=Thawin|NNP	hpos=NNP	w[1]=requested	pos[-1]=NONE	pos[1]=requested
 # an administrative court
-A	w[-1]=requested	fw=an	fpos=DT	w[0]=administrative court	fw|fpos=an|DT	hw=court	hw|hpos=court|NN	hpos=NN	w[1]=to	pos[-1]=VBD	pos[1]=to
+AN	w[-1]=requested	fw=an	fpos=DT	w[0]=administrative court	fw|fpos=an|DT	hw=court	hw|hpos=court|NN	hpos=NN	w[1]=to	pos[-1]=VBD	pos[1]=to
 # the transfer
 THE	w[-1]=revoke	fw=the	fpos=DT	w[0]=transfer	fw|fpos=the|DT	hw=transfer	hw|hpos=transfer|NN	hpos=NN	w[1]=.	pos[-1]=VB	pos[1]=.
 # The Supreme Administrative Court
@@ -7897,7 +7897,7 @@ NONE	w[-1]=ministers	fw='	fpos=POS	w[0]=' offices	fw|fpos='|POS	hw=offices	hw|hp
 # The building
 THE	w[-1]=NONE	fw=The	fpos=DT	w[0]=building	fw|fpos=The|DT	hw=building	hw|hpos=building|NN	hpos=NN	w[1]=was	pos[-1]=NONE	pos[1]=was
 # an office and meeting place
-A	w[-1]=as	fw=an	fpos=DT	w[0]=office and meeting place	fw|fpos=an|DT	hw=place	hw|hpos=place|NN	hpos=NN	w[1]=for	pos[-1]=IN	pos[1]=for
+AN	w[-1]=as	fw=an	fpos=DT	w[0]=office and meeting place	fw|fpos=an|DT	hw=place	hw|hpos=place|NN	hpos=NN	w[1]=for	pos[-1]=IN	pos[1]=for
 # the PDRC
 THE	w[-1]=for	fw=the	fpos=DT	w[0]=PDRC	fw|fpos=the|DT	hw=PDRC	hw|hpos=PDRC|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
 # The UDD
@@ -7957,7 +7957,7 @@ THE	w[-1]=and	fw=the	fpos=DT	w[0]=Senate	fw|fpos=the|DT	hw=Senate	hw|hpos=Senate
 # `` unlawful '' demands
 NONE	w[-1]=discuss	fw=``	fpos=``	w[0]=`` unlawful '' demands	fw|fpos=``|``	hw=demands	hw|hpos=demands|NNS	hpos=NNS	w[1]=for	pos[-1]=VB	pos[1]=for
 # an interim government
-A	w[-1]=for	fw=an	fpos=DT	w[0]=interim government	fw|fpos=an|DT	hw=government	hw|hpos=government|NN	hpos=NN	w[1]=could	pos[-1]=IN	pos[1]=could
+AN	w[-1]=for	fw=an	fpos=DT	w[0]=interim government	fw|fpos=an|DT	hw=government	hw|hpos=government|NN	hpos=NN	w[1]=could	pos[-1]=IN	pos[1]=could
 # Thailand
 NONE	w[-1]=steer	fw=Thailand	fpos=NNP	w[0]=Thailand	fw|fpos=Thailand|NNP	hw=Thailand	hw|hpos=Thailand|NNP	hpos=NNP	w[1]=toward	pos[-1]=VB	pos[1]=toward
 # a civil war
@@ -8597,7 +8597,7 @@ NONE	w[-1]=NONE	fw=Yingluck	fpos=NN	w[0]=Yingluck	fw|fpos=Yingluck|NN	hw=Yingluc
 # the anti-government protest movement
 THE	w[-1]=that	fw=the	fpos=DT	w[0]=anti-government protest movement	fw|fpos=the|DT	hw=movement	hw|hpos=movement|NN	hpos=NN	w[1]=has	pos[-1]=IN	pos[1]=has
 # an obstacle
-A	w[-1]=as	fw=an	fpos=DT	w[0]=obstacle	fw|fpos=an|DT	hw=obstacle	hw|hpos=obstacle|NN	hpos=NN	w[1]=to	pos[-1]=IN	pos[1]=to
+AN	w[-1]=as	fw=an	fpos=DT	w[0]=obstacle	fw|fpos=an|DT	hw=obstacle	hw|hpos=obstacle|NN	hpos=NN	w[1]=to	pos[-1]=IN	pos[1]=to
 # the successful continuation
 THE	w[-1]=to	fw=the	fpos=DT	w[0]=successful continuation	fw|fpos=the|DT	hw=continuation	hw|hpos=continuation|NN	hpos=NN	w[1]=of	pos[-1]=TO	pos[1]=of
 # the scheme
@@ -9083,7 +9083,7 @@ NONE	w[-1]=On	fw=27	fpos=CD	w[0]=27 January 2014	fw|fpos=27|CD	hw=2014	hw|hpos=2
 # the Erawan Center
 THE	w[-1]=,	fw=the	fpos=DT	w[0]=Erawan Center	fw|fpos=the|DT	hw=Center	hw|hpos=Center|NNP	hpos=NNP	w[1]=,	pos[-1]=,	pos[1]=,
 # an emergency medical service unit
-A	w[-1]=,	fw=an	fpos=DT	w[0]=emergency medical service unit	fw|fpos=an|DT	hw=unit	hw|hpos=unit|NN	hpos=NN	w[1]=of	pos[-1]=,	pos[1]=of
+AN	w[-1]=,	fw=an	fpos=DT	w[0]=emergency medical service unit	fw|fpos=an|DT	hw=unit	hw|hpos=unit|NN	hpos=NN	w[1]=of	pos[-1]=,	pos[1]=of
 # the Bangkok Metropolitan Administration
 THE	w[-1]=of	fw=the	fpos=DT	w[0]=Bangkok Metropolitan Administration	fw|fpos=the|DT	hw=Administration	hw|hpos=Administration|NNP	hpos=NNP	w[1]=(	pos[-1]=IN	pos[1]=(
 # BMA
@@ -9095,7 +9095,7 @@ THE	w[-1]=during	fw=the	fpos=DT	w[0]=anti-government protests	fw|fpos=the|DT	hw=
 # 571 injuries
 NONE	w[-1]=while	fw=571	fpos=CD	w[0]=571 injuries	fw|fpos=571|CD	hw=injuries	hw|hpos=injuries|NNS	hpos=NNS	w[1]=had	pos[-1]=IN	pos[1]=had
 # An increase
-A	w[-1]=NONE	fw=An	fpos=DT	w[0]=increase	fw|fpos=An|DT	hw=increase	hw|hpos=increase|NN	hpos=NN	w[1]=in	pos[-1]=NONE	pos[1]=in
+AN	w[-1]=NONE	fw=An	fpos=DT	w[0]=increase	fw|fpos=An|DT	hw=increase	hw|hpos=increase|NN	hpos=NN	w[1]=in	pos[-1]=NONE	pos[1]=in
 # tension
 NONE	w[-1]=in	fw=tension	fpos=NN	w[0]=tension	fw|fpos=tension|NN	hw=tension	hw|hpos=tension|NN	hpos=NN	w[1]=has	pos[-1]=IN	pos[1]=has
 # the lead-up
@@ -9135,7 +9135,7 @@ NONE	w[-1]=operator	fw=Isetan	fpos=NNP	w[0]=Isetan	fw|fpos=Isetan|NNP	hw=Isetan	
 # 's Bangkok location
 NONE	w[-1]=Isetan	fw='s	fpos=POS	w[0]='s Bangkok location	fw|fpos='s|POS	hw=location	hw|hpos=location|NN	hpos=NN	w[1]=had	pos[-1]=NNP	pos[1]=had
 # an hour
-A	w[-1]=closing	fw=an	fpos=DT	w[0]=hour	fw|fpos=an|DT	hw=hour	hw|hpos=hour|NN	hpos=NN	w[1]=earlier	pos[-1]=VBG	pos[1]=earlier
+AN	w[-1]=closing	fw=an	fpos=DT	w[0]=hour	fw|fpos=an|DT	hw=hour	hw|hpos=hour|NN	hpos=NN	w[1]=earlier	pos[-1]=VBG	pos[1]=earlier
 # the Ratchaprasong district
 THE	w[-1]=,	fw=the	fpos=DT	w[0]=Ratchaprasong district	fw|fpos=the|DT	hw=district	hw|hpos=district|NN	hpos=NN	w[1]='s	pos[-1]=,	pos[1]='s
 # 's accommodation venues
@@ -9175,7 +9175,7 @@ NONE	w[-1]=to	fw=3	fpos=CD	w[0]=3	fw|fpos=3|CD	hw=3	hw|hpos=3|CD	hpos=CD	w[1]=pe
 # cent
 NONE	w[-1]=per	fw=cent	fpos=NN	w[0]=cent	fw|fpos=cent|NN	hw=cent	hw|hpos=cent|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
 # An economic data report
-A	w[-1]=NONE	fw=An	fpos=DT	w[0]=economic data report	fw|fpos=An|DT	hw=report	hw|hpos=report|NN	hpos=NN	w[1]=published	pos[-1]=NONE	pos[1]=published
+AN	w[-1]=NONE	fw=An	fpos=DT	w[0]=economic data report	fw|fpos=An|DT	hw=report	hw|hpos=report|NN	hpos=NN	w[1]=published	pos[-1]=NONE	pos[1]=published
 # 17 February
 NONE	w[-1]=on	fw=17	fpos=CD	w[0]=17 February	fw|fpos=17|CD	hw=February	hw|hpos=February|NNP	hpos=NNP	w[1]=stated	pos[-1]=IN	pos[1]=stated
 # GDP
@@ -9335,7 +9335,7 @@ NONE	w[-1]=presented	fw=data	fpos=NNS	w[0]=data	fw|fpos=data|NNS	hw=data	hw|hpos
 # that
 NONE	w[-1]=data	fw=that	fpos=WDT	w[0]=that	fw|fpos=that|WDT	hw=that	hw|hpos=that|WDT	hpos=WDT	w[1]=indicated	pos[-1]=NNS	pos[1]=indicated
 # an absence
-A	w[-1]=indicated	fw=an	fpos=DT	w[0]=absence	fw|fpos=an|DT	hw=absence	hw|hpos=absence|NN	hpos=NN	w[1]=of	pos[-1]=VBD	pos[1]=of
+AN	w[-1]=indicated	fw=an	fpos=DT	w[0]=absence	fw|fpos=an|DT	hw=absence	hw|hpos=absence|NN	hpos=NN	w[1]=of	pos[-1]=VBD	pos[1]=of
 # growth
 NONE	w[-1]=of	fw=growth	fpos=NN	w[0]=growth	fw|fpos=growth|NN	hw=growth	hw|hpos=growth|NN	hpos=NN	w[1]=in	pos[-1]=IN	pos[1]=in
 # Thai exports
@@ -9367,11 +9367,11 @@ NONE	w[-1]=over	fw=2014	fpos=CD	w[0]=2014	fw|fpos=2014|CD	hw=2014	hw|hpos=2014|C
 # Bangkok Bank executive vice president Kobsak Pootrakool
 NONE	w[-1]=,	fw=Bangkok	fpos=NNP	w[0]=Bangkok Bank executive vice president Kobsak Pootrakool	fw|fpos=Bangkok|NNP	hw=Pootrakool	hw|hpos=Pootrakool|NNP	hpos=NNP	w[1]=estimated	pos[-1]=,	pos[1]=estimated
 # an annual growth
-A	w[-1]=estimated	fw=an	fpos=DT	w[0]=annual growth	fw|fpos=an|DT	hw=growth	hw|hpos=growth|NN	hpos=NN	w[1]=of	pos[-1]=VBD	pos[1]=of
+AN	w[-1]=estimated	fw=an	fpos=DT	w[0]=annual growth	fw|fpos=an|DT	hw=growth	hw|hpos=growth|NN	hpos=NN	w[1]=of	pos[-1]=VBD	pos[1]=of
 # around 2 to 3 percent
 NONE	w[-1]=of	fw=around	fpos=RB	w[0]=around 2 to 3 percent	fw|fpos=around|RB	hw=percent	hw|hpos=percent|NN	hpos=NN	w[1]=,	pos[-1]=IN	pos[1]=,
 # an expansion
-A	w[-1]=as	fw=an	fpos=DT	w[0]=expansion	fw|fpos=an|DT	hw=expansion	hw|hpos=expansion|NN	hpos=NN	w[1]=of	pos[-1]=IN	pos[1]=of
+AN	w[-1]=as	fw=an	fpos=DT	w[0]=expansion	fw|fpos=an|DT	hw=expansion	hw|hpos=expansion|NN	hpos=NN	w[1]=of	pos[-1]=IN	pos[1]=of
 # 5 to 7 percent
 NONE	w[-1]=of	fw=5	fpos=CD	w[0]=5 to 7 percent	fw|fpos=5|CD	hw=percent	hw|hpos=percent|NN	hpos=NN	w[1]=in	pos[-1]=IN	pos[1]=in
 # exports

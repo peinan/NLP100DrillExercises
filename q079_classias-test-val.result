@@ -9,7 +9,7 @@ Instance splitting: 5
 Holdout group: -1
 Cross validation: true
 Attribute filter: 
-Start time: 2015-01-25T07:12:45Z
+Start time: 2015-02-02T01:07:43Z
 
 Reading the data set from 5 files
 - 1: work/english_1.f
@@ -20,9 +20,9 @@ Reading the data set from 5 files
 Number of instances: 26411
 Number of groups: 5
 Number of attributes: 37858
-Number of labels: 3
-Number of features: 113574
-Seconds required: 0.18
+Number of labels: 4
+Number of features: 151432
+Seconds required: 0.14
 
 ===== Cross validation (1/5) =====
 Multi-class logistic regression using L-BFGS
@@ -35,622 +35,634 @@ delta: 1e-05
 max_iterations: 2147483647
 linesearch: MoreThuente
 max_linesearch: 20
-lbfgs.regularization_start: 3
+lbfgs.regularization_start: 4
 
 ***** Iteration #1 *****
-Loss: 13357.9
+Loss: 16855.3
 Feature L2-norm: 1
-Error norm: 7423.57
-Active features: 98130 / 113574
+Error norm: 9168.34
+Active features: 130325 / 151432
 Line search trials: 1
-Line search step: 7.00657e-05
-Seconds required for this iteration: 0.01
+Line search step: 6.04639e-05
+Seconds required for this iteration: 0.04
 Accuracy: 0.8223 (4344/5283)
 Micro P, R, F1: 0.8223 (4344/5283), 0.8223 (4344/5283), 0.8223
-Macro P, R, F1: 0.5954, 0.5198, 0.5341
+Macro P, R, F1: 0.4466, 0.3898, 0.4005
 
 ***** Iteration #2 *****
-Loss: 7134.08
-Feature L2-norm: 2.18988
-Error norm: 3736.13
-Active features: 98130 / 113574
+Loss: 7826.69
+Feature L2-norm: 2.49657
+Error norm: 3760.25
+Active features: 130840 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
-Accuracy: 0.9006 (4758/5283)
-Micro P, R, F1: 0.9006 (4758/5283), 0.9006 (4758/5283), 0.9006
-Macro P, R, F1: 0.5915, 0.6337, 0.6119
+Accuracy: 0.9018 (4764/5283)
+Micro P, R, F1: 0.9018 (4764/5283), 0.9018 (4764/5283), 0.9018
+Macro P, R, F1: 0.4466, 0.4757, 0.4606
 
 ***** Iteration #3 *****
-Loss: 3719.57
-Feature L2-norm: 3.48536
-Error norm: 2497
-Active features: 98130 / 113574
+Loss: 4576.85
+Feature L2-norm: 3.59196
+Error norm: 2508.33
+Active features: 130840 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9502 (5020/5283)
-Micro P, R, F1: 0.9502 (5020/5283), 0.9502 (5020/5283), 0.9502
-Macro P, R, F1: 0.9702, 0.8616, 0.9065
+Seconds required for this iteration: 0.02
+Accuracy: 0.9438 (4986/5283)
+Micro P, R, F1: 0.9438 (4986/5283), 0.9438 (4986/5283), 0.9438
+Macro P, R, F1: 0.7250, 0.6494, 0.6808
 
 ***** Iteration #4 *****
-Loss: 1894.16
-Feature L2-norm: 4.83184
-Error norm: 757.897
-Active features: 98130 / 113574
+Loss: 2428.04
+Feature L2-norm: 5.22847
+Error norm: 1089.27
+Active features: 130840 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9871 (5215/5283)
-Micro P, R, F1: 0.9871 (5215/5283), 0.9871 (5215/5283), 0.9871
-Macro P, R, F1: 0.9852, 0.9565, 0.9700
+Seconds required for this iteration: 0.02
+Accuracy: 0.9832 (5194/5283)
+Micro P, R, F1: 0.9832 (5194/5283), 0.9832 (5194/5283), 0.9832
+Macro P, R, F1: 0.7335, 0.7399, 0.7366
 
 ***** Iteration #5 *****
-Loss: 1368.3
-Feature L2-norm: 5.71511
-Error norm: 510.217
-Active features: 98130 / 113574
+Loss: 1776.51
+Feature L2-norm: 6.05749
+Error norm: 680.502
+Active features: 130840 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.02
-Accuracy: 0.9905 (5233/5283)
-Micro P, R, F1: 0.9905 (5233/5283), 0.9905 (5233/5283), 0.9905
-Macro P, R, F1: 0.9863, 0.9694, 0.9775
+Seconds required for this iteration: 0.01
+Accuracy: 0.9845 (5201/5283)
+Micro P, R, F1: 0.9845 (5201/5283), 0.9845 (5201/5283), 0.9845
+Macro P, R, F1: 0.7370, 0.7405, 0.7387
 
 ***** Iteration #6 *****
-Loss: 840.474
-Feature L2-norm: 7.0649
-Error norm: 247.76
-Active features: 98130 / 113574
+Loss: 1026.02
+Feature L2-norm: 7.56535
+Error norm: 340.591
+Active features: 130840 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9939 (5251/5283)
-Micro P, R, F1: 0.9939 (5251/5283), 0.9939 (5251/5283), 0.9939
-Macro P, R, F1: 0.9872, 0.9861, 0.9866
+Seconds required for this iteration: 0.02
+Accuracy: 0.9886 (5223/5283)
+Micro P, R, F1: 0.9886 (5223/5283), 0.9886 (5223/5283), 0.9886
+Macro P, R, F1: 0.9891, 0.8387, 0.8808
 
 ***** Iteration #7 *****
-Loss: 574.454
-Feature L2-norm: 8.37641
-Error norm: 164.232
-Active features: 98130 / 113574
+Loss: 663.702
+Feature L2-norm: 9.12134
+Error norm: 197.137
+Active features: 130840 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9958 (5261/5283)
-Micro P, R, F1: 0.9958 (5261/5283), 0.9958 (5261/5283), 0.9958
-Macro P, R, F1: 0.9883, 0.9949, 0.9916
+Seconds required for this iteration: 0.02
+Accuracy: 0.9955 (5259/5283)
+Micro P, R, F1: 0.9955 (5259/5283), 0.9955 (5259/5283), 0.9955
+Macro P, R, F1: 0.9790, 0.9868, 0.9828
 
 ***** Iteration #8 *****
-Loss: 471.756
-Feature L2-norm: 9.79873
-Error norm: 212.407
-Active features: 98130 / 113574
+Loss: 504.35
+Feature L2-norm: 10.6563
+Error norm: 80.2821
+Active features: 130840 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
-Accuracy: 0.9962 (5263/5283)
-Micro P, R, F1: 0.9962 (5263/5283), 0.9962 (5263/5283), 0.9962
-Macro P, R, F1: 0.9886, 0.9966, 0.9925
+Accuracy: 0.9964 (5264/5283)
+Micro P, R, F1: 0.9964 (5264/5283), 0.9964 (5264/5283), 0.9964
+Macro P, R, F1: 0.9796, 0.9943, 0.9868
 
 ***** Iteration #9 *****
-Loss: 407.964
-Feature L2-norm: 10.849
-Error norm: 38.5467
-Active features: 98130 / 113574
+Loss: 457.598
+Feature L2-norm: 11.4161
+Error norm: 53.3864
+Active features: 130840 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9964 (5264/5283)
 Micro P, R, F1: 0.9964 (5264/5283), 0.9964 (5264/5283), 0.9964
-Macro P, R, F1: 0.9887, 0.9975, 0.9930
+Macro P, R, F1: 0.9796, 0.9943, 0.9868
 
 ***** Iteration #10 *****
-Loss: 397.883
-Feature L2-norm: 11.3398
-Error norm: 31.6686
-Active features: 98130 / 113574
+Loss: 405.869
+Feature L2-norm: 12.5699
+Error norm: 43.8543
+Active features: 130840 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9964 (5264/5283)
 Micro P, R, F1: 0.9964 (5264/5283), 0.9964 (5264/5283), 0.9964
-Macro P, R, F1: 0.9887, 0.9975, 0.9930
+Macro P, R, F1: 0.9796, 0.9943, 0.9868
 
 ***** Iteration #11 *****
-Loss: 380.5
-Feature L2-norm: 12.033
-Error norm: 28.524
-Active features: 98130 / 113574
+Loss: 401.137
+Feature L2-norm: 14.5127
+Error norm: 75.4585
+Active features: 130840 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
 Accuracy: 0.9966 (5265/5283)
 Micro P, R, F1: 0.9966 (5265/5283), 0.9966 (5265/5283), 0.9966
-Macro P, R, F1: 0.9888, 0.9984, 0.9935
+Macro P, R, F1: 0.9799, 0.9988, 0.9891
 
 ***** Iteration #12 *****
-Loss: 374.492
-Feature L2-norm: 13.7011
-Error norm: 61.7574
-Active features: 98130 / 113574
+Loss: 386.158
+Feature L2-norm: 14.1728
+Error norm: 62.7647
+Active features: 130840 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9966 (5265/5283)
 Micro P, R, F1: 0.9966 (5265/5283), 0.9966 (5265/5283), 0.9966
-Macro P, R, F1: 0.9888, 0.9984, 0.9935
+Macro P, R, F1: 0.9799, 0.9988, 0.9891
 
 ***** Iteration #13 *****
-Loss: 355.781
-Feature L2-norm: 13.4948
-Error norm: 28.2291
-Active features: 98130 / 113574
+Loss: 378.1
+Feature L2-norm: 13.8781
+Error norm: 31.017
+Active features: 130840 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9966 (5265/5283)
 Micro P, R, F1: 0.9966 (5265/5283), 0.9966 (5265/5283), 0.9966
-Macro P, R, F1: 0.9888, 0.9984, 0.9935
+Macro P, R, F1: 0.9799, 0.9988, 0.9891
 
 ***** Iteration #14 *****
-Loss: 347.422
-Feature L2-norm: 13.1662
-Error norm: 63.1659
-Active features: 98130 / 113574
+Loss: 372.944
+Feature L2-norm: 13.8036
+Error norm: 24.8412
+Active features: 130840 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
 Accuracy: 0.9966 (5265/5283)
 Micro P, R, F1: 0.9966 (5265/5283), 0.9966 (5265/5283), 0.9966
-Macro P, R, F1: 0.9888, 0.9984, 0.9935
+Macro P, R, F1: 0.9799, 0.9988, 0.9891
 
 ***** Iteration #15 *****
-Loss: 338.091
-Feature L2-norm: 13.0892
-Error norm: 26.9693
-Active features: 98130 / 113574
+Loss: 357.242
+Feature L2-norm: 13.6991
+Error norm: 35.8525
+Active features: 130840 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9966 (5265/5283)
 Micro P, R, F1: 0.9966 (5265/5283), 0.9966 (5265/5283), 0.9966
-Macro P, R, F1: 0.9888, 0.9984, 0.9935
+Macro P, R, F1: 0.9799, 0.9988, 0.9891
 
 ***** Iteration #16 *****
-Loss: 329.68
-Feature L2-norm: 12.9413
-Error norm: 20.361
-Active features: 98130 / 113574
+Loss: 348.19
+Feature L2-norm: 13.9736
+Error norm: 35.7445
+Active features: 130840 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9966 (5265/5283)
 Micro P, R, F1: 0.9966 (5265/5283), 0.9966 (5265/5283), 0.9966
-Macro P, R, F1: 0.9888, 0.9984, 0.9935
+Macro P, R, F1: 0.9799, 0.9988, 0.9891
 
 ***** Iteration #17 *****
-Loss: 323.446
-Feature L2-norm: 13.3616
-Error norm: 12.6362
-Active features: 98130 / 113574
+Loss: 339.591
+Feature L2-norm: 14.4855
+Error norm: 14.9592
+Active features: 130840 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
 Accuracy: 0.9966 (5265/5283)
 Micro P, R, F1: 0.9966 (5265/5283), 0.9966 (5265/5283), 0.9966
-Macro P, R, F1: 0.9888, 0.9984, 0.9935
+Macro P, R, F1: 0.9799, 0.9988, 0.9891
 
 ***** Iteration #18 *****
-Loss: 320.497
-Feature L2-norm: 13.9963
-Error norm: 58.0975
-Active features: 98130 / 113574
+Loss: 336.435
+Feature L2-norm: 14.7598
+Error norm: 15.748
+Active features: 130840 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9966 (5265/5283)
 Micro P, R, F1: 0.9966 (5265/5283), 0.9966 (5265/5283), 0.9966
-Macro P, R, F1: 0.9888, 0.9984, 0.9935
+Macro P, R, F1: 0.9799, 0.9988, 0.9891
 
 ***** Iteration #19 *****
-Loss: 315.964
-Feature L2-norm: 14.3307
-Error norm: 9.07677
-Active features: 98130 / 113574
+Loss: 334.236
+Feature L2-norm: 14.8963
+Error norm: 25.6258
+Active features: 130840 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9966 (5265/5283)
 Micro P, R, F1: 0.9966 (5265/5283), 0.9966 (5265/5283), 0.9966
-Macro P, R, F1: 0.9888, 0.9984, 0.9935
+Macro P, R, F1: 0.9799, 0.9988, 0.9891
 
 ***** Iteration #20 *****
-Loss: 315.25
-Feature L2-norm: 14.2617
-Error norm: 7.82977
-Active features: 98130 / 113574
+Loss: 332.276
+Feature L2-norm: 14.9896
+Error norm: 12.7508
+Active features: 130840 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
 Accuracy: 0.9966 (5265/5283)
 Micro P, R, F1: 0.9966 (5265/5283), 0.9966 (5265/5283), 0.9966
-Macro P, R, F1: 0.9888, 0.9984, 0.9935
+Macro P, R, F1: 0.9799, 0.9988, 0.9891
 
 ***** Iteration #21 *****
-Loss: 312.47
-Feature L2-norm: 14.2016
-Error norm: 10.2343
-Active features: 98130 / 113574
+Loss: 331.242
+Feature L2-norm: 15.0072
+Error norm: 7.04634
+Active features: 130840 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.01
 Accuracy: 0.9966 (5265/5283)
 Micro P, R, F1: 0.9966 (5265/5283), 0.9966 (5265/5283), 0.9966
-Macro P, R, F1: 0.9888, 0.9984, 0.9935
+Macro P, R, F1: 0.9799, 0.9988, 0.9891
 
 ***** Iteration #22 *****
-Loss: 312.15
-Feature L2-norm: 14.1783
-Error norm: 6.83618
-Active features: 98130 / 113574
-Line search trials: 2
-Line search step: 0.441942
+Loss: 330.419
+Feature L2-norm: 14.9718
+Error norm: 8.18835
+Active features: 130840 / 151432
+Line search trials: 1
+Line search step: 1
 Seconds required for this iteration: 0.02
 Accuracy: 0.9966 (5265/5283)
 Micro P, R, F1: 0.9966 (5265/5283), 0.9966 (5265/5283), 0.9966
-Macro P, R, F1: 0.9888, 0.9984, 0.9935
+Macro P, R, F1: 0.9799, 0.9988, 0.9891
 
 ***** Iteration #23 *****
-Loss: 311.843
-Feature L2-norm: 14.1339
-Error norm: 4.90263
-Active features: 98130 / 113574
+Loss: 329.684
+Feature L2-norm: 14.9469
+Error norm: 8.00447
+Active features: 130840 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
 Accuracy: 0.9966 (5265/5283)
 Micro P, R, F1: 0.9966 (5265/5283), 0.9966 (5265/5283), 0.9966
-Macro P, R, F1: 0.9888, 0.9984, 0.9935
+Macro P, R, F1: 0.9799, 0.9988, 0.9891
 
 ***** Iteration #24 *****
-Loss: 311.53
-Feature L2-norm: 14.1161
-Error norm: 4.37803
-Active features: 98130 / 113574
+Loss: 328.905
+Feature L2-norm: 14.9978
+Error norm: 5.1592
+Active features: 130840 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9966 (5265/5283)
 Micro P, R, F1: 0.9966 (5265/5283), 0.9966 (5265/5283), 0.9966
-Macro P, R, F1: 0.9888, 0.9984, 0.9935
+Macro P, R, F1: 0.9799, 0.9988, 0.9891
 
 ***** Iteration #25 *****
-Loss: 311.285
-Feature L2-norm: 14.1537
-Error norm: 3.28148
-Active features: 98130 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.01
+Loss: 328.728
+Feature L2-norm: 15.0532
+Error norm: 4.87425
+Active features: 130840 / 151432
+Line search trials: 2
+Line search step: 0.430849
+Seconds required for this iteration: 0.04
 Accuracy: 0.9966 (5265/5283)
 Micro P, R, F1: 0.9966 (5265/5283), 0.9966 (5265/5283), 0.9966
-Macro P, R, F1: 0.9888, 0.9984, 0.9935
+Macro P, R, F1: 0.9799, 0.9988, 0.9891
 
 ***** Iteration #26 *****
-Loss: 311.003
-Feature L2-norm: 14.2388
-Error norm: 2.87223
-Active features: 98130 / 113574
+Loss: 328.536
+Feature L2-norm: 15.0791
+Error norm: 3.35777
+Active features: 130840 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
 Accuracy: 0.9966 (5265/5283)
 Micro P, R, F1: 0.9966 (5265/5283), 0.9966 (5265/5283), 0.9966
-Macro P, R, F1: 0.9888, 0.9984, 0.9935
+Macro P, R, F1: 0.9799, 0.9988, 0.9891
 
 ***** Iteration #27 *****
-Loss: 310.947
-Feature L2-norm: 14.2464
-Error norm: 3.62517
-Active features: 98130 / 113574
-Line search trials: 2
-Line search step: 0.140592
+Loss: 328.398
+Feature L2-norm: 15.1188
+Error norm: 6.94471
+Active features: 130840 / 151432
+Line search trials: 1
+Line search step: 1
 Seconds required for this iteration: 0.02
 Accuracy: 0.9966 (5265/5283)
 Micro P, R, F1: 0.9966 (5265/5283), 0.9966 (5265/5283), 0.9966
-Macro P, R, F1: 0.9888, 0.9984, 0.9935
+Macro P, R, F1: 0.9799, 0.9988, 0.9891
 
 ***** Iteration #28 *****
-Loss: 310.853
-Feature L2-norm: 14.2926
-Error norm: 2.9283
-Active features: 98130 / 113574
+Loss: 328.229
+Feature L2-norm: 15.1678
+Error norm: 4.25952
+Active features: 130840 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9966 (5265/5283)
 Micro P, R, F1: 0.9966 (5265/5283), 0.9966 (5265/5283), 0.9966
-Macro P, R, F1: 0.9888, 0.9984, 0.9935
+Macro P, R, F1: 0.9799, 0.9988, 0.9891
 
 ***** Iteration #29 *****
-Loss: 310.754
-Feature L2-norm: 14.3567
-Error norm: 1.96074
-Active features: 98130 / 113574
+Loss: 328.106
+Feature L2-norm: 15.2092
+Error norm: 2.15523
+Active features: 130840 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.02
+Seconds required for this iteration: 0.01
 Accuracy: 0.9966 (5265/5283)
 Micro P, R, F1: 0.9966 (5265/5283), 0.9966 (5265/5283), 0.9966
-Macro P, R, F1: 0.9888, 0.9984, 0.9935
+Macro P, R, F1: 0.9799, 0.9988, 0.9891
 
 ***** Iteration #30 *****
-Loss: 310.708
-Feature L2-norm: 14.3733
-Error norm: 2.39065
-Active features: 98130 / 113574
+Loss: 328.041
+Feature L2-norm: 15.2265
+Error norm: 1.7955
+Active features: 130840 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9966 (5265/5283)
 Micro P, R, F1: 0.9966 (5265/5283), 0.9966 (5265/5283), 0.9966
-Macro P, R, F1: 0.9888, 0.9984, 0.9935
+Macro P, R, F1: 0.9799, 0.9988, 0.9891
 
 ***** Iteration #31 *****
-Loss: 310.682
-Feature L2-norm: 14.372
-Error norm: 1.22151
-Active features: 98130 / 113574
+Loss: 327.976
+Feature L2-norm: 15.2393
+Error norm: 1.91259
+Active features: 130840 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9966 (5265/5283)
 Micro P, R, F1: 0.9966 (5265/5283), 0.9966 (5265/5283), 0.9966
-Macro P, R, F1: 0.9888, 0.9984, 0.9935
+Macro P, R, F1: 0.9799, 0.9988, 0.9891
 
 ***** Iteration #32 *****
-Loss: 310.666
-Feature L2-norm: 14.3609
-Error norm: 1.15221
-Active features: 98130 / 113574
+Loss: 327.918
+Feature L2-norm: 15.2466
+Error norm: 1.40235
+Active features: 130840 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
 Accuracy: 0.9966 (5265/5283)
 Micro P, R, F1: 0.9966 (5265/5283), 0.9966 (5265/5283), 0.9966
-Macro P, R, F1: 0.9888, 0.9984, 0.9935
+Macro P, R, F1: 0.9799, 0.9988, 0.9891
 
 ***** Iteration #33 *****
-Loss: 310.622
-Feature L2-norm: 14.3473
-Error norm: 1.10795
-Active features: 98130 / 113574
+Loss: 327.877
+Feature L2-norm: 15.2387
+Error norm: 2.15945
+Active features: 130840 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9966 (5265/5283)
 Micro P, R, F1: 0.9966 (5265/5283), 0.9966 (5265/5283), 0.9966
-Macro P, R, F1: 0.9888, 0.9984, 0.9935
+Macro P, R, F1: 0.9799, 0.9988, 0.9891
 
 ***** Iteration #34 *****
-Loss: 310.61
-Feature L2-norm: 14.3404
-Error norm: 1.66072
-Active features: 98130 / 113574
+Loss: 327.856
+Feature L2-norm: 15.2458
+Error norm: 1.16804
+Active features: 130840 / 151432
 Line search trials: 2
-Line search step: 0.520467
-Seconds required for this iteration: 0.02
+Line search step: 0.496969
+Seconds required for this iteration: 0.03
 Accuracy: 0.9966 (5265/5283)
 Micro P, R, F1: 0.9966 (5265/5283), 0.9966 (5265/5283), 0.9966
-Macro P, R, F1: 0.9888, 0.9984, 0.9935
+Macro P, R, F1: 0.9799, 0.9988, 0.9891
 
 ***** Iteration #35 *****
-Loss: 310.598
-Feature L2-norm: 14.3444
-Error norm: 0.853522
-Active features: 98130 / 113574
+Loss: 327.848
+Feature L2-norm: 15.243
+Error norm: 0.69219
+Active features: 130840 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9966 (5265/5283)
 Micro P, R, F1: 0.9966 (5265/5283), 0.9966 (5265/5283), 0.9966
-Macro P, R, F1: 0.9888, 0.9984, 0.9935
+Macro P, R, F1: 0.9799, 0.9988, 0.9891
 
 ***** Iteration #36 *****
-Loss: 310.59
-Feature L2-norm: 14.3509
-Error norm: 0.550159
-Active features: 98130 / 113574
+Loss: 327.842
+Feature L2-norm: 15.2435
+Error norm: 1.2949
+Active features: 130840 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
 Accuracy: 0.9966 (5265/5283)
 Micro P, R, F1: 0.9966 (5265/5283), 0.9966 (5265/5283), 0.9966
-Macro P, R, F1: 0.9888, 0.9984, 0.9935
+Macro P, R, F1: 0.9799, 0.9988, 0.9891
 
 ***** Iteration #37 *****
-Loss: 310.584
-Feature L2-norm: 14.3576
-Error norm: 0.48176
-Active features: 98130 / 113574
+Loss: 327.838
+Feature L2-norm: 15.2474
+Error norm: 0.873557
+Active features: 130840 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9966 (5265/5283)
 Micro P, R, F1: 0.9966 (5265/5283), 0.9966 (5265/5283), 0.9966
-Macro P, R, F1: 0.9888, 0.9984, 0.9935
+Macro P, R, F1: 0.9799, 0.9988, 0.9891
 
 ***** Iteration #38 *****
-Loss: 310.578
-Feature L2-norm: 14.3595
-Error norm: 0.837425
-Active features: 98130 / 113574
+Loss: 327.835
+Feature L2-norm: 15.2493
+Error norm: 0.579351
+Active features: 130840 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9966 (5265/5283)
 Micro P, R, F1: 0.9966 (5265/5283), 0.9966 (5265/5283), 0.9966
-Macro P, R, F1: 0.9888, 0.9984, 0.9935
+Macro P, R, F1: 0.9799, 0.9988, 0.9891
 
 ***** Iteration #39 *****
-Loss: 310.575
-Feature L2-norm: 14.3626
-Error norm: 0.334911
-Active features: 98130 / 113574
-Line search trials: 2
-Line search step: 0.504748
+Loss: 327.831
+Feature L2-norm: 15.2554
+Error norm: 0.382883
+Active features: 130840 / 151432
+Line search trials: 1
+Line search step: 1
 Seconds required for this iteration: 0.02
 Accuracy: 0.9966 (5265/5283)
 Micro P, R, F1: 0.9966 (5265/5283), 0.9966 (5265/5283), 0.9966
-Macro P, R, F1: 0.9888, 0.9984, 0.9935
+Macro P, R, F1: 0.9799, 0.9988, 0.9891
 
 ***** Iteration #40 *****
-Loss: 310.574
-Feature L2-norm: 14.3608
-Error norm: 0.253185
-Active features: 98130 / 113574
+Loss: 327.827
+Feature L2-norm: 15.2593
+Error norm: 0.343685
+Active features: 130840 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
 Accuracy: 0.9966 (5265/5283)
 Micro P, R, F1: 0.9966 (5265/5283), 0.9966 (5265/5283), 0.9966
-Macro P, R, F1: 0.9888, 0.9984, 0.9935
+Macro P, R, F1: 0.9799, 0.9988, 0.9891
 
 ***** Iteration #41 *****
-Loss: 310.573
-Feature L2-norm: 14.3598
-Error norm: 0.238723
-Active features: 98130 / 113574
+Loss: 327.822
+Feature L2-norm: 15.2649
+Error norm: 0.283967
+Active features: 130840 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9966 (5265/5283)
 Micro P, R, F1: 0.9966 (5265/5283), 0.9966 (5265/5283), 0.9966
-Macro P, R, F1: 0.9888, 0.9984, 0.9935
+Macro P, R, F1: 0.9799, 0.9988, 0.9891
 
 ***** Iteration #42 *****
-Loss: 310.572
-Feature L2-norm: 14.3612
-Error norm: 0.548557
-Active features: 98130 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.01
+Loss: 327.822
+Feature L2-norm: 15.2651
+Error norm: 0.373843
+Active features: 130840 / 151432
+Line search trials: 2
+Line search step: 0.143506
+Seconds required for this iteration: 0.03
 Accuracy: 0.9966 (5265/5283)
 Micro P, R, F1: 0.9966 (5265/5283), 0.9966 (5265/5283), 0.9966
-Macro P, R, F1: 0.9888, 0.9984, 0.9935
+Macro P, R, F1: 0.9799, 0.9988, 0.9891
 
 ***** Iteration #43 *****
-Loss: 310.571
-Feature L2-norm: 14.3626
-Error norm: 0.141252
-Active features: 98130 / 113574
+Loss: 327.821
+Feature L2-norm: 15.2653
+Error norm: 0.228507
+Active features: 130840 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
 Accuracy: 0.9966 (5265/5283)
 Micro P, R, F1: 0.9966 (5265/5283), 0.9966 (5265/5283), 0.9966
-Macro P, R, F1: 0.9888, 0.9984, 0.9935
+Macro P, R, F1: 0.9799, 0.9988, 0.9891
 
 ***** Iteration #44 *****
-Loss: 310.571
-Feature L2-norm: 14.3636
-Error norm: 0.108014
-Active features: 98130 / 113574
+Loss: 327.82
+Feature L2-norm: 15.2654
+Error norm: 0.223276
+Active features: 130840 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9966 (5265/5283)
 Micro P, R, F1: 0.9966 (5265/5283), 0.9966 (5265/5283), 0.9966
-Macro P, R, F1: 0.9888, 0.9984, 0.9935
+Macro P, R, F1: 0.9799, 0.9988, 0.9891
 
 ***** Iteration #45 *****
-Loss: 310.57
-Feature L2-norm: 14.365
-Error norm: 0.0828892
-Active features: 98130 / 113574
+Loss: 327.82
+Feature L2-norm: 15.2648
+Error norm: 0.213665
+Active features: 130840 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9966 (5265/5283)
 Micro P, R, F1: 0.9966 (5265/5283), 0.9966 (5265/5283), 0.9966
-Macro P, R, F1: 0.9888, 0.9984, 0.9935
+Macro P, R, F1: 0.9799, 0.9988, 0.9891
 
 ***** Iteration #46 *****
-Loss: 310.57
-Feature L2-norm: 14.3664
-Error norm: 0.134497
-Active features: 98130 / 113574
+Loss: 327.82
+Feature L2-norm: 15.2647
+Error norm: 0.17968
+Active features: 130840 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
 Accuracy: 0.9966 (5265/5283)
 Micro P, R, F1: 0.9966 (5265/5283), 0.9966 (5265/5283), 0.9966
-Macro P, R, F1: 0.9888, 0.9984, 0.9935
+Macro P, R, F1: 0.9799, 0.9988, 0.9891
 
 ***** Iteration #47 *****
-Loss: 310.57
-Feature L2-norm: 14.3667
-Error norm: 0.0696945
-Active features: 98130 / 113574
-Line search trials: 2
-Line search step: 0.320203
+Loss: 327.82
+Feature L2-norm: 15.2649
+Error norm: 0.1619
+Active features: 130840 / 151432
+Line search trials: 1
+Line search step: 1
 Seconds required for this iteration: 0.02
 Accuracy: 0.9966 (5265/5283)
 Micro P, R, F1: 0.9966 (5265/5283), 0.9966 (5265/5283), 0.9966
-Macro P, R, F1: 0.9888, 0.9984, 0.9935
+Macro P, R, F1: 0.9799, 0.9988, 0.9891
 
 ***** Iteration #48 *****
-Loss: 310.57
-Feature L2-norm: 14.3665
-Error norm: 0.0460511
-Active features: 98130 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9966 (5265/5283)
-Micro P, R, F1: 0.9966 (5265/5283), 0.9966 (5265/5283), 0.9966
-Macro P, R, F1: 0.9888, 0.9984, 0.9935
-
-***** Iteration #49 *****
-Loss: 310.57
-Feature L2-norm: 14.3663
-Error norm: 0.0367987
-Active features: 98130 / 113574
+Loss: 327.819
+Feature L2-norm: 15.2652
+Error norm: 0.124556
+Active features: 130840 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
 Accuracy: 0.9966 (5265/5283)
 Micro P, R, F1: 0.9966 (5265/5283), 0.9966 (5265/5283), 0.9966
-Macro P, R, F1: 0.9888, 0.9984, 0.9935
+Macro P, R, F1: 0.9799, 0.9988, 0.9891
+
+***** Iteration #49 *****
+Loss: 327.819
+Feature L2-norm: 15.2655
+Error norm: 0.11253
+Active features: 130840 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9966 (5265/5283)
+Micro P, R, F1: 0.9966 (5265/5283), 0.9966 (5265/5283), 0.9966
+Macro P, R, F1: 0.9799, 0.9988, 0.9891
 
 ***** Iteration #50 *****
-Loss: 310.57
-Feature L2-norm: 14.3667
-Error norm: 0.184957
-Active features: 98130 / 113574
+Loss: 327.819
+Feature L2-norm: 15.2655
+Error norm: 0.0877263
+Active features: 130840 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9966 (5265/5283)
 Micro P, R, F1: 0.9966 (5265/5283), 0.9966 (5265/5283), 0.9966
-Macro P, R, F1: 0.9888, 0.9984, 0.9935
+Macro P, R, F1: 0.9799, 0.9988, 0.9891
 
 ***** Iteration #51 *****
-Loss: 310.57
-Feature L2-norm: 14.3666
-Error norm: 0.0594176
-Active features: 98130 / 113574
+Loss: 327.819
+Feature L2-norm: 15.2652
+Error norm: 0.163877
+Active features: 130840 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9966 (5265/5283)
 Micro P, R, F1: 0.9966 (5265/5283), 0.9966 (5265/5283), 0.9966
-Macro P, R, F1: 0.9888, 0.9984, 0.9935
+Macro P, R, F1: 0.9799, 0.9988, 0.9891
+
+***** Iteration #52 *****
+Loss: 327.819
+Feature L2-norm: 15.2652
+Error norm: 0.078584
+Active features: 130840 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9966 (5265/5283)
+Micro P, R, F1: 0.9966 (5265/5283), 0.9966 (5265/5283), 0.9966
+Macro P, R, F1: 0.9799, 0.9988, 0.9891
 
 L-BFGS terminated with the stopping criteria
-Seconds required: 0.74
+Seconds required: 1.07
 
 ===== Cross validation (2/5) =====
 Multi-class logistic regression using L-BFGS
@@ -663,718 +675,682 @@ delta: 1e-05
 max_iterations: 2147483647
 linesearch: MoreThuente
 max_linesearch: 20
-lbfgs.regularization_start: 3
+lbfgs.regularization_start: 4
 
 ***** Iteration #1 *****
-Loss: 13384.2
+Loss: 16871.2
 Feature L2-norm: 1
-Error norm: 7414.73
-Active features: 98370 / 113574
+Error norm: 9141.52
+Active features: 130656 / 151432
 Line search trials: 1
-Line search step: 6.99635e-05
-Seconds required for this iteration: 0.01
+Line search step: 6.04337e-05
+Seconds required for this iteration: 0.03
 Accuracy: 0.7893 (4169/5282)
 Micro P, R, F1: 0.7893 (4169/5282), 0.7893 (4169/5282), 0.7893
-Macro P, R, F1: 0.5857, 0.4857, 0.4973
+Macro P, R, F1: 0.4393, 0.3642, 0.3729
 
 ***** Iteration #2 *****
-Loss: 7215.43
-Feature L2-norm: 2.17133
-Error norm: 3729.51
-Active features: 98370 / 113574
+Loss: 7903.49
+Feature L2-norm: 2.48363
+Error norm: 3754.35
+Active features: 131160 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9034 (4772/5282)
-Micro P, R, F1: 0.9034 (4772/5282), 0.9034 (4772/5282), 0.9034
-Macro P, R, F1: 0.5978, 0.6390, 0.6177
+Seconds required for this iteration: 0.02
+Accuracy: 0.9040 (4775/5282)
+Micro P, R, F1: 0.9040 (4775/5282), 0.9040 (4775/5282), 0.9040
+Macro P, R, F1: 0.4497, 0.4792, 0.4639
 
 ***** Iteration #3 *****
-Loss: 3762.67
-Feature L2-norm: 3.46018
-Error norm: 2468.69
-Active features: 98370 / 113574
+Loss: 4627.93
+Feature L2-norm: 3.57436
+Error norm: 2474.18
+Active features: 131160 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.01
-Accuracy: 0.9542 (5040/5282)
-Micro P, R, F1: 0.9542 (5040/5282), 0.9542 (5040/5282), 0.9542
-Macro P, R, F1: 0.9690, 0.8782, 0.9170
+Accuracy: 0.9493 (5014/5282)
+Micro P, R, F1: 0.9493 (5014/5282), 0.9493 (5014/5282), 0.9493
+Macro P, R, F1: 0.7257, 0.6530, 0.6828
 
 ***** Iteration #4 *****
-Loss: 1895.06
-Feature L2-norm: 4.84911
-Error norm: 760.202
-Active features: 98370 / 113574
+Loss: 2461.96
+Feature L2-norm: 5.24336
+Error norm: 1151.59
+Active features: 131160 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9898 (5228/5282)
-Micro P, R, F1: 0.9898 (5228/5282), 0.9898 (5228/5282), 0.9898
-Macro P, R, F1: 0.9861, 0.9669, 0.9760
+Seconds required for this iteration: 0.02
+Accuracy: 0.9839 (5197/5282)
+Micro P, R, F1: 0.9839 (5197/5282), 0.9839 (5197/5282), 0.9839
+Macro P, R, F1: 0.7336, 0.7393, 0.7364
 
 ***** Iteration #5 *****
-Loss: 1381.46
-Feature L2-norm: 5.71696
-Error norm: 527.92
-Active features: 98370 / 113574
+Loss: 1786.46
+Feature L2-norm: 6.0743
+Error norm: 704.613
+Active features: 131160 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
-Accuracy: 0.9920 (5240/5282)
-Micro P, R, F1: 0.9920 (5240/5282), 0.9920 (5240/5282), 0.9920
-Macro P, R, F1: 0.9877, 0.9752, 0.9812
+Accuracy: 0.9860 (5208/5282)
+Micro P, R, F1: 0.9860 (5208/5282), 0.9860 (5208/5282), 0.9860
+Macro P, R, F1: 0.7373, 0.7400, 0.7387
 
 ***** Iteration #6 *****
-Loss: 834.1
-Feature L2-norm: 7.08445
-Error norm: 244.014
-Active features: 98370 / 113574
+Loss: 1033.79
+Feature L2-norm: 7.57127
+Error norm: 340.585
+Active features: 131160 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9958 (5260/5282)
-Micro P, R, F1: 0.9958 (5260/5282), 0.9958 (5260/5282), 0.9958
-Macro P, R, F1: 0.9908, 0.9917, 0.9913
+Seconds required for this iteration: 0.02
+Accuracy: 0.9907 (5233/5282)
+Micro P, R, F1: 0.9907 (5233/5282), 0.9907 (5233/5282), 0.9907
+Macro P, R, F1: 0.9899, 0.8678, 0.9090
 
 ***** Iteration #7 *****
-Loss: 576.605
-Feature L2-norm: 8.39056
-Error norm: 151.766
-Active features: 98370 / 113574
+Loss: 681.733
+Feature L2-norm: 9.08679
+Error norm: 194.335
+Active features: 131160 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9968 (5265/5282)
-Micro P, R, F1: 0.9968 (5265/5282), 0.9968 (5265/5282), 0.9968
-Macro P, R, F1: 0.9914, 0.9961, 0.9937
+Seconds required for this iteration: 0.02
+Accuracy: 0.9966 (5264/5282)
+Micro P, R, F1: 0.9966 (5264/5282), 0.9966 (5264/5282), 0.9966
+Macro P, R, F1: 0.9928, 0.9915, 0.9921
 
 ***** Iteration #8 *****
-Loss: 468.697
-Feature L2-norm: 9.73926
-Error norm: 147.657
-Active features: 98370 / 113574
+Loss: 520.016
+Feature L2-norm: 10.6341
+Error norm: 84.4685
+Active features: 131160 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
 Accuracy: 0.9970 (5266/5282)
 Micro P, R, F1: 0.9970 (5266/5282), 0.9970 (5266/5282), 0.9970
-Macro P, R, F1: 0.9915, 0.9970, 0.9942
+Macro P, R, F1: 0.9929, 0.9930, 0.9929
 
 ***** Iteration #9 *****
-Loss: 417.692
-Feature L2-norm: 10.9244
-Error norm: 47.4247
-Active features: 98370 / 113574
+Loss: 470.464
+Feature L2-norm: 11.4277
+Error norm: 54.0979
+Active features: 131160 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9970 (5266/5282)
 Micro P, R, F1: 0.9970 (5266/5282), 0.9970 (5266/5282), 0.9970
-Macro P, R, F1: 0.9915, 0.9970, 0.9942
+Macro P, R, F1: 0.9929, 0.9930, 0.9929
 
 ***** Iteration #10 *****
-Loss: 407.26
-Feature L2-norm: 11.3702
-Error norm: 38.6073
-Active features: 98370 / 113574
+Loss: 421.257
+Feature L2-norm: 12.5248
+Error norm: 34.9084
+Active features: 131160 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9972 (5267/5282)
-Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
+Seconds required for this iteration: 0.02
+Accuracy: 0.9970 (5266/5282)
+Micro P, R, F1: 0.9970 (5266/5282), 0.9970 (5266/5282), 0.9970
+Macro P, R, F1: 0.9929, 0.9930, 0.9929
 
 ***** Iteration #11 *****
-Loss: 395.735
-Feature L2-norm: 12.2779
-Error norm: 108.297
-Active features: 98370 / 113574
+Loss: 419.21
+Feature L2-norm: 14.5064
+Error norm: 93.7666
+Active features: 131160 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.02
+Seconds required for this iteration: 0.01
 Accuracy: 0.9972 (5267/5282)
 Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
+Macro P, R, F1: 0.9930, 0.9983, 0.9956
 
 ***** Iteration #12 *****
-Loss: 380.726
-Feature L2-norm: 12.7124
-Error norm: 30.9445
-Active features: 98370 / 113574
+Loss: 395.361
+Feature L2-norm: 14.2551
+Error norm: 34.8992
+Active features: 131160 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9972 (5267/5282)
 Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
+Macro P, R, F1: 0.9930, 0.9983, 0.9956
 
 ***** Iteration #13 *****
-Loss: 375.063
-Feature L2-norm: 12.9289
-Error norm: 27.4669
-Active features: 98370 / 113574
+Loss: 389.618
+Feature L2-norm: 14.0463
+Error norm: 35.8326
+Active features: 131160 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9972 (5267/5282)
 Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
+Macro P, R, F1: 0.9930, 0.9983, 0.9956
 
 ***** Iteration #14 *****
-Loss: 355.288
-Feature L2-norm: 13.5714
-Error norm: 28.5355
-Active features: 98370 / 113574
+Loss: 381.393
+Feature L2-norm: 13.8554
+Error norm: 41.2831
+Active features: 131160 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
 Accuracy: 0.9972 (5267/5282)
 Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
+Macro P, R, F1: 0.9930, 0.9983, 0.9956
 
 ***** Iteration #15 *****
-Loss: 345.01
-Feature L2-norm: 13.8762
-Error norm: 29.9838
-Active features: 98370 / 113574
+Loss: 368.77
+Feature L2-norm: 13.776
+Error norm: 46.3104
+Active features: 131160 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9972 (5267/5282)
 Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
+Macro P, R, F1: 0.9930, 0.9983, 0.9956
 
 ***** Iteration #16 *****
-Loss: 342.327
-Feature L2-norm: 14.1983
-Error norm: 42.5445
-Active features: 98370 / 113574
-Line search trials: 2
-Line search step: 0.186926
+Loss: 358.231
+Feature L2-norm: 13.7887
+Error norm: 34.424
+Active features: 131160 / 151432
+Line search trials: 1
+Line search step: 1
 Seconds required for this iteration: 0.02
 Accuracy: 0.9972 (5267/5282)
 Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
+Macro P, R, F1: 0.9930, 0.9983, 0.9956
 
 ***** Iteration #17 *****
-Loss: 334.893
-Feature L2-norm: 14.203
-Error norm: 21.5768
-Active features: 98370 / 113574
+Loss: 351.72
+Feature L2-norm: 14.406
+Error norm: 16.2307
+Active features: 131160 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
 Accuracy: 0.9972 (5267/5282)
 Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
+Macro P, R, F1: 0.9930, 0.9983, 0.9956
 
 ***** Iteration #18 *****
-Loss: 330.111
-Feature L2-norm: 13.9958
-Error norm: 18.0183
-Active features: 98370 / 113574
+Loss: 348.505
+Feature L2-norm: 14.7954
+Error norm: 13.9439
+Active features: 131160 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9972 (5267/5282)
 Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
+Macro P, R, F1: 0.9930, 0.9983, 0.9956
 
 ***** Iteration #19 *****
-Loss: 327.411
-Feature L2-norm: 13.7665
-Error norm: 14.5344
-Active features: 98370 / 113574
+Loss: 343.026
+Feature L2-norm: 15.142
+Error norm: 11.3545
+Active features: 131160 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
 Accuracy: 0.9972 (5267/5282)
 Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
+Macro P, R, F1: 0.9930, 0.9983, 0.9956
 
 ***** Iteration #20 *****
-Loss: 325.596
-Feature L2-norm: 14.1721
-Error norm: 41.3943
-Active features: 98370 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9972 (5267/5282)
-Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
-
-***** Iteration #21 *****
-Loss: 322.596
-Feature L2-norm: 14.3541
-Error norm: 11.3936
-Active features: 98370 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9972 (5267/5282)
-Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
-
-***** Iteration #22 *****
-Loss: 322.207
-Feature L2-norm: 14.351
-Error norm: 7.56142
-Active features: 98370 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.02
-Accuracy: 0.9972 (5267/5282)
-Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
-
-***** Iteration #23 *****
-Loss: 321.563
-Feature L2-norm: 14.345
-Error norm: 5.07038
-Active features: 98370 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9972 (5267/5282)
-Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
-
-***** Iteration #24 *****
-Loss: 320.885
-Feature L2-norm: 14.3333
-Error norm: 6.13623
-Active features: 98370 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9972 (5267/5282)
-Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
-
-***** Iteration #25 *****
-Loss: 320.718
-Feature L2-norm: 14.3513
-Error norm: 7.19772
-Active features: 98370 / 113574
+Loss: 342.44
+Feature L2-norm: 15.1477
+Error norm: 14.2358
+Active features: 131160 / 151432
 Line search trials: 2
-Line search step: 0.386651
-Seconds required for this iteration: 0.02
-Accuracy: 0.9972 (5267/5282)
-Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
-
-***** Iteration #26 *****
-Loss: 320.542
-Feature L2-norm: 14.3453
-Error norm: 4.46796
-Active features: 98370 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.02
-Accuracy: 0.9972 (5267/5282)
-Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
-
-***** Iteration #27 *****
-Loss: 320.339
-Feature L2-norm: 14.3314
-Error norm: 3.44588
-Active features: 98370 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9972 (5267/5282)
-Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
-
-***** Iteration #28 *****
-Loss: 320.19
-Feature L2-norm: 14.3234
-Error norm: 4.00359
-Active features: 98370 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9972 (5267/5282)
-Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
-
-***** Iteration #29 *****
-Loss: 320.005
-Feature L2-norm: 14.3039
-Error norm: 5.30773
-Active features: 98370 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.02
-Accuracy: 0.9972 (5267/5282)
-Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
-
-***** Iteration #30 *****
-Loss: 319.941
-Feature L2-norm: 14.3151
-Error norm: 6.89182
-Active features: 98370 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9972 (5267/5282)
-Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
-
-***** Iteration #31 *****
-Loss: 319.823
-Feature L2-norm: 14.3138
-Error norm: 2.01344
-Active features: 98370 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9972 (5267/5282)
-Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
-
-***** Iteration #32 *****
-Loss: 319.79
-Feature L2-norm: 14.3188
-Error norm: 1.74452
-Active features: 98370 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.02
-Accuracy: 0.9972 (5267/5282)
-Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
-
-***** Iteration #33 *****
-Loss: 319.729
-Feature L2-norm: 14.3365
-Error norm: 1.40705
-Active features: 98370 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9972 (5267/5282)
-Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
-
-***** Iteration #34 *****
-Loss: 319.704
-Feature L2-norm: 14.3557
-Error norm: 4.13575
-Active features: 98370 / 113574
-Line search trials: 2
-Line search step: 0.307825
-Seconds required for this iteration: 0.02
-Accuracy: 0.9972 (5267/5282)
-Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
-
-***** Iteration #35 *****
-Loss: 319.655
-Feature L2-norm: 14.3812
-Error norm: 1.9738
-Active features: 98370 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9972 (5267/5282)
-Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
-
-***** Iteration #36 *****
-Loss: 319.632
-Feature L2-norm: 14.3973
-Error norm: 1.19096
-Active features: 98370 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.02
-Accuracy: 0.9972 (5267/5282)
-Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
-
-***** Iteration #37 *****
-Loss: 319.61
-Feature L2-norm: 14.4151
-Error norm: 1.35102
-Active features: 98370 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9972 (5267/5282)
-Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
-
-***** Iteration #38 *****
-Loss: 319.585
-Feature L2-norm: 14.4366
-Error norm: 1.37495
-Active features: 98370 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9972 (5267/5282)
-Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
-
-***** Iteration #39 *****
-Loss: 319.576
-Feature L2-norm: 14.4472
-Error norm: 2.33481
-Active features: 98370 / 113574
-Line search trials: 2
-Line search step: 0.216284
+Line search step: 0.0916995
 Seconds required for this iteration: 0.03
 Accuracy: 0.9972 (5267/5282)
 Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
+Macro P, R, F1: 0.9930, 0.9983, 0.9956
+
+***** Iteration #21 *****
+Loss: 340.377
+Feature L2-norm: 15.1618
+Error norm: 10.375
+Active features: 131160 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9972 (5267/5282)
+Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
+Macro P, R, F1: 0.9930, 0.9983, 0.9956
+
+***** Iteration #22 *****
+Loss: 338.633
+Feature L2-norm: 15.15
+Error norm: 8.50713
+Active features: 131160 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9972 (5267/5282)
+Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
+Macro P, R, F1: 0.9930, 0.9983, 0.9956
+
+***** Iteration #23 *****
+Loss: 337.811
+Feature L2-norm: 15.1604
+Error norm: 5.66971
+Active features: 131160 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9972 (5267/5282)
+Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
+Macro P, R, F1: 0.9930, 0.9983, 0.9956
+
+***** Iteration #24 *****
+Loss: 337.479
+Feature L2-norm: 15.1663
+Error norm: 3.53262
+Active features: 131160 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9972 (5267/5282)
+Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
+Macro P, R, F1: 0.9930, 0.9983, 0.9956
+
+***** Iteration #25 *****
+Loss: 337.241
+Feature L2-norm: 15.1754
+Error norm: 3.2807
+Active features: 131160 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9972 (5267/5282)
+Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
+Macro P, R, F1: 0.9930, 0.9983, 0.9956
+
+***** Iteration #26 *****
+Loss: 337.04
+Feature L2-norm: 15.1966
+Error norm: 5.71129
+Active features: 131160 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9972 (5267/5282)
+Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
+Macro P, R, F1: 0.9930, 0.9983, 0.9956
+
+***** Iteration #27 *****
+Loss: 336.857
+Feature L2-norm: 15.2088
+Error norm: 5.22345
+Active features: 131160 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.01
+Accuracy: 0.9972 (5267/5282)
+Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
+Macro P, R, F1: 0.9930, 0.9983, 0.9956
+
+***** Iteration #28 *****
+Loss: 336.778
+Feature L2-norm: 15.2162
+Error norm: 4.1148
+Active features: 131160 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9972 (5267/5282)
+Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
+Macro P, R, F1: 0.9930, 0.9983, 0.9956
+
+***** Iteration #29 *****
+Loss: 336.739
+Feature L2-norm: 15.2162
+Error norm: 2.11559
+Active features: 131160 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9972 (5267/5282)
+Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
+Macro P, R, F1: 0.9930, 0.9983, 0.9956
+
+***** Iteration #30 *****
+Loss: 336.701
+Feature L2-norm: 15.2181
+Error norm: 2.06598
+Active features: 131160 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9972 (5267/5282)
+Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
+Macro P, R, F1: 0.9930, 0.9983, 0.9956
+
+***** Iteration #31 *****
+Loss: 336.624
+Feature L2-norm: 15.2261
+Error norm: 3.14943
+Active features: 131160 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9972 (5267/5282)
+Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
+Macro P, R, F1: 0.9930, 0.9983, 0.9956
+
+***** Iteration #32 *****
+Loss: 336.551
+Feature L2-norm: 15.2418
+Error norm: 2.91677
+Active features: 131160 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9972 (5267/5282)
+Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
+Macro P, R, F1: 0.9930, 0.9983, 0.9956
+
+***** Iteration #33 *****
+Loss: 336.52
+Feature L2-norm: 15.2567
+Error norm: 3.0381
+Active features: 131160 / 151432
+Line search trials: 2
+Line search step: 0.351353
+Seconds required for this iteration: 0.03
+Accuracy: 0.9972 (5267/5282)
+Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
+Macro P, R, F1: 0.9930, 0.9983, 0.9956
+
+***** Iteration #34 *****
+Loss: 336.467
+Feature L2-norm: 15.2796
+Error norm: 1.39215
+Active features: 131160 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9972 (5267/5282)
+Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
+Macro P, R, F1: 0.9930, 0.9983, 0.9956
+
+***** Iteration #35 *****
+Loss: 336.442
+Feature L2-norm: 15.2981
+Error norm: 1.14405
+Active features: 131160 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9972 (5267/5282)
+Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
+Macro P, R, F1: 0.9930, 0.9983, 0.9956
+
+***** Iteration #36 *****
+Loss: 336.432
+Feature L2-norm: 15.324
+Error norm: 3.96779
+Active features: 131160 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9972 (5267/5282)
+Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
+Macro P, R, F1: 0.9930, 0.9983, 0.9956
+
+***** Iteration #37 *****
+Loss: 336.41
+Feature L2-norm: 15.329
+Error norm: 1.41449
+Active features: 131160 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9972 (5267/5282)
+Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
+Macro P, R, F1: 0.9930, 0.9983, 0.9956
+
+***** Iteration #38 *****
+Loss: 336.4
+Feature L2-norm: 15.3358
+Error norm: 0.948832
+Active features: 131160 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9972 (5267/5282)
+Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
+Macro P, R, F1: 0.9930, 0.9983, 0.9956
+
+***** Iteration #39 *****
+Loss: 336.393
+Feature L2-norm: 15.3445
+Error norm: 1.0676
+Active features: 131160 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9972 (5267/5282)
+Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
+Macro P, R, F1: 0.9930, 0.9983, 0.9956
 
 ***** Iteration #40 *****
-Loss: 319.554
-Feature L2-norm: 14.4688
-Error norm: 1.14555
-Active features: 98370 / 113574
+Loss: 336.383
+Feature L2-norm: 15.3591
+Error norm: 0.847222
+Active features: 131160 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9972 (5267/5282)
 Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
+Macro P, R, F1: 0.9930, 0.9983, 0.9956
 
 ***** Iteration #41 *****
-Loss: 319.544
-Feature L2-norm: 14.4793
-Error norm: 0.628876
-Active features: 98370 / 113574
+Loss: 336.378
+Feature L2-norm: 15.3832
+Error norm: 1.21453
+Active features: 131160 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9972 (5267/5282)
 Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
+Macro P, R, F1: 0.9930, 0.9983, 0.9956
 
 ***** Iteration #42 *****
-Loss: 319.538
-Feature L2-norm: 14.4852
-Error norm: 0.554481
-Active features: 98370 / 113574
+Loss: 336.371
+Feature L2-norm: 15.3839
+Error norm: 0.630652
+Active features: 131160 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
 Accuracy: 0.9972 (5267/5282)
 Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
+Macro P, R, F1: 0.9930, 0.9983, 0.9956
 
 ***** Iteration #43 *****
-Loss: 319.535
-Feature L2-norm: 14.4877
-Error norm: 1.22166
-Active features: 98370 / 113574
-Line search trials: 2
-Line search step: 0.338096
-Seconds required for this iteration: 0.02
+Loss: 336.369
+Feature L2-norm: 15.3807
+Error norm: 0.475103
+Active features: 131160 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.01
 Accuracy: 0.9972 (5267/5282)
 Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
+Macro P, R, F1: 0.9930, 0.9983, 0.9956
 
 ***** Iteration #44 *****
-Loss: 319.532
-Feature L2-norm: 14.4896
-Error norm: 0.782119
-Active features: 98370 / 113574
+Loss: 336.364
+Feature L2-norm: 15.3826
+Error norm: 0.257715
+Active features: 131160 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9972 (5267/5282)
 Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
+Macro P, R, F1: 0.9930, 0.9983, 0.9956
 
 ***** Iteration #45 *****
-Loss: 319.528
-Feature L2-norm: 14.4931
-Error norm: 0.373672
-Active features: 98370 / 113574
+Loss: 336.361
+Feature L2-norm: 15.3854
+Error norm: 0.463638
+Active features: 131160 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
 Accuracy: 0.9972 (5267/5282)
 Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
+Macro P, R, F1: 0.9930, 0.9983, 0.9956
 
 ***** Iteration #46 *****
-Loss: 319.526
-Feature L2-norm: 14.4952
-Error norm: 0.446523
-Active features: 98370 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.01
+Loss: 336.361
+Feature L2-norm: 15.3857
+Error norm: 0.332289
+Active features: 131160 / 151432
+Line search trials: 2
+Line search step: 0.423779
+Seconds required for this iteration: 0.03
 Accuracy: 0.9972 (5267/5282)
 Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
+Macro P, R, F1: 0.9930, 0.9983, 0.9956
 
 ***** Iteration #47 *****
-Loss: 319.523
-Feature L2-norm: 14.4973
-Error norm: 0.428161
-Active features: 98370 / 113574
+Loss: 336.36
+Feature L2-norm: 15.3863
+Error norm: 0.219711
+Active features: 131160 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9972 (5267/5282)
 Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
+Macro P, R, F1: 0.9930, 0.9983, 0.9956
 
 ***** Iteration #48 *****
-Loss: 319.522
-Feature L2-norm: 14.4974
-Error norm: 0.506955
-Active features: 98370 / 113574
-Line search trials: 2
-Line search step: 0.253154
+Loss: 336.359
+Feature L2-norm: 15.3856
+Error norm: 0.151309
+Active features: 131160 / 151432
+Line search trials: 1
+Line search step: 1
 Seconds required for this iteration: 0.02
 Accuracy: 0.9972 (5267/5282)
 Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
+Macro P, R, F1: 0.9930, 0.9983, 0.9956
 
 ***** Iteration #49 *****
-Loss: 319.521
-Feature L2-norm: 14.4963
-Error norm: 0.2443
-Active features: 98370 / 113574
+Loss: 336.359
+Feature L2-norm: 15.3838
+Error norm: 0.151284
+Active features: 131160 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
 Accuracy: 0.9972 (5267/5282)
 Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
+Macro P, R, F1: 0.9930, 0.9983, 0.9956
 
 ***** Iteration #50 *****
-Loss: 319.521
-Feature L2-norm: 14.4945
-Error norm: 0.193288
-Active features: 98370 / 113574
+Loss: 336.358
+Feature L2-norm: 15.3811
+Error norm: 0.284187
+Active features: 131160 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9972 (5267/5282)
 Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
+Macro P, R, F1: 0.9930, 0.9983, 0.9956
 
 ***** Iteration #51 *****
-Loss: 319.52
-Feature L2-norm: 14.4927
-Error norm: 0.220172
-Active features: 98370 / 113574
+Loss: 336.358
+Feature L2-norm: 15.3791
+Error norm: 0.329121
+Active features: 131160 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9972 (5267/5282)
 Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
+Macro P, R, F1: 0.9930, 0.9983, 0.9956
 
 ***** Iteration #52 *****
-Loss: 319.52
-Feature L2-norm: 14.4905
-Error norm: 0.521177
-Active features: 98370 / 113574
+Loss: 336.358
+Feature L2-norm: 15.38
+Error norm: 0.0909429
+Active features: 131160 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
 Accuracy: 0.9972 (5267/5282)
 Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
+Macro P, R, F1: 0.9930, 0.9983, 0.9956
 
 ***** Iteration #53 *****
-Loss: 319.519
-Feature L2-norm: 14.4887
-Error norm: 0.164504
-Active features: 98370 / 113574
+Loss: 336.358
+Feature L2-norm: 15.3803
+Error norm: 0.0719654
+Active features: 131160 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9972 (5267/5282)
 Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
+Macro P, R, F1: 0.9930, 0.9983, 0.9956
 
 ***** Iteration #54 *****
-Loss: 319.519
-Feature L2-norm: 14.4897
-Error norm: 0.110042
-Active features: 98370 / 113574
+Loss: 336.358
+Feature L2-norm: 15.3806
+Error norm: 0.104831
+Active features: 131160 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9972 (5267/5282)
 Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
+Macro P, R, F1: 0.9930, 0.9983, 0.9956
 
 ***** Iteration #55 *****
-Loss: 319.519
-Feature L2-norm: 14.4901
-Error norm: 0.084184
-Active features: 98370 / 113574
+Loss: 336.358
+Feature L2-norm: 15.3809
+Error norm: 0.215901
+Active features: 131160 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
 Accuracy: 0.9972 (5267/5282)
 Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
+Macro P, R, F1: 0.9930, 0.9983, 0.9956
 
 ***** Iteration #56 *****
-Loss: 319.519
-Feature L2-norm: 14.4905
-Error norm: 0.131145
-Active features: 98370 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9972 (5267/5282)
-Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
-
-***** Iteration #57 *****
-Loss: 319.519
-Feature L2-norm: 14.4898
-Error norm: 0.0845804
-Active features: 98370 / 113574
-Line search trials: 2
-Line search step: 0.402761
-Seconds required for this iteration: 0.02
-Accuracy: 0.9972 (5267/5282)
-Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
-
-***** Iteration #58 *****
-Loss: 319.519
-Feature L2-norm: 14.4894
-Error norm: 0.0563545
-Active features: 98370 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9972 (5267/5282)
-Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
-
-***** Iteration #59 *****
-Loss: 319.519
-Feature L2-norm: 14.489
-Error norm: 0.0398816
-Active features: 98370 / 113574
+Loss: 336.357
+Feature L2-norm: 15.3809
+Error norm: 0.0806951
+Active features: 131160 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
 Accuracy: 0.9972 (5267/5282)
 Micro P, R, F1: 0.9972 (5267/5282), 0.9972 (5267/5282), 0.9972
-Macro P, R, F1: 0.9916, 0.9978, 0.9947
+Macro P, R, F1: 0.9930, 0.9983, 0.9956
 
 L-BFGS terminated with the stopping criteria
-Seconds required: 0.84
+Seconds required: 1.12
 
 ===== Cross validation (3/5) =====
 Multi-class logistic regression using L-BFGS
@@ -1387,646 +1363,670 @@ delta: 1e-05
 max_iterations: 2147483647
 linesearch: MoreThuente
 max_linesearch: 20
-lbfgs.regularization_start: 3
+lbfgs.regularization_start: 4
 
 ***** Iteration #1 *****
-Loss: 13394.1
+Loss: 16884.1
 Feature L2-norm: 1
-Error norm: 7407.16
-Active features: 97776 / 113574
+Error norm: 9143.52
+Active features: 129789 / 151432
 Line search trials: 1
-Line search step: 7.01867e-05
-Seconds required for this iteration: 0.02
+Line search step: 6.0537e-05
+Seconds required for this iteration: 0.03
 Accuracy: 0.8167 (4314/5282)
 Micro P, R, F1: 0.8167 (4314/5282), 0.8167 (4314/5282), 0.8167
-Macro P, R, F1: 0.5953, 0.5119, 0.5267
+Macro P, R, F1: 0.4465, 0.3840, 0.3950
 
 ***** Iteration #2 *****
-Loss: 7196.76
-Feature L2-norm: 2.1835
-Error norm: 3747.85
-Active features: 97776 / 113574
+Loss: 7886.69
+Feature L2-norm: 2.49092
+Error norm: 3775.29
+Active features: 130368 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.01
-Accuracy: 0.9110 (4812/5282)
-Micro P, R, F1: 0.9110 (4812/5282), 0.9110 (4812/5282), 0.9110
-Macro P, R, F1: 0.6003, 0.6469, 0.6227
+Accuracy: 0.9105 (4809/5282)
+Micro P, R, F1: 0.9105 (4809/5282), 0.9105 (4809/5282), 0.9105
+Macro P, R, F1: 0.4517, 0.4839, 0.4672
 
 ***** Iteration #3 *****
-Loss: 3738.65
-Feature L2-norm: 3.48895
-Error norm: 2507.9
-Active features: 97776 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9572 (5056/5282)
-Micro P, R, F1: 0.9572 (5056/5282), 0.9572 (5056/5282), 0.9572
-Macro P, R, F1: 0.9759, 0.8676, 0.9116
-
-***** Iteration #4 *****
-Loss: 1890.18
-Feature L2-norm: 4.85726
-Error norm: 755.417
-Active features: 97776 / 113574
+Loss: 4592.08
+Feature L2-norm: 3.59592
+Error norm: 2519.53
+Active features: 130368 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
-Accuracy: 0.9864 (5210/5282)
-Micro P, R, F1: 0.9864 (5210/5282), 0.9864 (5210/5282), 0.9864
-Macro P, R, F1: 0.9882, 0.9462, 0.9653
+Accuracy: 0.9544 (5041/5282)
+Micro P, R, F1: 0.9544 (5041/5282), 0.9544 (5041/5282), 0.9544
+Macro P, R, F1: 0.7317, 0.6603, 0.6897
+
+***** Iteration #4 *****
+Loss: 2431.4
+Feature L2-norm: 5.25313
+Error norm: 1124.66
+Active features: 130368 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9809 (5181/5282)
+Micro P, R, F1: 0.9809 (5181/5282), 0.9809 (5181/5282), 0.9809
+Macro P, R, F1: 0.7349, 0.7281, 0.7311
 
 ***** Iteration #5 *****
-Loss: 1379.02
-Feature L2-norm: 5.7258
-Error norm: 518.697
-Active features: 97776 / 113574
+Loss: 1784.13
+Feature L2-norm: 6.06793
+Error norm: 696.073
+Active features: 130368 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9881 (5219/5282)
-Micro P, R, F1: 0.9881 (5219/5282), 0.9881 (5219/5282), 0.9881
-Macro P, R, F1: 0.9891, 0.9522, 0.9691
+Seconds required for this iteration: 0.02
+Accuracy: 0.9824 (5189/5282)
+Micro P, R, F1: 0.9824 (5189/5282), 0.9824 (5189/5282), 0.9824
+Macro P, R, F1: 0.7384, 0.7287, 0.7332
 
 ***** Iteration #6 *****
-Loss: 856.116
-Feature L2-norm: 7.06075
-Error norm: 242.989
-Active features: 97776 / 113574
+Loss: 1052.97
+Feature L2-norm: 7.53024
+Error norm: 348.178
+Active features: 130368 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.01
-Accuracy: 0.9922 (5241/5282)
-Micro P, R, F1: 0.9922 (5241/5282), 0.9922 (5241/5282), 0.9922
-Macro P, R, F1: 0.9920, 0.9713, 0.9812
+Accuracy: 0.9867 (5212/5282)
+Micro P, R, F1: 0.9867 (5212/5282), 0.9867 (5212/5282), 0.9867
+Macro P, R, F1: 0.9915, 0.8296, 0.8785
 
 ***** Iteration #7 *****
-Loss: 604.079
-Feature L2-norm: 8.33141
-Error norm: 157.71
-Active features: 97776 / 113574
+Loss: 705.037
+Feature L2-norm: 9.05299
+Error norm: 206.651
+Active features: 130368 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9926 (5243/5282)
+Micro P, R, F1: 0.9926 (5243/5282), 0.9926 (5243/5282), 0.9926
+Macro P, R, F1: 0.9935, 0.9655, 0.9790
+
+***** Iteration #8 *****
+Loss: 542.78
+Feature L2-norm: 10.4717
+Error norm: 82.0524
+Active features: 130368 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
 Accuracy: 0.9968 (5265/5282)
 Micro P, R, F1: 0.9968 (5265/5282), 0.9968 (5265/5282), 0.9968
-Macro P, R, F1: 0.9944, 0.9922, 0.9933
-
-***** Iteration #8 *****
-Loss: 492.011
-Feature L2-norm: 9.71148
-Error norm: 175.296
-Active features: 97776 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9973 (5268/5282)
-Micro P, R, F1: 0.9973 (5268/5282), 0.9973 (5268/5282), 0.9973
-Macro P, R, F1: 0.9947, 0.9948, 0.9948
+Macro P, R, F1: 0.9954, 0.9824, 0.9887
 
 ***** Iteration #9 *****
-Loss: 434.981
-Feature L2-norm: 10.9063
-Error norm: 41.7743
-Active features: 97776 / 113574
+Loss: 488.54
+Feature L2-norm: 11.3375
+Error norm: 57.8883
+Active features: 130368 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9975 (5269/5282)
 Micro P, R, F1: 0.9975 (5269/5282), 0.9975 (5269/5282), 0.9975
-Macro P, R, F1: 0.9948, 0.9957, 0.9953
+Macro P, R, F1: 0.9957, 0.9855, 0.9904
 
 ***** Iteration #10 *****
-Loss: 425.681
-Feature L2-norm: 11.3514
-Error norm: 36.4705
-Active features: 97776 / 113574
+Loss: 451.154
+Feature L2-norm: 12.6571
+Error norm: 131.311
+Active features: 130368 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
 Accuracy: 0.9975 (5269/5282)
 Micro P, R, F1: 0.9975 (5269/5282), 0.9975 (5269/5282), 0.9975
-Macro P, R, F1: 0.9948, 0.9957, 0.9953
+Macro P, R, F1: 0.9957, 0.9855, 0.9904
 
 ***** Iteration #11 *****
-Loss: 410.437
-Feature L2-norm: 11.771
-Error norm: 58.5386
-Active features: 97776 / 113574
-Line search trials: 2
-Line search step: 0.50677
+Loss: 425.238
+Feature L2-norm: 13.6887
+Error norm: 38.4259
+Active features: 130368 / 151432
+Line search trials: 1
+Line search step: 1
 Seconds required for this iteration: 0.02
 Accuracy: 0.9975 (5269/5282)
 Micro P, R, F1: 0.9975 (5269/5282), 0.9975 (5269/5282), 0.9975
-Macro P, R, F1: 0.9948, 0.9957, 0.9953
+Macro P, R, F1: 0.9957, 0.9855, 0.9904
 
 ***** Iteration #12 *****
-Loss: 390.158
-Feature L2-norm: 12.7232
-Error norm: 40.1321
-Active features: 97776 / 113574
+Loss: 418.455
+Feature L2-norm: 13.9321
+Error norm: 28.1889
+Active features: 130368 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9977 (5270/5282)
-Micro P, R, F1: 0.9977 (5270/5282), 0.9977 (5270/5282), 0.9977
-Macro P, R, F1: 0.9949, 0.9966, 0.9957
+Seconds required for this iteration: 0.02
+Accuracy: 0.9975 (5269/5282)
+Micro P, R, F1: 0.9975 (5269/5282), 0.9975 (5269/5282), 0.9975
+Macro P, R, F1: 0.9957, 0.9855, 0.9904
 
 ***** Iteration #13 *****
-Loss: 371.924
-Feature L2-norm: 13.3835
-Error norm: 25.8806
-Active features: 97776 / 113574
+Loss: 404.713
+Feature L2-norm: 14.3696
+Error norm: 30.8825
+Active features: 130368 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9979 (5271/5282)
-Micro P, R, F1: 0.9979 (5271/5282), 0.9979 (5271/5282), 0.9979
-Macro P, R, F1: 0.9950, 0.9974, 0.9962
+Seconds required for this iteration: 0.02
+Accuracy: 0.9977 (5270/5282)
+Micro P, R, F1: 0.9977 (5270/5282), 0.9977 (5270/5282), 0.9977
+Macro P, R, F1: 0.9958, 0.9898, 0.9927
 
 ***** Iteration #14 *****
-Loss: 353.934
-Feature L2-norm: 13.9923
-Error norm: 27.1587
-Active features: 97776 / 113574
+Loss: 387.515
+Feature L2-norm: 14.711
+Error norm: 28.7658
+Active features: 130368 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
-Accuracy: 0.9981 (5272/5282)
-Micro P, R, F1: 0.9981 (5272/5282), 0.9981 (5272/5282), 0.9981
-Macro P, R, F1: 0.9951, 0.9983, 0.9967
+Accuracy: 0.9979 (5271/5282)
+Micro P, R, F1: 0.9979 (5271/5282), 0.9979 (5271/5282), 0.9979
+Macro P, R, F1: 0.9958, 0.9942, 0.9950
 
 ***** Iteration #15 *****
-Loss: 345.836
-Feature L2-norm: 14.2291
-Error norm: 29.671
-Active features: 97776 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9981 (5272/5282)
-Micro P, R, F1: 0.9981 (5272/5282), 0.9981 (5272/5282), 0.9981
-Macro P, R, F1: 0.9951, 0.9983, 0.9967
-
-***** Iteration #16 *****
-Loss: 341.962
-Feature L2-norm: 14.1006
-Error norm: 17.881
-Active features: 97776 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9981 (5272/5282)
-Micro P, R, F1: 0.9981 (5272/5282), 0.9981 (5272/5282), 0.9981
-Macro P, R, F1: 0.9951, 0.9983, 0.9967
-
-***** Iteration #17 *****
-Loss: 339.453
-Feature L2-norm: 13.8824
-Error norm: 12.8246
-Active features: 97776 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.02
-Accuracy: 0.9981 (5272/5282)
-Micro P, R, F1: 0.9981 (5272/5282), 0.9981 (5272/5282), 0.9981
-Macro P, R, F1: 0.9951, 0.9983, 0.9967
-
-***** Iteration #18 *****
-Loss: 337.1
-Feature L2-norm: 13.867
-Error norm: 11.082
-Active features: 97776 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9981 (5272/5282)
-Micro P, R, F1: 0.9981 (5272/5282), 0.9981 (5272/5282), 0.9981
-Macro P, R, F1: 0.9951, 0.9983, 0.9967
-
-***** Iteration #19 *****
-Loss: 336.129
-Feature L2-norm: 13.8382
-Error norm: 22.9712
-Active features: 97776 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9979 (5271/5282)
-Micro P, R, F1: 0.9979 (5271/5282), 0.9979 (5271/5282), 0.9979
-Macro P, R, F1: 0.9950, 0.9974, 0.9962
-
-***** Iteration #20 *****
-Loss: 334.245
-Feature L2-norm: 14.0852
-Error norm: 7.36854
-Active features: 97776 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.02
-Accuracy: 0.9979 (5271/5282)
-Micro P, R, F1: 0.9979 (5271/5282), 0.9979 (5271/5282), 0.9979
-Macro P, R, F1: 0.9950, 0.9974, 0.9962
-
-***** Iteration #21 *****
-Loss: 333.655
-Feature L2-norm: 14.261
-Error norm: 5.95078
-Active features: 97776 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9979 (5271/5282)
-Micro P, R, F1: 0.9979 (5271/5282), 0.9979 (5271/5282), 0.9979
-Macro P, R, F1: 0.9950, 0.9974, 0.9962
-
-***** Iteration #22 *****
-Loss: 333.084
-Feature L2-norm: 14.4087
-Error norm: 6.4842
-Active features: 97776 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9979 (5271/5282)
-Micro P, R, F1: 0.9979 (5271/5282), 0.9979 (5271/5282), 0.9979
-Macro P, R, F1: 0.9950, 0.9974, 0.9962
-
-***** Iteration #23 *****
-Loss: 332.956
-Feature L2-norm: 14.4695
-Error norm: 5.16222
-Active features: 97776 / 113574
+Loss: 376.123
+Feature L2-norm: 14.5663
+Error norm: 51.5388
+Active features: 130368 / 151432
 Line search trials: 2
-Line search step: 0.321938
+Line search step: 0.486021
 Seconds required for this iteration: 0.03
 Accuracy: 0.9979 (5271/5282)
 Micro P, R, F1: 0.9979 (5271/5282), 0.9979 (5271/5282), 0.9979
-Macro P, R, F1: 0.9950, 0.9974, 0.9962
+Macro P, R, F1: 0.9958, 0.9942, 0.9950
+
+***** Iteration #16 *****
+Loss: 366.825
+Feature L2-norm: 14.7531
+Error norm: 23.0447
+Active features: 130368 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9981 (5272/5282)
+Micro P, R, F1: 0.9981 (5272/5282), 0.9981 (5272/5282), 0.9981
+Macro P, R, F1: 0.9959, 0.9986, 0.9973
+
+***** Iteration #17 *****
+Loss: 362.731
+Feature L2-norm: 14.5096
+Error norm: 18.0833
+Active features: 130368 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9979 (5271/5282)
+Micro P, R, F1: 0.9979 (5271/5282), 0.9979 (5271/5282), 0.9979
+Macro P, R, F1: 0.9958, 0.9942, 0.9950
+
+***** Iteration #18 *****
+Loss: 358.959
+Feature L2-norm: 14.3869
+Error norm: 34.8859
+Active features: 130368 / 151432
+Line search trials: 2
+Line search step: 0.503939
+Seconds required for this iteration: 0.03
+Accuracy: 0.9975 (5269/5282)
+Micro P, R, F1: 0.9975 (5269/5282), 0.9975 (5269/5282), 0.9975
+Macro P, R, F1: 0.9957, 0.9855, 0.9904
+
+***** Iteration #19 *****
+Loss: 356.017
+Feature L2-norm: 14.2992
+Error norm: 12.8153
+Active features: 130368 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9975 (5269/5282)
+Micro P, R, F1: 0.9975 (5269/5282), 0.9975 (5269/5282), 0.9975
+Macro P, R, F1: 0.9957, 0.9855, 0.9904
+
+***** Iteration #20 *****
+Loss: 354.413
+Feature L2-norm: 14.4986
+Error norm: 10.5768
+Active features: 130368 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.01
+Accuracy: 0.9975 (5269/5282)
+Micro P, R, F1: 0.9975 (5269/5282), 0.9975 (5269/5282), 0.9975
+Macro P, R, F1: 0.9957, 0.9855, 0.9904
+
+***** Iteration #21 *****
+Loss: 350.804
+Feature L2-norm: 15.0633
+Error norm: 13.8579
+Active features: 130368 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9975 (5269/5282)
+Micro P, R, F1: 0.9975 (5269/5282), 0.9975 (5269/5282), 0.9975
+Macro P, R, F1: 0.9957, 0.9855, 0.9904
+
+***** Iteration #22 *****
+Loss: 349.898
+Feature L2-norm: 15.2753
+Error norm: 7.39268
+Active features: 130368 / 151432
+Line search trials: 2
+Line search step: 0.4499
+Seconds required for this iteration: 0.04
+Accuracy: 0.9975 (5269/5282)
+Micro P, R, F1: 0.9975 (5269/5282), 0.9975 (5269/5282), 0.9975
+Macro P, R, F1: 0.9957, 0.9855, 0.9904
+
+***** Iteration #23 *****
+Loss: 349.538
+Feature L2-norm: 15.3085
+Error norm: 4.82091
+Active features: 130368 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9975 (5269/5282)
+Micro P, R, F1: 0.9975 (5269/5282), 0.9975 (5269/5282), 0.9975
+Macro P, R, F1: 0.9957, 0.9855, 0.9904
 
 ***** Iteration #24 *****
-Loss: 332.839
-Feature L2-norm: 14.4745
-Error norm: 4.11648
-Active features: 97776 / 113574
+Loss: 349.186
+Feature L2-norm: 15.2876
+Error norm: 3.9282
+Active features: 130368 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9979 (5271/5282)
-Micro P, R, F1: 0.9979 (5271/5282), 0.9979 (5271/5282), 0.9979
-Macro P, R, F1: 0.9950, 0.9974, 0.9962
+Seconds required for this iteration: 0.02
+Accuracy: 0.9975 (5269/5282)
+Micro P, R, F1: 0.9975 (5269/5282), 0.9975 (5269/5282), 0.9975
+Macro P, R, F1: 0.9957, 0.9855, 0.9904
 
 ***** Iteration #25 *****
-Loss: 332.666
-Feature L2-norm: 14.4811
-Error norm: 3.46159
-Active features: 97776 / 113574
+Loss: 348.791
+Feature L2-norm: 15.2768
+Error norm: 5.59411
+Active features: 130368 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.01
-Accuracy: 0.9977 (5270/5282)
-Micro P, R, F1: 0.9977 (5270/5282), 0.9977 (5270/5282), 0.9977
-Macro P, R, F1: 0.9949, 0.9966, 0.9957
+Accuracy: 0.9975 (5269/5282)
+Micro P, R, F1: 0.9975 (5269/5282), 0.9975 (5269/5282), 0.9975
+Macro P, R, F1: 0.9957, 0.9855, 0.9904
 
 ***** Iteration #26 *****
-Loss: 332.357
-Feature L2-norm: 14.483
-Error norm: 3.07295
-Active features: 97776 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.02
-Accuracy: 0.9977 (5270/5282)
-Micro P, R, F1: 0.9977 (5270/5282), 0.9977 (5270/5282), 0.9977
-Macro P, R, F1: 0.9949, 0.9966, 0.9957
+Loss: 348.635
+Feature L2-norm: 15.2757
+Error norm: 5.56624
+Active features: 130368 / 151432
+Line search trials: 2
+Line search step: 0.241098
+Seconds required for this iteration: 0.03
+Accuracy: 0.9975 (5269/5282)
+Micro P, R, F1: 0.9975 (5269/5282), 0.9975 (5269/5282), 0.9975
+Macro P, R, F1: 0.9957, 0.9855, 0.9904
 
 ***** Iteration #27 *****
-Loss: 332.165
-Feature L2-norm: 14.4742
-Error norm: 4.32035
-Active features: 97776 / 113574
+Loss: 348.478
+Feature L2-norm: 15.2724
+Error norm: 3.17084
+Active features: 130368 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9977 (5270/5282)
-Micro P, R, F1: 0.9977 (5270/5282), 0.9977 (5270/5282), 0.9977
-Macro P, R, F1: 0.9949, 0.9966, 0.9957
+Seconds required for this iteration: 0.02
+Accuracy: 0.9975 (5269/5282)
+Micro P, R, F1: 0.9975 (5269/5282), 0.9975 (5269/5282), 0.9975
+Macro P, R, F1: 0.9957, 0.9855, 0.9904
 
 ***** Iteration #28 *****
-Loss: 332.082
-Feature L2-norm: 14.4865
-Error norm: 2.98727
-Active features: 97776 / 113574
-Line search trials: 2
-Line search step: 0.366058
+Loss: 348.364
+Feature L2-norm: 15.2792
+Error norm: 2.62951
+Active features: 130368 / 151432
+Line search trials: 1
+Line search step: 1
 Seconds required for this iteration: 0.02
-Accuracy: 0.9977 (5270/5282)
-Micro P, R, F1: 0.9977 (5270/5282), 0.9977 (5270/5282), 0.9977
-Macro P, R, F1: 0.9949, 0.9966, 0.9957
+Accuracy: 0.9975 (5269/5282)
+Micro P, R, F1: 0.9975 (5269/5282), 0.9975 (5269/5282), 0.9975
+Macro P, R, F1: 0.9957, 0.9855, 0.9904
 
 ***** Iteration #29 *****
-Loss: 332.026
-Feature L2-norm: 14.4747
-Error norm: 1.53866
-Active features: 97776 / 113574
+Loss: 348.141
+Feature L2-norm: 15.3092
+Error norm: 2.45261
+Active features: 130368 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
-Accuracy: 0.9977 (5270/5282)
-Micro P, R, F1: 0.9977 (5270/5282), 0.9977 (5270/5282), 0.9977
-Macro P, R, F1: 0.9949, 0.9966, 0.9957
+Accuracy: 0.9975 (5269/5282)
+Micro P, R, F1: 0.9975 (5269/5282), 0.9975 (5269/5282), 0.9975
+Macro P, R, F1: 0.9957, 0.9855, 0.9904
 
 ***** Iteration #30 *****
-Loss: 331.99
-Feature L2-norm: 14.4721
-Error norm: 1.40715
-Active features: 97776 / 113574
+Loss: 347.98
+Feature L2-norm: 15.3455
+Error norm: 2.10193
+Active features: 130368 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9979 (5271/5282)
-Micro P, R, F1: 0.9979 (5271/5282), 0.9979 (5271/5282), 0.9979
-Macro P, R, F1: 0.9950, 0.9974, 0.9962
+Seconds required for this iteration: 0.02
+Accuracy: 0.9975 (5269/5282)
+Micro P, R, F1: 0.9975 (5269/5282), 0.9975 (5269/5282), 0.9975
+Macro P, R, F1: 0.9957, 0.9855, 0.9904
 
 ***** Iteration #31 *****
-Loss: 331.951
-Feature L2-norm: 14.4789
-Error norm: 1.82358
-Active features: 97776 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9979 (5271/5282)
-Micro P, R, F1: 0.9979 (5271/5282), 0.9979 (5271/5282), 0.9979
-Macro P, R, F1: 0.9950, 0.9974, 0.9962
+Loss: 347.96
+Feature L2-norm: 15.3521
+Error norm: 2.70018
+Active features: 130368 / 151432
+Line search trials: 2
+Line search step: 0.155285
+Seconds required for this iteration: 0.03
+Accuracy: 0.9975 (5269/5282)
+Micro P, R, F1: 0.9975 (5269/5282), 0.9975 (5269/5282), 0.9975
+Macro P, R, F1: 0.9957, 0.9855, 0.9904
 
 ***** Iteration #32 *****
-Loss: 331.925
-Feature L2-norm: 14.4954
-Error norm: 2.47078
-Active features: 97776 / 113574
-Line search trials: 2
-Line search step: 0.442176
+Loss: 347.907
+Feature L2-norm: 15.3721
+Error norm: 1.45665
+Active features: 130368 / 151432
+Line search trials: 1
+Line search step: 1
 Seconds required for this iteration: 0.02
-Accuracy: 0.9979 (5271/5282)
-Micro P, R, F1: 0.9979 (5271/5282), 0.9979 (5271/5282), 0.9979
-Macro P, R, F1: 0.9950, 0.9974, 0.9962
+Accuracy: 0.9975 (5269/5282)
+Micro P, R, F1: 0.9975 (5269/5282), 0.9975 (5269/5282), 0.9975
+Macro P, R, F1: 0.9957, 0.9855, 0.9904
 
 ***** Iteration #33 *****
-Loss: 331.903
-Feature L2-norm: 14.509
-Error norm: 1.30096
-Active features: 97776 / 113574
+Loss: 347.872
+Feature L2-norm: 15.3809
+Error norm: 1.10948
+Active features: 130368 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
-Accuracy: 0.9979 (5271/5282)
-Micro P, R, F1: 0.9979 (5271/5282), 0.9979 (5271/5282), 0.9979
-Macro P, R, F1: 0.9950, 0.9974, 0.9962
+Accuracy: 0.9975 (5269/5282)
+Micro P, R, F1: 0.9975 (5269/5282), 0.9975 (5269/5282), 0.9975
+Macro P, R, F1: 0.9957, 0.9855, 0.9904
 
 ***** Iteration #34 *****
-Loss: 331.885
-Feature L2-norm: 14.5295
-Error norm: 0.976003
-Active features: 97776 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9977 (5270/5282)
-Micro P, R, F1: 0.9977 (5270/5282), 0.9977 (5270/5282), 0.9977
-Macro P, R, F1: 0.9949, 0.9966, 0.9957
+Loss: 347.85
+Feature L2-norm: 15.3888
+Error norm: 2.92005
+Active features: 130368 / 151432
+Line search trials: 2
+Line search step: 0.450931
+Seconds required for this iteration: 0.03
+Accuracy: 0.9975 (5269/5282)
+Micro P, R, F1: 0.9975 (5269/5282), 0.9975 (5269/5282), 0.9975
+Macro P, R, F1: 0.9957, 0.9855, 0.9904
 
 ***** Iteration #35 *****
-Loss: 331.874
-Feature L2-norm: 14.5394
-Error norm: 0.927912
-Active features: 97776 / 113574
+Loss: 347.822
+Feature L2-norm: 15.3973
+Error norm: 1.11028
+Active features: 130368 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9977 (5270/5282)
-Micro P, R, F1: 0.9977 (5270/5282), 0.9977 (5270/5282), 0.9977
-Macro P, R, F1: 0.9949, 0.9966, 0.9957
+Seconds required for this iteration: 0.02
+Accuracy: 0.9975 (5269/5282)
+Micro P, R, F1: 0.9975 (5269/5282), 0.9975 (5269/5282), 0.9975
+Macro P, R, F1: 0.9957, 0.9855, 0.9904
 
 ***** Iteration #36 *****
-Loss: 331.85
-Feature L2-norm: 14.5608
-Error norm: 1.15916
-Active features: 97776 / 113574
+Loss: 347.814
+Feature L2-norm: 15.3989
+Error norm: 0.845878
+Active features: 130368 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
-Accuracy: 0.9979 (5271/5282)
-Micro P, R, F1: 0.9979 (5271/5282), 0.9979 (5271/5282), 0.9979
-Macro P, R, F1: 0.9950, 0.9974, 0.9962
+Accuracy: 0.9975 (5269/5282)
+Micro P, R, F1: 0.9975 (5269/5282), 0.9975 (5269/5282), 0.9975
+Macro P, R, F1: 0.9957, 0.9855, 0.9904
 
 ***** Iteration #37 *****
-Loss: 331.845
-Feature L2-norm: 14.5653
-Error norm: 0.758814
-Active features: 97776 / 113574
-Line search trials: 2
-Line search step: 0.192483
+Loss: 347.798
+Feature L2-norm: 15.4066
+Error norm: 0.626683
+Active features: 130368 / 151432
+Line search trials: 1
+Line search step: 1
 Seconds required for this iteration: 0.02
-Accuracy: 0.9979 (5271/5282)
-Micro P, R, F1: 0.9979 (5271/5282), 0.9979 (5271/5282), 0.9979
-Macro P, R, F1: 0.9950, 0.9974, 0.9962
+Accuracy: 0.9975 (5269/5282)
+Micro P, R, F1: 0.9975 (5269/5282), 0.9975 (5269/5282), 0.9975
+Macro P, R, F1: 0.9957, 0.9855, 0.9904
 
 ***** Iteration #38 *****
-Loss: 331.84
-Feature L2-norm: 14.5661
-Error norm: 0.502583
-Active features: 97776 / 113574
+Loss: 347.788
+Feature L2-norm: 15.4158
+Error norm: 0.65754
+Active features: 130368 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9979 (5271/5282)
-Micro P, R, F1: 0.9979 (5271/5282), 0.9979 (5271/5282), 0.9979
-Macro P, R, F1: 0.9950, 0.9974, 0.9962
+Seconds required for this iteration: 0.02
+Accuracy: 0.9975 (5269/5282)
+Micro P, R, F1: 0.9975 (5269/5282), 0.9975 (5269/5282), 0.9975
+Macro P, R, F1: 0.9957, 0.9855, 0.9904
 
 ***** Iteration #39 *****
-Loss: 331.835
-Feature L2-norm: 14.5641
-Error norm: 0.408
-Active features: 97776 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.02
-Accuracy: 0.9979 (5271/5282)
-Micro P, R, F1: 0.9979 (5271/5282), 0.9979 (5271/5282), 0.9979
-Macro P, R, F1: 0.9950, 0.9974, 0.9962
+Loss: 347.782
+Feature L2-norm: 15.4261
+Error norm: 1.03189
+Active features: 130368 / 151432
+Line search trials: 2
+Line search step: 0.394693
+Seconds required for this iteration: 0.03
+Accuracy: 0.9975 (5269/5282)
+Micro P, R, F1: 0.9975 (5269/5282), 0.9975 (5269/5282), 0.9975
+Macro P, R, F1: 0.9957, 0.9855, 0.9904
 
 ***** Iteration #40 *****
-Loss: 331.833
-Feature L2-norm: 14.5658
-Error norm: 0.984741
-Active features: 97776 / 113574
-Line search trials: 2
-Line search step: 0.280247
+Loss: 347.777
+Feature L2-norm: 15.4374
+Error norm: 0.706693
+Active features: 130368 / 151432
+Line search trials: 1
+Line search step: 1
 Seconds required for this iteration: 0.02
-Accuracy: 0.9979 (5271/5282)
-Micro P, R, F1: 0.9979 (5271/5282), 0.9979 (5271/5282), 0.9979
-Macro P, R, F1: 0.9950, 0.9974, 0.9962
+Accuracy: 0.9975 (5269/5282)
+Micro P, R, F1: 0.9975 (5269/5282), 0.9975 (5269/5282), 0.9975
+Macro P, R, F1: 0.9957, 0.9855, 0.9904
 
 ***** Iteration #41 *****
-Loss: 331.83
-Feature L2-norm: 14.5645
-Error norm: 0.456118
-Active features: 97776 / 113574
+Loss: 347.775
+Feature L2-norm: 15.4363
+Error norm: 0.288413
+Active features: 130368 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9979 (5271/5282)
-Micro P, R, F1: 0.9979 (5271/5282), 0.9979 (5271/5282), 0.9979
-Macro P, R, F1: 0.9950, 0.9974, 0.9962
+Seconds required for this iteration: 0.02
+Accuracy: 0.9975 (5269/5282)
+Micro P, R, F1: 0.9975 (5269/5282), 0.9975 (5269/5282), 0.9975
+Macro P, R, F1: 0.9957, 0.9855, 0.9904
 
 ***** Iteration #42 *****
-Loss: 331.829
-Feature L2-norm: 14.5657
-Error norm: 0.287748
-Active features: 97776 / 113574
+Loss: 347.774
+Feature L2-norm: 15.4361
+Error norm: 0.27322
+Active features: 130368 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.02
-Accuracy: 0.9979 (5271/5282)
-Micro P, R, F1: 0.9979 (5271/5282), 0.9979 (5271/5282), 0.9979
-Macro P, R, F1: 0.9950, 0.9974, 0.9962
+Seconds required for this iteration: 0.01
+Accuracy: 0.9975 (5269/5282)
+Micro P, R, F1: 0.9975 (5269/5282), 0.9975 (5269/5282), 0.9975
+Macro P, R, F1: 0.9957, 0.9855, 0.9904
 
 ***** Iteration #43 *****
-Loss: 331.827
-Feature L2-norm: 14.568
-Error norm: 0.311226
-Active features: 97776 / 113574
+Loss: 347.773
+Feature L2-norm: 15.437
+Error norm: 0.788527
+Active features: 130368 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9979 (5271/5282)
-Micro P, R, F1: 0.9979 (5271/5282), 0.9979 (5271/5282), 0.9979
-Macro P, R, F1: 0.9950, 0.9974, 0.9962
+Seconds required for this iteration: 0.02
+Accuracy: 0.9975 (5269/5282)
+Micro P, R, F1: 0.9975 (5269/5282), 0.9975 (5269/5282), 0.9975
+Macro P, R, F1: 0.9957, 0.9855, 0.9904
 
 ***** Iteration #44 *****
-Loss: 331.826
-Feature L2-norm: 14.5691
-Error norm: 0.298529
-Active features: 97776 / 113574
+Loss: 347.772
+Feature L2-norm: 15.4387
+Error norm: 0.312528
+Active features: 130368 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9979 (5271/5282)
-Micro P, R, F1: 0.9979 (5271/5282), 0.9979 (5271/5282), 0.9979
-Macro P, R, F1: 0.9950, 0.9974, 0.9962
+Seconds required for this iteration: 0.02
+Accuracy: 0.9975 (5269/5282)
+Micro P, R, F1: 0.9975 (5269/5282), 0.9975 (5269/5282), 0.9975
+Macro P, R, F1: 0.9957, 0.9855, 0.9904
 
 ***** Iteration #45 *****
-Loss: 331.825
-Feature L2-norm: 14.5699
-Error norm: 0.326334
-Active features: 97776 / 113574
-Line search trials: 2
-Line search step: 0.31592
+Loss: 347.771
+Feature L2-norm: 15.4409
+Error norm: 0.24763
+Active features: 130368 / 151432
+Line search trials: 1
+Line search step: 1
 Seconds required for this iteration: 0.02
-Accuracy: 0.9979 (5271/5282)
-Micro P, R, F1: 0.9979 (5271/5282), 0.9979 (5271/5282), 0.9979
-Macro P, R, F1: 0.9950, 0.9974, 0.9962
+Accuracy: 0.9975 (5269/5282)
+Micro P, R, F1: 0.9975 (5269/5282), 0.9975 (5269/5282), 0.9975
+Macro P, R, F1: 0.9957, 0.9855, 0.9904
 
 ***** Iteration #46 *****
-Loss: 331.825
-Feature L2-norm: 14.5697
-Error norm: 0.132013
-Active features: 97776 / 113574
+Loss: 347.77
+Feature L2-norm: 15.4422
+Error norm: 0.260417
+Active features: 130368 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
-Accuracy: 0.9979 (5271/5282)
-Micro P, R, F1: 0.9979 (5271/5282), 0.9979 (5271/5282), 0.9979
-Macro P, R, F1: 0.9950, 0.9974, 0.9962
+Accuracy: 0.9975 (5269/5282)
+Micro P, R, F1: 0.9975 (5269/5282), 0.9975 (5269/5282), 0.9975
+Macro P, R, F1: 0.9957, 0.9855, 0.9904
 
 ***** Iteration #47 *****
-Loss: 331.825
-Feature L2-norm: 14.5692
-Error norm: 0.131155
-Active features: 97776 / 113574
+Loss: 347.769
+Feature L2-norm: 15.4437
+Error norm: 0.187778
+Active features: 130368 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9979 (5271/5282)
-Micro P, R, F1: 0.9979 (5271/5282), 0.9979 (5271/5282), 0.9979
-Macro P, R, F1: 0.9950, 0.9974, 0.9962
+Seconds required for this iteration: 0.02
+Accuracy: 0.9975 (5269/5282)
+Micro P, R, F1: 0.9975 (5269/5282), 0.9975 (5269/5282), 0.9975
+Macro P, R, F1: 0.9957, 0.9855, 0.9904
 
 ***** Iteration #48 *****
-Loss: 331.825
-Feature L2-norm: 14.5683
-Error norm: 0.136924
-Active features: 97776 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9979 (5271/5282)
-Micro P, R, F1: 0.9979 (5271/5282), 0.9979 (5271/5282), 0.9979
-Macro P, R, F1: 0.9950, 0.9974, 0.9962
+Loss: 347.769
+Feature L2-norm: 15.4435
+Error norm: 0.33993
+Active features: 130368 / 151432
+Line search trials: 2
+Line search step: 0.389901
+Seconds required for this iteration: 0.03
+Accuracy: 0.9975 (5269/5282)
+Micro P, R, F1: 0.9975 (5269/5282), 0.9975 (5269/5282), 0.9975
+Macro P, R, F1: 0.9957, 0.9855, 0.9904
 
 ***** Iteration #49 *****
-Loss: 331.824
-Feature L2-norm: 14.5682
-Error norm: 0.304856
-Active features: 97776 / 113574
-Line search trials: 2
-Line search step: 0.184332
+Loss: 347.769
+Feature L2-norm: 15.4436
+Error norm: 0.110784
+Active features: 130368 / 151432
+Line search trials: 1
+Line search step: 1
 Seconds required for this iteration: 0.02
-Accuracy: 0.9979 (5271/5282)
-Micro P, R, F1: 0.9979 (5271/5282), 0.9979 (5271/5282), 0.9979
-Macro P, R, F1: 0.9950, 0.9974, 0.9962
+Accuracy: 0.9975 (5269/5282)
+Micro P, R, F1: 0.9975 (5269/5282), 0.9975 (5269/5282), 0.9975
+Macro P, R, F1: 0.9957, 0.9855, 0.9904
 
 ***** Iteration #50 *****
-Loss: 331.824
-Feature L2-norm: 14.5676
-Error norm: 0.201747
-Active features: 97776 / 113574
+Loss: 347.768
+Feature L2-norm: 15.4431
+Error norm: 0.0826887
+Active features: 130368 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
-Accuracy: 0.9979 (5271/5282)
-Micro P, R, F1: 0.9979 (5271/5282), 0.9979 (5271/5282), 0.9979
-Macro P, R, F1: 0.9950, 0.9974, 0.9962
+Accuracy: 0.9975 (5269/5282)
+Micro P, R, F1: 0.9975 (5269/5282), 0.9975 (5269/5282), 0.9975
+Macro P, R, F1: 0.9957, 0.9855, 0.9904
 
 ***** Iteration #51 *****
-Loss: 331.824
-Feature L2-norm: 14.5673
-Error norm: 0.0805726
-Active features: 97776 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9979 (5271/5282)
-Micro P, R, F1: 0.9979 (5271/5282), 0.9979 (5271/5282), 0.9979
-Macro P, R, F1: 0.9950, 0.9974, 0.9962
-
-***** Iteration #52 *****
-Loss: 331.824
-Feature L2-norm: 14.5672
-Error norm: 0.0703526
-Active features: 97776 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9979 (5271/5282)
-Micro P, R, F1: 0.9979 (5271/5282), 0.9979 (5271/5282), 0.9979
-Macro P, R, F1: 0.9950, 0.9974, 0.9962
-
-***** Iteration #53 *****
-Loss: 331.824
-Feature L2-norm: 14.5671
-Error norm: 0.0641915
-Active features: 97776 / 113574
+Loss: 347.768
+Feature L2-norm: 15.4422
+Error norm: 0.0983287
+Active features: 130368 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
-Accuracy: 0.9979 (5271/5282)
-Micro P, R, F1: 0.9979 (5271/5282), 0.9979 (5271/5282), 0.9979
-Macro P, R, F1: 0.9950, 0.9974, 0.9962
+Accuracy: 0.9975 (5269/5282)
+Micro P, R, F1: 0.9975 (5269/5282), 0.9975 (5269/5282), 0.9975
+Macro P, R, F1: 0.9957, 0.9855, 0.9904
+
+***** Iteration #52 *****
+Loss: 347.768
+Feature L2-norm: 15.4418
+Error norm: 0.165468
+Active features: 130368 / 151432
+Line search trials: 2
+Line search step: 0.356322
+Seconds required for this iteration: 0.03
+Accuracy: 0.9975 (5269/5282)
+Micro P, R, F1: 0.9975 (5269/5282), 0.9975 (5269/5282), 0.9975
+Macro P, R, F1: 0.9957, 0.9855, 0.9904
+
+***** Iteration #53 *****
+Loss: 347.768
+Feature L2-norm: 15.4417
+Error norm: 0.119931
+Active features: 130368 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9975 (5269/5282)
+Micro P, R, F1: 0.9975 (5269/5282), 0.9975 (5269/5282), 0.9975
+Macro P, R, F1: 0.9957, 0.9855, 0.9904
+
+***** Iteration #54 *****
+Loss: 347.768
+Feature L2-norm: 15.4417
+Error norm: 0.055605
+Active features: 130368 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9975 (5269/5282)
+Micro P, R, F1: 0.9975 (5269/5282), 0.9975 (5269/5282), 0.9975
+Macro P, R, F1: 0.9957, 0.9855, 0.9904
+
+***** Iteration #55 *****
+Loss: 347.768
+Feature L2-norm: 15.4418
+Error norm: 0.0567209
+Active features: 130368 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9975 (5269/5282)
+Micro P, R, F1: 0.9975 (5269/5282), 0.9975 (5269/5282), 0.9975
+Macro P, R, F1: 0.9957, 0.9855, 0.9904
 
 L-BFGS terminated with the stopping criteria
-Seconds required: 0.78
+Seconds required: 1.16
 
 ===== Cross validation (4/5) =====
 Multi-class logistic regression using L-BFGS
@@ -2039,682 +2039,706 @@ delta: 1e-05
 max_iterations: 2147483647
 linesearch: MoreThuente
 max_linesearch: 20
-lbfgs.regularization_start: 3
+lbfgs.regularization_start: 4
 
 ***** Iteration #1 *****
-Loss: 13386.7
+Loss: 16884.2
 Feature L2-norm: 1
-Error norm: 7416.32
-Active features: 98583 / 113574
+Error norm: 9148.45
+Active features: 130926 / 151432
 Line search trials: 1
-Line search step: 7.02229e-05
-Seconds required for this iteration: 0.02
+Line search step: 6.05584e-05
+Seconds required for this iteration: 0.03
 Accuracy: 0.8287 (4377/5282)
 Micro P, R, F1: 0.8287 (4377/5282), 0.8287 (4377/5282), 0.8287
-Macro P, R, F1: 0.6007, 0.5208, 0.5367
+Macro P, R, F1: 0.4505, 0.3906, 0.4025
 
 ***** Iteration #2 *****
-Loss: 7164.61
-Feature L2-norm: 2.19024
-Error norm: 3751.17
-Active features: 98583 / 113574
+Loss: 7877.96
+Feature L2-norm: 2.49441
+Error norm: 3773.11
+Active features: 131444 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9080 (4796/5282)
-Micro P, R, F1: 0.9080 (4796/5282), 0.9080 (4796/5282), 0.9080
-Macro P, R, F1: 0.5994, 0.6344, 0.6163
+Seconds required for this iteration: 0.02
+Accuracy: 0.9086 (4799/5282)
+Micro P, R, F1: 0.9086 (4799/5282), 0.9086 (4799/5282), 0.9086
+Macro P, R, F1: 0.4519, 0.4759, 0.4634
 
 ***** Iteration #3 *****
-Loss: 3730.23
-Feature L2-norm: 3.49607
-Error norm: 2487.65
-Active features: 98583 / 113574
+Loss: 4610.25
+Feature L2-norm: 3.59732
+Error norm: 2513.19
+Active features: 131444 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9530 (5034/5282)
-Micro P, R, F1: 0.9530 (5034/5282), 0.9530 (5034/5282), 0.9530
-Macro P, R, F1: 0.9727, 0.8651, 0.9101
+Seconds required for this iteration: 0.02
+Accuracy: 0.9459 (4996/5282)
+Micro P, R, F1: 0.9459 (4996/5282), 0.9459 (4996/5282), 0.9459
+Macro P, R, F1: 0.7264, 0.6444, 0.6781
 
 ***** Iteration #4 *****
-Loss: 1935.97
-Feature L2-norm: 4.82557
-Error norm: 758.282
-Active features: 98583 / 113574
+Loss: 2484.65
+Feature L2-norm: 5.21664
+Error norm: 1093.97
+Active features: 131444 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9915 (5237/5282)
-Micro P, R, F1: 0.9915 (5237/5282), 0.9915 (5237/5282), 0.9915
-Macro P, R, F1: 0.9901, 0.9659, 0.9775
+Seconds required for this iteration: 0.02
+Accuracy: 0.9869 (5213/5282)
+Micro P, R, F1: 0.9869 (5213/5282), 0.9869 (5213/5282), 0.9869
+Macro P, R, F1: 0.7367, 0.7407, 0.7387
 
 ***** Iteration #5 *****
-Loss: 1415.03
-Feature L2-norm: 5.70168
-Error norm: 514.55
-Active features: 98583 / 113574
+Loss: 1827.12
+Feature L2-norm: 6.04473
+Error norm: 693.262
+Active features: 131444 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.01
-Accuracy: 0.9938 (5249/5282)
-Micro P, R, F1: 0.9938 (5249/5282), 0.9938 (5249/5282), 0.9938
-Macro P, R, F1: 0.9914, 0.9753, 0.9831
+Accuracy: 0.9881 (5219/5282)
+Micro P, R, F1: 0.9881 (5219/5282), 0.9881 (5219/5282), 0.9881
+Macro P, R, F1: 0.7403, 0.7412, 0.7407
 
 ***** Iteration #6 *****
-Loss: 890.699
-Feature L2-norm: 7.03413
-Error norm: 251.232
-Active features: 98583 / 113574
+Loss: 1053.48
+Feature L2-norm: 7.58429
+Error norm: 337.13
+Active features: 131444 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
-Accuracy: 0.9960 (5261/5282)
-Micro P, R, F1: 0.9960 (5261/5282), 0.9960 (5261/5282), 0.9960
-Macro P, R, F1: 0.9928, 0.9852, 0.9890
+Accuracy: 0.9943 (5252/5282)
+Micro P, R, F1: 0.9943 (5252/5282), 0.9943 (5252/5282), 0.9943
+Macro P, R, F1: 0.9934, 0.9153, 0.9475
 
 ***** Iteration #7 *****
-Loss: 627.341
-Feature L2-norm: 8.31411
-Error norm: 172.246
-Active features: 98583 / 113574
+Loss: 705.855
+Feature L2-norm: 9.06671
+Error norm: 194.148
+Active features: 131444 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9970 (5266/5282)
 Micro P, R, F1: 0.9970 (5266/5282), 0.9970 (5266/5282), 0.9970
-Macro P, R, F1: 0.9933, 0.9900, 0.9917
+Macro P, R, F1: 0.9944, 0.9683, 0.9806
 
 ***** Iteration #8 *****
-Loss: 535.268
-Feature L2-norm: 9.73096
-Error norm: 268.957
-Active features: 98583 / 113574
+Loss: 553.31
+Feature L2-norm: 10.5468
+Error norm: 88.7809
+Active features: 131444 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9975 (5269/5282)
-Micro P, R, F1: 0.9975 (5269/5282), 0.9975 (5269/5282), 0.9975
-Macro P, R, F1: 0.9937, 0.9928, 0.9932
+Seconds required for this iteration: 0.02
+Accuracy: 0.9979 (5271/5282)
+Micro P, R, F1: 0.9979 (5271/5282), 0.9979 (5271/5282), 0.9979
+Macro P, R, F1: 0.9949, 0.9724, 0.9828
 
 ***** Iteration #9 *****
-Loss: 462.369
-Feature L2-norm: 10.6968
-Error norm: 49.2845
-Active features: 98583 / 113574
+Loss: 504.338
+Feature L2-norm: 11.3418
+Error norm: 53.0802
+Active features: 131444 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
 Accuracy: 0.9979 (5271/5282)
 Micro P, R, F1: 0.9979 (5271/5282), 0.9979 (5271/5282), 0.9979
-Macro P, R, F1: 0.9939, 0.9947, 0.9943
+Macro P, R, F1: 0.9949, 0.9724, 0.9828
 
 ***** Iteration #10 *****
-Loss: 451.51
-Feature L2-norm: 11.1962
-Error norm: 33.5838
-Active features: 98583 / 113574
+Loss: 465.445
+Feature L2-norm: 12.3004
+Error norm: 51.7088
+Active features: 131444 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9979 (5271/5282)
 Micro P, R, F1: 0.9979 (5271/5282), 0.9979 (5271/5282), 0.9979
-Macro P, R, F1: 0.9939, 0.9947, 0.9943
+Macro P, R, F1: 0.9949, 0.9724, 0.9828
 
 ***** Iteration #11 *****
-Loss: 437.233
-Feature L2-norm: 11.8698
-Error norm: 29.8032
-Active features: 98583 / 113574
+Loss: 443.303
+Feature L2-norm: 14.1253
+Error norm: 60.0478
+Active features: 131444 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9979 (5271/5282)
-Micro P, R, F1: 0.9979 (5271/5282), 0.9979 (5271/5282), 0.9979
-Macro P, R, F1: 0.9939, 0.9947, 0.9943
+Seconds required for this iteration: 0.02
+Accuracy: 0.9981 (5272/5282)
+Micro P, R, F1: 0.9981 (5272/5282), 0.9981 (5272/5282), 0.9981
+Macro P, R, F1: 0.9949, 0.9779, 0.9859
 
 ***** Iteration #12 *****
-Loss: 411.198
-Feature L2-norm: 12.7331
-Error norm: 25.7987
-Active features: 98583 / 113574
+Loss: 432.193
+Feature L2-norm: 14.2505
+Error norm: 51.1955
+Active features: 131444 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
 Accuracy: 0.9989 (5276/5282)
 Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
-Macro P, R, F1: 0.9944, 0.9995, 0.9969
+Macro P, R, F1: 0.9952, 0.9996, 0.9974
 
 ***** Iteration #13 *****
-Loss: 376.277
-Feature L2-norm: 14.3308
-Error norm: 41.0824
-Active features: 98583 / 113574
+Loss: 423.741
+Feature L2-norm: 14.1184
+Error norm: 44.6698
+Active features: 131444 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.01
 Accuracy: 0.9989 (5276/5282)
 Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
-Macro P, R, F1: 0.9944, 0.9995, 0.9969
+Macro P, R, F1: 0.9952, 0.9996, 0.9974
 
 ***** Iteration #14 *****
-Loss: 371.444
-Feature L2-norm: 14.6841
-Error norm: 33.4001
-Active features: 98583 / 113574
-Line search trials: 2
-Line search step: 0.202342
+Loss: 405.184
+Feature L2-norm: 13.9139
+Error norm: 56.0229
+Active features: 131444 / 151432
+Line search trials: 1
+Line search step: 1
 Seconds required for this iteration: 0.02
 Accuracy: 0.9989 (5276/5282)
 Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
-Macro P, R, F1: 0.9944, 0.9995, 0.9969
+Macro P, R, F1: 0.9952, 0.9996, 0.9974
 
 ***** Iteration #15 *****
-Loss: 366.213
-Feature L2-norm: 14.5146
-Error norm: 20.5955
-Active features: 98583 / 113574
+Loss: 392.258
+Feature L2-norm: 14.0278
+Error norm: 37.2039
+Active features: 131444 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9989 (5276/5282)
 Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
-Macro P, R, F1: 0.9944, 0.9995, 0.9969
+Macro P, R, F1: 0.9952, 0.9996, 0.9974
 
 ***** Iteration #16 *****
-Loss: 360.24
-Feature L2-norm: 13.6654
-Error norm: 20.7351
-Active features: 98583 / 113574
+Loss: 383.472
+Feature L2-norm: 14.4695
+Error norm: 21.9015
+Active features: 131444 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
 Accuracy: 0.9989 (5276/5282)
 Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
-Macro P, R, F1: 0.9944, 0.9995, 0.9969
+Macro P, R, F1: 0.9952, 0.9996, 0.9974
 
 ***** Iteration #17 *****
-Loss: 358.124
-Feature L2-norm: 13.7229
-Error norm: 35.0739
-Active features: 98583 / 113574
-Line search trials: 2
-Line search step: 0.373768
+Loss: 377.64
+Feature L2-norm: 14.7652
+Error norm: 20.4842
+Active features: 131444 / 151432
+Line search trials: 1
+Line search step: 1
 Seconds required for this iteration: 0.02
 Accuracy: 0.9989 (5276/5282)
 Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
-Macro P, R, F1: 0.9944, 0.9995, 0.9969
+Macro P, R, F1: 0.9952, 0.9996, 0.9974
 
 ***** Iteration #18 *****
-Loss: 355.369
-Feature L2-norm: 13.8795
-Error norm: 22.1108
-Active features: 98583 / 113574
+Loss: 372.501
+Feature L2-norm: 15
+Error norm: 20.6165
+Active features: 131444 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9989 (5276/5282)
 Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
-Macro P, R, F1: 0.9944, 0.9995, 0.9969
+Macro P, R, F1: 0.9952, 0.9996, 0.9974
 
 ***** Iteration #19 *****
-Loss: 352.163
-Feature L2-norm: 14.1295
-Error norm: 12.4956
-Active features: 98583 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.02
+Loss: 369.499
+Feature L2-norm: 15.21
+Error norm: 32.8229
+Active features: 131444 / 151432
+Line search trials: 2
+Line search step: 0.501532
+Seconds required for this iteration: 0.03
 Accuracy: 0.9989 (5276/5282)
 Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
-Macro P, R, F1: 0.9944, 0.9995, 0.9969
+Macro P, R, F1: 0.9952, 0.9996, 0.9974
 
 ***** Iteration #20 *****
-Loss: 350.432
-Feature L2-norm: 14.3461
-Error norm: 12.5671
-Active features: 98583 / 113574
+Loss: 366.341
+Feature L2-norm: 15.331
+Error norm: 11.6557
+Active features: 131444 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9989 (5276/5282)
-Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
-Macro P, R, F1: 0.9944, 0.9995, 0.9969
+Seconds required for this iteration: 0.02
+Accuracy: 0.9987 (5275/5282)
+Micro P, R, F1: 0.9987 (5275/5282), 0.9987 (5275/5282), 0.9987
+Macro P, R, F1: 0.9951, 0.9942, 0.9946
 
 ***** Iteration #21 *****
-Loss: 347.938
-Feature L2-norm: 14.585
-Error norm: 15.3685
-Active features: 98583 / 113574
+Loss: 365.31
+Feature L2-norm: 15.3534
+Error norm: 9.93222
+Active features: 131444 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9989 (5276/5282)
 Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
-Macro P, R, F1: 0.9944, 0.9995, 0.9969
+Macro P, R, F1: 0.9952, 0.9996, 0.9974
 
 ***** Iteration #22 *****
-Loss: 347.235
-Feature L2-norm: 14.7553
-Error norm: 7.79253
-Active features: 98583 / 113574
-Line search trials: 2
-Line search step: 0.307036
-Seconds required for this iteration: 0.03
+Loss: 363.272
+Feature L2-norm: 15.2751
+Error norm: 9.17575
+Active features: 131444 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
 Accuracy: 0.9989 (5276/5282)
 Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
-Macro P, R, F1: 0.9944, 0.9995, 0.9969
+Macro P, R, F1: 0.9952, 0.9996, 0.9974
 
 ***** Iteration #23 *****
-Loss: 346.691
-Feature L2-norm: 14.7533
-Error norm: 5.13412
-Active features: 98583 / 113574
+Loss: 362.249
+Feature L2-norm: 15.3211
+Error norm: 3.98947
+Active features: 131444 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9989 (5276/5282)
 Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
-Macro P, R, F1: 0.9944, 0.9995, 0.9969
+Macro P, R, F1: 0.9952, 0.9996, 0.9974
 
 ***** Iteration #24 *****
-Loss: 346.17
-Feature L2-norm: 14.7088
-Error norm: 4.49383
-Active features: 98583 / 113574
+Loss: 361.972
+Feature L2-norm: 15.4095
+Error norm: 5.23124
+Active features: 131444 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9989 (5276/5282)
 Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
-Macro P, R, F1: 0.9944, 0.9995, 0.9969
+Macro P, R, F1: 0.9952, 0.9996, 0.9974
 
 ***** Iteration #25 *****
-Loss: 345.537
-Feature L2-norm: 14.6707
-Error norm: 3.56356
-Active features: 98583 / 113574
+Loss: 361.717
+Feature L2-norm: 15.4423
+Error norm: 4.10848
+Active features: 131444 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
 Accuracy: 0.9989 (5276/5282)
 Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
-Macro P, R, F1: 0.9944, 0.9995, 0.9969
+Macro P, R, F1: 0.9952, 0.9996, 0.9974
 
 ***** Iteration #26 *****
-Loss: 345.416
-Feature L2-norm: 14.6258
-Error norm: 8.07638
-Active features: 98583 / 113574
-Line search trials: 2
-Line search step: 0.393995
+Loss: 361.501
+Feature L2-norm: 15.474
+Error norm: 5.98881
+Active features: 131444 / 151432
+Line search trials: 1
+Line search step: 1
 Seconds required for this iteration: 0.02
 Accuracy: 0.9989 (5276/5282)
 Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
-Macro P, R, F1: 0.9944, 0.9995, 0.9969
+Macro P, R, F1: 0.9952, 0.9996, 0.9974
 
 ***** Iteration #27 *****
-Loss: 345.222
-Feature L2-norm: 14.6132
-Error norm: 3.88838
-Active features: 98583 / 113574
+Loss: 361.469
+Feature L2-norm: 15.4916
+Error norm: 9.50305
+Active features: 131444 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.01
 Accuracy: 0.9989 (5276/5282)
 Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
-Macro P, R, F1: 0.9944, 0.9995, 0.9969
+Macro P, R, F1: 0.9952, 0.9996, 0.9974
 
 ***** Iteration #28 *****
-Loss: 345.113
-Feature L2-norm: 14.6189
-Error norm: 2.41603
-Active features: 98583 / 113574
+Loss: 361.35
+Feature L2-norm: 15.4714
+Error norm: 3.05697
+Active features: 131444 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9989 (5276/5282)
 Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
-Macro P, R, F1: 0.9944, 0.9995, 0.9969
+Macro P, R, F1: 0.9952, 0.9996, 0.9974
 
 ***** Iteration #29 *****
-Loss: 345.036
-Feature L2-norm: 14.6287
-Error norm: 2.6123
-Active features: 98583 / 113574
+Loss: 361.315
+Feature L2-norm: 15.4687
+Error norm: 2.4159
+Active features: 131444 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
 Accuracy: 0.9989 (5276/5282)
 Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
-Macro P, R, F1: 0.9944, 0.9995, 0.9969
+Macro P, R, F1: 0.9952, 0.9996, 0.9974
 
 ***** Iteration #30 *****
-Loss: 344.976
-Feature L2-norm: 14.6586
-Error norm: 3.58452
-Active features: 98583 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9989 (5276/5282)
-Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
-Macro P, R, F1: 0.9944, 0.9995, 0.9969
-
-***** Iteration #31 *****
-Loss: 344.917
-Feature L2-norm: 14.679
-Error norm: 2.35237
-Active features: 98583 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9989 (5276/5282)
-Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
-Macro P, R, F1: 0.9944, 0.9995, 0.9969
-
-***** Iteration #32 *****
-Loss: 344.888
-Feature L2-norm: 14.6877
-Error norm: 1.49275
-Active features: 98583 / 113574
+Loss: 361.222
+Feature L2-norm: 15.4745
+Error norm: 3.2811
+Active features: 131444 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
 Accuracy: 0.9989 (5276/5282)
 Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
-Macro P, R, F1: 0.9944, 0.9995, 0.9969
+Macro P, R, F1: 0.9952, 0.9996, 0.9974
+
+***** Iteration #31 *****
+Loss: 361.143
+Feature L2-norm: 15.4921
+Error norm: 3.21518
+Active features: 131444 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9989 (5276/5282)
+Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
+Macro P, R, F1: 0.9952, 0.9996, 0.9974
+
+***** Iteration #32 *****
+Loss: 361.062
+Feature L2-norm: 15.5269
+Error norm: 5.46018
+Active features: 131444 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9989 (5276/5282)
+Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
+Macro P, R, F1: 0.9952, 0.9996, 0.9974
 
 ***** Iteration #33 *****
-Loss: 344.857
-Feature L2-norm: 14.701
-Error norm: 1.41907
-Active features: 98583 / 113574
+Loss: 360.988
+Feature L2-norm: 15.5485
+Error norm: 2.50766
+Active features: 131444 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9989 (5276/5282)
 Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
-Macro P, R, F1: 0.9944, 0.9995, 0.9969
+Macro P, R, F1: 0.9952, 0.9996, 0.9974
 
 ***** Iteration #34 *****
-Loss: 344.829
-Feature L2-norm: 14.7141
-Error norm: 1.25111
-Active features: 98583 / 113574
+Loss: 360.963
+Feature L2-norm: 15.5438
+Error norm: 1.26156
+Active features: 131444 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9989 (5276/5282)
+Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
+Macro P, R, F1: 0.9952, 0.9996, 0.9974
+
+***** Iteration #35 *****
+Loss: 360.945
+Feature L2-norm: 15.5478
+Error norm: 0.987171
+Active features: 131444 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9989 (5276/5282)
+Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
+Macro P, R, F1: 0.9952, 0.9996, 0.9974
+
+***** Iteration #36 *****
+Loss: 360.922
+Feature L2-norm: 15.5557
+Error norm: 2.96058
+Active features: 131444 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9989 (5276/5282)
+Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
+Macro P, R, F1: 0.9952, 0.9996, 0.9974
+
+***** Iteration #37 *****
+Loss: 360.896
+Feature L2-norm: 15.5679
+Error norm: 1.47511
+Active features: 131444 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9989 (5276/5282)
+Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
+Macro P, R, F1: 0.9952, 0.9996, 0.9974
+
+***** Iteration #38 *****
+Loss: 360.88
+Feature L2-norm: 15.5765
+Error norm: 0.906105
+Active features: 131444 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9989 (5276/5282)
+Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
+Macro P, R, F1: 0.9952, 0.9996, 0.9974
+
+***** Iteration #39 *****
+Loss: 360.868
+Feature L2-norm: 15.584
+Error norm: 0.65795
+Active features: 131444 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9989 (5276/5282)
+Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
+Macro P, R, F1: 0.9952, 0.9996, 0.9974
+
+***** Iteration #40 *****
+Loss: 360.855
+Feature L2-norm: 15.595
+Error norm: 0.804848
+Active features: 131444 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9989 (5276/5282)
+Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
+Macro P, R, F1: 0.9952, 0.9996, 0.9974
+
+***** Iteration #41 *****
+Loss: 360.851
+Feature L2-norm: 15.6135
+Error norm: 1.51415
+Active features: 131444 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.01
 Accuracy: 0.9989 (5276/5282)
 Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
-Macro P, R, F1: 0.9944, 0.9995, 0.9969
+Macro P, R, F1: 0.9952, 0.9996, 0.9974
 
-***** Iteration #35 *****
-Loss: 344.818
-Feature L2-norm: 14.7179
-Error norm: 3.23691
-Active features: 98583 / 113574
+***** Iteration #42 *****
+Loss: 360.841
+Feature L2-norm: 15.6124
+Error norm: 0.487818
+Active features: 131444 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9989 (5276/5282)
+Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
+Macro P, R, F1: 0.9952, 0.9996, 0.9974
+
+***** Iteration #43 *****
+Loss: 360.839
+Feature L2-norm: 15.6122
+Error norm: 0.347406
+Active features: 131444 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9989 (5276/5282)
+Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
+Macro P, R, F1: 0.9952, 0.9996, 0.9974
+
+***** Iteration #44 *****
+Loss: 360.837
+Feature L2-norm: 15.6144
+Error norm: 0.729348
+Active features: 131444 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9989 (5276/5282)
+Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
+Macro P, R, F1: 0.9952, 0.9996, 0.9974
+
+***** Iteration #45 *****
+Loss: 360.836
+Feature L2-norm: 15.6183
+Error norm: 0.899554
+Active features: 131444 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9989 (5276/5282)
+Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
+Macro P, R, F1: 0.9952, 0.9996, 0.9974
+
+***** Iteration #46 *****
+Loss: 360.835
+Feature L2-norm: 15.6169
+Error norm: 0.29828
+Active features: 131444 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9989 (5276/5282)
+Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
+Macro P, R, F1: 0.9952, 0.9996, 0.9974
+
+***** Iteration #47 *****
+Loss: 360.834
+Feature L2-norm: 15.6163
+Error norm: 0.263811
+Active features: 131444 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9989 (5276/5282)
+Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
+Macro P, R, F1: 0.9952, 0.9996, 0.9974
+
+***** Iteration #48 *****
+Loss: 360.833
+Feature L2-norm: 15.6158
+Error norm: 0.276667
+Active features: 131444 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9989 (5276/5282)
+Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
+Macro P, R, F1: 0.9952, 0.9996, 0.9974
+
+***** Iteration #49 *****
+Loss: 360.832
+Feature L2-norm: 15.6147
+Error norm: 0.259084
+Active features: 131444 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9989 (5276/5282)
+Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
+Macro P, R, F1: 0.9952, 0.9996, 0.9974
+
+***** Iteration #50 *****
+Loss: 360.832
+Feature L2-norm: 15.6144
+Error norm: 0.29067
+Active features: 131444 / 151432
 Line search trials: 2
-Line search step: 0.28616
+Line search step: 0.322833
 Seconds required for this iteration: 0.03
 Accuracy: 0.9989 (5276/5282)
 Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
-Macro P, R, F1: 0.9944, 0.9995, 0.9969
-
-***** Iteration #36 *****
-Loss: 344.793
-Feature L2-norm: 14.7314
-Error norm: 1.3883
-Active features: 98583 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9989 (5276/5282)
-Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
-Macro P, R, F1: 0.9944, 0.9995, 0.9969
-
-***** Iteration #37 *****
-Loss: 344.783
-Feature L2-norm: 14.7331
-Error norm: 0.804582
-Active features: 98583 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9989 (5276/5282)
-Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
-Macro P, R, F1: 0.9944, 0.9995, 0.9969
-
-***** Iteration #38 *****
-Loss: 344.772
-Feature L2-norm: 14.7344
-Error norm: 0.865414
-Active features: 98583 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.02
-Accuracy: 0.9989 (5276/5282)
-Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
-Macro P, R, F1: 0.9944, 0.9995, 0.9969
-
-***** Iteration #39 *****
-Loss: 344.764
-Feature L2-norm: 14.7364
-Error norm: 0.833208
-Active features: 98583 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9989 (5276/5282)
-Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
-Macro P, R, F1: 0.9944, 0.9995, 0.9969
-
-***** Iteration #40 *****
-Loss: 344.76
-Feature L2-norm: 14.7389
-Error norm: 1.20348
-Active features: 98583 / 113574
-Line search trials: 2
-Line search step: 0.365748
-Seconds required for this iteration: 0.02
-Accuracy: 0.9989 (5276/5282)
-Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
-Macro P, R, F1: 0.9944, 0.9995, 0.9969
-
-***** Iteration #41 *****
-Loss: 344.755
-Feature L2-norm: 14.7414
-Error norm: 0.507105
-Active features: 98583 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.02
-Accuracy: 0.9989 (5276/5282)
-Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
-Macro P, R, F1: 0.9944, 0.9995, 0.9969
-
-***** Iteration #42 *****
-Loss: 344.753
-Feature L2-norm: 14.7429
-Error norm: 0.407004
-Active features: 98583 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9989 (5276/5282)
-Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
-Macro P, R, F1: 0.9944, 0.9995, 0.9969
-
-***** Iteration #43 *****
-Loss: 344.751
-Feature L2-norm: 14.7448
-Error norm: 0.420001
-Active features: 98583 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9989 (5276/5282)
-Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
-Macro P, R, F1: 0.9944, 0.9995, 0.9969
-
-***** Iteration #44 *****
-Loss: 344.75
-Feature L2-norm: 14.7454
-Error norm: 0.95794
-Active features: 98583 / 113574
-Line search trials: 2
-Line search step: 0.280761
-Seconds required for this iteration: 0.02
-Accuracy: 0.9989 (5276/5282)
-Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
-Macro P, R, F1: 0.9944, 0.9995, 0.9969
-
-***** Iteration #45 *****
-Loss: 344.747
-Feature L2-norm: 14.7469
-Error norm: 0.585783
-Active features: 98583 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.02
-Accuracy: 0.9989 (5276/5282)
-Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
-Macro P, R, F1: 0.9944, 0.9995, 0.9969
-
-***** Iteration #46 *****
-Loss: 344.746
-Feature L2-norm: 14.7478
-Error norm: 0.24382
-Active features: 98583 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9989 (5276/5282)
-Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
-Macro P, R, F1: 0.9944, 0.9995, 0.9969
-
-***** Iteration #47 *****
-Loss: 344.745
-Feature L2-norm: 14.748
-Error norm: 0.221981
-Active features: 98583 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9989 (5276/5282)
-Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
-Macro P, R, F1: 0.9944, 0.9995, 0.9969
-
-***** Iteration #48 *****
-Loss: 344.745
-Feature L2-norm: 14.748
-Error norm: 0.226512
-Active features: 98583 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.02
-Accuracy: 0.9989 (5276/5282)
-Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
-Macro P, R, F1: 0.9944, 0.9995, 0.9969
-
-***** Iteration #49 *****
-Loss: 344.744
-Feature L2-norm: 14.748
-Error norm: 0.748584
-Active features: 98583 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9989 (5276/5282)
-Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
-Macro P, R, F1: 0.9944, 0.9995, 0.9969
-
-***** Iteration #50 *****
-Loss: 344.743
-Feature L2-norm: 14.7479
-Error norm: 0.182585
-Active features: 98583 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9989 (5276/5282)
-Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
-Macro P, R, F1: 0.9944, 0.9995, 0.9969
+Macro P, R, F1: 0.9952, 0.9996, 0.9974
 
 ***** Iteration #51 *****
-Loss: 344.743
-Feature L2-norm: 14.7478
-Error norm: 0.109459
-Active features: 98583 / 113574
+Loss: 360.831
+Feature L2-norm: 15.6138
+Error norm: 0.155272
+Active features: 131444 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
 Accuracy: 0.9989 (5276/5282)
 Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
-Macro P, R, F1: 0.9944, 0.9995, 0.9969
+Macro P, R, F1: 0.9952, 0.9996, 0.9974
 
 ***** Iteration #52 *****
-Loss: 344.743
-Feature L2-norm: 14.7477
-Error norm: 0.118943
-Active features: 98583 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9989 (5276/5282)
-Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
-Macro P, R, F1: 0.9944, 0.9995, 0.9969
-
-***** Iteration #53 *****
-Loss: 344.743
-Feature L2-norm: 14.7477
-Error norm: 0.140353
-Active features: 98583 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9989 (5276/5282)
-Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
-Macro P, R, F1: 0.9944, 0.9995, 0.9969
-
-***** Iteration #54 *****
-Loss: 344.743
-Feature L2-norm: 14.7478
-Error norm: 0.23385
-Active features: 98583 / 113574
+Loss: 360.831
+Feature L2-norm: 15.6133
+Error norm: 0.147032
+Active features: 131444 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
 Accuracy: 0.9989 (5276/5282)
 Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
-Macro P, R, F1: 0.9944, 0.9995, 0.9969
+Macro P, R, F1: 0.9952, 0.9996, 0.9974
+
+***** Iteration #53 *****
+Loss: 360.831
+Feature L2-norm: 15.6127
+Error norm: 0.160336
+Active features: 131444 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9989 (5276/5282)
+Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
+Macro P, R, F1: 0.9952, 0.9996, 0.9974
+
+***** Iteration #54 *****
+Loss: 360.83
+Feature L2-norm: 15.6126
+Error norm: 0.188606
+Active features: 131444 / 151432
+Line search trials: 2
+Line search step: 0.389959
+Seconds required for this iteration: 0.02
+Accuracy: 0.9989 (5276/5282)
+Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
+Macro P, R, F1: 0.9952, 0.9996, 0.9974
 
 ***** Iteration #55 *****
-Loss: 344.743
-Feature L2-norm: 14.7479
-Error norm: 0.0732024
-Active features: 98583 / 113574
+Loss: 360.83
+Feature L2-norm: 15.6125
+Error norm: 0.114099
+Active features: 131444 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9989 (5276/5282)
 Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
-Macro P, R, F1: 0.9944, 0.9995, 0.9969
+Macro P, R, F1: 0.9952, 0.9996, 0.9974
 
 ***** Iteration #56 *****
-Loss: 344.743
-Feature L2-norm: 14.748
-Error norm: 0.0698887
-Active features: 98583 / 113574
+Loss: 360.83
+Feature L2-norm: 15.6124
+Error norm: 0.0871789
+Active features: 131444 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9989 (5276/5282)
 Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
-Macro P, R, F1: 0.9944, 0.9995, 0.9969
+Macro P, R, F1: 0.9952, 0.9996, 0.9974
+
+***** Iteration #57 *****
+Loss: 360.83
+Feature L2-norm: 15.6122
+Error norm: 0.102549
+Active features: 131444 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9989 (5276/5282)
+Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
+Macro P, R, F1: 0.9952, 0.9996, 0.9974
+
+***** Iteration #58 *****
+Loss: 360.83
+Feature L2-norm: 15.6118
+Error norm: 0.104617
+Active features: 131444 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9989 (5276/5282)
+Micro P, R, F1: 0.9989 (5276/5282), 0.9989 (5276/5282), 0.9989
+Macro P, R, F1: 0.9952, 0.9996, 0.9974
 
 L-BFGS terminated with the stopping criteria
-Seconds required: 0.82
+Seconds required: 1.15
 
 ===== Cross validation (5/5) =====
 Multi-class logistic regression using L-BFGS
@@ -2727,646 +2751,694 @@ delta: 1e-05
 max_iterations: 2147483647
 linesearch: MoreThuente
 max_linesearch: 20
-lbfgs.regularization_start: 3
+lbfgs.regularization_start: 4
 
 ***** Iteration #1 *****
-Loss: 13408.3
+Loss: 16896.3
 Feature L2-norm: 1
-Error norm: 7413.79
-Active features: 99132 / 113574
+Error norm: 9132.21
+Active features: 131675 / 151432
 Line search trials: 1
-Line search step: 7.01748e-05
+Line search step: 6.05393e-05
 Seconds required for this iteration: 0.03
 Accuracy: 0.8086 (4271/5282)
 Micro P, R, F1: 0.8086 (4271/5282), 0.8086 (4271/5282), 0.8086
-Macro P, R, F1: 0.5915, 0.5015, 0.5158
+Macro P, R, F1: 0.4437, 0.3761, 0.3868
 
 ***** Iteration #2 *****
-Loss: 7211.26
-Feature L2-norm: 2.17897
-Error norm: 3753.81
-Active features: 99132 / 113574
+Loss: 7914.39
+Feature L2-norm: 2.48656
+Error norm: 3779.41
+Active features: 132176 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9063 (4787/5282)
-Micro P, R, F1: 0.9063 (4787/5282), 0.9063 (4787/5282), 0.9063
-Macro P, R, F1: 0.5969, 0.6366, 0.6161
+Seconds required for this iteration: 0.02
+Accuracy: 0.9069 (4790/5282)
+Micro P, R, F1: 0.9069 (4790/5282), 0.9069 (4790/5282), 0.9069
+Macro P, R, F1: 0.4499, 0.4775, 0.4632
 
 ***** Iteration #3 *****
-Loss: 3730.6
-Feature L2-norm: 3.48651
-Error norm: 2488.5
-Active features: 99132 / 113574
+Loss: 4604.97
+Feature L2-norm: 3.59299
+Error norm: 2504.75
+Active features: 132176 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9534 (5036/5282)
-Micro P, R, F1: 0.9534 (5036/5282), 0.9534 (5036/5282), 0.9534
-Macro P, R, F1: 0.9737, 0.8662, 0.9106
+Seconds required for this iteration: 0.02
+Accuracy: 0.9496 (5016/5282)
+Micro P, R, F1: 0.9496 (5016/5282), 0.9496 (5016/5282), 0.9496
+Macro P, R, F1: 0.7297, 0.6550, 0.6860
 
 ***** Iteration #4 *****
-Loss: 1888.33
-Feature L2-norm: 4.85363
-Error norm: 757.4
-Active features: 99132 / 113574
+Loss: 2449.51
+Feature L2-norm: 5.24444
+Error norm: 1131.51
+Active features: 132176 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9888 (5223/5282)
-Micro P, R, F1: 0.9888 (5223/5282), 0.9888 (5223/5282), 0.9888
-Macro P, R, F1: 0.9862, 0.9599, 0.9723
+Seconds required for this iteration: 0.02
+Accuracy: 0.9820 (5187/5282)
+Micro P, R, F1: 0.9820 (5187/5282), 0.9820 (5187/5282), 0.9820
+Macro P, R, F1: 0.7334, 0.7340, 0.7335
 
 ***** Iteration #5 *****
-Loss: 1372.49
-Feature L2-norm: 5.72472
-Error norm: 523.212
-Active features: 99132 / 113574
+Loss: 1780.27
+Feature L2-norm: 6.07425
+Error norm: 704.115
+Active features: 132176 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.01
-Accuracy: 0.9909 (5234/5282)
-Micro P, R, F1: 0.9909 (5234/5282), 0.9909 (5234/5282), 0.9909
-Macro P, R, F1: 0.9865, 0.9702, 0.9781
+Accuracy: 0.9852 (5204/5282)
+Micro P, R, F1: 0.9852 (5204/5282), 0.9852 (5204/5282), 0.9852
+Macro P, R, F1: 0.7380, 0.7353, 0.7365
 
 ***** Iteration #6 *****
-Loss: 830.216
-Feature L2-norm: 7.0885
-Error norm: 245.476
-Active features: 99132 / 113574
+Loss: 1012.32
+Feature L2-norm: 7.59806
+Error norm: 338.03
+Active features: 132176 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
-Accuracy: 0.9936 (5248/5282)
-Micro P, R, F1: 0.9936 (5248/5282), 0.9936 (5248/5282), 0.9936
-Macro P, R, F1: 0.9889, 0.9825, 0.9856
+Accuracy: 0.9898 (5228/5282)
+Micro P, R, F1: 0.9898 (5228/5282), 0.9898 (5228/5282), 0.9898
+Macro P, R, F1: 0.9728, 0.8764, 0.9135
 
 ***** Iteration #7 *****
-Loss: 571.124
-Feature L2-norm: 8.38897
-Error norm: 156.544
-Active features: 99132 / 113574
+Loss: 665.186
+Feature L2-norm: 9.09188
+Error norm: 191.154
+Active features: 132176 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9953 (5257/5282)
-Micro P, R, F1: 0.9953 (5257/5282), 0.9953 (5257/5282), 0.9953
-Macro P, R, F1: 0.9899, 0.9907, 0.9903
+Seconds required for this iteration: 0.02
+Accuracy: 0.9943 (5252/5282)
+Micro P, R, F1: 0.9943 (5252/5282), 0.9943 (5252/5282), 0.9943
+Macro P, R, F1: 0.9812, 0.9651, 0.9729
 
 ***** Iteration #8 *****
-Loss: 460.207
-Feature L2-norm: 9.75604
-Error norm: 153.414
-Active features: 99132 / 113574
+Loss: 505.848
+Feature L2-norm: 10.6167
+Error norm: 83.6642
+Active features: 132176 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9958 (5260/5282)
 Micro P, R, F1: 0.9958 (5260/5282), 0.9958 (5260/5282), 0.9958
-Macro P, R, F1: 0.9903, 0.9935, 0.9919
+Macro P, R, F1: 0.9819, 0.9714, 0.9764
 
 ***** Iteration #9 *****
-Loss: 407.692
-Feature L2-norm: 10.9384
-Error norm: 44.3173
-Active features: 99132 / 113574
+Loss: 456.59
+Feature L2-norm: 11.423
+Error norm: 52.2723
+Active features: 132176 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
 Accuracy: 0.9958 (5260/5282)
 Micro P, R, F1: 0.9958 (5260/5282), 0.9958 (5260/5282), 0.9958
-Macro P, R, F1: 0.9903, 0.9935, 0.9919
+Macro P, R, F1: 0.9819, 0.9714, 0.9764
 
 ***** Iteration #10 *****
-Loss: 397.808
-Feature L2-norm: 11.3893
-Error norm: 36.996
-Active features: 99132 / 113574
+Loss: 412.559
+Feature L2-norm: 12.4441
+Error norm: 36.7143
+Active features: 132176 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9958 (5260/5282)
 Micro P, R, F1: 0.9958 (5260/5282), 0.9958 (5260/5282), 0.9958
-Macro P, R, F1: 0.9903, 0.9935, 0.9919
+Macro P, R, F1: 0.9819, 0.9714, 0.9764
 
 ***** Iteration #11 *****
-Loss: 388.758
-Feature L2-norm: 12.291
-Error norm: 125.751
-Active features: 99132 / 113574
+Loss: 404.071
+Feature L2-norm: 14.5313
+Error norm: 85.0849
+Active features: 132176 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9964 (5263/5282)
-Micro P, R, F1: 0.9964 (5263/5282), 0.9964 (5263/5282), 0.9964
-Macro P, R, F1: 0.9906, 0.9963, 0.9934
+Seconds required for this iteration: 0.02
+Accuracy: 0.9968 (5265/5282)
+Micro P, R, F1: 0.9968 (5265/5282), 0.9968 (5265/5282), 0.9968
+Macro P, R, F1: 0.9834, 0.9986, 0.9909
 
 ***** Iteration #12 *****
-Loss: 371.702
-Feature L2-norm: 12.6849
-Error norm: 31.4811
-Active features: 99132 / 113574
+Loss: 382.902
+Feature L2-norm: 14.3639
+Error norm: 25.7926
+Active features: 132176 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
-Accuracy: 0.9964 (5263/5282)
-Micro P, R, F1: 0.9964 (5263/5282), 0.9964 (5263/5282), 0.9964
-Macro P, R, F1: 0.9906, 0.9963, 0.9934
+Accuracy: 0.9968 (5265/5282)
+Micro P, R, F1: 0.9968 (5265/5282), 0.9968 (5265/5282), 0.9968
+Macro P, R, F1: 0.9834, 0.9986, 0.9909
 
 ***** Iteration #13 *****
-Loss: 366.017
-Feature L2-norm: 12.8984
-Error norm: 28.0466
-Active features: 99132 / 113574
+Loss: 378.107
+Feature L2-norm: 14.1504
+Error norm: 39.1001
+Active features: 132176 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.01
-Accuracy: 0.9964 (5263/5282)
-Micro P, R, F1: 0.9964 (5263/5282), 0.9964 (5263/5282), 0.9964
-Macro P, R, F1: 0.9906, 0.9963, 0.9934
+Accuracy: 0.9968 (5265/5282)
+Micro P, R, F1: 0.9968 (5265/5282), 0.9968 (5265/5282), 0.9968
+Macro P, R, F1: 0.9834, 0.9986, 0.9909
 
 ***** Iteration #14 *****
-Loss: 341.86
-Feature L2-norm: 13.741
-Error norm: 25.7905
-Active features: 99132 / 113574
+Loss: 368.726
+Feature L2-norm: 13.8285
+Error norm: 53.6584
+Active features: 132176 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9966 (5264/5282)
-Micro P, R, F1: 0.9966 (5264/5282), 0.9966 (5264/5282), 0.9966
-Macro P, R, F1: 0.9899, 0.9980, 0.9939
+Seconds required for this iteration: 0.02
+Accuracy: 0.9968 (5265/5282)
+Micro P, R, F1: 0.9968 (5265/5282), 0.9968 (5265/5282), 0.9968
+Macro P, R, F1: 0.9834, 0.9986, 0.9909
 
 ***** Iteration #15 *****
-Loss: 330.849
-Feature L2-norm: 14.1022
-Error norm: 27.9415
-Active features: 99132 / 113574
+Loss: 353.3
+Feature L2-norm: 13.6508
+Error norm: 50.2446
+Active features: 132176 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
 Accuracy: 0.9966 (5264/5282)
 Micro P, R, F1: 0.9966 (5264/5282), 0.9966 (5264/5282), 0.9966
-Macro P, R, F1: 0.9899, 0.9980, 0.9939
+Macro P, R, F1: 0.9786, 0.9985, 0.9883
 
 ***** Iteration #16 *****
-Loss: 328.75
-Feature L2-norm: 14.3365
-Error norm: 38.9344
-Active features: 99132 / 113574
-Line search trials: 2
-Line search step: 0.179797
+Loss: 344.34
+Feature L2-norm: 14.0382
+Error norm: 32.7463
+Active features: 132176 / 151432
+Line search trials: 1
+Line search step: 1
 Seconds required for this iteration: 0.02
 Accuracy: 0.9966 (5264/5282)
 Micro P, R, F1: 0.9966 (5264/5282), 0.9966 (5264/5282), 0.9966
-Macro P, R, F1: 0.9899, 0.9980, 0.9939
+Macro P, R, F1: 0.9786, 0.9985, 0.9883
 
 ***** Iteration #17 *****
-Loss: 322.739
-Feature L2-norm: 14.2704
-Error norm: 20.8629
-Active features: 99132 / 113574
+Loss: 339.467
+Feature L2-norm: 14.5298
+Error norm: 17.6681
+Active features: 132176 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9964 (5263/5282)
-Micro P, R, F1: 0.9964 (5263/5282), 0.9964 (5263/5282), 0.9964
-Macro P, R, F1: 0.9898, 0.9971, 0.9934
+Seconds required for this iteration: 0.02
+Accuracy: 0.9966 (5264/5282)
+Micro P, R, F1: 0.9966 (5264/5282), 0.9966 (5264/5282), 0.9966
+Macro P, R, F1: 0.9786, 0.9985, 0.9883
 
 ***** Iteration #18 *****
-Loss: 318.782
-Feature L2-norm: 14.0221
-Error norm: 15.0724
-Active features: 99132 / 113574
+Loss: 337.204
+Feature L2-norm: 14.8053
+Error norm: 14.4416
+Active features: 132176 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9966 (5264/5282)
+Micro P, R, F1: 0.9966 (5264/5282), 0.9966 (5264/5282), 0.9966
+Macro P, R, F1: 0.9786, 0.9985, 0.9883
+
+***** Iteration #19 *****
+Loss: 333.957
+Feature L2-norm: 15.1938
+Error norm: 9.06544
+Active features: 132176 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9966 (5264/5282)
+Micro P, R, F1: 0.9966 (5264/5282), 0.9966 (5264/5282), 0.9966
+Macro P, R, F1: 0.9786, 0.9985, 0.9883
+
+***** Iteration #20 *****
+Loss: 332.936
+Feature L2-norm: 15.1329
+Error norm: 24.2322
+Active features: 132176 / 151432
+Line search trials: 2
+Line search step: 0.27433
+Seconds required for this iteration: 0.03
+Accuracy: 0.9964 (5263/5282)
+Micro P, R, F1: 0.9964 (5263/5282), 0.9964 (5263/5282), 0.9964
+Macro P, R, F1: 0.9782, 0.9931, 0.9855
+
+***** Iteration #21 *****
+Loss: 331.085
+Feature L2-norm: 15.2118
+Error norm: 11.914
+Active features: 132176 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
 Accuracy: 0.9964 (5263/5282)
 Micro P, R, F1: 0.9964 (5263/5282), 0.9964 (5263/5282), 0.9964
-Macro P, R, F1: 0.9898, 0.9971, 0.9934
-
-***** Iteration #19 *****
-Loss: 316.967
-Feature L2-norm: 13.8396
-Error norm: 12.9362
-Active features: 99132 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9966 (5264/5282)
-Micro P, R, F1: 0.9966 (5264/5282), 0.9966 (5264/5282), 0.9966
-Macro P, R, F1: 0.9899, 0.9980, 0.9939
-
-***** Iteration #20 *****
-Loss: 316.138
-Feature L2-norm: 14.1288
-Error norm: 45.1688
-Active features: 99132 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9966 (5264/5282)
-Micro P, R, F1: 0.9966 (5264/5282), 0.9966 (5264/5282), 0.9966
-Macro P, R, F1: 0.9899, 0.9980, 0.9939
-
-***** Iteration #21 *****
-Loss: 312.528
-Feature L2-norm: 14.1386
-Error norm: 8.07645
-Active features: 99132 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.02
-Accuracy: 0.9966 (5264/5282)
-Micro P, R, F1: 0.9966 (5264/5282), 0.9966 (5264/5282), 0.9966
-Macro P, R, F1: 0.9899, 0.9980, 0.9939
+Macro P, R, F1: 0.9782, 0.9931, 0.9855
 
 ***** Iteration #22 *****
-Loss: 312.223
-Feature L2-norm: 14.2184
-Error norm: 6.38075
-Active features: 99132 / 113574
+Loss: 329.974
+Feature L2-norm: 15.0957
+Error norm: 7.62465
+Active features: 132176 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9966 (5264/5282)
-Micro P, R, F1: 0.9966 (5264/5282), 0.9966 (5264/5282), 0.9966
-Macro P, R, F1: 0.9899, 0.9980, 0.9939
+Seconds required for this iteration: 0.02
+Accuracy: 0.9964 (5263/5282)
+Micro P, R, F1: 0.9964 (5263/5282), 0.9964 (5263/5282), 0.9964
+Macro P, R, F1: 0.9782, 0.9931, 0.9855
 
 ***** Iteration #23 *****
-Loss: 311.441
-Feature L2-norm: 14.3053
-Error norm: 5.50757
-Active features: 99132 / 113574
+Loss: 329.171
+Feature L2-norm: 14.9334
+Error norm: 6.70686
+Active features: 132176 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9966 (5264/5282)
-Micro P, R, F1: 0.9966 (5264/5282), 0.9966 (5264/5282), 0.9966
-Macro P, R, F1: 0.9899, 0.9980, 0.9939
+Seconds required for this iteration: 0.02
+Accuracy: 0.9964 (5263/5282)
+Micro P, R, F1: 0.9964 (5263/5282), 0.9964 (5263/5282), 0.9964
+Macro P, R, F1: 0.9782, 0.9931, 0.9855
 
 ***** Iteration #24 *****
-Loss: 311.083
-Feature L2-norm: 14.326
-Error norm: 7.77891
-Active features: 99132 / 113574
-Line search trials: 2
-Line search step: 0.446724
+Loss: 328.538
+Feature L2-norm: 14.9535
+Error norm: 4.152
+Active features: 132176 / 151432
+Line search trials: 1
+Line search step: 1
 Seconds required for this iteration: 0.02
-Accuracy: 0.9966 (5264/5282)
-Micro P, R, F1: 0.9966 (5264/5282), 0.9966 (5264/5282), 0.9966
-Macro P, R, F1: 0.9899, 0.9980, 0.9939
+Accuracy: 0.9964 (5263/5282)
+Micro P, R, F1: 0.9964 (5263/5282), 0.9964 (5263/5282), 0.9964
+Macro P, R, F1: 0.9782, 0.9931, 0.9855
 
 ***** Iteration #25 *****
-Loss: 310.875
-Feature L2-norm: 14.3392
-Error norm: 4.0746
-Active features: 99132 / 113574
+Loss: 328.077
+Feature L2-norm: 15.085
+Error norm: 7.0421
+Active features: 132176 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.02
+Seconds required for this iteration: 0.01
 Accuracy: 0.9966 (5264/5282)
 Micro P, R, F1: 0.9966 (5264/5282), 0.9966 (5264/5282), 0.9966
-Macro P, R, F1: 0.9899, 0.9980, 0.9939
+Macro P, R, F1: 0.9786, 0.9985, 0.9883
 
 ***** Iteration #26 *****
-Loss: 310.748
-Feature L2-norm: 14.3489
-Error norm: 3.55276
-Active features: 99132 / 113574
+Loss: 327.932
+Feature L2-norm: 15.1982
+Error norm: 6.23427
+Active features: 132176 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9966 (5264/5282)
 Micro P, R, F1: 0.9966 (5264/5282), 0.9966 (5264/5282), 0.9966
-Macro P, R, F1: 0.9899, 0.9980, 0.9939
+Macro P, R, F1: 0.9786, 0.9985, 0.9883
 
 ***** Iteration #27 *****
-Loss: 310.507
-Feature L2-norm: 14.3811
-Error norm: 3.00176
-Active features: 99132 / 113574
+Loss: 327.784
+Feature L2-norm: 15.2055
+Error norm: 2.7297
+Active features: 132176 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9966 (5264/5282)
 Micro P, R, F1: 0.9966 (5264/5282), 0.9966 (5264/5282), 0.9966
-Macro P, R, F1: 0.9899, 0.9980, 0.9939
+Macro P, R, F1: 0.9786, 0.9985, 0.9883
 
 ***** Iteration #28 *****
-Loss: 310.295
-Feature L2-norm: 14.4079
-Error norm: 3.13148
-Active features: 99132 / 113574
+Loss: 327.705
+Feature L2-norm: 15.2249
+Error norm: 2.22484
+Active features: 132176 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
 Accuracy: 0.9966 (5264/5282)
 Micro P, R, F1: 0.9966 (5264/5282), 0.9966 (5264/5282), 0.9966
-Macro P, R, F1: 0.9899, 0.9980, 0.9939
+Macro P, R, F1: 0.9786, 0.9985, 0.9883
 
 ***** Iteration #29 *****
-Loss: 310.226
-Feature L2-norm: 14.4318
-Error norm: 4.70811
-Active features: 99132 / 113574
-Line search trials: 2
-Line search step: 0.21834
+Loss: 327.58
+Feature L2-norm: 15.2614
+Error norm: 3.54373
+Active features: 132176 / 151432
+Line search trials: 1
+Line search step: 1
 Seconds required for this iteration: 0.02
-Accuracy: 0.9966 (5264/5282)
-Micro P, R, F1: 0.9966 (5264/5282), 0.9966 (5264/5282), 0.9966
-Macro P, R, F1: 0.9899, 0.9980, 0.9939
+Accuracy: 0.9964 (5263/5282)
+Micro P, R, F1: 0.9964 (5263/5282), 0.9964 (5263/5282), 0.9964
+Macro P, R, F1: 0.9782, 0.9931, 0.9855
 
 ***** Iteration #30 *****
-Loss: 310.08
-Feature L2-norm: 14.4574
-Error norm: 2.08606
-Active features: 99132 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9966 (5264/5282)
-Micro P, R, F1: 0.9966 (5264/5282), 0.9966 (5264/5282), 0.9966
-Macro P, R, F1: 0.9899, 0.9980, 0.9939
+Loss: 327.508
+Feature L2-norm: 15.2908
+Error norm: 5.34788
+Active features: 132176 / 151432
+Line search trials: 2
+Line search step: 0.381392
+Seconds required for this iteration: 0.03
+Accuracy: 0.9964 (5263/5282)
+Micro P, R, F1: 0.9964 (5263/5282), 0.9964 (5263/5282), 0.9964
+Macro P, R, F1: 0.9782, 0.9931, 0.9855
 
 ***** Iteration #31 *****
-Loss: 310.02
-Feature L2-norm: 14.4648
-Error norm: 1.38435
-Active features: 99132 / 113574
+Loss: 327.422
+Feature L2-norm: 15.3068
+Error norm: 3.19938
+Active features: 132176 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9966 (5264/5282)
-Micro P, R, F1: 0.9966 (5264/5282), 0.9966 (5264/5282), 0.9966
-Macro P, R, F1: 0.9899, 0.9980, 0.9939
+Seconds required for this iteration: 0.02
+Accuracy: 0.9964 (5263/5282)
+Micro P, R, F1: 0.9964 (5263/5282), 0.9964 (5263/5282), 0.9964
+Macro P, R, F1: 0.9782, 0.9931, 0.9855
 
 ***** Iteration #32 *****
-Loss: 309.952
-Feature L2-norm: 14.4745
-Error norm: 2.24525
-Active features: 99132 / 113574
+Loss: 327.344
+Feature L2-norm: 15.3152
+Error norm: 1.58061
+Active features: 132176 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
-Accuracy: 0.9966 (5264/5282)
-Micro P, R, F1: 0.9966 (5264/5282), 0.9966 (5264/5282), 0.9966
-Macro P, R, F1: 0.9899, 0.9980, 0.9939
+Accuracy: 0.9964 (5263/5282)
+Micro P, R, F1: 0.9964 (5263/5282), 0.9964 (5263/5282), 0.9964
+Macro P, R, F1: 0.9782, 0.9931, 0.9855
 
 ***** Iteration #33 *****
-Loss: 309.934
-Feature L2-norm: 14.4732
-Error norm: 1.80374
-Active features: 99132 / 113574
-Line search trials: 2
-Line search step: 0.311852
+Loss: 327.315
+Feature L2-norm: 15.3139
+Error norm: 1.51667
+Active features: 132176 / 151432
+Line search trials: 1
+Line search step: 1
 Seconds required for this iteration: 0.02
-Accuracy: 0.9966 (5264/5282)
-Micro P, R, F1: 0.9966 (5264/5282), 0.9966 (5264/5282), 0.9966
-Macro P, R, F1: 0.9899, 0.9980, 0.9939
+Accuracy: 0.9964 (5263/5282)
+Micro P, R, F1: 0.9964 (5263/5282), 0.9964 (5263/5282), 0.9964
+Macro P, R, F1: 0.9782, 0.9931, 0.9855
 
 ***** Iteration #34 *****
-Loss: 309.917
-Feature L2-norm: 14.4721
-Error norm: 1.3228
-Active features: 99132 / 113574
+Loss: 327.264
+Feature L2-norm: 15.3072
+Error norm: 2.04649
+Active features: 132176 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9966 (5264/5282)
-Micro P, R, F1: 0.9966 (5264/5282), 0.9966 (5264/5282), 0.9966
-Macro P, R, F1: 0.9899, 0.9980, 0.9939
+Seconds required for this iteration: 0.02
+Accuracy: 0.9964 (5263/5282)
+Micro P, R, F1: 0.9964 (5263/5282), 0.9964 (5263/5282), 0.9964
+Macro P, R, F1: 0.9782, 0.9931, 0.9855
 
 ***** Iteration #35 *****
-Loss: 309.883
-Feature L2-norm: 14.4657
-Error norm: 0.82331
-Active features: 99132 / 113574
+Loss: 327.238
+Feature L2-norm: 15.3064
+Error norm: 3.25981
+Active features: 132176 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
+Seconds required for this iteration: 0.02
 Accuracy: 0.9966 (5264/5282)
 Micro P, R, F1: 0.9966 (5264/5282), 0.9966 (5264/5282), 0.9966
-Macro P, R, F1: 0.9899, 0.9980, 0.9939
+Macro P, R, F1: 0.9786, 0.9985, 0.9883
 
 ***** Iteration #36 *****
-Loss: 309.865
-Feature L2-norm: 14.4596
-Error norm: 0.716482
-Active features: 99132 / 113574
+Loss: 327.2
+Feature L2-norm: 15.2996
+Error norm: 1.13118
+Active features: 132176 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
 Accuracy: 0.9966 (5264/5282)
 Micro P, R, F1: 0.9966 (5264/5282), 0.9966 (5264/5282), 0.9966
-Macro P, R, F1: 0.9899, 0.9980, 0.9939
+Macro P, R, F1: 0.9786, 0.9985, 0.9883
 
 ***** Iteration #37 *****
-Loss: 309.861
-Feature L2-norm: 14.4474
-Error norm: 2.76297
-Active features: 99132 / 113574
+Loss: 327.184
+Feature L2-norm: 15.2991
+Error norm: 0.956663
+Active features: 132176 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.01
-Accuracy: 0.9966 (5264/5282)
-Micro P, R, F1: 0.9966 (5264/5282), 0.9966 (5264/5282), 0.9966
-Macro P, R, F1: 0.9899, 0.9980, 0.9939
+Accuracy: 0.9964 (5263/5282)
+Micro P, R, F1: 0.9964 (5263/5282), 0.9964 (5263/5282), 0.9964
+Macro P, R, F1: 0.9782, 0.9931, 0.9855
 
 ***** Iteration #38 *****
-Loss: 309.846
-Feature L2-norm: 14.4481
-Error norm: 0.470628
-Active features: 99132 / 113574
+Loss: 327.171
+Feature L2-norm: 15.3019
+Error norm: 0.827903
+Active features: 132176 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9966 (5264/5282)
-Micro P, R, F1: 0.9966 (5264/5282), 0.9966 (5264/5282), 0.9966
-Macro P, R, F1: 0.9899, 0.9980, 0.9939
+Seconds required for this iteration: 0.02
+Accuracy: 0.9964 (5263/5282)
+Micro P, R, F1: 0.9964 (5263/5282), 0.9964 (5263/5282), 0.9964
+Macro P, R, F1: 0.9782, 0.9931, 0.9855
 
 ***** Iteration #39 *****
-Loss: 309.844
-Feature L2-norm: 14.4488
-Error norm: 0.399489
-Active features: 99132 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.02
-Accuracy: 0.9966 (5264/5282)
-Micro P, R, F1: 0.9966 (5264/5282), 0.9966 (5264/5282), 0.9966
-Macro P, R, F1: 0.9899, 0.9980, 0.9939
+Loss: 327.165
+Feature L2-norm: 15.3052
+Error norm: 1.37715
+Active features: 132176 / 151432
+Line search trials: 2
+Line search step: 0.380511
+Seconds required for this iteration: 0.04
+Accuracy: 0.9964 (5263/5282)
+Micro P, R, F1: 0.9964 (5263/5282), 0.9964 (5263/5282), 0.9964
+Macro P, R, F1: 0.9782, 0.9931, 0.9855
 
 ***** Iteration #40 *****
-Loss: 309.84
-Feature L2-norm: 14.4489
-Error norm: 0.372722
-Active features: 99132 / 113574
+Loss: 327.159
+Feature L2-norm: 15.3089
+Error norm: 0.699238
+Active features: 132176 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9966 (5264/5282)
-Micro P, R, F1: 0.9966 (5264/5282), 0.9966 (5264/5282), 0.9966
-Macro P, R, F1: 0.9899, 0.9980, 0.9939
+Seconds required for this iteration: 0.02
+Accuracy: 0.9964 (5263/5282)
+Micro P, R, F1: 0.9964 (5263/5282), 0.9964 (5263/5282), 0.9964
+Macro P, R, F1: 0.9782, 0.9931, 0.9855
 
 ***** Iteration #41 *****
-Loss: 309.836
-Feature L2-norm: 14.4554
-Error norm: 0.910002
-Active features: 99132 / 113574
+Loss: 327.154
+Feature L2-norm: 15.3133
+Error norm: 0.629623
+Active features: 132176 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.01
-Accuracy: 0.9966 (5264/5282)
-Micro P, R, F1: 0.9966 (5264/5282), 0.9966 (5264/5282), 0.9966
-Macro P, R, F1: 0.9899, 0.9980, 0.9939
+Accuracy: 0.9964 (5263/5282)
+Micro P, R, F1: 0.9964 (5263/5282), 0.9964 (5263/5282), 0.9964
+Macro P, R, F1: 0.9782, 0.9931, 0.9855
 
 ***** Iteration #42 *****
-Loss: 309.834
-Feature L2-norm: 14.4595
-Error norm: 0.357943
-Active features: 99132 / 113574
-Line search trials: 2
-Line search step: 0.443982
+Loss: 327.149
+Feature L2-norm: 15.3169
+Error norm: 0.692567
+Active features: 132176 / 151432
+Line search trials: 1
+Line search step: 1
 Seconds required for this iteration: 0.02
-Accuracy: 0.9966 (5264/5282)
-Micro P, R, F1: 0.9966 (5264/5282), 0.9966 (5264/5282), 0.9966
-Macro P, R, F1: 0.9899, 0.9980, 0.9939
+Accuracy: 0.9964 (5263/5282)
+Micro P, R, F1: 0.9964 (5263/5282), 0.9964 (5263/5282), 0.9964
+Macro P, R, F1: 0.9782, 0.9931, 0.9855
 
 ***** Iteration #43 *****
-Loss: 309.833
-Feature L2-norm: 14.4605
-Error norm: 0.25183
-Active features: 99132 / 113574
+Loss: 327.141
+Feature L2-norm: 15.3232
+Error norm: 0.642966
+Active features: 132176 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
-Accuracy: 0.9966 (5264/5282)
-Micro P, R, F1: 0.9966 (5264/5282), 0.9966 (5264/5282), 0.9966
-Macro P, R, F1: 0.9899, 0.9980, 0.9939
+Accuracy: 0.9964 (5263/5282)
+Micro P, R, F1: 0.9964 (5263/5282), 0.9964 (5263/5282), 0.9964
+Macro P, R, F1: 0.9782, 0.9931, 0.9855
 
 ***** Iteration #44 *****
-Loss: 309.832
-Feature L2-norm: 14.4637
-Error norm: 0.149591
-Active features: 99132 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9966 (5264/5282)
-Micro P, R, F1: 0.9966 (5264/5282), 0.9966 (5264/5282), 0.9966
-Macro P, R, F1: 0.9899, 0.9980, 0.9939
+Loss: 327.14
+Feature L2-norm: 15.3245
+Error norm: 0.54504
+Active features: 132176 / 151432
+Line search trials: 2
+Line search step: 0.192445
+Seconds required for this iteration: 0.03
+Accuracy: 0.9964 (5263/5282)
+Micro P, R, F1: 0.9964 (5263/5282), 0.9964 (5263/5282), 0.9964
+Macro P, R, F1: 0.9782, 0.9931, 0.9855
 
 ***** Iteration #45 *****
-Loss: 309.831
-Feature L2-norm: 14.4679
-Error norm: 0.272693
-Active features: 99132 / 113574
+Loss: 327.138
+Feature L2-norm: 15.3254
+Error norm: 0.335783
+Active features: 132176 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9966 (5264/5282)
-Micro P, R, F1: 0.9966 (5264/5282), 0.9966 (5264/5282), 0.9966
-Macro P, R, F1: 0.9899, 0.9980, 0.9939
+Seconds required for this iteration: 0.02
+Accuracy: 0.9964 (5263/5282)
+Micro P, R, F1: 0.9964 (5263/5282), 0.9964 (5263/5282), 0.9964
+Macro P, R, F1: 0.9782, 0.9931, 0.9855
 
 ***** Iteration #46 *****
-Loss: 309.831
-Feature L2-norm: 14.4711
-Error norm: 0.35694
-Active features: 99132 / 113574
+Loss: 327.137
+Feature L2-norm: 15.3257
+Error norm: 0.302858
+Active features: 132176 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
-Accuracy: 0.9966 (5264/5282)
-Micro P, R, F1: 0.9966 (5264/5282), 0.9966 (5264/5282), 0.9966
-Macro P, R, F1: 0.9899, 0.9980, 0.9939
+Accuracy: 0.9964 (5263/5282)
+Micro P, R, F1: 0.9964 (5263/5282), 0.9964 (5263/5282), 0.9964
+Macro P, R, F1: 0.9782, 0.9931, 0.9855
 
 ***** Iteration #47 *****
-Loss: 309.831
-Feature L2-norm: 14.4702
-Error norm: 0.106928
-Active features: 99132 / 113574
-Line search trials: 1
-Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9966 (5264/5282)
-Micro P, R, F1: 0.9966 (5264/5282), 0.9966 (5264/5282), 0.9966
-Macro P, R, F1: 0.9899, 0.9980, 0.9939
-
-***** Iteration #48 *****
-Loss: 309.831
-Feature L2-norm: 14.4704
-Error norm: 0.0917497
-Active features: 99132 / 113574
+Loss: 327.135
+Feature L2-norm: 15.3257
+Error norm: 0.397528
+Active features: 132176 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.02
 Accuracy: 0.9966 (5264/5282)
 Micro P, R, F1: 0.9966 (5264/5282), 0.9966 (5264/5282), 0.9966
-Macro P, R, F1: 0.9899, 0.9980, 0.9939
+Macro P, R, F1: 0.9786, 0.9985, 0.9883
+
+***** Iteration #48 *****
+Loss: 327.135
+Feature L2-norm: 15.3253
+Error norm: 0.748361
+Active features: 132176 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9964 (5263/5282)
+Micro P, R, F1: 0.9964 (5263/5282), 0.9964 (5263/5282), 0.9964
+Macro P, R, F1: 0.9782, 0.9931, 0.9855
 
 ***** Iteration #49 *****
-Loss: 309.831
-Feature L2-norm: 14.4714
-Error norm: 0.100323
-Active features: 99132 / 113574
+Loss: 327.134
+Feature L2-norm: 15.3257
+Error norm: 0.21827
+Active features: 132176 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9966 (5264/5282)
-Micro P, R, F1: 0.9966 (5264/5282), 0.9966 (5264/5282), 0.9966
-Macro P, R, F1: 0.9899, 0.9980, 0.9939
+Seconds required for this iteration: 0.02
+Accuracy: 0.9964 (5263/5282)
+Micro P, R, F1: 0.9964 (5263/5282), 0.9964 (5263/5282), 0.9964
+Macro P, R, F1: 0.9782, 0.9931, 0.9855
 
 ***** Iteration #50 *****
-Loss: 309.831
-Feature L2-norm: 14.4726
-Error norm: 0.14677
-Active features: 99132 / 113574
+Loss: 327.134
+Feature L2-norm: 15.3259
+Error norm: 0.140558
+Active features: 132176 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9966 (5264/5282)
-Micro P, R, F1: 0.9966 (5264/5282), 0.9966 (5264/5282), 0.9966
-Macro P, R, F1: 0.9899, 0.9980, 0.9939
+Seconds required for this iteration: 0.02
+Accuracy: 0.9964 (5263/5282)
+Micro P, R, F1: 0.9964 (5263/5282), 0.9964 (5263/5282), 0.9964
+Macro P, R, F1: 0.9782, 0.9931, 0.9855
 
 ***** Iteration #51 *****
-Loss: 309.831
-Feature L2-norm: 14.4731
-Error norm: 0.0607495
-Active features: 99132 / 113574
-Line search trials: 2
-Line search step: 0.454781
-Seconds required for this iteration: 0.03
-Accuracy: 0.9966 (5264/5282)
-Micro P, R, F1: 0.9966 (5264/5282), 0.9966 (5264/5282), 0.9966
-Macro P, R, F1: 0.9899, 0.9980, 0.9939
+Loss: 327.134
+Feature L2-norm: 15.3265
+Error norm: 0.212545
+Active features: 132176 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9964 (5263/5282)
+Micro P, R, F1: 0.9964 (5263/5282), 0.9964 (5263/5282), 0.9964
+Macro P, R, F1: 0.9782, 0.9931, 0.9855
 
 ***** Iteration #52 *****
-Loss: 309.831
-Feature L2-norm: 14.4732
-Error norm: 0.055225
-Active features: 99132 / 113574
+Loss: 327.133
+Feature L2-norm: 15.3272
+Error norm: 0.245777
+Active features: 132176 / 151432
 Line search trials: 1
 Line search step: 1
-Seconds required for this iteration: 0.01
-Accuracy: 0.9966 (5264/5282)
-Micro P, R, F1: 0.9966 (5264/5282), 0.9966 (5264/5282), 0.9966
-Macro P, R, F1: 0.9899, 0.9980, 0.9939
+Seconds required for this iteration: 0.02
+Accuracy: 0.9964 (5263/5282)
+Micro P, R, F1: 0.9964 (5263/5282), 0.9964 (5263/5282), 0.9964
+Macro P, R, F1: 0.9782, 0.9931, 0.9855
 
 ***** Iteration #53 *****
-Loss: 309.83
-Feature L2-norm: 14.4733
-Error norm: 0.0688524
-Active features: 99132 / 113574
+Loss: 327.133
+Feature L2-norm: 15.3291
+Error norm: 0.298168
+Active features: 132176 / 151432
 Line search trials: 1
 Line search step: 1
 Seconds required for this iteration: 0.01
-Accuracy: 0.9966 (5264/5282)
-Micro P, R, F1: 0.9966 (5264/5282), 0.9966 (5264/5282), 0.9966
-Macro P, R, F1: 0.9899, 0.9980, 0.9939
+Accuracy: 0.9964 (5263/5282)
+Micro P, R, F1: 0.9964 (5263/5282), 0.9964 (5263/5282), 0.9964
+Macro P, R, F1: 0.9782, 0.9931, 0.9855
+
+***** Iteration #54 *****
+Loss: 327.133
+Feature L2-norm: 15.3307
+Error norm: 0.121348
+Active features: 132176 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9964 (5263/5282)
+Micro P, R, F1: 0.9964 (5263/5282), 0.9964 (5263/5282), 0.9964
+Macro P, R, F1: 0.9782, 0.9931, 0.9855
+
+***** Iteration #55 *****
+Loss: 327.132
+Feature L2-norm: 15.3308
+Error norm: 0.0682096
+Active features: 132176 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9964 (5263/5282)
+Micro P, R, F1: 0.9964 (5263/5282), 0.9964 (5263/5282), 0.9964
+Macro P, R, F1: 0.9782, 0.9931, 0.9855
+
+***** Iteration #56 *****
+Loss: 327.132
+Feature L2-norm: 15.3315
+Error norm: 0.125711
+Active features: 132176 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9964 (5263/5282)
+Micro P, R, F1: 0.9964 (5263/5282), 0.9964 (5263/5282), 0.9964
+Macro P, R, F1: 0.9782, 0.9931, 0.9855
+
+***** Iteration #57 *****
+Loss: 327.132
+Feature L2-norm: 15.3324
+Error norm: 0.0571117
+Active features: 132176 / 151432
+Line search trials: 1
+Line search step: 1
+Seconds required for this iteration: 0.02
+Accuracy: 0.9964 (5263/5282)
+Micro P, R, F1: 0.9964 (5263/5282), 0.9964 (5263/5282), 0.9964
+Macro P, R, F1: 0.9782, 0.9931, 0.9855
 
 L-BFGS terminated with the stopping criteria
-Seconds required: 0.76
+Seconds required: 1.14
 
-Finish time: 2015-01-25T07:12:49Z
+Finish time: 2015-02-02T01:07:49Z
 

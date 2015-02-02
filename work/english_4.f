@@ -37,7 +37,7 @@ NONE	w[-1]=,	fw=David	fpos=NNP	w[0]=David Ricardo	fw|fpos=David|NNP	hw=Ricardo	h
 # Stanley Jevons
 NONE	w[-1]=and	fw=Stanley	fpos=NNP	w[0]=Stanley Jevons	fw|fpos=Stanley|NNP	hw=Jevons	hw|hpos=Jevons|NNP	hpos=NNP	w[1]=noticed	pos[-1]=CC	pos[1]=noticed
 # an empirical trend
-A	w[-1]=noticed	fw=an	fpos=DT	w[0]=empirical trend	fw|fpos=an|DT	hw=trend	hw|hpos=trend|NN	hpos=NN	w[1]=for	pos[-1]=VBD	pos[1]=for
+AN	w[-1]=noticed	fw=an	fpos=DT	w[0]=empirical trend	fw|fpos=an|DT	hw=trend	hw|hpos=trend|NN	hpos=NN	w[1]=for	pos[-1]=VBD	pos[1]=for
 # the rate
 THE	w[-1]=for	fw=the	fpos=DT	w[0]=rate	fw|fpos=the|DT	hw=rate	hw|hpos=rate|NN	hpos=NN	w[1]=of	pos[-1]=IN	pos[1]=of
 # return
@@ -105,7 +105,7 @@ NONE	w[-1]=for	fw=publication	fpos=NN	w[0]=publication	fw|fpos=publication|NN	hw
 # Friedrich Engels
 NONE	w[-1]=by	fw=Friedrich	fpos=NNP	w[0]=Friedrich Engels	fw|fpos=Friedrich|NNP	hw=Engels	hw|hpos=Engels|NNPS	hpos=NNPS	w[1]=,	pos[-1]=IN	pos[1]=,
 # an extensive analysis
-A	w[-1]=,	fw=an	fpos=DT	w[0]=extensive analysis	fw|fpos=an|DT	hw=analysis	hw|hpos=analysis|NN	hpos=NN	w[1]=is	pos[-1]=,	pos[1]=is
+AN	w[-1]=,	fw=an	fpos=DT	w[0]=extensive analysis	fw|fpos=an|DT	hw=analysis	hw|hpos=analysis|NN	hpos=NN	w[1]=is	pos[-1]=,	pos[1]=is
 # the tendency
 THE	w[-1]=of	fw=the	fpos=DT	w[0]=tendency	fw|fpos=the|DT	hw=tendency	hw|hpos=tendency|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
 # Marx
@@ -119,7 +119,7 @@ NONE	w[-1]=proof	fw=that	fpos=WDT	w[0]=that	fw|fpos=that|WDT	hw=that	hw|hpos=tha
 # capitalist production
 NONE	w[-1]=that	fw=capitalist	fpos=NN	w[0]=capitalist production	fw|fpos=capitalist|NN	hw=production	hw|hpos=production|NN	hpos=NN	w[1]=could	pos[-1]=WDT	pos[1]=could
 # an everlasting form
-A	w[-1]=be	fw=an	fpos=DT	w[0]=everlasting form	fw|fpos=an|DT	hw=form	hw|hpos=form|NN	hpos=NN	w[1]=of	pos[-1]=VB	pos[1]=of
+AN	w[-1]=be	fw=an	fpos=DT	w[0]=everlasting form	fw|fpos=an|DT	hw=form	hw|hpos=form|NN	hpos=NN	w[1]=of	pos[-1]=VB	pos[1]=of
 # production
 NONE	w[-1]=of	fw=production	fpos=NN	w[0]=production	fw|fpos=production|NN	hw=production	hw|hpos=production|NN	hpos=NN	w[1]=,	pos[-1]=IN	pos[1]=,
 # the end
@@ -325,7 +325,7 @@ THE	w[-1]=of	fw=the	fpos=DT	w[0]=rate	fw|fpos=the|DT	hw=rate	hw|hpos=rate|NN	hpo
 # profit
 NONE	w[-1]=of	fw=profit	fpos=NN	w[0]=profit	fw|fpos=profit|NN	hw=profit	hw|hpos=profit|NN	hpos=NN	w[1]=to	pos[-1]=IN	pos[1]=to
 # an expression
-A	w[-1]=``	fw=an	fpos=DT	w[0]=expression	fw|fpos=an|DT	hw=expression	hw|hpos=expression|NN	hpos=NN	w[1]=peculiar	pos[-1]=``	pos[1]=peculiar
+AN	w[-1]=``	fw=an	fpos=DT	w[0]=expression	fw|fpos=an|DT	hw=expression	hw|hpos=expression|NN	hpos=NN	w[1]=peculiar	pos[-1]=``	pos[1]=peculiar
 # the capitalist mode
 THE	w[-1]=to	fw=the	fpos=DT	w[0]=capitalist mode	fw|fpos=the|DT	hw=mode	hw|hpos=mode|NN	hpos=NN	w[1]=of	pos[-1]=TO	pos[1]=of
 # production
@@ -633,7 +633,7 @@ NONE	w[-1]=NONE	fw=consolidation	fpos=NN	w[0]=consolidation	fw|fpos=consolidatio
 # mature industries
 NONE	w[-1]=of	fw=mature	fpos=JJ	w[0]=mature industries	fw|fpos=mature|JJ	hw=industries	hw|hpos=industries|NNS	hpos=NNS	w[1]=into	pos[-1]=IN	pos[1]=into
 # an oligarchy
-A	w[-1]=into	fw=an	fpos=DT	w[0]=oligarchy	fw|fpos=an|DT	hw=oligarchy	hw|hpos=oligarchy|NN	hpos=NN	w[1]=of	pos[-1]=IN	pos[1]=of
+AN	w[-1]=into	fw=an	fpos=DT	w[0]=oligarchy	fw|fpos=an|DT	hw=oligarchy	hw|hpos=oligarchy|NN	hpos=NN	w[1]=of	pos[-1]=IN	pos[1]=of
 # survivors
 NONE	w[-1]=of	fw=survivors	fpos=NNS	w[0]=survivors	fw|fpos=survivors|NNS	hw=survivors	hw|hpos=survivors|NNS	hpos=NNS	w[1]=.	pos[-1]=IN	pos[1]=.
 # Mature industries
@@ -745,7 +745,7 @@ NONE	w[-1]=For	fw=socialists	fpos=NNS	w[0]=socialists	fw|fpos=socialists|NNS	hw=
 # the TRPF
 THE	w[-1]=,	fw=the	fpos=DT	w[0]=TRPF	fw|fpos=the|DT	hw=TRPF	hw|hpos=TRPF|NN	hpos=NN	w[1]=has	pos[-1]=,	pos[1]=has
 # an important political idea
-A	w[-1]=been	fw=an	fpos=DT	w[0]=important political idea	fw|fpos=an|DT	hw=idea	hw|hpos=idea|NN	hpos=NN	w[1]=,	pos[-1]=VBN	pos[1]=,
+AN	w[-1]=been	fw=an	fpos=DT	w[0]=important political idea	fw|fpos=an|DT	hw=idea	hw|hpos=idea|NN	hpos=NN	w[1]=,	pos[-1]=VBN	pos[1]=,
 # it
 NONE	w[-1]=because	fw=it	fpos=PRP	w[0]=it	fw|fpos=it|PRP	hw=it	hw|hpos=it|PRP	hpos=PRP	w[1]=seemed	pos[-1]=IN	pos[1]=seemed
 # capitalism
@@ -1019,7 +1019,7 @@ NONE	w[-1]=for	fw=all	fpos=DT	w[0]=	fw|fpos=all|DT	hw=all	hw|hpos=all|DT	hpos=DT
 # them
 NONE	w[-1]=of	fw=them	fpos=PRP	w[0]=them	fw|fpos=them|PRP	hw=them	hw|hpos=them|PRP	hpos=PRP	w[1]=to	pos[-1]=IN	pos[1]=to
 # an ever larger share
-A	w[-1]=spend	fw=an	fpos=DT	w[0]=ever larger share	fw|fpos=an|DT	hw=share	hw|hpos=share|NN	hpos=NN	w[1]=of	pos[-1]=VB	pos[1]=of
+AN	w[-1]=spend	fw=an	fpos=DT	w[0]=ever larger share	fw|fpos=an|DT	hw=share	hw|hpos=share|NN	hpos=NN	w[1]=of	pos[-1]=VB	pos[1]=of
 # their income
 NONE	w[-1]=of	fw=their	fpos=PRP$	w[0]=their income	fw|fpos=their|PRP$	hw=income	hw|hpos=income|NN	hpos=NN	w[1]=on	pos[-1]=IN	pos[1]=on
 # the newest technology
@@ -1071,7 +1071,7 @@ NONE	w[-1]=to	fw=business	fpos=NN	w[0]=business anyhow	fw|fpos=business|NN	hw=an
 # it
 NONE	w[-1]=if	fw=it	fpos=PRP	w[0]=it	fw|fpos=it|PRP	hw=it	hw|hpos=it|PRP	hpos=PRP	w[1]=is	pos[-1]=IN	pos[1]=is
 # an increase
-A	w[-1]=by	fw=an	fpos=DT	w[0]=increase	fw|fpos=an|DT	hw=increase	hw|hpos=increase|NN	hpos=NN	w[1]=in	pos[-1]=IN	pos[1]=in
+AN	w[-1]=by	fw=an	fpos=DT	w[0]=increase	fw|fpos=an|DT	hw=increase	hw|hpos=increase|NN	hpos=NN	w[1]=in	pos[-1]=IN	pos[1]=in
 # profit volume
 NONE	w[-1]=in	fw=profit	fpos=NN	w[0]=profit volume	fw|fpos=profit|NN	hw=volume	hw|hpos=volume|NN	hpos=NN	w[1]=(	pos[-1]=IN	pos[1]=(
 # profit margins
@@ -1111,7 +1111,7 @@ NONE	w[-1]=with	fw=surplus	fpos=NN	w[0]=surplus value	fw|fpos=surplus|NN	hw=valu
 # wages
 NONE	w[-1]=and	fw=wages	fpos=NNS	w[0]=wages	fw|fpos=wages|NNS	hw=wages	hw|hpos=wages|NNS	hpos=NNS	w[1]=as	pos[-1]=CC	pos[1]=as
 # an expense
-A	w[-1]=as	fw=an	fpos=DT	w[0]=expense	fw|fpos=an|DT	hw=expense	hw|hpos=expense|NN	hpos=NN	w[1]=for	pos[-1]=IN	pos[1]=for
+AN	w[-1]=as	fw=an	fpos=DT	w[0]=expense	fw|fpos=an|DT	hw=expense	hw|hpos=expense|NN	hpos=NN	w[1]=for	pos[-1]=IN	pos[1]=for
 # the capitalist
 THE	w[-1]=for	fw=the	fpos=DT	w[0]=capitalist	fw|fpos=the|DT	hw=capitalist	hw|hpos=capitalist|NN	hpos=NN	w[1]=with	pos[-1]=IN	pos[1]=with
 # wages
@@ -1149,13 +1149,13 @@ NONE	w[-1]=by	fw=investment	fpos=NN	w[0]=investment	fw|fpos=investment|NN	hw=inv
 # constant capital
 NONE	w[-1]=in	fw=constant	fpos=JJ	w[0]=constant capital	fw|fpos=constant|JJ	hw=capital	hw|hpos=capital|NN	hpos=NN	w[1]=translates	pos[-1]=IN	pos[1]=translates
 # an increase
-A	w[-1]=to	fw=an	fpos=DT	w[0]=increase	fw|fpos=an|DT	hw=increase	hw|hpos=increase|NN	hpos=NN	w[1]=in	pos[-1]=TO	pos[1]=in
+AN	w[-1]=to	fw=an	fpos=DT	w[0]=increase	fw|fpos=an|DT	hw=increase	hw|hpos=increase|NN	hpos=NN	w[1]=in	pos[-1]=TO	pos[1]=in
 # the rate
 THE	w[-1]=in	fw=the	fpos=DT	w[0]=rate	fw|fpos=the|DT	hw=rate	hw|hpos=rate|NN	hpos=NN	w[1]=of	pos[-1]=IN	pos[1]=of
 # profit
 NONE	w[-1]=of	fw=profit	fpos=NN	w[0]=profit	fw|fpos=profit|NN	hw=profit	hw|hpos=profit|NN	hpos=NN	w[1]=,	pos[-1]=IN	pos[1]=,
 # an increase
-A	w[-1]=to	fw=an	fpos=DT	w[0]=increase	fw|fpos=an|DT	hw=increase	hw|hpos=increase|NN	hpos=NN	w[1]=in	pos[-1]=TO	pos[1]=in
+AN	w[-1]=to	fw=an	fpos=DT	w[0]=increase	fw|fpos=an|DT	hw=increase	hw|hpos=increase|NN	hpos=NN	w[1]=in	pos[-1]=TO	pos[1]=in
 # surplus value
 NONE	w[-1]=in	fw=surplus	fpos=NN	w[0]=surplus value	fw|fpos=surplus|NN	hw=value	hw|hpos=value|NN	hpos=NN	w[1]=:	pos[-1]=IN	pos[1]=:
 # it
@@ -1227,9 +1227,9 @@ A	w[-1]=of	fw=a	fpos=DT	w[0]=comparative static analysis	fw|fpos=a|DT	hw=analysi
 # His starting point
 NONE	w[-1]=NONE	fw=His	fpos=PRP$	w[0]=His starting point	fw|fpos=His|PRP$	hw=point	hw|hpos=point|NN	hpos=NN	w[1]=is	pos[-1]=NONE	pos[1]=is
 # an equilibrium growth path
-A	w[-1]=is	fw=an	fpos=DT	w[0]=equilibrium growth path	fw|fpos=an|DT	hw=path	hw|hpos=path|NN	hpos=NN	w[1]=of	pos[-1]=VBZ	pos[1]=of
+AN	w[-1]=is	fw=an	fpos=DT	w[0]=equilibrium growth path	fw|fpos=an|DT	hw=path	hw|hpos=path|NN	hpos=NN	w[1]=of	pos[-1]=VBZ	pos[1]=of
 # an economy
-A	w[-1]=of	fw=an	fpos=DT	w[0]=economy	fw|fpos=an|DT	hw=economy	hw|hpos=economy|NN	hpos=NN	w[1]=with	pos[-1]=IN	pos[1]=with
+AN	w[-1]=of	fw=an	fpos=DT	w[0]=economy	fw|fpos=an|DT	hw=economy	hw|hpos=economy|NN	hpos=NN	w[1]=with	pos[-1]=IN	pos[1]=with
 # a given technique
 A	w[-1]=with	fw=a	fpos=DT	w[0]=given technique	fw|fpos=a|DT	hw=technique	hw|hpos=technique|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
 # a given branch
@@ -1315,7 +1315,7 @@ A	w[-1]=that	fw=a	fpos=DT	w[0]=falling rate	fw|fpos=a|DT	hw=rate	hw|hpos=rate|NN
 # profit
 NONE	w[-1]=of	fw=profit	fpos=NN	w[0]=profit	fw|fpos=profit|NN	hw=profit	hw|hpos=profit|NN	hpos=NN	w[1]=must	pos[-1]=IN	pos[1]=must
 # an increase
-A	w[-1]=from	fw=an	fpos=DT	w[0]=increase	fw|fpos=an|DT	hw=increase	hw|hpos=increase|NN	hpos=NN	w[1]=in	pos[-1]=IN	pos[1]=in
+AN	w[-1]=from	fw=an	fpos=DT	w[0]=increase	fw|fpos=an|DT	hw=increase	hw|hpos=increase|NN	hpos=NN	w[1]=in	pos[-1]=IN	pos[1]=in
 # productivity
 NONE	w[-1]=in	fw=productivity	fpos=NN	w[0]=productivity	fw|fpos=productivity|NN	hw=productivity	hw|hpos=productivity|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
 # the law
@@ -1327,7 +1327,7 @@ THE	w[-1]=of	fw=the	fpos=DT	w[0]=rate	fw|fpos=the|DT	hw=rate	hw|hpos=rate|NN	hpo
 # profit
 NONE	w[-1]=of	fw=profit	fpos=NN	w[0]=profit	fw|fpos=profit|NN	hw=profit	hw|hpos=profit|NN	hpos=NN	w[1]=to	pos[-1]=IN	pos[1]=to
 # an abstract model
-A	w[-1]=in	fw=an	fpos=DT	w[0]=abstract model	fw|fpos=an|DT	hw=model	hw|hpos=model|NN	hpos=NN	w[1]=,	pos[-1]=IN	pos[1]=,
+AN	w[-1]=in	fw=an	fpos=DT	w[0]=abstract model	fw|fpos=an|DT	hw=model	hw|hpos=model|NN	hpos=NN	w[1]=,	pos[-1]=IN	pos[1]=,
 # certain assumptions
 NONE	w[-1]=on	fw=certain	fpos=JJ	w[0]=certain assumptions	fw|fpos=certain|JJ	hw=assumptions	hw|hpos=assumptions|NNS	hpos=NNS	w[1]=,	pos[-1]=IN	pos[1]=,
 # reality
@@ -1341,7 +1341,7 @@ NONE	w[-1]=,	fw=profitability	fpos=NN	w[0]=profitability	fw|fpos=profitability|N
 # itself
 NONE	w[-1]=profitability	fw=itself	fpos=PRP	w[0]=itself	fw|fpos=itself|PRP	hw=itself	hw|hpos=itself|PRP	hpos=PRP	w[1]=can	pos[-1]=NN	pos[1]=can
 # an enormous array
-A	w[-1]=by	fw=an	fpos=DT	w[0]=enormous array	fw|fpos=an|DT	hw=array	hw|hpos=array|NN	hpos=NN	w[1]=of	pos[-1]=IN	pos[1]=of
+AN	w[-1]=by	fw=an	fpos=DT	w[0]=enormous array	fw|fpos=an|DT	hw=array	hw|hpos=array|NN	hpos=NN	w[1]=of	pos[-1]=IN	pos[1]=of
 # different factors
 NONE	w[-1]=of	fw=different	fpos=JJ	w[0]=different factors	fw|fpos=different|JJ	hw=factors	hw|hpos=factors|NNS	hpos=NNS	w[1]=,	pos[-1]=IN	pos[1]=,
 # those
@@ -1791,7 +1791,7 @@ A	w[-1]=to	fw=a	fpos=DT	w[0]=constant battle	fw|fpos=a|DT	hw=battle	hw|hpos=batt
 # productivity
 NONE	w[-1]=of	fw=productivity	fpos=NN	w[0]=productivity	fw|fpos=productivity|NN	hw=productivity	hw|hpos=productivity|NN	hpos=NN	w[1]=and	pos[-1]=IN	pos[1]=and
 # an obsession
-A	w[-1]=and	fw=an	fpos=DT	w[0]=obsession	fw|fpos=an|DT	hw=obsession	hw|hpos=obsession|NN	hpos=NN	w[1]=with	pos[-1]=CC	pos[1]=with
+AN	w[-1]=and	fw=an	fpos=DT	w[0]=obsession	fw|fpos=an|DT	hw=obsession	hw|hpos=obsession|NN	hpos=NN	w[1]=with	pos[-1]=CC	pos[1]=with
 # productivity growth
 NONE	w[-1]=with	fw=productivity	fpos=NN	w[0]=productivity growth	fw|fpos=productivity|NN	hw=growth	hw|hpos=growth|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
 # this process
@@ -1887,7 +1887,7 @@ A	w[-1]=consequently	fw=a	fpos=DT	w[0]=drop	fw|fpos=a|DT	hw=drop	hw|hpos=drop|NN
 # new productive investment
 NONE	w[-1]=in	fw=new	fpos=JJ	w[0]=new productive investment	fw|fpos=new|JJ	hw=investment	hw|hpos=investment|NN	hpos=NN	w[1]=,	pos[-1]=IN	pos[1]=,
 # an increase
-A	w[-1]=causing	fw=an	fpos=DT	w[0]=increase	fw|fpos=an|DT	hw=increase	hw|hpos=increase|NN	hpos=NN	w[1]=in	pos[-1]=VBG	pos[1]=in
+AN	w[-1]=causing	fw=an	fpos=DT	w[0]=increase	fw|fpos=an|DT	hw=increase	hw|hpos=increase|NN	hpos=NN	w[1]=in	pos[-1]=VBG	pos[1]=in
 # unemployment
 NONE	w[-1]=in	fw=unemployment	fpos=NN	w[0]=unemployment	fw|fpos=unemployment|NN	hw=unemployment	hw|hpos=unemployment|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
 # This
@@ -2207,7 +2207,7 @@ NONE	w[-1]=for	fw=example	fpos=NN	w[0]=example	fw|fpos=example|NN	hw=example	hw|
 # Mandel considers capitalism
 NONE	w[-1]=whether	fw=Mandel	fpos=NNP	w[0]=Mandel considers capitalism	fw|fpos=Mandel|NNP	hw=capitalism	hw|hpos=capitalism|NN	hpos=NN	w[1]=has	pos[-1]=IN	pos[1]=has
 # an inherent tendency
-A	w[-1]=has	fw=an	fpos=DT	w[0]=inherent tendency	fw|fpos=an|DT	hw=tendency	hw|hpos=tendency|NN	hpos=NN	w[1]=toward	pos[-1]=VBZ	pos[1]=toward
+AN	w[-1]=has	fw=an	fpos=DT	w[0]=inherent tendency	fw|fpos=an|DT	hw=tendency	hw|hpos=tendency|NN	hpos=NN	w[1]=toward	pos[-1]=VBZ	pos[1]=toward
 # overproduction
 NONE	w[-1]=toward	fw=overproduction	fpos=NN	w[0]=overproduction	fw|fpos=overproduction|NN	hw=overproduction	hw|hpos=overproduction|NN	hpos=NN	w[1]=which	pos[-1]=IN	pos[1]=which
 # which
@@ -2501,7 +2501,7 @@ THE	w[-1]=as	fw=the	fpos=DT	w[0]=true revolutionary theory	fw|fpos=the|DT	hw=the
 # More empirical studies
 NONE	w[-1]=NONE	fw=More	fpos=RBR	w[0]=More empirical studies	fw|fpos=More|RBR	hw=studies	hw|hpos=studies|NNS	hpos=NNS	w[1]=NONE	pos[-1]=NONE	pos[1]=NONE
 # An important econometric work
-A	w[-1]=NONE	fw=An	fpos=DT	w[0]=important econometric work	fw|fpos=An|DT	hw=work	hw|hpos=work|NN	hpos=NN	w[1]=,	pos[-1]=NONE	pos[1]=,
+AN	w[-1]=NONE	fw=An	fpos=DT	w[0]=important econometric work	fw|fpos=An|DT	hw=work	hw|hpos=work|NN	hpos=NN	w[1]=,	pos[-1]=NONE	pos[1]=,
 # the Wealth
 THE	w[-1]=Measuring	fw=the	fpos=DT	w[0]=Wealth	fw|fpos=the|DT	hw=Wealth	hw|hpos=Wealth|NNP	hpos=NNP	w[1]=of	pos[-1]=VBG	pos[1]=of
 # Nations
@@ -2543,7 +2543,7 @@ A	w[-1]=but	fw=a	fpos=DT	w[0]=long-term historical trend	fw|fpos=a|DT	hw=trend	h
 # The celebrated New Left historian Robert Brenner
 THE	w[-1]=NONE	fw=The	fpos=DT	w[0]=celebrated New Left historian Robert Brenner	fw|fpos=The|DT	hw=Brenner	hw|hpos=Brenner|NNP	hpos=NNP	w[1]=has	pos[-1]=NONE	pos[1]=has
 # an explanation
-A	w[-1]=provide	fw=an	fpos=DT	w[0]=explanation	fw|fpos=an|DT	hw=explanation	hw|hpos=explanation|NN	hpos=NN	w[1]=of	pos[-1]=VB	pos[1]=of
+AN	w[-1]=provide	fw=an	fpos=DT	w[0]=explanation	fw|fpos=an|DT	hw=explanation	hw|hpos=explanation|NN	hpos=NN	w[1]=of	pos[-1]=VB	pos[1]=of
 # the post-war boom
 THE	w[-1]=of	fw=the	fpos=DT	w[0]=post-war boom	fw|fpos=the|DT	hw=boom	hw|hpos=boom|NN	hpos=NN	w[1]=and	pos[-1]=IN	pos[1]=and
 # its aftermath
@@ -2563,7 +2563,7 @@ NONE	w[-1]=,	fw=who	fpos=WP	w[0]=who	fw|fpos=who|WP	hw=who	hw|hpos=who|WP	hpos=W
 # it
 NONE	w[-1]=that	fw=it	fpos=PRP	w[0]=it	fw|fpos=it|PRP	hw=it	hw|hpos=it|PRP	hpos=PRP	w[1]=is	pos[-1]=IN	pos[1]=is
 # an econometric or theoretical point
-A	w[-1]=from	fw=an	fpos=DT	w[0]=econometric or theoretical point	fw|fpos=an|DT	hw=point	hw|hpos=point|NN	hpos=NN	w[1]=of	pos[-1]=IN	pos[1]=of
+AN	w[-1]=from	fw=an	fpos=DT	w[0]=econometric or theoretical point	fw|fpos=an|DT	hw=point	hw|hpos=point|NN	hpos=NN	w[1]=of	pos[-1]=IN	pos[1]=of
 # view
 NONE	w[-1]=of	fw=view	fpos=NN	w[0]=view	fw|fpos=view|NN	hw=view	hw|hpos=view|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
 # A lot
@@ -2613,7 +2613,7 @@ THE	w[-1]=value-added	fw=the	fpos=DT	w[0]=`` surplus	fw|fpos=the|DT	hw=surplus	h
 # Sraffa
 NONE	w[-1]=While	fw=Sraffa	fpos=NNP	w[0]=Sraffa	fw|fpos=Sraffa|NNP	hw=Sraffa	hw|hpos=Sraffa|NNP	hpos=NNP	w[1]=had	pos[-1]=IN	pos[1]=had
 # an alternative
-A	w[-1]=provided	fw=an	fpos=DT	w[0]=alternative	fw|fpos=an|DT	hw=alternative	hw|hpos=alternative|NN	hpos=NN	w[1]=to	pos[-1]=VBN	pos[1]=to
+AN	w[-1]=provided	fw=an	fpos=DT	w[0]=alternative	fw|fpos=an|DT	hw=alternative	hw|hpos=alternative|NN	hpos=NN	w[1]=to	pos[-1]=VBN	pos[1]=to
 # the problematic labor theory
 THE	w[-1]=to	fw=the	fpos=DT	w[0]=problematic labor theory	fw|fpos=the|DT	hw=theory	hw|hpos=theory|NN	hpos=NN	w[1]=of	pos[-1]=TO	pos[1]=of
 # value
@@ -2689,7 +2689,7 @@ NONE	w[-1]=In	fw=1997	fpos=CD	w[0]=1997	fw|fpos=1997|CD	hw=1997	hw|hpos=1997|CD	
 # the Italian Marxian economist Riccardo Bellofiore
 THE	w[-1]=,	fw=the	fpos=DT	w[0]=Italian Marxian economist Riccardo Bellofiore	fw|fpos=the|DT	hw=Bellofiore	hw|hpos=Bellofiore|NNP	hpos=NNP	w[1]=released	pos[-1]=,	pos[1]=released
 # an edited volume
-A	w[-1]=released	fw=an	fpos=DT	w[0]=edited volume	fw|fpos=an|DT	hw=volume	hw|hpos=volume|NN	hpos=NN	w[1]=of	pos[-1]=VBD	pos[1]=of
+AN	w[-1]=released	fw=an	fpos=DT	w[0]=edited volume	fw|fpos=an|DT	hw=volume	hw|hpos=volume|NN	hpos=NN	w[1]=of	pos[-1]=VBD	pos[1]=of
 # essays
 NONE	w[-1]=of	fw=essays	fpos=NNS	w[0]=essays	fw|fpos=essays|NNS	hw=essays	hw|hpos=essays|NNS	hpos=NNS	w[1]=by	pos[-1]=IN	pos[1]=by
 # leading Marxist scholars
@@ -3057,7 +3057,7 @@ NONE	w[-1]=Within	fw=certain	fpos=JJ	w[0]=certain limits	fw|fpos=certain|JJ	hw=l
 # the income
 THE	w[-1]=,	fw=the	fpos=DT	w[0]=income	fw|fpos=the|DT	hw=income	hw|hpos=income|NN	hpos=NN	w[1]=generated	pos[-1]=,	pos[1]=generated
 # an asset boom
-A	w[-1]=by	fw=an	fpos=DT	w[0]=asset boom	fw|fpos=an|DT	hw=boom	hw|hpos=boom|NN	hpos=NN	w[1]=may	pos[-1]=IN	pos[1]=may
+AN	w[-1]=by	fw=an	fpos=DT	w[0]=asset boom	fw|fpos=an|DT	hw=boom	hw|hpos=boom|NN	hpos=NN	w[1]=may	pos[-1]=IN	pos[1]=may
 # additional demand
 NONE	w[-1]=stimulate	fw=additional	fpos=JJ	w[0]=additional demand	fw|fpos=additional|JJ	hw=demand	hw|hpos=demand|NN	hpos=NN	w[1]=in	pos[-1]=VB	pos[1]=in
 # particular sectors
@@ -3215,7 +3215,7 @@ NONE	w[-1]=NONE	fw=Marx	fpos=NN	w[0]=Marx	fw|fpos=Marx|NN	hw=Marx	hw|hpos=Marx|N
 # his story
 NONE	w[-1]=completed	fw=his	fpos=PRP$	w[0]=his story	fw|fpos=his|PRP$	hw=story	hw|hpos=story|NN	hpos=NN	w[1]=with	pos[-1]=VBN	pos[1]=with
 # an analysis
-A	w[-1]=with	fw=an	fpos=DT	w[0]=analysis	fw|fpos=an|DT	hw=analysis	hw|hpos=analysis|NN	hpos=NN	w[1]=of	pos[-1]=IN	pos[1]=of
+AN	w[-1]=with	fw=an	fpos=DT	w[0]=analysis	fw|fpos=an|DT	hw=analysis	hw|hpos=analysis|NN	hpos=NN	w[1]=of	pos[-1]=IN	pos[1]=of
 # the credit system
 THE	w[-1]=of	fw=the	fpos=DT	w[0]=credit system	fw|fpos=the|DT	hw=system	hw|hpos=system|NN	hpos=NN	w[1]=as	pos[-1]=IN	pos[1]=as
 # a whole
@@ -3341,7 +3341,7 @@ NONE	w[-1]=(	fw=fixed	fpos=VBN	w[0]=fixed equipment and inventories	fw|fpos=fixe
 # the capital
 THE	w[-1]=represents	fw=the	fpos=DT	w[0]=capital	fw|fpos=the|DT	hw=capital	hw|hpos=capital|NN	hpos=NN	w[1]=that	pos[-1]=VBZ	pos[1]=that
 # an enterprise
-A	w[-1]=that	fw=an	fpos=DT	w[0]=enterprise	fw|fpos=an|DT	hw=enterprise	hw|hpos=enterprise|NN	hpos=NN	w[1]=has	pos[-1]=IN	pos[1]=has
+AN	w[-1]=that	fw=an	fpos=DT	w[0]=enterprise	fw|fpos=an|DT	hw=enterprise	hw|hpos=enterprise|NN	hpos=NN	w[1]=has	pos[-1]=IN	pos[1]=has
 # a fund
 A	w[-1]=than	fw=a	fpos=DT	w[0]=fund	fw|fpos=a|DT	hw=fund	hw|hpos=fund|NN	hpos=NN	w[1]=to	pos[-1]=IN	pos[1]=to
 # wages
@@ -3359,7 +3359,7 @@ NONE	w[-1]=NONE	fw=That	fpos=DT	w[0]=	fw|fpos=That|DT	hw=That	hw|hpos=That|DT	hp
 # any corporate balance sheet
 NONE	w[-1]=from	fw=any	fpos=DT	w[0]=corporate balance sheet	fw|fpos=any|DT	hw=sheet	hw|hpos=sheet|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
 # an enterprise
-A	w[-1]=If	fw=an	fpos=DT	w[0]=enterprise	fw|fpos=an|DT	hw=enterprise	hw|hpos=enterprise|NN	hpos=NN	w[1]=borrows	pos[-1]=IN	pos[1]=borrows
+AN	w[-1]=If	fw=an	fpos=DT	w[0]=enterprise	fw|fpos=an|DT	hw=enterprise	hw|hpos=enterprise|NN	hpos=NN	w[1]=borrows	pos[-1]=IN	pos[1]=borrows
 # capital
 NONE	w[-1]=leases	fw=capital	fpos=NN	w[0]=capital	fw|fpos=capital|NN	hw=capital	hw|hpos=capital|NN	hpos=NN	w[1]=for	pos[-1]=VBZ	pos[1]=for
 # production
@@ -3509,7 +3509,7 @@ A	w[-1]=if	fw=a	fpos=DT	w[0]=business	fw|fpos=a|DT	hw=business	hw|hpos=business|
 # money
 NONE	w[-1]=makes	fw=money	fpos=NN	w[0]=money	fw|fpos=money|NN	hw=money	hw|hpos=money|NN	hpos=NN	w[1]=simply	pos[-1]=VBZ	pos[1]=simply
 # an asset
-A	w[-1]=selling	fw=an	fpos=DT	w[0]=asset	fw|fpos=an|DT	hw=asset	hw|hpos=asset|NN	hpos=NN	w[1]=it	pos[-1]=VBG	pos[1]=it
+AN	w[-1]=selling	fw=an	fpos=DT	w[0]=asset	fw|fpos=an|DT	hw=asset	hw|hpos=asset|NN	hpos=NN	w[1]=it	pos[-1]=VBG	pos[1]=it
 # it
 NONE	w[-1]=asset	fw=it	fpos=PRP	w[0]=it	fw|fpos=it|PRP	hw=it	hw|hpos=it|PRP	hpos=PRP	w[1]=has	pos[-1]=NN	pos[1]=has
 # asset appreciation
@@ -4005,7 +4005,7 @@ NONE	w[-1]=here	fw=most	fpos=JJS	w[0]=most	fw|fpos=most|JJS	hw=most	hw|hpos=most
 # all
 NONE	w[-1]=of	fw=all	fpos=DT	w[0]=	fw|fpos=all|DT	hw=all	hw|hpos=all|DT	hpos=DT	w[1]=,	pos[-1]=IN	pos[1]=,
 # an economic activity or transaction
-A	w[-1]=whether	fw=an	fpos=DT	w[0]=economic activity or transaction	fw|fpos=an|DT	hw=transaction	hw|hpos=transaction|NN	hpos=NN	w[1]=which	pos[-1]=IN	pos[1]=which
+AN	w[-1]=whether	fw=an	fpos=DT	w[0]=economic activity or transaction	fw|fpos=an|DT	hw=transaction	hw|hpos=transaction|NN	hpos=NN	w[1]=which	pos[-1]=IN	pos[1]=which
 # which
 NONE	w[-1]=transaction	fw=which	fpos=WDT	w[0]=which	fw|fpos=which|WDT	hw=which	hw|hpos=which|WDT	hpos=WDT	w[1]=generates	pos[-1]=NN	pos[1]=generates
 # income
@@ -4105,7 +4105,7 @@ THE	w[-1]=owns	fw=the	fpos=DT	w[0]=wealth	fw|fpos=the|DT	hw=wealth	hw|hpos=wealt
 # a secondary issue
 A	w[-1]=becomes	fw=a	fpos=DT	w[0]=secondary issue	fw|fpos=a|DT	hw=issue	hw|hpos=issue|NN	hpos=NN	w[1]=.	pos[-1]=VBZ	pos[1]=.
 # An asset
-A	w[-1]=NONE	fw=An	fpos=DT	w[0]=asset	fw|fpos=An|DT	hw=asset	hw|hpos=asset|NN	hpos=NN	w[1]=may	pos[-1]=NONE	pos[1]=may
+AN	w[-1]=NONE	fw=An	fpos=DT	w[0]=asset	fw|fpos=An|DT	hw=asset	hw|hpos=asset|NN	hpos=NN	w[1]=may	pos[-1]=NONE	pos[1]=may
 # which
 NONE	w[-1]=held	fw=which	fpos=WDT	w[0]=which	fw|fpos=which|WDT	hw=which	hw|hpos=which|WDT	hpos=WDT	w[1]=generates	pos[-1]=VBN	pos[1]=generates
 # income
@@ -4115,7 +4115,7 @@ NONE	w[-1]=but	fw=it	fpos=PRP	w[0]=it	fw|fpos=it|PRP	hw=it	hw|hpos=it|PRP	hpos=P
 # a borrowed asset via-via
 A	w[-1]=be	fw=a	fpos=DT	w[0]=borrowed asset via-via	fw|fpos=a|DT	hw=via-via	hw|hpos=via-via|NN	hpos=NN	w[1]=,	pos[-1]=VB	pos[1]=,
 # an asset
-A	w[-1]=or	fw=an	fpos=DT	w[0]=asset	fw|fpos=an|DT	hw=asset	hw|hpos=asset|NN	hpos=NN	w[1]=the	pos[-1]=CC	pos[1]=the
+AN	w[-1]=or	fw=an	fpos=DT	w[0]=asset	fw|fpos=an|DT	hw=asset	hw|hpos=asset|NN	hpos=NN	w[1]=the	pos[-1]=CC	pos[1]=the
 # the value
 THE	w[-1]=asset	fw=the	fpos=DT	w[0]=value	fw|fpos=the|DT	hw=value	hw|hpos=value|NN	hpos=NN	w[1]=of	pos[-1]=NN	pos[1]=of
 # which
@@ -4385,7 +4385,7 @@ THE	w[-1]=that	fw=the	fpos=DT	w[0]=`` overhead expense	fw|fpos=the|DT	hw=expense
 # unproductive labor
 NONE	w[-1]=of	fw=unproductive	fpos=JJ	w[0]=unproductive labor	fw|fpos=unproductive|JJ	hw=labor	hw|hpos=labor|NN	hpos=NN	w[1]=represents	pos[-1]=IN	pos[1]=represents
 # an outlay
-A	w[-1]=represents	fw=an	fpos=DT	w[0]=outlay	fw|fpos=an|DT	hw=outlay	hw|hpos=outlay|NN	hpos=NN	w[1]=of	pos[-1]=VBZ	pos[1]=of
+AN	w[-1]=represents	fw=an	fpos=DT	w[0]=outlay	fw|fpos=an|DT	hw=outlay	hw|hpos=outlay|NN	hpos=NN	w[1]=of	pos[-1]=VBZ	pos[1]=of
 # constant capital
 NONE	w[-1]=circulating	fw=constant	fpos=JJ	w[0]=constant capital	fw|fpos=constant|JJ	hw=capital	hw|hpos=capital|NN	hpos=NN	w[1]=.	pos[-1]=VBG	pos[1]=.
 # The main empirical objection
@@ -4521,13 +4521,13 @@ NONE	w[-1]=produces	fw=something	fpos=NN	w[0]=something	fw|fpos=something|NN	hw=
 # What
 NONE	w[-1]=NONE	fw=What	fpos=WP	w[0]=What	fw|fpos=What|WP	hw=What	hw|hpos=What|WP	hpos=WP	w[1]=looks	pos[-1]=NONE	pos[1]=looks
 # an efficiency gain
-A	w[-1]=like	fw=an	fpos=DT	w[0]=efficiency gain	fw|fpos=an|DT	hw=gain	hw|hpos=gain|NN	hpos=NN	w[1]=from	pos[-1]=IN	pos[1]=from
+AN	w[-1]=like	fw=an	fpos=DT	w[0]=efficiency gain	fw|fpos=an|DT	hw=gain	hw|hpos=gain|NN	hpos=NN	w[1]=from	pos[-1]=IN	pos[1]=from
 # seemingly unproductive activity
 NONE	w[-1]=''	fw=seemingly	fpos=RB	w[0]=seemingly unproductive activity	fw|fpos=seemingly|RB	hw=activity	hw|hpos=activity|NN	hpos=NN	w[1]=may	pos[-1]=''	pos[1]=may
 # fact
 NONE	w[-1]=in	fw=fact	fpos=NN	w[0]=fact	fw|fpos=fact|NN	hw=fact	hw|hpos=fact|NN	hpos=NN	w[1]=not	pos[-1]=IN	pos[1]=not
 # an efficiency gain
-A	w[-1]=be	fw=an	fpos=DT	w[0]=efficiency gain	fw|fpos=an|DT	hw=gain	hw|hpos=gain|NN	hpos=NN	w[1]=in	pos[-1]=VB	pos[1]=in
+AN	w[-1]=be	fw=an	fpos=DT	w[0]=efficiency gain	fw|fpos=an|DT	hw=gain	hw|hpos=gain|NN	hpos=NN	w[1]=in	pos[-1]=VB	pos[1]=in
 # total
 NONE	w[-1]=in	fw=total	fpos=NN	w[0]=total	fw|fpos=total|NN	hw=total	hw|hpos=total|NN	hpos=NN	w[1]=,	pos[-1]=IN	pos[1]=,
 # it
@@ -4639,7 +4639,7 @@ A	w[-1]=into	fw=a	fpos=DT	w[0]=productive sector	fw|fpos=a|DT	hw=sector	hw|hpos=
 # tangible physical goods
 NONE	w[-1]=where	fw=tangible	fpos=JJ	w[0]=tangible physical goods	fw|fpos=tangible|JJ	hw=goods	hw|hpos=goods|NNS	hpos=NNS	w[1]=are	pos[-1]=WRB	pos[1]=are
 # an unproductive sector
-A	w[-1]=,	fw=an	fpos=DT	w[0]=unproductive sector	fw|fpos=an|DT	hw=sector	hw|hpos=sector|NN	hpos=NN	w[1]=creating	pos[-1]=,	pos[1]=creating
+AN	w[-1]=,	fw=an	fpos=DT	w[0]=unproductive sector	fw|fpos=an|DT	hw=sector	hw|hpos=sector|NN	hpos=NN	w[1]=creating	pos[-1]=,	pos[1]=creating
 # services
 NONE	w[-1]=creating	fw=services	fpos=NNS	w[0]=services	fw|fpos=services|NNS	hw=services	hw|hpos=services|NNS	hpos=NNS	w[1]=,	pos[-1]=VBG	pos[1]=,
 # households
@@ -4943,7 +4943,7 @@ NONE	w[-1]=and	fw=Guglielmo	fpos=NNP	w[0]=Guglielmo Carchedi	fw|fpos=Guglielmo|N
 # the crisis
 THE	w[-1]=that	fw=the	fpos=DT	w[0]=crisis	fw|fpos=the|DT	hw=crisis	hw|hpos=crisis|NN	hpos=NN	w[1]=may	pos[-1]=IN	pos[1]=may
 # an insufficient mass
-A	w[-1]=by	fw=an	fpos=DT	w[0]=insufficient mass	fw|fpos=an|DT	hw=mass	hw|hpos=mass|NN	hpos=NN	w[1]=of	pos[-1]=IN	pos[1]=of
+AN	w[-1]=by	fw=an	fpos=DT	w[0]=insufficient mass	fw|fpos=an|DT	hw=mass	hw|hpos=mass|NN	hpos=NN	w[1]=of	pos[-1]=IN	pos[1]=of
 # profit
 NONE	w[-1]=of	fw=profit	fpos=NN	w[0]=profit	fw|fpos=profit|NN	hw=profit	hw|hpos=profit|NN	hpos=NN	w[1]=to	pos[-1]=IN	pos[1]=to
 # all the capital
@@ -5403,7 +5403,7 @@ NONE	w[-1]=as	fw=he	fpos=PRP	w[0]=he	fw|fpos=he|PRP	hw=he	hw|hpos=he|PRP	hpos=PR
 # himself
 NONE	w[-1]=said	fw=himself	fpos=PRP	w[0]=himself	fw|fpos=himself|PRP	hw=himself	hw|hpos=himself|PRP	hpos=PRP	w[1]=)	pos[-1]=VBD	pos[1]=)
 # an analysis
-A	w[-1]=provide	fw=an	fpos=DT	w[0]=analysis	fw|fpos=an|DT	hw=analysis	hw|hpos=analysis|NN	hpos=NN	w[1]=of	pos[-1]=VB	pos[1]=of
+AN	w[-1]=provide	fw=an	fpos=DT	w[0]=analysis	fw|fpos=an|DT	hw=analysis	hw|hpos=analysis|NN	hpos=NN	w[1]=of	pos[-1]=VB	pos[1]=of
 # the capitalist mode
 THE	w[-1]=of	fw=the	fpos=DT	w[0]=capitalist mode	fw|fpos=the|DT	hw=mode	hw|hpos=mode|NN	hpos=NN	w[1]=of	pos[-1]=IN	pos[1]=of
 # production
@@ -5423,7 +5423,7 @@ NONE	w[-1]=although	fw=people	fpos=NNS	w[0]=people	fw|fpos=people|NNS	hw=people	
 # the macroeconomic categories
 THE	w[-1]=believe	fw=the	fpos=DT	w[0]=macroeconomic categories	fw|fpos=the|DT	hw=categories	hw|hpos=categories|NNS	hpos=NNS	w[1]=exist	pos[-1]=VB	pos[1]=exist
 # an objective , mind-independent reality
-A	w[-1]=as	fw=an	fpos=DT	w[0]=objective , mind-independent reality	fw|fpos=an|DT	hw=reality	hw|hpos=reality|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
+AN	w[-1]=as	fw=an	fpos=DT	w[0]=objective , mind-independent reality	fw|fpos=an|DT	hw=reality	hw|hpos=reality|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
 # Marx
 NONE	w[-1]=,	fw=Marx	fpos=NNP	w[0]=Marx	fw|fpos=Marx|NNP	hw=Marx	hw|hpos=Marx|NNP	hpos=NNP	w[1]='s	pos[-1]=,	pos[1]='s
 # 's analysis
@@ -5475,7 +5475,7 @@ NONE	w[-1]=that	fw=surplus	fpos=NN	w[0]=surplus value	fw|fpos=surplus|NN	hw=valu
 # It
 NONE	w[-1]=NONE	fw=It	fpos=PRP	w[0]=It	fw|fpos=It|PRP	hw=It	hw|hpos=It|PRP	hpos=PRP	w[1]=is	pos[-1]=NONE	pos[1]=is
 # an interpretation
-A	w[-1]=is	fw=an	fpos=DT	w[0]=interpretation	fw|fpos=an|DT	hw=interpretation	hw|hpos=interpretation|NN	hpos=NN	w[1]=which	pos[-1]=VBZ	pos[1]=which
+AN	w[-1]=is	fw=an	fpos=DT	w[0]=interpretation	fw|fpos=an|DT	hw=interpretation	hw|hpos=interpretation|NN	hpos=NN	w[1]=which	pos[-1]=VBZ	pos[1]=which
 # which
 NONE	w[-1]=interpretation	fw=which	fpos=WDT	w[0]=which	fw|fpos=which|WDT	hw=which	hw|hpos=which|WDT	hpos=WDT	w[1]=certainly	pos[-1]=NN	pos[1]=certainly
 # sense
@@ -5779,7 +5779,7 @@ NONE	w[-1]=values	fw=equal	fpos=JJ	w[0]=equal total production prices	fw|fpos=eq
 # The principle
 THE	w[-1]=NONE	fw=The	fpos=DT	w[0]=principle	fw|fpos=The|DT	hw=principle	hw|hpos=principle|NN	hpos=NN	w[1]=can	pos[-1]=NONE	pos[1]=can
 # an abstract theoretical model
-A	w[-1]=in	fw=an	fpos=DT	w[0]=abstract theoretical model	fw|fpos=an|DT	hw=model	hw|hpos=model|NN	hpos=NN	w[1]=,	pos[-1]=IN	pos[1]=,
+AN	w[-1]=in	fw=an	fpos=DT	w[0]=abstract theoretical model	fw|fpos=an|DT	hw=model	hw|hpos=model|NN	hpos=NN	w[1]=,	pos[-1]=IN	pos[1]=,
 # reality
 NONE	w[-1]=in	fw=reality	fpos=NN	w[0]=reality	fw|fpos=reality|NN	hw=reality	hw|hpos=reality|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
 # that classical revolutionary orthodox principle
@@ -5823,7 +5823,7 @@ A	w[-1]=there	fw=a	fpos=DT	w[0]=way	fw|fpos=a|DT	hw=way	hw|hpos=way|NN	hpos=NN	w
 # that relationship
 NONE	w[-1]=express	fw=that	fpos=DT	w[0]=relationship	fw|fpos=that|DT	hw=relationship	hw|hpos=relationship|NN	hpos=NN	w[1]=,	pos[-1]=VB	pos[1]=,
 # an accounting consolidation
-A	w[-1]=as	fw=an	fpos=DT	w[0]=accounting consolidation	fw|fpos=an|DT	hw=consolidation	hw|hpos=consolidation|NN	hpos=NN	w[1]=or	pos[-1]=IN	pos[1]=or
+AN	w[-1]=as	fw=an	fpos=DT	w[0]=accounting consolidation	fw|fpos=an|DT	hw=consolidation	hw|hpos=consolidation|NN	hpos=NN	w[1]=or	pos[-1]=IN	pos[1]=or
 # a simultaneous equation
 A	w[-1]=or	fw=a	fpos=DT	w[0]=simultaneous equation	fw|fpos=a|DT	hw=equation	hw|hpos=equation|NN	hpos=NN	w[1]=?	pos[-1]=CC	pos[1]=?
 # There
@@ -5963,7 +5963,7 @@ THE	w[-1]=in	fw=the	fpos=DT	w[0]=production process	fw|fpos=the|DT	hw=process	hw
 # the effect
 THE	w[-1]=with	fw=the	fpos=DT	w[0]=effect	fw|fpos=the|DT	hw=effect	hw|hpos=effect|NN	hpos=NN	w[1]=of	pos[-1]=IN	pos[1]=of
 # an increasing organic composition
-A	w[-1]=of	fw=an	fpos=DT	w[0]=increasing organic composition	fw|fpos=an|DT	hw=composition	hw|hpos=composition|NN	hpos=NN	w[1]=of	pos[-1]=IN	pos[1]=of
+AN	w[-1]=of	fw=an	fpos=DT	w[0]=increasing organic composition	fw|fpos=an|DT	hw=composition	hw|hpos=composition|NN	hpos=NN	w[1]=of	pos[-1]=IN	pos[1]=of
 # capital
 NONE	w[-1]=of	fw=capital	fpos=NN	w[0]=capital	fw|fpos=capital|NN	hw=capital	hw|hpos=capital|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
 # the profit rate
@@ -6005,7 +6005,7 @@ NONE	w[-1]=NONE	fw=It	fpos=PRP	w[0]=It	fw|fpos=It|PRP	hw=It	hw|hpos=It|PRP	hpos=
 # some businesses
 NONE	w[-1]=that	fw=some	fpos=DT	w[0]=businesses	fw|fpos=some|DT	hw=businesses	hw|hpos=businesses|NNS	hpos=NNS	w[1]=gain	pos[-1]=IN	pos[1]=gain
 # an environmentally friendly policy
-A	w[-1]=from	fw=an	fpos=DT	w[0]=environmentally friendly policy	fw|fpos=an|DT	hw=policy	hw|hpos=policy|NN	hpos=NN	w[1]=,	pos[-1]=IN	pos[1]=,
+AN	w[-1]=from	fw=an	fpos=DT	w[0]=environmentally friendly policy	fw|fpos=an|DT	hw=policy	hw|hpos=policy|NN	hpos=NN	w[1]=,	pos[-1]=IN	pos[1]=,
 # others
 NONE	w[-1]=while	fw=others	fpos=NNS	w[0]=others	fw|fpos=others|NNS	hw=others	hw|hpos=others|NNS	hpos=NNS	w[1]=do	pos[-1]=IN	pos[1]=do
 # they
@@ -6167,7 +6167,7 @@ NONE	w[-1]=were	fw=militants	fpos=NNS	w[0]=militants	fw|fpos=militants|NNS	hw=mi
 # the French Trotskyist Lutte Ouvriere organization
 THE	w[-1]=in	fw=the	fpos=DT	w[0]=French Trotskyist Lutte Ouvriere organization	fw|fpos=the|DT	hw=organization	hw|hpos=organization|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
 # an interview
-A	w[-1]=In	fw=an	fpos=DT	w[0]=interview	fw|fpos=an|DT	hw=interview	hw|hpos=interview|NN	hpos=NN	w[1]=with	pos[-1]=IN	pos[1]=with
+AN	w[-1]=In	fw=an	fpos=DT	w[0]=interview	fw|fpos=an|DT	hw=interview	hw|hpos=interview|NN	hpos=NN	w[1]=with	pos[-1]=IN	pos[1]=with
 # the The New Republic
 THE	w[-1]=with	fw=the	fpos=DT	w[0]=The New Republic	fw|fpos=the|DT	hw=Republic	hw|hpos=Republic|NNP	hpos=NNP	w[1]=,	pos[-1]=IN	pos[1]=,
 # he
@@ -6199,15 +6199,15 @@ NONE	w[-1]=NONE	fw=Piketty	fpos=NNP	w[0]=Piketty	fw|fpos=Piketty|NNP	hw=Piketty	
 # a leftwing celebrity
 A	w[-1]=became	fw=a	fpos=DT	w[0]=leftwing celebrity	fw|fpos=a|DT	hw=celebrity	hw|hpos=celebrity|NN	hpos=NN	w[1]=,	pos[-1]=VBD	pos[1]=,
 # an interview
-A	w[-1]=with	fw=an	fpos=DT	w[0]=interview	fw|fpos=an|DT	hw=interview	hw|hpos=interview|NN	hpos=NN	w[1]=being	pos[-1]=IN	pos[1]=being
+AN	w[-1]=with	fw=an	fpos=DT	w[0]=interview	fw|fpos=an|DT	hw=interview	hw|hpos=interview|NN	hpos=NN	w[1]=being	pos[-1]=IN	pos[1]=being
 # the British leftist flagship magazine New Left Review
 THE	w[-1]=in	fw=the	fpos=DT	w[0]=British leftist flagship magazine New Left Review	fw|fpos=the|DT	hw=Review	hw|hpos=Review|NNP	hpos=NNP	w[1]=.	pos[-1]=IN	pos[1]=.
 # an article
-A	w[-1]=to	fw=an	fpos=DT	w[0]=article	fw|fpos=an|DT	hw=article	hw|hpos=article|NN	hpos=NN	w[1]=in	pos[-1]=TO	pos[1]=in
+AN	w[-1]=to	fw=an	fpos=DT	w[0]=article	fw|fpos=an|DT	hw=article	hw|hpos=article|NN	hpos=NN	w[1]=in	pos[-1]=TO	pos[1]=in
 # CounterPunch
 NONE	w[-1]=in	fw=CounterPunch	fpos=NN	w[0]=CounterPunch	fw|fpos=CounterPunch|NN	hw=CounterPunch	hw|hpos=CounterPunch|NN	hpos=NN	w[1]=,	pos[-1]=IN	pos[1]=,
 # an intuitive level
-A	w[-1]=at	fw=an	fpos=DT	w[0]=intuitive level	fw|fpos=an|DT	hw=level	hw|hpos=level|NN	hpos=NN	w[1]=,	pos[-1]=IN	pos[1]=,
+AN	w[-1]=at	fw=an	fpos=DT	w[0]=intuitive level	fw|fpos=an|DT	hw=level	hw|hpos=level|NN	hpos=NN	w[1]=,	pos[-1]=IN	pos[1]=,
 # Marx and Piketty
 NONE	w[-1]=,	fw=Marx	fpos=NNP	w[0]=Marx and Piketty	fw|fpos=Marx|NNP	hw=Piketty	hw|hpos=Piketty|NNP	hpos=NNP	w[1]=are	pos[-1]=,	pos[1]=are
 # the same page
@@ -6461,7 +6461,7 @@ NONE	w[-1]=of	fw=output	fpos=NN	w[0]=output	fw|fpos=output|NN	hw=output	hw|hpos=
 # worker
 NONE	w[-1]=per	fw=worker	fpos=NN	w[0]=worker	fw|fpos=worker|NN	hw=worker	hw|hpos=worker|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
 # an alternating movement
-A	w[-1]=Thus	fw=an	fpos=DT	w[0]=alternating movement	fw|fpos=an|DT	hw=movement	hw|hpos=movement|NN	hpos=NN	w[1]=occurs	pos[-1]=RB	pos[1]=occurs
+AN	w[-1]=Thus	fw=an	fpos=DT	w[0]=alternating movement	fw|fpos=an|DT	hw=movement	hw|hpos=movement|NN	hpos=NN	w[1]=occurs	pos[-1]=RB	pos[1]=occurs
 # capitalists
 NONE	w[-1]=where	fw=capitalists	fpos=NNS	w[0]=capitalists	fw|fpos=capitalists|NNS	hw=capitalists	hw|hpos=capitalists|NNS	hpos=NNS	w[1]=increase	pos[-1]=WRB	pos[1]=increase
 # input

@@ -29,7 +29,7 @@ NONE	w[-1]=Since	fw=1991	fpos=CD	w[0]=1991	fw|fpos=1991|CD	hw=1991	hw|hpos=1991|
 # it
 NONE	w[-1]=,	fw=it	fpos=PRP	w[0]=it	fw|fpos=it|PRP	hw=it	hw|hpos=it|PRP	hpos=PRP	w[1]=has	pos[-1]=,	pos[1]=has
 # an ongoing issue
-A	w[-1]=been	fw=an	fpos=DT	w[0]=ongoing issue	fw|fpos=an|DT	hw=issue	hw|hpos=issue|NN	hpos=NN	w[1]=in	pos[-1]=VBN	pos[1]=in
+AN	w[-1]=been	fw=an	fpos=DT	w[0]=ongoing issue	fw|fpos=an|DT	hw=issue	hw|hpos=issue|NN	hpos=NN	w[1]=in	pos[-1]=VBN	pos[1]=in
 # bilateral and international relations
 NONE	w[-1]=in	fw=bilateral	fpos=JJ	w[0]=bilateral and international relations	fw|fpos=bilateral|JJ	hw=relations	hw|hpos=relations|NNS	hpos=NNS	w[1]=.	pos[-1]=IN	pos[1]=.
 # historical and territorial concerns
@@ -951,7 +951,7 @@ THE	w[-1]=concerning	fw=the	fpos=DT	w[0]=country	fw|fpos=the|DT	hw=country	hw|hp
 # 's name , flag and constitution
 NONE	w[-1]=country	fw='s	fpos=POS	w[0]='s name , flag and constitution	fw|fpos='s|POS	hw=constitution	hw|hpos=constitution|NN	hpos=NN	w[1]=.	pos[-1]=NN	pos[1]=.
 # an effort
-A	w[-1]=In	fw=an	fpos=DT	w[0]=effort	fw|fpos=an|DT	hw=effort	hw|hpos=effort|NN	hpos=NN	w[1]=to	pos[-1]=IN	pos[1]=to
+AN	w[-1]=In	fw=an	fpos=DT	w[0]=effort	fw|fpos=an|DT	hw=effort	hw|hpos=effort|NN	hpos=NN	w[1]=to	pos[-1]=IN	pos[1]=to
 # the European Community
 THE	w[-1]=block	fw=the	fpos=DT	w[0]=European Community	fw|fpos=the|DT	hw=Community	hw|hpos=Community|NNP	hpos=NNP	w[1]=from	pos[-1]=VB	pos[1]=from
 # the Republic
@@ -1195,7 +1195,7 @@ THE	w[-1]=ensure	fw=the	fpos=DT	w[0]=country	fw|fpos=the|DT	hw=country	hw|hpos=c
 # 's stability
 NONE	w[-1]=country	fw='s	fpos=POS	w[0]='s stability	fw|fpos='s|POS	hw=stability	hw|hpos=stability|NN	hpos=NN	w[1]=became	pos[-1]=NN	pos[1]=became
 # an urgent priority
-A	w[-1]=became	fw=an	fpos=DT	w[0]=urgent priority	fw|fpos=an|DT	hw=priority	hw|hpos=priority|NN	hpos=NN	w[1]=for	pos[-1]=VBD	pos[1]=for
+AN	w[-1]=became	fw=an	fpos=DT	w[0]=urgent priority	fw|fpos=an|DT	hw=priority	hw|hpos=priority|NN	hpos=NN	w[1]=for	pos[-1]=VBD	pos[1]=for
 # the international community
 THE	w[-1]=for	fw=the	fpos=DT	w[0]=international community	fw|fpos=the|DT	hw=community	hw|hpos=community|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
 # The deteriorating security situation
@@ -1309,7 +1309,7 @@ NONE	w[-1]=increase	fw=friction	fpos=NN	w[0]=friction and tension	fw|fpos=fricti
 # peace and stability
 NONE	w[-1]=to	fw=peace	fpos=NN	w[0]=peace and stability	fw|fpos=peace|NN	hw=stability	hw|hpos=stability|NN	hpos=NN	w[1]=in	pos[-1]=TO	pos[1]=in
 # an already troubled region
-A	w[-1]=in	fw=an	fpos=DT	w[0]=already troubled region	fw|fpos=an|DT	hw=region	hw|hpos=region|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
+AN	w[-1]=in	fw=an	fpos=DT	w[0]=already troubled region	fw|fpos=an|DT	hw=region	hw|hpos=region|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
 # The president
 THE	w[-1]=NONE	fw=The	fpos=DT	w[0]=president	fw|fpos=The|DT	hw=president	hw|hpos=president|NN	hpos=NN	w[1]=of	pos[-1]=NONE	pos[1]=of
 # the Republic
@@ -1581,7 +1581,7 @@ THE	w[-1]=NONE	fw=The	fpos=DT	w[0]=compromise solution	fw|fpos=The|DT	hw=solutio
 # the two resolutions
 THE	w[-1]=in	fw=the	fpos=DT	w[0]=two resolutions	fw|fpos=the|DT	hw=resolutions	hw|hpos=resolutions|NNS	hpos=NNS	w[1]=,	pos[-1]=IN	pos[1]=,
 # an effort
-A	w[-1]=in	fw=an	fpos=DT	w[0]=effort	fw|fpos=an|DT	hw=effort	hw|hpos=effort|NN	hpos=NN	w[1]=to	pos[-1]=IN	pos[1]=to
+AN	w[-1]=in	fw=an	fpos=DT	w[0]=effort	fw|fpos=an|DT	hw=effort	hw|hpos=effort|NN	hpos=NN	w[1]=to	pos[-1]=IN	pos[1]=to
 # the objections and concerns
 THE	w[-1]=meet	fw=the	fpos=DT	w[0]=objections and concerns	fw|fpos=the|DT	hw=concerns	hw|hpos=concerns|NNS	hpos=NNS	w[1]=of	pos[-1]=VB	pos[1]=of
 # both sides
@@ -1867,7 +1867,7 @@ THE	w[-1]=of	fw=the	fpos=DT	w[0]=compromise agreement	fw|fpos=the|DT	hw=agreemen
 # it
 NONE	w[-1]=,	fw=it	fpos=PRP	w[0]=it	fw|fpos=it|PRP	hw=it	hw|hpos=it|PRP	hpos=PRP	w[1]=led	pos[-1]=,	pos[1]=led
 # an upsurge
-A	w[-1]=to	fw=an	fpos=DT	w[0]=upsurge	fw|fpos=an|DT	hw=upsurge	hw|hpos=upsurge|NN	hpos=NN	w[1]=in	pos[-1]=TO	pos[1]=in
+AN	w[-1]=to	fw=an	fpos=DT	w[0]=upsurge	fw|fpos=an|DT	hw=upsurge	hw|hpos=upsurge|NN	hpos=NN	w[1]=in	pos[-1]=TO	pos[1]=in
 # nationalist agitation
 NONE	w[-1]=in	fw=nationalist	fpos=JJ	w[0]=nationalist agitation	fw|fpos=nationalist|JJ	hw=agitation	hw|hpos=agitation|NN	hpos=NN	w[1]=in	pos[-1]=IN	pos[1]=in
 # both countries
@@ -1961,7 +1961,7 @@ NONE	w[-1]=under	fw=Andreas	fpos=NNP	w[0]=Andreas Papandreou	fw|fpos=Andreas|NNP
 # who
 NONE	w[-1]=,	fw=who	fpos=WP	w[0]=who	fw|fpos=who|WP	hw=who	hw|hpos=who|WP	hpos=WP	w[1]=introduced	pos[-1]=,	pos[1]=introduced
 # an even more hardline policy
-A	w[-1]=introduced	fw=an	fpos=DT	w[0]=even more hardline policy	fw|fpos=an|DT	hw=policy	hw|hpos=policy|NN	hpos=NN	w[1]=on	pos[-1]=VBD	pos[1]=on
+AN	w[-1]=introduced	fw=an	fpos=DT	w[0]=even more hardline policy	fw|fpos=an|DT	hw=policy	hw|hpos=policy|NN	hpos=NN	w[1]=on	pos[-1]=VBD	pos[1]=on
 # Macedonia
 NONE	w[-1]=on	fw=Macedonia	fpos=NNP	w[0]=Macedonia	fw|fpos=Macedonia|NNP	hw=Macedonia	hw|hpos=Macedonia|NNP	hpos=NNP	w[1]=and	pos[-1]=IN	pos[1]=and
 # the UN-sponsored negotiations
@@ -2101,7 +2101,7 @@ NONE	w[-1]=of	fw=Macedonia	fpos=NNP	w[0]=Macedonia	fw|fpos=Macedonia|NNP	hw=Mace
 # bilateral relations
 NONE	w[-1]=formalised	fw=bilateral	fpos=JJ	w[0]=bilateral relations	fw|fpos=bilateral|JJ	hw=relations	hw|hpos=relations|NNS	hpos=NNS	w[1]=in	pos[-1]=VBD	pos[1]=in
 # an Interim Accord
-A	w[-1]=in	fw=an	fpos=DT	w[0]=Interim Accord	fw|fpos=an|DT	hw=Accord	hw|hpos=Accord|NNP	hpos=NNP	w[1]=signed	pos[-1]=IN	pos[1]=signed
+AN	w[-1]=in	fw=an	fpos=DT	w[0]=Interim Accord	fw|fpos=an|DT	hw=Accord	hw|hpos=Accord|NNP	hpos=NNP	w[1]=signed	pos[-1]=IN	pos[1]=signed
 # New York
 NONE	w[-1]=in	fw=New	fpos=NNP	w[0]=New York	fw|fpos=New|NNP	hw=York	hw|hpos=York|NNP	hpos=NNP	w[1]=on	pos[-1]=IN	pos[1]=on
 # 13 September 1995
@@ -3151,7 +3151,7 @@ NONE	w[-1]=Following	fw=his	fpos=PRP$	w[0]=his visit	fw|fpos=his|PRP$	hw=visit	h
 # Athens
 NONE	w[-1]=to	fw=Athens	fpos=NNP	w[0]=Athens	fw|fpos=Athens|NNP	hw=Athens	hw|hpos=Athens|NNP	hpos=NNP	w[1]=in	pos[-1]=TO	pos[1]=in
 # an attempt
-A	w[-1]=in	fw=an	fpos=DT	w[0]=attempt	fw|fpos=an|DT	hw=attempt	hw|hpos=attempt|NN	hpos=NN	w[1]=to	pos[-1]=IN	pos[1]=to
+AN	w[-1]=in	fw=an	fpos=DT	w[0]=attempt	fw|fpos=an|DT	hw=attempt	hw|hpos=attempt|NN	hpos=NN	w[1]=to	pos[-1]=IN	pos[1]=to
 # the Greek government
 THE	w[-1]=persuade	fw=the	fpos=DT	w[0]=Greek government	fw|fpos=the|DT	hw=government	hw|hpos=government|NN	hpos=NN	w[1]=not	pos[-1]=VB	pos[1]=not
 # a veto
@@ -3249,7 +3249,7 @@ NONE	w[-1]=is	fw=no	fpos=DT	w[0]=such solution	fw|fpos=no|DT	hw=solution	hw|hpos
 # Greece
 NONE	w[-1]=,	fw=Greece	fpos=NNP	w[0]=Greece	fw|fpos=Greece|NNP	hw=Greece	hw|hpos=Greece|NNP	hpos=NNP	w[1]=will	pos[-1]=,	pos[1]=will
 # an insuperable obstacle
-A	w[-1]=remain	fw=an	fpos=DT	w[0]=insuperable obstacle	fw|fpos=an|DT	hw=obstacle	hw|hpos=obstacle|NN	hpos=NN	w[1]=to	pos[-1]=VB	pos[1]=to
+AN	w[-1]=remain	fw=an	fpos=DT	w[0]=insuperable obstacle	fw|fpos=an|DT	hw=obstacle	hw|hpos=obstacle|NN	hpos=NN	w[1]=to	pos[-1]=VB	pos[1]=to
 # the European and Euro-Atlantic ambition
 THE	w[-1]=to	fw=the	fpos=DT	w[0]=European and Euro-Atlantic ambition	fw|fpos=the|DT	hw=ambition	hw|hpos=ambition|NN	hpos=NN	w[1]=of	pos[-1]=TO	pos[1]=of
 # FYROM
@@ -3265,7 +3265,7 @@ NONE	w[-1]=for	fw=European	fpos=NNP	w[0]=European and Eurasian Affairs	fw|fpos=E
 # Daniel Fried
 NONE	w[-1]=,	fw=Daniel	fpos=NNP	w[0]=Daniel Fried	fw|fpos=Daniel|NNP	hw=Fried	hw|hpos=Fried|NNP	hpos=NNP	w[1]=,	pos[-1]=,	pos[1]=,
 # an unscheduled visit
-A	w[-1]=made	fw=an	fpos=DT	w[0]=unscheduled visit	fw|fpos=an|DT	hw=visit	hw|hpos=visit|NN	hpos=NN	w[1]=to	pos[-1]=VBD	pos[1]=to
+AN	w[-1]=made	fw=an	fpos=DT	w[0]=unscheduled visit	fw|fpos=an|DT	hw=visit	hw|hpos=visit|NN	hpos=NN	w[1]=to	pos[-1]=VBD	pos[1]=to
 # Skopje
 NONE	w[-1]=to	fw=Skopje	fpos=NNP	w[0]=Skopje	fw|fpos=Skopje|NNP	hw=Skopje	hw|hpos=Skopje|NNP	hpos=NNP	w[1]=,	pos[-1]=TO	pos[1]=,
 # the message
@@ -3459,7 +3459,7 @@ THE	w[-1]=show	fw=the	fpos=DT	w[0]=correct political will	fw|fpos=the|DT	hw=will
 # the opportunity
 THE	w[-1]=seizing	fw=the	fpos=DT	w[0]=opportunity	fw|fpos=the|DT	hw=opportunity	hw|hpos=opportunity|NN	hpos=NN	w[1]=to	pos[-1]=VBG	pos[1]=to
 # an acceptable solution
-A	w[-1]=find	fw=an	fpos=DT	w[0]=acceptable solution	fw|fpos=an|DT	hw=solution	hw|hpos=solution|NN	hpos=NN	w[1]=for	pos[-1]=VB	pos[1]=for
+AN	w[-1]=find	fw=an	fpos=DT	w[0]=acceptable solution	fw|fpos=an|DT	hw=solution	hw|hpos=solution|NN	hpos=NN	w[1]=for	pos[-1]=VB	pos[1]=for
 # both parts
 NONE	w[-1]=for	fw=both	fpos=DT	w[0]=parts	fw|fpos=both|DT	hw=parts	hw|hpos=parts|NNS	hpos=NNS	w[1]=''	pos[-1]=IN	pos[1]=''
 # A new meeting
@@ -3725,7 +3725,7 @@ THE	w[-1]=that	fw=the	fpos=DT	w[0]=price	fw|fpos=the|DT	hw=price	hw|hpos=price|N
 # the public opinion
 THE	w[-1]=address	fw=the	fpos=DT	w[0]=public opinion	fw|fpos=the|DT	hw=opinion	hw|hpos=opinion|NN	hpos=NN	w[1]=and	pos[-1]=VB	pos[1]=and
 # an alternative scenario
-A	w[-1]=announce	fw=an	fpos=DT	w[0]=alternative scenario	fw|fpos=an|DT	hw=scenario	hw|hpos=scenario|NN	hpos=NN	w[1]=on	pos[-1]=VB	pos[1]=on
+AN	w[-1]=announce	fw=an	fpos=DT	w[0]=alternative scenario	fw|fpos=an|DT	hw=scenario	hw|hpos=scenario|NN	hpos=NN	w[1]=on	pos[-1]=VB	pos[1]=on
 # Macedonia
 NONE	w[-1]=how	fw=Macedonia	fpos=NNP	w[0]=Macedonia	fw|fpos=Macedonia|NNP	hw=Macedonia	hw|hpos=Macedonia|NNP	hpos=NNP	w[1]=will	pos[-1]=WRB	pos[1]=will
 # the next ten to fifteen years
@@ -3749,7 +3749,7 @@ NONE	w[-1]=``	fw=I	fpos=PRP	w[0]=I	fw|fpos=I|PRP	hw=I	hw|hpos=I|PRP	hpos=PRP	w[1
 # we
 NONE	w[-1]=that	fw=we	fpos=PRP	w[0]=we	fw|fpos=we|PRP	hw=we	hw|hpos=we|PRP	hpos=PRP	w[1]=must	pos[-1]=IN	pos[1]=must
 # an international usage name
-A	w[-1]=on	fw=an	fpos=DT	w[0]=international usage name	fw|fpos=an|DT	hw=name	hw|hpos=name|NN	hpos=NN	w[1]='s	pos[-1]=IN	pos[1]='s
+AN	w[-1]=on	fw=an	fpos=DT	w[0]=international usage name	fw|fpos=an|DT	hw=name	hw|hpos=name|NN	hpos=NN	w[1]='s	pos[-1]=IN	pos[1]='s
 # 's change
 NONE	w[-1]=name	fw='s	fpos=POS	w[0]='s change	fw|fpos='s|POS	hw=change	hw|hpos=change|NN	hpos=NN	w[1]=,	pos[-1]=NN	pos[1]=,
 # some type
@@ -3767,7 +3767,7 @@ NONE	w[-1]=under	fw=question	fpos=NN	w[0]=question	fw|fpos=question|NN	hw=questi
 # I
 NONE	w[-1]=NONE	fw=I	fpos=PRP	w[0]=I	fw|fpos=I|PRP	hw=I	hw|hpos=I|PRP	hpos=PRP	w[1]=do	pos[-1]=NONE	pos[1]=do
 # an auction
-A	w[-1]=in	fw=an	fpos=DT	w[0]=auction	fw|fpos=an|DT	hw=auction	hw|hpos=auction|NN	hpos=NN	w[1]=with	pos[-1]=IN	pos[1]=with
+AN	w[-1]=in	fw=an	fpos=DT	w[0]=auction	fw|fpos=an|DT	hw=auction	hw|hpos=auction|NN	hpos=NN	w[1]=with	pos[-1]=IN	pos[1]=with
 # the name
 THE	w[-1]=with	fw=the	fpos=DT	w[0]=name	fw|fpos=the|DT	hw=name	hw|hpos=name|NN	hpos=NN	w[1]=,	pos[-1]=IN	pos[1]=,
 # that
@@ -3863,7 +3863,7 @@ NONE	w[-1]=To	fw=Vima	fpos=NNP	w[0]=Vima	fw|fpos=Vima|NNP	hw=Vima	hw|hpos=Vima|N
 # the two countries
 THE	w[-1]=that	fw=the	fpos=DT	w[0]=two countries	fw|fpos=the|DT	hw=countries	hw|hpos=countries|NNS	hpos=NNS	w[1]=were	pos[-1]=IN	pos[1]=were
 # an agreement
-A	w[-1]=to	fw=an	fpos=DT	w[0]=agreement	fw|fpos=an|DT	hw=agreement	hw|hpos=agreement|NN	hpos=NN	w[1]=on	pos[-1]=TO	pos[1]=on
+AN	w[-1]=to	fw=an	fpos=DT	w[0]=agreement	fw|fpos=an|DT	hw=agreement	hw|hpos=agreement|NN	hpos=NN	w[1]=on	pos[-1]=TO	pos[1]=on
 # the basis
 THE	w[-1]=on	fw=the	fpos=DT	w[0]=basis	fw|fpos=the|DT	hw=basis	hw|hpos=basis|NN	hpos=NN	w[1]=of	pos[-1]=IN	pos[1]=of
 # the name
@@ -4151,7 +4151,7 @@ NONE	w[-1]=Skopje	fw=just	fpos=RB	w[0]=just days	fw|fpos=just|RB	hw=days	hw|hpos
 # the Bucharest summit
 THE	w[-1]=before	fw=the	fpos=DT	w[0]=Bucharest summit	fw|fpos=the|DT	hw=summit	hw|hpos=summit|NN	hpos=NN	w[1]=by	pos[-1]=IN	pos[1]=by
 # an artist
-A	w[-1]=by	fw=an	fpos=DT	w[0]=artist	fw|fpos=an|DT	hw=artist	hw|hpos=artist|NN	hpos=NN	w[1]=replacing	pos[-1]=IN	pos[1]=replacing
+AN	w[-1]=by	fw=an	fpos=DT	w[0]=artist	fw|fpos=an|DT	hw=artist	hw|hpos=artist|NN	hpos=NN	w[1]=replacing	pos[-1]=IN	pos[1]=replacing
 # the white cross
 THE	w[-1]=replacing	fw=the	fpos=DT	w[0]=white cross	fw|fpos=the|DT	hw=cross	hw|hpos=cross|NN	hpos=NN	w[1]=on	pos[-1]=VBG	pos[1]=on
 # the Greek flag
@@ -4365,7 +4365,7 @@ THE	w[-1]=of	fw=the	fpos=DT	w[0]=Skopje 2014 remodelling	fw|fpos=the|DT	hw=remod
 # the city
 THE	w[-1]=of	fw=the	fpos=DT	w[0]=city	fw|fpos=the|DT	hw=city	hw|hpos=city|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
 # An even larger statue
-A	w[-1]=NONE	fw=An	fpos=DT	w[0]=even larger statue	fw|fpos=An|DT	hw=statue	hw|hpos=statue|NN	hpos=NN	w[1]=of	pos[-1]=NONE	pos[1]=of
+AN	w[-1]=NONE	fw=An	fpos=DT	w[0]=even larger statue	fw|fpos=An|DT	hw=statue	hw|hpos=statue|NN	hpos=NN	w[1]=of	pos[-1]=NONE	pos[1]=of
 # Philip II
 NONE	w[-1]=of	fw=Philip	fpos=NN	w[0]=Philip II	fw|fpos=Philip|NN	hw=II	hw|hpos=II|CD	hpos=CD	w[1]=is	pos[-1]=IN	pos[1]=is
 # construction
@@ -4405,7 +4405,7 @@ THE	w[-1]=Alexander	fw=the	fpos=DT	w[0]=Great	fw|fpos=the|DT	hw=Great	hw|hpos=Gr
 # the Greek Foreign Ministry
 THE	w[-1]=causing	fw=the	fpos=DT	w[0]=Greek Foreign Ministry	fw|fpos=the|DT	hw=Ministry	hw|hpos=Ministry|NNP	hpos=NNP	w[1]=to	pos[-1]=VBG	pos[1]=to
 # an official complaint
-A	w[-1]=lodge	fw=an	fpos=DT	w[0]=official complaint	fw|fpos=an|DT	hw=complaint	hw|hpos=complaint|NN	hpos=NN	w[1]=to	pos[-1]=VB	pos[1]=to
+AN	w[-1]=lodge	fw=an	fpos=DT	w[0]=official complaint	fw|fpos=an|DT	hw=complaint	hw|hpos=complaint|NN	hpos=NN	w[1]=to	pos[-1]=VB	pos[1]=to
 # authorities
 NONE	w[-1]=to	fw=authorities	fpos=NNS	w[0]=authorities	fw|fpos=authorities|NNS	hw=authorities	hw|hpos=authorities|NNS	hpos=NNS	w[1]=in	pos[-1]=TO	pos[1]=in
 # the Republic
@@ -4541,7 +4541,7 @@ NONE	w[-1]=of	fw=Macedonia	fpos=NNP	w[0]=Macedonia	fw|fpos=Macedonia|NNP	hw=Mace
 # it
 NONE	w[-1]=see	fw=it	fpos=PRP	w[0]=it	fw|fpos=it|PRP	hw=it	hw|hpos=it|PRP	hpos=PRP	w[1]=as	pos[-1]=VBP	pos[1]=as
 # an attempt
-A	w[-1]=as	fw=an	fpos=DT	w[0]=attempt	fw|fpos=an|DT	hw=attempt	hw|hpos=attempt|NN	hpos=NN	w[1]=to	pos[-1]=IN	pos[1]=to
+AN	w[-1]=as	fw=an	fpos=DT	w[0]=attempt	fw|fpos=an|DT	hw=attempt	hw|hpos=attempt|NN	hpos=NN	w[1]=to	pos[-1]=IN	pos[1]=to
 # them
 NONE	w[-1]=marginalize	fw=them	fpos=PRP	w[0]=them	fw|fpos=them|PRP	hw=them	hw|hpos=them|PRP	hpos=PRP	w[1]=and	pos[-1]=VB	pos[1]=and
 # them
@@ -4711,7 +4711,7 @@ NONE	w[-1]=``	fw=former	fpos=JJ	w[0]=former Yugoslav Republic	fw|fpos=former|JJ	
 # Macedonia
 NONE	w[-1]=of	fw=Macedonia	fpos=NNP	w[0]=Macedonia	fw|fpos=Macedonia|NNP	hw=Macedonia	hw|hpos=Macedonia|NNP	hpos=NNP	w[1]=''	pos[-1]=IN	pos[1]=''
 # an acceptable name
-A	w[-1]=be	fw=an	fpos=DT	w[0]=acceptable name	fw|fpos=an|DT	hw=name	hw|hpos=name|NN	hpos=NN	w[1]=for	pos[-1]=VB	pos[1]=for
+AN	w[-1]=be	fw=an	fpos=DT	w[0]=acceptable name	fw|fpos=an|DT	hw=name	hw|hpos=name|NN	hpos=NN	w[1]=for	pos[-1]=VB	pos[1]=for
 # the country
 THE	w[-1]=for	fw=the	fpos=DT	w[0]=country	fw|fpos=the|DT	hw=country	hw|hpos=country|NN	hpos=NN	w[1]=NONE	pos[-1]=IN	pos[1]=NONE
 # Macedonia
@@ -4721,7 +4721,7 @@ NONE	w[-1]=by	fw=any	fpos=DT	w[0]=	fw|fpos=any|DT	hw=any	hw|hpos=any|DT	hpos=DT	
 # the two parties
 THE	w[-1]=of	fw=the	fpos=DT	w[0]=two parties	fw|fpos=the|DT	hw=parties	hw|hpos=parties|NNS	hpos=NNS	w[1]=as	pos[-1]=IN	pos[1]=as
 # an official name
-A	w[-1]=as	fw=an	fpos=DT	w[0]=official name	fw|fpos=an|DT	hw=name	hw|hpos=name|NN	hpos=NN	w[1]=for	pos[-1]=IN	pos[1]=for
+AN	w[-1]=as	fw=an	fpos=DT	w[0]=official name	fw|fpos=an|DT	hw=name	hw|hpos=name|NN	hpos=NN	w[1]=for	pos[-1]=IN	pos[1]=for
 # the country
 THE	w[-1]=for	fw=the	fpos=DT	w[0]=country	fw|fpos=the|DT	hw=country	hw|hpos=country|NN	hpos=NN	w[1]=or	pos[-1]=IN	pos[1]=or
 # the region
@@ -4869,7 +4869,7 @@ THE	w[-1]=to	fw=the	fpos=DT	w[0]=proposal	fw|fpos=the|DT	hw=proposal	hw|hpos=pro
 # the Athenian daily Ethnos
 THE	w[-1]=,	fw=the	fpos=DT	w[0]=Athenian daily Ethnos	fw|fpos=the|DT	hw=Ethnos	hw|hpos=Ethnos|NNP	hpos=NNP	w[1]=published	pos[-1]=,	pos[1]=published
 # an alleged secret diplomatic correspondence
-A	w[-1]=published	fw=an	fpos=DT	w[0]=alleged secret diplomatic correspondence	fw|fpos=an|DT	hw=correspondence	hw|hpos=correspondence|NN	hpos=NN	w[1]=of	pos[-1]=VBD	pos[1]=of
+AN	w[-1]=published	fw=an	fpos=DT	w[0]=alleged secret diplomatic correspondence	fw|fpos=an|DT	hw=correspondence	hw|hpos=correspondence|NN	hpos=NN	w[1]=of	pos[-1]=VBD	pos[1]=of
 # the US State Department
 THE	w[-1]=of	fw=the	fpos=DT	w[0]=US State Department	fw|fpos=the|DT	hw=Department	hw|hpos=Department|NNP	hpos=NNP	w[1]=.	pos[-1]=IN	pos[1]=.
 # The leaked document
@@ -5511,7 +5511,7 @@ NONE	w[-1]=,	fw=dear	fpos=JJ	w[0]=dear friends	fw|fpos=dear|JJ	hw=friends	hw|hpo
 # the dignity and identity
 THE	w[-1]=,	fw=the	fpos=DT	w[0]=dignity and identity	fw|fpos=the|DT	hw=identity	hw|hpos=identity|NN	hpos=NN	w[1]=of	pos[-1]=,	pos[1]=of
 # an entire nation
-A	w[-1]=of	fw=an	fpos=DT	w[0]=entire nation	fw|fpos=an|DT	hw=nation	hw|hpos=nation|NN	hpos=NN	w[1]=is	pos[-1]=IN	pos[1]=is
+AN	w[-1]=of	fw=an	fpos=DT	w[0]=entire nation	fw|fpos=an|DT	hw=nation	hw|hpos=nation|NN	hpos=NN	w[1]=is	pos[-1]=IN	pos[1]=is
 # stake
 NONE	w[-1]=at	fw=stake	fpos=NN	w[0]=stake	fw|fpos=stake|NN	hw=stake	hw|hpos=stake|NN	hpos=NN	w[1]=here	pos[-1]=IN	pos[1]=here
 # that
@@ -5519,7 +5519,7 @@ NONE	w[-1]=here	fw=that	fpos=WDT	w[0]=that	fw|fpos=that|WDT	hw=that	hw|hpos=that
 # they
 NONE	w[-1]=,	fw=they	fpos=PRP	w[0]=they	fw|fpos=they|PRP	hw=they	hw|hpos=they|PRP	hpos=PRP	w[1]=moved	pos[-1]=,	pos[1]=moved
 # an open discussion
-A	w[-1]=into	fw=an	fpos=DT	w[0]=open discussion	fw|fpos=an|DT	hw=discussion	hw|hpos=discussion|NN	hpos=NN	w[1]=where	pos[-1]=IN	pos[1]=where
+AN	w[-1]=into	fw=an	fpos=DT	w[0]=open discussion	fw|fpos=an|DT	hw=discussion	hw|hpos=discussion|NN	hpos=NN	w[1]=where	pos[-1]=IN	pos[1]=where
 # the Greek Ambassador
 THE	w[-1]=where	fw=the	fpos=DT	w[0]=Greek Ambassador	fw|fpos=the|DT	hw=Ambassador	hw|hpos=Ambassador|NNP	hpos=NNP	w[1]=in	pos[-1]=WRB	pos[1]=in
 # the US Alexandros Mallias
@@ -5801,7 +5801,7 @@ NONE	w[-1]=in	fw=newspapers	fpos=NNS	w[0]=newspapers and billboards	fw|fpos=news
 # Macedonia
 NONE	w[-1]=across	fw=Macedonia	fpos=NNP	w[0]=Macedonia	fw|fpos=Macedonia|NNP	hw=Macedonia	hw|hpos=Macedonia|NNP	hpos=NNP	w[1]=``	pos[-1]=IN	pos[1]=``
 # an end
-A	w[-1]=demanding	fw=an	fpos=DT	w[0]=end	fw|fpos=an|DT	hw=end	hw|hpos=end|NN	hpos=NN	w[1]=to	pos[-1]=VBG	pos[1]=to
+AN	w[-1]=demanding	fw=an	fpos=DT	w[0]=end	fw|fpos=an|DT	hw=end	hw|hpos=end|NN	hpos=NN	w[1]=to	pos[-1]=VBG	pos[1]=to
 # all negotiations
 NONE	w[-1]=to	fw=all	fpos=DT	w[0]=negotiations	fw|fpos=all|DT	hw=negotiations	hw|hpos=negotiations|NNS	hpos=NNS	w[1]=with	pos[-1]=TO	pos[1]=with
 # Greece
@@ -6197,7 +6197,7 @@ NONE	w[-1]=of	fw=accession	fpos=NN	w[0]=accession negotiations	fw|fpos=accession
 # bilateral disputes
 NONE	w[-1]=as	fw=bilateral	fpos=JJ	w[0]=bilateral disputes	fw|fpos=bilateral|JJ	hw=disputes	hw|hpos=disputes|NNS	hpos=NNS	w[1]=must	pos[-1]=IN	pos[1]=must
 # an obstacle
-A	w[-1]=be	fw=an	fpos=DT	w[0]=obstacle	fw|fpos=an|DT	hw=obstacle	hw|hpos=obstacle|NN	hpos=NN	w[1]=for	pos[-1]=VB	pos[1]=for
+AN	w[-1]=be	fw=an	fpos=DT	w[0]=obstacle	fw|fpos=an|DT	hw=obstacle	hw|hpos=obstacle|NN	hpos=NN	w[1]=for	pos[-1]=VB	pos[1]=for
 # the start
 THE	w[-1]=for	fw=the	fpos=DT	w[0]=start	fw|fpos=the|DT	hw=start	hw|hpos=start|NN	hpos=NN	w[1]=of	pos[-1]=IN	pos[1]=of
 # talks
@@ -7355,7 +7355,7 @@ NONE	w[-1]=avoid	fw=confusion	fpos=NN	w[0]=confusion	fw|fpos=confusion|NN	hw=con
 # Greek Macedonia
 NONE	w[-1]=with	fw=Greek	fpos=NNP	w[0]=Greek Macedonia	fw|fpos=Greek|NNP	hw=Macedonia	hw|hpos=Macedonia|NNP	hpos=NNP	w[1]=and	pos[-1]=IN	pos[1]=and
 # an end
-A	w[-1]=put	fw=an	fpos=DT	w[0]=end	fw|fpos=an|DT	hw=end	hw|hpos=end|NN	hpos=NN	w[1]=to	pos[-1]=VB	pos[1]=to
+AN	w[-1]=put	fw=an	fpos=DT	w[0]=end	fw|fpos=an|DT	hw=end	hw|hpos=end|NN	hpos=NN	w[1]=to	pos[-1]=VB	pos[1]=to
 # the irredentist policy
 THE	w[-1]=to	fw=the	fpos=DT	w[0]=irredentist policy	fw|fpos=the|DT	hw=policy	hw|hpos=policy|NN	hpos=NN	w[1]=and	pos[-1]=TO	pos[1]=and
 # territorial aspirations
@@ -7653,7 +7653,7 @@ NONE	w[-1]=reports	fw=there	fpos=EX	w[0]=there	fw|fpos=there|EX	hw=there	hw|hpos
 # plans
 NONE	w[-1]=are	fw=plans	fpos=NNS	w[0]=plans	fw|fpos=plans|NNS	hw=plans	hw|hpos=plans|NNS	hpos=NNS	w[1]=for	pos[-1]=VBP	pos[1]=for
 # an `` eight-story-high '' statue
-A	w[-1]=for	fw=an	fpos=DT	w[0]=`` eight-story-high '' statue	fw|fpos=an|DT	hw=statue	hw|hpos=statue|NN	hpos=NN	w[1]=of	pos[-1]=IN	pos[1]=of
+AN	w[-1]=for	fw=an	fpos=DT	w[0]=`` eight-story-high '' statue	fw|fpos=an|DT	hw=statue	hw|hpos=statue|NN	hpos=NN	w[1]=of	pos[-1]=IN	pos[1]=of
 # Alexander
 NONE	w[-1]=of	fw=Alexander	fpos=NNP	w[0]=Alexander	fw|fpos=Alexander|NNP	hw=Alexander	hw|hpos=Alexander|NNP	hpos=NNP	w[1]=the	pos[-1]=IN	pos[1]=the
 # the Great
@@ -7977,7 +7977,7 @@ NONE	w[-1]=expressed	fw=concern	fpos=NN	w[0]=concern	fw|fpos=concern|NN	hw=conce
 # reported Yugoslav ambitions
 NONE	w[-1]=about	fw=reported	fpos=VBN	w[0]=reported Yugoslav ambitions	fw|fpos=reported|VBN	hw=ambitions	hw|hpos=ambitions|NNS	hpos=NNS	w[1]=to	pos[-1]=IN	pos[1]=to
 # an `` independent '' People
-A	w[-1]=create	fw=an	fpos=DT	w[0]=`` independent '' People	fw|fpos=an|DT	hw=People	hw|hpos=People|NNS	hpos=NNS	w[1]='s	pos[-1]=VB	pos[1]='s
+AN	w[-1]=create	fw=an	fpos=DT	w[0]=`` independent '' People	fw|fpos=an|DT	hw=People	hw|hpos=People|NNS	hpos=NNS	w[1]='s	pos[-1]=VB	pos[1]='s
 # 's Republic
 NONE	w[-1]=People	fw='s	fpos=POS	w[0]='s Republic	fw|fpos='s|POS	hw=Republic	hw|hpos=Republic|NNP	hpos=NNP	w[1]=of	pos[-1]=NNS	pos[1]=of
 # Macedonia
@@ -8027,7 +8027,7 @@ NONE	w[-1]=of	fw=ethnic	fpos=JJ	w[0]=ethnic Macedonians	fw|fpos=ethnic|JJ	hw=Mac
 # the neighbouring countries
 THE	w[-1]=in	fw=the	fpos=DT	w[0]=neighbouring countries	fw|fpos=the|DT	hw=countries	hw|hpos=countries|NNS	hpos=NNS	w[1]=as	pos[-1]=IN	pos[1]=as
 # an issue
-A	w[-1]=as	fw=an	fpos=DT	w[0]=issue	fw|fpos=an|DT	hw=issue	hw|hpos=issue|NN	hpos=NN	w[1]=of	pos[-1]=IN	pos[1]=of
+AN	w[-1]=as	fw=an	fpos=DT	w[0]=issue	fw|fpos=an|DT	hw=issue	hw|hpos=issue|NN	hpos=NN	w[1]=of	pos[-1]=IN	pos[1]=of
 # minority protection
 NONE	w[-1]=of	fw=minority	fpos=NN	w[0]=minority protection	fw|fpos=minority|NN	hw=protection	hw|hpos=protection|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
 # Greek analysts and politicians
@@ -8105,7 +8105,7 @@ THE	w[-1]=shown	fw=the	fpos=DT	w[0]=country	fw|fpos=the|DT	hw=country	hw|hpos=co
 # part
 NONE	w[-1]=as	fw=part	fpos=NN	w[0]=part	fw|fpos=part|NN	hw=part	hw|hpos=part|NN	hpos=NN	w[1]=of	pos[-1]=IN	pos[1]=of
 # an unliberated whole
-A	w[-1]=of	fw=an	fpos=DT	w[0]=unliberated whole	fw|fpos=an|DT	hw=whole	hw|hpos=whole|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
+AN	w[-1]=of	fw=an	fpos=DT	w[0]=unliberated whole	fw|fpos=an|DT	hw=whole	hw|hpos=whole|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
 # April 2008
 NONE	w[-1]=In	fw=April	fpos=NNP	w[0]=April 2008	fw|fpos=April|NNP	hw=2008	hw|hpos=2008|CD	hpos=CD	w[1]=,	pos[-1]=IN	pos[1]=,
 # Foreign Minister
@@ -8127,7 +8127,7 @@ NONE	w[-1]=``	fw=Greater	fpos=NNP	w[0]=Greater Macedonia	fw|fpos=Greater|NNP	hw=
 # The complaint
 THE	w[-1]=NONE	fw=The	fpos=DT	w[0]=complaint	fw|fpos=The|DT	hw=complaint	hw|hpos=complaint|NN	hpos=NN	w[1]=was	pos[-1]=NONE	pos[1]=was
 # an article
-A	w[-1]=inside	fw=an	fpos=DT	w[0]=article	fw|fpos=an|DT	hw=article	hw|hpos=article|NN	hpos=NN	w[1]=published	pos[-1]=IN	pos[1]=published
+AN	w[-1]=inside	fw=an	fpos=DT	w[0]=article	fw|fpos=an|DT	hw=article	hw|hpos=article|NN	hpos=NN	w[1]=published	pos[-1]=IN	pos[1]=published
 # Wall Street Journal
 NONE	w[-1]=at	fw=Wall	fpos=NNP	w[0]=Wall Street Journal	fw|fpos=Wall|NNP	hw=Journal	hw|hpos=Journal|NNP	hpos=NNP	w[1]=,	pos[-1]=IN	pos[1]=,
 # the NATO ascension talks
@@ -8245,7 +8245,7 @@ NONE	w[-1]=of	fw=Skopje	fpos=NN	w[0]=Skopje	fw|fpos=Skopje|NN	hw=Skopje	hw|hpos=
 # a `` felony
 A	w[-1]=constitutes	fw=a	fpos=DT	w[0]=`` felony	fw|fpos=a|DT	hw=felony	hw|hpos=felony|NN	hpos=NN	w[1]=''	pos[-1]=VBZ	pos[1]=''
 # an `` act
-A	w[-1]=,	fw=an	fpos=DT	w[0]=`` act	fw|fpos=an|DT	hw=act	hw|hpos=act|NN	hpos=NN	w[1]=of	pos[-1]=,	pos[1]=of
+AN	w[-1]=,	fw=an	fpos=DT	w[0]=`` act	fw|fpos=an|DT	hw=act	hw|hpos=act|NN	hpos=NN	w[1]=of	pos[-1]=,	pos[1]=of
 # plagiarism
 NONE	w[-1]=of	fw=plagiarism	fpos=NN	w[0]=plagiarism	fw|fpos=plagiarism|NN	hw=plagiarism	hw|hpos=plagiarism|NN	hpos=NN	w[1]=''	pos[-1]=IN	pos[1]=''
 # the Greek people
@@ -8351,7 +8351,7 @@ NONE	w[-1]=NONE	fw=c.	fpos=LS	w[0]=c. 2.6 million	fw|fpos=c.|LS	hw=million	hw|hp
 # diaspora
 NONE	w[-1]=plus	fw=diaspora	fpos=NN	w[0]=diaspora	fw|fpos=diaspora|NN	hw=diaspora	hw|hpos=diaspora|NN	hpos=NN	w[1]=An	pos[-1]=CC	pos[1]=An
 # An ethnic Greek regional group
-A	w[-1]=diaspora	fw=An	fpos=DT	w[0]=ethnic Greek regional group	fw|fpos=An|DT	hw=group	hw|hpos=group|NN	hpos=NN	w[1]=,	pos[-1]=NN	pos[1]=,
+AN	w[-1]=diaspora	fw=An	fpos=DT	w[0]=ethnic Greek regional group	fw|fpos=An|DT	hw=group	hw|hpos=group|NN	hpos=NN	w[1]=,	pos[-1]=NN	pos[1]=,
 # Greek Macedonians
 NONE	w[-1]=as	fw=Greek	fpos=NNP	w[0]=Greek Macedonians	fw|fpos=Greek|NNP	hw=Macedonians	hw|hpos=Macedonians|NNPS	hpos=NNPS	w[1]=.	pos[-1]=IN	pos[1]=.
 # Macedonians
@@ -8375,7 +8375,7 @@ NONE	w[-1]=NONE	fw=c.	fpos=LS	w[0]=c. 0.3	fw|fpos=c.|LS	hw=0.3	hw|hpos=0.3|CD	hp
 # million*
 NONE	w[-1]=0.3	fw=million*	fpos=SYM	w[0]=million*	fw|fpos=million*|SYM	hw=million*	hw|hpos=million*|SYM	hpos=SYM	w[1]=An	pos[-1]=CD	pos[1]=An
 # An alternative name
-A	w[-1]=million*	fw=An	fpos=DT	w[0]=alternative name	fw|fpos=An|DT	hw=name	hw|hpos=name|NN	hpos=NN	w[1]=for	pos[-1]=SYM	pos[1]=for
+AN	w[-1]=million*	fw=An	fpos=DT	w[0]=alternative name	fw|fpos=An|DT	hw=name	hw|hpos=name|NN	hpos=NN	w[1]=for	pos[-1]=SYM	pos[1]=for
 # Aromanians
 NONE	w[-1]=for	fw=Aromanians	fpos=NNS	w[0]=Aromanians	fw|fpos=Aromanians|NNS	hw=Aromanians	hw|hpos=Aromanians|NNS	hpos=NNS	w[1]=NONE	pos[-1]=IN	pos[1]=NONE
 # Main article
@@ -8689,7 +8689,7 @@ NONE	w[-1]=of	fw=Macedonia	fpos=NNP	w[0]=Macedonia blame Greece	fw|fpos=Macedoni
 # ownership
 NONE	w[-1]=claiming	fw=ownership	fpos=NN	w[0]=ownership	fw|fpos=ownership|NN	hw=ownership	hw|hpos=ownership|NN	hpos=NN	w[1]=over	pos[-1]=VBG	pos[1]=over
 # an ancient kingdom
-A	w[-1]=over	fw=an	fpos=DT	w[0]=ancient kingdom	fw|fpos=an|DT	hw=kingdom	hw|hpos=kingdom|NN	hpos=NN	w[1]=which	pos[-1]=IN	pos[1]=which
+AN	w[-1]=over	fw=an	fpos=DT	w[0]=ancient kingdom	fw|fpos=an|DT	hw=kingdom	hw|hpos=kingdom|NN	hpos=NN	w[1]=which	pos[-1]=IN	pos[1]=which
 # which
 NONE	w[-1]=kingdom	fw=which	fpos=WDT	w[0]=which	fw|fpos=which|WDT	hw=which	hw|hpos=which|WDT	hpos=WDT	w[1]=,	pos[-1]=NN	pos[1]=,
 # their unique
@@ -9067,7 +9067,7 @@ NONE	w[-1]=of	fw=Macedonia	fpos=NNP	w[0]=Macedonia	fw|fpos=Macedonia|NNP	hw=Mace
 # these people
 NONE	w[-1]=that	fw=these	fpos=DT	w[0]=people	fw|fpos=these|DT	hw=people	hw|hpos=people|NNS	hpos=NNS	w[1]=form	pos[-1]=IN	pos[1]=form
 # an ethnic Macedonian minority
-A	w[-1]=form	fw=an	fpos=DT	w[0]=ethnic Macedonian minority	fw|fpos=an|DT	hw=minority	hw|hpos=minority|NN	hpos=NN	w[1]=in	pos[-1]=VBP	pos[1]=in
+AN	w[-1]=form	fw=an	fpos=DT	w[0]=ethnic Macedonian minority	fw|fpos=an|DT	hw=minority	hw|hpos=minority|NN	hpos=NN	w[1]=in	pos[-1]=VBP	pos[1]=in
 # Greece
 NONE	w[-1]=in	fw=Greece	fpos=NNP	w[0]=Greece	fw|fpos=Greece|NNP	hw=Greece	hw|hpos=Greece|NNP	hpos=NNP	w[1]=.	pos[-1]=IN	pos[1]=.
 # Some organisations and academics
@@ -9311,7 +9311,7 @@ NONE	w[-1]=of	fw=Macedonian	fpos=JJ	w[0]=Macedonian	fw|fpos=Macedonian|JJ	hw=Mac
 # a separate language
 A	w[-1]=as	fw=a	fpos=DT	w[0]=separate language	fw|fpos=a|DT	hw=language	hw|hpos=language|NN	hpos=NN	w[1]=is	pos[-1]=IN	pos[1]=is
 # an important issue
-A	w[-1]=is	fw=an	fpos=DT	w[0]=important issue	fw|fpos=an|DT	hw=issue	hw|hpos=issue|NN	hpos=NN	w[1]=for	pos[-1]=VBZ	pos[1]=for
+AN	w[-1]=is	fw=an	fpos=DT	w[0]=important issue	fw|fpos=an|DT	hw=issue	hw|hpos=issue|NN	hpos=NN	w[1]=for	pos[-1]=VBZ	pos[1]=for
 # the ethnic Macedonian self-view
 THE	w[-1]=for	fw=the	fpos=DT	w[0]=ethnic Macedonian self-view	fw|fpos=the|DT	hw=self-view	hw|hpos=self-view|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
 # Critics
@@ -9385,7 +9385,7 @@ A	w[-1]=forming	fw=a	fpos=DT	w[0]=Hellenic	fw|fpos=a|DT	hw=Hellenic	hw|hpos=Hell
 # supergroup
 NONE	w[-1]=)	fw=supergroup	fpos=NN	w[0]=supergroup	fw|fpos=supergroup|NN	hw=supergroup	hw|hpos=supergroup|NN	hpos=NN	w[1]=,	pos[-1]=)	pos[1]=,
 # an Indo-European language
-A	w[-1]=or	fw=an	fpos=DT	w[0]=Indo-European language	fw|fpos=an|DT	hw=language	hw|hpos=language|NN	hpos=NN	w[1]=which	pos[-1]=CC	pos[1]=which
+AN	w[-1]=or	fw=an	fpos=DT	w[0]=Indo-European language	fw|fpos=an|DT	hw=language	hw|hpos=language|NN	hpos=NN	w[1]=which	pos[-1]=CC	pos[1]=which
 # which
 NONE	w[-1]=language	fw=which	fpos=WDT	w[0]=which	fw|fpos=which|WDT	hw=which	hw|hpos=which|WDT	hpos=WDT	w[1]=was	pos[-1]=NN	pos[1]=was
 # a close cousin

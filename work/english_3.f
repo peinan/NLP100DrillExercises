@@ -5,7 +5,7 @@ NONE	w[-1]=(	fw=June	fpos=NNP	w[0]=June 22 , 1903	fw|fpos=June|NNP	hw=1903	hw|hp
 # July 22 , 1934
 NONE	w[-1]=–	fw=July	fpos=NNP	w[0]=July 22 , 1934	fw|fpos=July|NNP	hw=1934	hw|hpos=1934|CD	hpos=CD	w[1]=)	pos[-1]=IN	pos[1]=)
 # an American gangster and bank robber
-A	w[-1]=was	fw=an	fpos=DT	w[0]=American gangster and bank robber	fw|fpos=an|DT	hw=robber	hw|hpos=robber|NN	hpos=NN	w[1]=in	pos[-1]=VBD	pos[1]=in
+AN	w[-1]=was	fw=an	fpos=DT	w[0]=American gangster and bank robber	fw|fpos=an|DT	hw=robber	hw|hpos=robber|NN	hpos=NN	w[1]=in	pos[-1]=VBD	pos[1]=in
 # the Depression-era United States
 THE	w[-1]=in	fw=the	fpos=DT	w[0]=Depression-era United States	fw|fpos=the|DT	hw=States	hw|hpos=States|NNPS	hpos=NNPS	w[1]=.	pos[-1]=IN	pos[1]=.
 # His gang
@@ -23,7 +23,7 @@ NONE	w[-1]=;	fw=he	fpos=PRP	w[0]=he	fw|fpos=he|PRP	hw=he	hw|hpos=he|PRP	hpos=PRP
 # the murder
 THE	w[-1]=,	fw=the	fpos=DT	w[0]=murder	fw|fpos=the|DT	hw=murder	hw|hpos=murder|NN	hpos=NN	w[1]=of	pos[-1]=,	pos[1]=of
 # an East Chicago
-A	w[-1]=of	fw=an	fpos=DT	w[0]=East Chicago	fw|fpos=an|DT	hw=Chicago	hw|hpos=Chicago|NNP	hpos=NNP	w[1]=,	pos[-1]=IN	pos[1]=,
+AN	w[-1]=of	fw=an	fpos=DT	w[0]=East Chicago	fw|fpos=an|DT	hw=Chicago	hw|hpos=Chicago|NNP	hpos=NNP	w[1]=,	pos[-1]=IN	pos[1]=,
 # Indiana police officer
 NONE	w[-1]=,	fw=Indiana	fpos=NNP	w[0]=Indiana police officer	fw|fpos=Indiana|NNP	hw=officer	hw|hpos=officer|NN	hpos=NN	w[1]=who	pos[-1]=,	pos[1]=who
 # who
@@ -353,7 +353,7 @@ A	w[-1]=,	fw=a	fpos=DT	w[0]=harsh man.	fw|fpos=a|DT	hw=man.	hw|hpos=man.|NN	hpos
 # 9
 NONE	w[-1]=:	fw=9	fpos=CD	w[0]=9	fw|fpos=9|CD	hw=9	hw|hpos=9|CD	hpos=CD	w[1]=In	pos[-1]=:	pos[1]=In
 # an interview
-A	w[-1]=In	fw=an	fpos=DT	w[0]=interview	fw|fpos=an|DT	hw=interview	hw|hpos=interview|NN	hpos=NN	w[1]=with	pos[-1]=IN	pos[1]=with
+AN	w[-1]=In	fw=an	fpos=DT	w[0]=interview	fw|fpos=an|DT	hw=interview	hw|hpos=interview|NN	hpos=NN	w[1]=with	pos[-1]=IN	pos[1]=with
 # reporters
 NONE	w[-1]=with	fw=reporters	fpos=NNS	w[0]=reporters	fw|fpos=reporters|NNS	hw=reporters	hw|hpos=reporters|NNS	hpos=NNS	w[1]=,	pos[-1]=IN	pos[1]=,
 # Dillinger
@@ -463,7 +463,7 @@ NONE	w[-1]=14	fw=He	fpos=PRP	w[0]=He	fw|fpos=He|PRP	hw=He	hw|hpos=He|PRP	hpos=PR
 # school
 NONE	w[-1]=quit	fw=school	fpos=NN	w[0]=school	fw|fpos=school|NN	hw=school	hw|hpos=school|NN	hpos=NN	w[1]=to	pos[-1]=VBD	pos[1]=to
 # an Indianapolis machine shop
-A	w[-1]=in	fw=an	fpos=DT	w[0]=Indianapolis machine shop	fw|fpos=an|DT	hw=shop	hw|hpos=shop|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
+AN	w[-1]=in	fw=an	fpos=DT	w[0]=Indianapolis machine shop	fw|fpos=an|DT	hw=shop	hw|hpos=shop|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
 # he
 NONE	w[-1]=Although	fw=he	fpos=PRP	w[0]=he	fw|fpos=he|PRP	hw=he	hw|hpos=he|PRP	hpos=PRP	w[1]=worked	pos[-1]=IN	pos[1]=worked
 # his job
@@ -1011,7 +1011,7 @@ THE	w[-1]=was	fw=the	fpos=DT	w[0]=gang	fw|fpos=the|DT	hw=gang	hw|hpos=gang|NN	hp
 # 's first police killing
 NONE	w[-1]=gang	fw='s	fpos=POS	w[0]='s first police killing	fw|fpos='s|POS	hw=killing	hw|hpos=killing|NN	hpos=NN	w[1]=,	pos[-1]=NN	pos[1]=,
 # an estimated 13
-A	w[-1]=of	fw=an	fpos=DT	w[0]=estimated 13	fw|fpos=an|DT	hw=13	hw|hpos=13|CD	hpos=CD	w[1]=.	pos[-1]=IN	pos[1]=.
+AN	w[-1]=of	fw=an	fpos=DT	w[0]=estimated 13	fw|fpos=an|DT	hw=13	hw|hpos=13|CD	hpos=CD	w[1]=.	pos[-1]=IN	pos[1]=.
 # Bank robberies
 NONE	w[-1]=NONE	fw=Bank	fpos=NN	w[0]=Bank robberies	fw|fpos=Bank|NN	hw=robberies	hw|hpos=robberies|NNS	hpos=NNS	w[1]=NONE	pos[-1]=NONE	pos[1]=NONE
 # This section
@@ -1697,7 +1697,7 @@ NONE	w[-1]=,	fw=Dillinger	fpos=NNP	w[0]=Dillinger	fw|fpos=Dillinger|NNP	hw=Dilli
 # Hamilton
 NONE	w[-1]=and	fw=Hamilton	fpos=NNP	w[0]=Hamilton	fw|fpos=Hamilton|NNP	hw=Hamilton	hw|hpos=Hamilton|NNP	hpos=NNP	w[1]=,	pos[-1]=CC	pos[1]=,
 # an unidentified driver
-A	w[-1]=and	fw=an	fpos=DT	w[0]=unidentified driver	fw|fpos=an|DT	hw=driver	hw|hpos=driver|NN	hpos=NN	w[1]=,	pos[-1]=CC	pos[1]=,
+AN	w[-1]=and	fw=an	fpos=DT	w[0]=unidentified driver	fw|fpos=an|DT	hw=driver	hw|hpos=driver|NN	hpos=NN	w[1]=,	pos[-1]=CC	pos[1]=,
 # front
 NONE	w[-1]=in	fw=front	fpos=NN	w[0]=front	fw|fpos=front|NN	hw=front	hw|hpos=front|NN	hpos=NN	w[1]=of	pos[-1]=IN	pos[1]=of
 # the bank
@@ -1985,7 +1985,7 @@ NONE	w[-1]=standing	fw=about	fpos=IN	w[0]=about 20 feet	fw|fpos=about|IN	hw=feet
 # the front door
 THE	w[-1]=from	fw=the	fpos=DT	w[0]=front door	fw|fpos=the|DT	hw=door	hw|hpos=door|NN	hpos=NN	w[1]=,	pos[-1]=IN	pos[1]=,
 # an opening
-A	w[-1]=saw	fw=an	fpos=DT	w[0]=opening	fw|fpos=an|DT	hw=opening	hw|hpos=opening|NN	hpos=NN	w[1]=and	pos[-1]=VBD	pos[1]=and
+AN	w[-1]=saw	fw=an	fpos=DT	w[0]=opening	fw|fpos=an|DT	hw=opening	hw|hpos=opening|NN	hpos=NN	w[1]=and	pos[-1]=VBD	pos[1]=and
 # four times
 NONE	w[-1]=fired	fw=four	fpos=CD	w[0]=four times	fw|fpos=four|CD	hw=times	hw|hpos=times|NNS	hpos=NNS	w[1]=at	pos[-1]=VBD	pos[1]=at
 # Dillinger
@@ -2657,7 +2657,7 @@ NONE	w[-1]=and	fw=some	fpos=DT	w[0]=shelving	fw|fpos=some|DT	hw=shelving	hw|hpos
 # his cell
 NONE	w[-1]=in	fw=his	fpos=PRP$	w[0]=his cell	fw|fpos=his|PRP$	hw=cell	hw|hpos=cell|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
 # an unpublished interview
-A	w[-1]=to	fw=an	fpos=DT	w[0]=unpublished interview	fw|fpos=an|DT	hw=interview	hw|hpos=interview|NN	hpos=NN	w[1]=with	pos[-1]=TO	pos[1]=with
+AN	w[-1]=to	fw=an	fpos=DT	w[0]=unpublished interview	fw|fpos=an|DT	hw=interview	hw|hpos=interview|NN	hpos=NN	w[1]=with	pos[-1]=TO	pos[1]=with
 # Dillinger
 NONE	w[-1]=with	fw=Dillinger	fpos=NN	w[0]=Dillinger	fw|fpos=Dillinger|NN	hw=Dillinger	hw|hpos=Dillinger|NN	hpos=NN	w[1]='s	pos[-1]=IN	pos[1]='s
 # 's attorney
@@ -2809,7 +2809,7 @@ NONE	w[-1]=that	fw=she	fpos=PRP	w[0]=she	fw|fpos=she|PRP	hw=she	hw|hpos=she|PRP	
 # a black broadcloth coat
 A	w[-1]=wore	fw=a	fpos=DT	w[0]=black broadcloth coat	fw|fpos=a|DT	hw=coat	hw|hpos=coat|NN	hpos=NN	w[1]=with	pos[-1]=VBD	pos[1]=with
 # an imitation caracal fur collar
-A	w[-1]=with	fw=an	fpos=DT	w[0]=imitation caracal fur collar	fw|fpos=an|DT	hw=collar	hw|hpos=collar|NN	hpos=NN	w[1]=,	pos[-1]=IN	pos[1]=,
+AN	w[-1]=with	fw=an	fpos=DT	w[0]=imitation caracal fur collar	fw|fpos=an|DT	hw=collar	hw|hpos=collar|NN	hpos=NN	w[1]=,	pos[-1]=IN	pos[1]=,
 # the label 'Chicago
 THE	w[-1]=bearing	fw=the	fpos=DT	w[0]=label 'Chicago	fw|fpos=the|DT	hw='Chicago	hw|hpos='Chicago|NNP	hpos=NNP	w[1]=,	pos[-1]=VBG	pos[1]=,
 # the name
@@ -2859,7 +2859,7 @@ NONE	w[-1]=determine	fw=what	fpos=WP	w[0]=what	fw|fpos=what|WP	hw=what	hw|hpos=w
 # her nationality
 NONE	w[-1]=what	fw=her	fpos=PRP$	w[0]=her nationality	fw|fpos=her|PRP$	hw=nationality	hw|hpos=nationality|NN	hpos=NN	w[1]=was	pos[-1]=WP	pos[1]=was
 # an early March report
-A	w[-1]=In	fw=an	fpos=DT	w[0]=early March report	fw|fpos=an|DT	hw=report	hw|hpos=report|NN	hpos=NN	w[1]=by	pos[-1]=IN	pos[1]=by
+AN	w[-1]=In	fw=an	fpos=DT	w[0]=early March report	fw|fpos=an|DT	hw=report	hw|hpos=report|NN	hpos=NN	w[1]=by	pos[-1]=IN	pos[1]=by
 # Agent T.F
 NONE	w[-1]=by	fw=Agent	fpos=JJ	w[0]=Agent T.F	fw|fpos=Agent|JJ	hw=T.F	hw|hpos=T.F|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
 # Mullen
@@ -3251,7 +3251,7 @@ NONE	w[-1]=as	fw=Dillinger	fpos=NNP	w[0]=Dillinger	fw|fpos=Dillinger|NNP	hw=Dill
 # Youngblood
 NONE	w[-1]=,	fw=Youngblood	fpos=NNP	w[0]=Youngblood	fw|fpos=Youngblood|NNP	hw=Youngblood	hw|hpos=Youngblood|NNP	hpos=NNP	w[1]=,	pos[-1]=,	pos[1]=,
 # an inmate
-A	w[-1]=and	fw=an	fpos=DT	w[0]=inmate	fw|fpos=an|DT	hw=inmate	hw|hpos=inmate|NN	hpos=NN	w[1]=named	pos[-1]=CC	pos[1]=named
+AN	w[-1]=and	fw=an	fpos=DT	w[0]=inmate	fw|fpos=an|DT	hw=inmate	hw|hpos=inmate|NN	hpos=NN	w[1]=named	pos[-1]=CC	pos[1]=named
 # Henry Jenlinek
 NONE	w[-1]=named	fw=Henry	fpos=NNP	w[0]=Henry Jenlinek	fw|fpos=Henry|NNP	hw=Jenlinek	hw|hpos=Jenlinek|NNP	hpos=NNP	w[1]=,	pos[-1]=VBN	pos[1]=,
 # a report
@@ -3517,7 +3517,7 @@ NONE	w[-1]=told	fw=Blunk	fpos=NNP	w[0]=Blunk	fw|fpos=Blunk|NNP	hw=Blunk	hw|hpos=
 # the red light
 THE	w[-1]=for	fw=the	fpos=DT	w[0]=red light	fw|fpos=the|DT	hw=light	hw|hpos=light|NN	hpos=NN	w[1]=,	pos[-1]=IN	pos[1]=,
 # an accident
-A	w[-1]=and	fw=an	fpos=DT	w[0]=accident	fw|fpos=an|DT	hw=accident	hw|hpos=accident|NN	hpos=NN	w[1]=was	pos[-1]=CC	pos[1]=was
+AN	w[-1]=and	fw=an	fpos=DT	w[0]=accident	fw|fpos=an|DT	hw=accident	hw|hpos=accident|NN	hpos=NN	w[1]=was	pos[-1]=CC	pos[1]=was
 # inches
 NONE	w[-1]=by	fw=inches	fpos=NNS	w[0]=inches	fw|fpos=inches|NNS	hw=inches	hw|hpos=inches|NNS	hpos=NNS	w[1]=.	pos[-1]=IN	pos[1]=.
 # They
@@ -3649,7 +3649,7 @@ THE	w[-1]=driving	fw=the	fpos=DT	w[0]=car	fw|fpos=the|DT	hw=car	hw|hpos=car|NN	h
 # 35 or 40 miles
 NONE	w[-1]=over	fw=35	fpos=CD	w[0]=35 or 40 miles	fw|fpos=35|CD	hw=miles	hw|hpos=miles|NNS	hpos=NNS	w[1]=an	pos[-1]=IN	pos[1]=an
 # an hour
-A	w[-1]=miles	fw=an	fpos=DT	w[0]=hour	fw|fpos=an|DT	hw=hour	hw|hpos=hour|NN	hpos=NN	w[1]=,	pos[-1]=NNS	pos[1]=,
+AN	w[-1]=miles	fw=an	fpos=DT	w[0]=hour	fw|fpos=an|DT	hw=hour	hw|hpos=hour|NN	hpos=NN	w[1]=,	pos[-1]=NNS	pos[1]=,
 # Dillinger
 NONE	w[-1]=,	fw=Dillinger	fpos=NNP	w[0]=Dillinger	fw|fpos=Dillinger|NNP	hw=Dillinger	hw|hpos=Dillinger|NNP	hpos=NNP	w[1]=remarked	pos[-1]=,	pos[1]=remarked
 # there
@@ -3969,7 +3969,7 @@ A	w[-1]=and	fw=a	fpos=DT	w[0]=posse	fw|fpos=a|DT	hw=posse	hw|hpos=posse|NN	hpos=
 # all
 NONE	w[-1]=and	fw=all	fpos=DT	w[0]=	fw|fpos=all|DT	hw=all	hw|hpos=all|DT	hpos=DT	w[1]=proceeded	pos[-1]=CC	pos[1]=proceeded
 # an effort
-A	w[-1]=in	fw=an	fpos=DT	w[0]=effort	fw|fpos=an|DT	hw=effort	hw|hpos=effort|NN	hpos=NN	w[1]=to	pos[-1]=IN	pos[1]=to
+AN	w[-1]=in	fw=an	fpos=DT	w[0]=effort	fw|fpos=an|DT	hw=effort	hw|hpos=effort|NN	hpos=NN	w[1]=to	pos[-1]=IN	pos[1]=to
 # Dillinger and Youngblood
 NONE	w[-1]=locate	fw=Dillinger	fpos=NNP	w[0]=Dillinger and Youngblood	fw|fpos=Dillinger|NNP	hw=Youngblood	hw|hpos=Youngblood|NNP	hpos=NNP	w[1]=,	pos[-1]=VB	pos[1]=,
 # who
@@ -6949,7 +6949,7 @@ NONE	w[-1]=of	fw=Sheriff	fpos=NNP	w[0]=Sheriff Holley	fw|fpos=Sheriff|NNP	hw=Hol
 # use
 NONE	w[-1]=for	fw=use	fpos=NN	w[0]=use	fw|fpos=use|NN	hw=use	hw|hpos=use|NN	hpos=NN	w[1]=and	pos[-1]=IN	pos[1]=and
 # an added means
-A	w[-1]=as	fw=an	fpos=DT	w[0]=added means	fw|fpos=an|DT	hw=means	hw|hpos=means|NNS	hpos=NNS	w[1]=of	pos[-1]=IN	pos[1]=of
+AN	w[-1]=as	fw=an	fpos=DT	w[0]=added means	fw|fpos=an|DT	hw=means	hw|hpos=means|NNS	hpos=NNS	w[1]=of	pos[-1]=IN	pos[1]=of
 # the jail
 THE	w[-1]=protecting	fw=the	fpos=DT	w[0]=jail	fw|fpos=the|DT	hw=jail	hw|hpos=jail|NN	hpos=NN	w[1]=against	pos[-1]=VBG	pos[1]=against
 # any surprise assault
@@ -7129,7 +7129,7 @@ NONE	w[-1]=of	fw=it	fpos=PRP	w[0]=it	fw|fpos=it|PRP	hw=it	hw|hpos=it|PRP	hpos=PR
 # The following
 THE	w[-1]=NONE	fw=The	fpos=DT	w[0]=following	fw|fpos=The|DT	hw=following	hw|hpos=following|VBG	hpos=VBG	w[1]=is	pos[-1]=NONE	pos[1]=is
 # an excerpt
-A	w[-1]=is	fw=an	fpos=DT	w[0]=excerpt	fw|fpos=an|DT	hw=excerpt	hw|hpos=excerpt|NN	hpos=NN	w[1]=from	pos[-1]=VBZ	pos[1]=from
+AN	w[-1]=is	fw=an	fpos=DT	w[0]=excerpt	fw|fpos=an|DT	hw=excerpt	hw|hpos=excerpt|NN	hpos=NN	w[1]=from	pos[-1]=VBZ	pos[1]=from
 # Blunk
 NONE	w[-1]=from	fw=Blunk	fpos=NNP	w[0]=Blunk	fw|fpos=Blunk|NNP	hw=Blunk	hw|hpos=Blunk|NNP	hpos=NNP	w[1]='s	pos[-1]=IN	pos[1]='s
 # 's testimony
@@ -7239,7 +7239,7 @@ NONE	w[-1]=told	fw=me	fpos=PRP	w[0]=me	fw|fpos=me|PRP	hw=me	hw|hpos=me|PRP	hpos=
 # 90 miles
 NONE	w[-1]=me	fw=90	fpos=CD	w[0]=90 miles	fw|fpos=90|CD	hw=miles	hw|hpos=miles|NNS	hpos=NNS	w[1]=an	pos[-1]=PRP	pos[1]=an
 # an hour
-A	w[-1]=miles	fw=an	fpos=DT	w[0]=hour	fw|fpos=an|DT	hw=hour	hw|hpos=hour|NN	hpos=NN	w[1]=.	pos[-1]=NNS	pos[1]=.
+AN	w[-1]=miles	fw=an	fpos=DT	w[0]=hour	fw|fpos=an|DT	hw=hour	hw|hpos=hour|NN	hpos=NN	w[1]=.	pos[-1]=NNS	pos[1]=.
 # I
 NONE	w[-1]=NONE	fw=I	fpos=PRP	w[0]=I	fw|fpos=I|PRP	hw=I	hw|hpos=I|PRP	hpos=PRP	w[1]=asked	pos[-1]=NONE	pos[1]=asked
 # him
@@ -8501,7 +8501,7 @@ NONE	w[-1]=at	fw=Keith	fpos=NNP	w[0]=Keith	fw|fpos=Keith|NNP	hw=Keith	hw|hpos=Ke
 # a plate glass window
 A	w[-1]=through	fw=a	fpos=DT	w[0]=plate glass window	fw|fpos=a|DT	hw=window	hw|hpos=window|NN	hpos=NN	w[1]=while	pos[-1]=IN	pos[1]=while
 # an assistant cashier
-A	w[-1]=on	fw=an	fpos=DT	w[0]=assistant cashier	fw|fpos=an|DT	hw=cashier	hw|hpos=cashier|NN	hpos=NN	w[1]='s	pos[-1]=IN	pos[1]='s
+AN	w[-1]=on	fw=an	fpos=DT	w[0]=assistant cashier	fw|fpos=an|DT	hw=cashier	hw|hpos=cashier|NN	hpos=NN	w[1]='s	pos[-1]=IN	pos[1]='s
 # 's counter
 NONE	w[-1]=cashier	fw='s	fpos=POS	w[0]='s counter	fw|fpos='s|POS	hw=counter	hw|hpos=counter|NN	hpos=NN	w[1]=.	pos[-1]=NN	pos[1]=.
 # Keith
@@ -8647,7 +8647,7 @@ THE	w[-1]=across	fw=the	fpos=DT	w[0]=street	fw|fpos=the|DT	hw=street	hw|hpos=str
 # the robbery
 THE	w[-1]=during	fw=the	fpos=DT	w[0]=robbery	fw|fpos=the|DT	hw=robbery	hw|hpos=robbery|NN	hpos=NN	w[1]=,	pos[-1]=IN	pos[1]=,
 # an `` action '' photo
-A	w[-1]=,	fw=an	fpos=DT	w[0]=`` action '' photo	fw|fpos=an|DT	hw=photo	hw|hpos=photo|NN	hpos=NN	w[1]=that	pos[-1]=,	pos[1]=that
+AN	w[-1]=,	fw=an	fpos=DT	w[0]=`` action '' photo	fw|fpos=an|DT	hw=photo	hw|hpos=photo|NN	hpos=NN	w[1]=that	pos[-1]=,	pos[1]=that
 # that
 NONE	w[-1]=photo	fw=that	fpos=WDT	w[0]=that	fw|fpos=that|WDT	hw=that	hw|hpos=that|WDT	hpos=WDT	w[1]=is	pos[-1]=NN	pos[1]=is
 # likely unique
@@ -9137,7 +9137,7 @@ NONE	w[-1]=officers	fw='	fpos=POS	w[0]=' raccoon coats	fw|fpos='|POS	hw=coats	hw
 # a rack
 A	w[-1]=on	fw=a	fpos=DT	w[0]=rack	fw|fpos=a|DT	hw=rack	hw|hpos=rack|NN	hpos=NN	w[1]=in	pos[-1]=IN	pos[1]=in
 # an office
-A	w[-1]=in	fw=an	fpos=DT	w[0]=office	fw|fpos=an|DT	hw=office	hw|hpos=office|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
+AN	w[-1]=in	fw=an	fpos=DT	w[0]=office	fw|fpos=an|DT	hw=office	hw|hpos=office|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
 # They
 NONE	w[-1]=NONE	fw=They	fpos=PRP	w[0]=They	fw|fpos=They|PRP	hw=They	hw|hpos=They|PRP	hpos=PRP	w[1]=wrapped	pos[-1]=NONE	pos[1]=wrapped
 # us
@@ -9255,7 +9255,7 @@ NONE	w[-1]=,	fw=Van	fpos=NNP	w[0]=Van Meter	fw|fpos=Van|NNP	hw=Meter	hw|hpos=Met
 # Carroll
 NONE	w[-1]=and	fw=Carroll	fpos=NN	w[0]=Carroll	fw|fpos=Carroll|NN	hw=Carroll	hw|hpos=Carroll|NN	hpos=NN	w[1]=)	pos[-1]=CC	pos[1]=)
 # an added seventh man
-A	w[-1]=plus	fw=an	fpos=DT	w[0]=added seventh man	fw|fpos=an|DT	hw=man	hw|hpos=man|NN	hpos=NN	w[1]=as	pos[-1]=CC	pos[1]=as
+AN	w[-1]=plus	fw=an	fpos=DT	w[0]=added seventh man	fw|fpos=an|DT	hw=man	hw|hpos=man|NN	hpos=NN	w[1]=as	pos[-1]=CC	pos[1]=as
 # the probable driver
 THE	w[-1]=as	fw=the	fpos=DT	w[0]=probable driver	fw|fpos=the|DT	hw=driver	hw|hpos=driver|NN	hpos=NN	w[1]=,	pos[-1]=IN	pos[1]=,
 # Joseph Burns or Red Forsythe
@@ -9375,7 +9375,7 @@ NONE	w[-1]=NONE	fw=Tom	fpos=NNP	w[0]=Tom Walters	fw|fpos=Tom|NNP	hw=Walters	hw|h
 # a bank guard
 A	w[-1]=,	fw=a	fpos=DT	w[0]=bank guard	fw|fpos=a|DT	hw=guard	hw|hpos=guard|NN	hpos=NN	w[1]=positioned	pos[-1]=,	pos[1]=positioned
 # an elevated bulletproof observation booth
-A	w[-1]=in	fw=an	fpos=DT	w[0]=elevated bulletproof observation booth	fw|fpos=an|DT	hw=booth	hw|hpos=booth|NN	hpos=NN	w[1]=near	pos[-1]=IN	pos[1]=near
+AN	w[-1]=in	fw=an	fpos=DT	w[0]=elevated bulletproof observation booth	fw|fpos=an|DT	hw=booth	hw|hpos=booth|NN	hpos=NN	w[1]=near	pos[-1]=IN	pos[1]=near
 # the front entrance
 THE	w[-1]=near	fw=the	fpos=DT	w[0]=front entrance	fw|fpos=the|DT	hw=entrance	hw|hpos=entrance|NN	hpos=NN	w[1]=,	pos[-1]=IN	pos[1]=,
 # a teargas cartridge
@@ -9517,7 +9517,7 @@ THE	w[-1]=at	fw=the	fpos=DT	w[0]=bank	fw|fpos=the|DT	hw=bank	hw|hpos=bank|NN	hpo
 # James Buchanan
 NONE	w[-1]=NONE	fw=James	fpos=NNP	w[0]=James Buchanan	fw|fpos=James|NNP	hw=Buchanan	hw|hpos=Buchanan|NNP	hpos=NNP	w[1]=,	pos[-1]=NONE	pos[1]=,
 # an off-duty officer
-A	w[-1]=,	fw=an	fpos=DT	w[0]=off-duty officer	fw|fpos=an|DT	hw=officer	hw|hpos=officer|NN	hpos=NN	w[1]=,	pos[-1]=,	pos[1]=,
+AN	w[-1]=,	fw=an	fpos=DT	w[0]=off-duty officer	fw|fpos=an|DT	hw=officer	hw|hpos=officer|NN	hpos=NN	w[1]=,	pos[-1]=,	pos[1]=,
 # who
 NONE	w[-1]=,	fw=who	fpos=WP	w[0]=who	fw|fpos=who|WP	hw=who	hw|hpos=who|WP	hpos=WP	w[1]=had	pos[-1]=,	pos[1]=had
 # a sawed-off shotgun
@@ -9591,7 +9591,7 @@ A	w[-1]=with	fw=a	fpos=DT	w[0]=Thompson	fw|fpos=a|DT	hw=Thompson	hw|hpos=Thompso
 # a .38
 A	w[-1]=drew	fw=a	fpos=DT	w[0]=.38	fw|fpos=a|DT	hw=.38	hw|hpos=.38|NN	hpos=NN	w[1]=from	pos[-1]=VBD	pos[1]=from
 # an inside pocket
-A	w[-1]=from	fw=an	fpos=DT	w[0]=inside pocket	fw|fpos=an|DT	hw=pocket	hw|hpos=pocket|NN	hpos=NN	w[1]=and	pos[-1]=IN	pos[1]=and
+AN	w[-1]=from	fw=an	fpos=DT	w[0]=inside pocket	fw|fpos=an|DT	hw=pocket	hw|hpos=pocket|NN	hpos=NN	w[1]=and	pos[-1]=IN	pos[1]=and
 # Buchanan
 NONE	w[-1]=at	fw=Buchanan	fpos=NNP	w[0]=Buchanan	fw|fpos=Buchanan|NNP	hw=Buchanan	hw|hpos=Buchanan|NNP	hpos=NNP	w[1]=,	pos[-1]=IN	pos[1]=,
 # him
@@ -9699,7 +9699,7 @@ NONE	w[-1]=on	fw=James	fpos=NNP	w[0]=James	fw|fpos=James|NNP	hw=James	hw|hpos=Ja
 # ' condition
 NONE	w[-1]=James	fw='	fpos=POS	w[0]=' condition	fw|fpos='|POS	hw=condition	hw|hpos=condition|NN	hpos=NN	w[1]=.	pos[-1]=NNP	pos[1]=.
 # An oncoming car
-A	w[-1]=NONE	fw=An	fpos=DT	w[0]=oncoming car	fw|fpos=An|DT	hw=car	hw|hpos=car|NN	hpos=NN	w[1]=came	pos[-1]=NONE	pos[1]=came
+AN	w[-1]=NONE	fw=An	fpos=DT	w[0]=oncoming car	fw|fpos=An|DT	hw=car	hw|hpos=car|NN	hpos=NN	w[1]=came	pos[-1]=NONE	pos[1]=came
 # Carroll
 NONE	w[-1]=and	fw=Carroll	fpos=NNP	w[0]=Carroll	fw|fpos=Carroll|NNP	hw=Carroll	hw|hpos=Carroll|NNP	hpos=NNP	w[1]=blasted	pos[-1]=CC	pos[1]=blasted
 # it
@@ -9857,7 +9857,7 @@ NONE	w[-1]=when	fw=Nelson	fpos=NNP	w[0]=Nelson	fw|fpos=Nelson|NNP	hw=Nelson	hw|h
 # them
 NONE	w[-1]=stopped	fw=them	fpos=PRP	w[0]=them	fw|fpos=them|PRP	hw=them	hw|hpos=them|PRP	hpos=PRP	w[1]=,	pos[-1]=VBD	pos[1]=,
 # an elderly woman
-A	w[-1]=with	fw=an	fpos=DT	w[0]=elderly woman	fw|fpos=an|DT	hw=woman	hw|hpos=woman|NN	hpos=NN	w[1]=who	pos[-1]=IN	pos[1]=who
+AN	w[-1]=with	fw=an	fpos=DT	w[0]=elderly woman	fw|fpos=an|DT	hw=woman	hw|hpos=woman|NN	hpos=NN	w[1]=who	pos[-1]=IN	pos[1]=who
 # who
 NONE	w[-1]=woman	fw=who	fpos=WP	w[0]=who	fw|fpos=who|WP	hw=who	hw|hpos=who|WP	hpos=WP	w[1]=was	pos[-1]=NN	pos[1]=was
 # them
@@ -9919,7 +9919,7 @@ THE	w[-1]=of	fw=the	fpos=DT	w[0]=outlaws	fw|fpos=the|DT	hw=outlaws	hw|hpos=outla
 # Bill Schmidt
 NONE	w[-1]=NONE	fw=Bill	fpos=NNP	w[0]=Bill Schmidt	fw|fpos=Bill|NNP	hw=Schmidt	hw|hpos=Schmidt|NNP	hpos=NNP	w[1]=,	pos[-1]=NONE	pos[1]=,
 # an employee
-A	w[-1]=,	fw=an	fpos=DT	w[0]=employee	fw|fpos=an|DT	hw=employee	hw|hpos=employee|NN	hpos=NN	w[1]=of	pos[-1]=,	pos[1]=of
+AN	w[-1]=,	fw=an	fpos=DT	w[0]=employee	fw|fpos=an|DT	hw=employee	hw|hpos=employee|NN	hpos=NN	w[1]=of	pos[-1]=,	pos[1]=of
 # Killmer Drug
 NONE	w[-1]=of	fw=Killmer	fpos=NNP	w[0]=Killmer Drug	fw|fpos=Killmer|NNP	hw=Drug	hw|hpos=Drug|NNP	hpos=NNP	w[1]=,	pos[-1]=IN	pos[1]=,
 # a bag
@@ -10351,7 +10351,7 @@ NONE	w[-1]=for	fw=apartment	fpos=NN	w[0]=apartment 303	fw|fpos=apartment|NN	hw=3
 # The following
 THE	w[-1]=NONE	fw=The	fpos=DT	w[0]=following	fw|fpos=The|DT	hw=following	hw|hpos=following|VBG	hpos=VBG	w[1]=is	pos[-1]=NONE	pos[1]=is
 # an excerpt
-A	w[-1]=is	fw=an	fpos=DT	w[0]=excerpt	fw|fpos=an|DT	hw=excerpt	hw|hpos=excerpt|NN	hpos=NN	w[1]=from	pos[-1]=VBZ	pos[1]=from
+AN	w[-1]=is	fw=an	fpos=DT	w[0]=excerpt	fw|fpos=an|DT	hw=excerpt	hw|hpos=excerpt|NN	hpos=NN	w[1]=from	pos[-1]=VBZ	pos[1]=from
 # Cutting
 NONE	w[-1]=from	fw=Cutting	fpos=NNP	w[0]=Cutting	fw|fpos=Cutting|NNP	hw=Cutting	hw|hpos=Cutting|NNP	hpos=NNP	w[1]='s	pos[-1]=IN	pos[1]='s
 # 's direct examination
@@ -10911,7 +10911,7 @@ NONE	w[-1]=,	fw=who	fpos=WP	w[0]=who	fw|fpos=who|WP	hw=who	hw|hpos=who|WP	hpos=W
 # profane language
 NONE	w[-1]=use	fw=profane	fpos=NN	w[0]=profane language	fw|fpos=profane|NN	hw=language	hw|hpos=language|NN	hpos=NN	w[1]=and	pos[-1]=VB	pos[1]=and
 # an automatic pistol
-A	w[-1]=drew	fw=an	fpos=DT	w[0]=automatic pistol	fw|fpos=an|DT	hw=pistol	hw|hpos=pistol|NN	hpos=NN	w[1]=.	pos[-1]=VBD	pos[1]=.
+AN	w[-1]=drew	fw=an	fpos=DT	w[0]=automatic pistol	fw|fpos=an|DT	hw=pistol	hw|hpos=pistol|NN	hpos=NN	w[1]=.	pos[-1]=VBD	pos[1]=.
 # outside
 NONE	w[-1]=From	fw=outside	fpos=NN	w[0]=outside	fw|fpos=outside|NN	hw=outside	hw|hpos=outside|NN	hpos=NN	w[1]=,	pos[-1]=IN	pos[1]=,
 # Nalls
@@ -11033,7 +11033,7 @@ A	w[-1]=hallway	fw=a	fpos=DT	w[0]=little ways	fw|fpos=a|DT	hw=ways	hw|hpos=ways|
 # there
 NONE	w[-1]=And	fw=there	fpos=EX	w[0]=there	fw|fpos=there|EX	hw=there	hw|hpos=there|EX	hpos=EX	w[1]=is	pos[-1]=CC	pos[1]=is
 # an offset
-A	w[-1]=is	fw=an	fpos=DT	w[0]=offset	fw|fpos=an|DT	hw=offset	hw|hpos=offset|VBN	hpos=VBN	w[1]=there	pos[-1]=VBZ	pos[1]=there
+AN	w[-1]=is	fw=an	fpos=DT	w[0]=offset	fw|fpos=an|DT	hw=offset	hw|hpos=offset|VBN	hpos=VBN	w[1]=there	pos[-1]=VBZ	pos[1]=there
 # there
 NONE	w[-1]=offset	fw=there	fpos=EX	w[0]=there	fw|fpos=there|EX	hw=there	hw|hpos=there|EX	hpos=EX	w[1]=...	pos[-1]=VBN	pos[1]=...
 # I
@@ -11967,7 +11967,7 @@ NONE	w[-1]=NONE	fw=He	fpos=PRP	w[0]=He	fw|fpos=He|PRP	hw=He	hw|hpos=He|PRP	hpos=
 # He
 NONE	w[-1]=NONE	fw=He	fpos=PRP	w[0]=He	fw|fpos=He|PRP	hw=He	hw|hpos=He|PRP	hpos=PRP	w[1]=was	pos[-1]=NONE	pos[1]=was
 # an angle
-A	w[-1]=at	fw=an	fpos=DT	w[0]=angle	fw|fpos=an|DT	hw=angle	hw|hpos=angle|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
+AN	w[-1]=at	fw=an	fpos=DT	w[0]=angle	fw|fpos=an|DT	hw=angle	hw|hpos=angle|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
 # He
 NONE	w[-1]=NONE	fw=He	fpos=PRP	w[0]=He	fw|fpos=He|PRP	hw=He	hw|hpos=He|PRP	hpos=PRP	w[1]=had	pos[-1]=NONE	pos[1]=had
 # one foot
@@ -12093,7 +12093,7 @@ NONE	w[-1]=``	fw=He	fpos=PRP	w[0]=He	fw|fpos=He|PRP	hw=He	hw|hpos=He|PRP	hpos=PR
 # he
 NONE	w[-1]=and	fw=he	fpos=PRP	w[0]=he	fw|fpos=he|PRP	hw=he	hw|hpos=he|PRP	hpos=PRP	w[1]=pulled	pos[-1]=CC	pos[1]=pulled
 # an automatic
-A	w[-1]=out	fw=an	fpos=DT	w[0]=automatic	fw|fpos=an|DT	hw=automatic	hw|hpos=automatic|JJ	hpos=JJ	w[1]=,	pos[-1]=RP	pos[1]=,
+AN	w[-1]=out	fw=an	fpos=DT	w[0]=automatic	fw|fpos=an|DT	hw=automatic	hw|hpos=automatic|JJ	hpos=JJ	w[1]=,	pos[-1]=RP	pos[1]=,
 # the left side
 THE	w[-1]=of	fw=the	fpos=DT	w[0]=left side	fw|fpos=the|DT	hw=side	hw|hpos=side|NN	hpos=NN	w[1]=of	pos[-1]=IN	pos[1]=of
 # his belt
@@ -12153,7 +12153,7 @@ NONE	w[-1]=,	fw=about	fpos=IN	w[0]=about four inches	fw|fpos=about|IN	hw=inches	
 # It
 NONE	w[-1]=NONE	fw=It	fpos=PRP	w[0]=It	fw|fpos=It|PRP	hw=It	hw|hpos=It|PRP	hpos=PRP	w[1]=did	pos[-1]=NONE	pos[1]=did
 # an awful lot
-A	w[-1]=bleed	fw=an	fpos=DT	w[0]=awful lot	fw|fpos=an|DT	hw=lot	hw|hpos=lot|NN	hpos=NN	w[1]=,	pos[-1]=VB	pos[1]=,
+AN	w[-1]=bleed	fw=an	fpos=DT	w[0]=awful lot	fw|fpos=an|DT	hw=lot	hw|hpos=lot|NN	hpos=NN	w[1]=,	pos[-1]=VB	pos[1]=,
 # it
 NONE	w[-1]=although	fw=it	fpos=PRP	w[0]=it	fw|fpos=it|PRP	hw=it	hw|hpos=it|PRP	hpos=PRP	w[1]=trickled	pos[-1]=IN	pos[1]=trickled
 # his leg
@@ -12355,7 +12355,7 @@ NONE	w[-1]=,	fw=April	fpos=NNP	w[0]=April 6	fw|fpos=April|NNP	hw=6	hw|hpos=6|CD	
 # the farm
 THE	w[-1]=at	fw=the	fpos=DT	w[0]=farm	fw|fpos=the|DT	hw=farm	hw|hpos=farm|NN	hpos=NN	w[1]=in	pos[-1]=IN	pos[1]=in
 # an effort
-A	w[-1]=in	fw=an	fpos=DT	w[0]=effort	fw|fpos=an|DT	hw=effort	hw|hpos=effort|NN	hpos=NN	w[1]=to	pos[-1]=IN	pos[1]=to
+AN	w[-1]=in	fw=an	fpos=DT	w[0]=effort	fw|fpos=an|DT	hw=effort	hw|hpos=effort|NN	hpos=NN	w[1]=to	pos[-1]=IN	pos[1]=to
 # members
 NONE	w[-1]=contact	fw=members	fpos=NNS	w[0]=members	fw|fpos=members|NNS	hw=members	hw|hpos=members|NNS	hpos=NNS	w[1]=of	pos[-1]=VB	pos[1]=of
 # the family
@@ -12619,7 +12619,7 @@ NONE	w[-1]=after	fw=any	fpos=DT	w[0]=liens	fw|fpos=any|DT	hw=liens	hw|hpos=liens
 # it
 NONE	w[-1]=against	fw=it	fpos=PRP	w[0]=it	fw|fpos=it|PRP	hw=it	hw|hpos=it|PRP	hpos=PRP	w[1]=have	pos[-1]=IN	pos[1]=have
 # An examination
-A	w[-1]=NONE	fw=An	fpos=DT	w[0]=examination	fw|fpos=An|DT	hw=examination	hw|hpos=examination|NN	hpos=NN	w[1]=of	pos[-1]=NONE	pos[1]=of
+AN	w[-1]=NONE	fw=An	fpos=DT	w[0]=examination	fw|fpos=An|DT	hw=examination	hw|hpos=examination|NN	hpos=NN	w[1]=of	pos[-1]=NONE	pos[1]=of
 # the car
 THE	w[-1]=of	fw=the	fpos=DT	w[0]=car	fw|fpos=the|DT	hw=car	hw|hpos=car|NN	hpos=NN	w[1]=by	pos[-1]=IN	pos[1]=by
 # Agent Bears
@@ -13007,7 +13007,7 @@ NONE	w[-1]=believed	fw=they	fpos=PRP	w[0]=they	fw|fpos=they|PRP	hw=they	hw|hpos=
 # Donegan and Geraghty
 NONE	w[-1]=by	fw=Donegan	fpos=NNP	w[0]=Donegan and Geraghty	fw|fpos=Donegan|NNP	hw=Geraghty	hw|hpos=Geraghty|NNP	hpos=NNP	w[1]=.	pos[-1]=IN	pos[1]=.
 # an effort
-A	w[-1]=In	fw=an	fpos=DT	w[0]=effort	fw|fpos=an|DT	hw=effort	hw|hpos=effort|NN	hpos=NN	w[1]=to	pos[-1]=IN	pos[1]=to
+AN	w[-1]=In	fw=an	fpos=DT	w[0]=effort	fw|fpos=an|DT	hw=effort	hw|hpos=effort|NN	hpos=NN	w[1]=to	pos[-1]=IN	pos[1]=to
 # the agents
 THE	w[-1]=draw	fw=the	fpos=DT	w[0]=agents	fw|fpos=the|DT	hw=agents	hw|hpos=agents|NNS	hpos=NNS	w[1]=away	pos[-1]=VB	pos[1]=away
 # the vicinity
@@ -13565,7 +13565,7 @@ NONE	w[-1]=automobiles	fw=which	fpos=WDT	w[0]=which	fw|fpos=which|WDT	hw=which	h
 # the house
 THE	w[-1]=passing	fw=the	fpos=DT	w[0]=house	fw|fpos=the|DT	hw=house	hw|hpos=house|NN	hpos=NN	w[1]=and	pos[-1]=VBG	pos[1]=and
 # an airplane
-A	w[-1]=and	fw=an	fpos=DT	w[0]=airplane	fw|fpos=an|DT	hw=airplane	hw|hpos=airplane|NN	hpos=NN	w[1]=which	pos[-1]=CC	pos[1]=which
+AN	w[-1]=and	fw=an	fpos=DT	w[0]=airplane	fw|fpos=an|DT	hw=airplane	hw|hpos=airplane|NN	hpos=NN	w[1]=which	pos[-1]=CC	pos[1]=which
 # which
 NONE	w[-1]=airplane	fw=which	fpos=WDT	w[0]=which	fw|fpos=which|WDT	hw=which	hw|hpos=which|WDT	hpos=WDT	w[1]=was	pos[-1]=NN	pos[1]=was
 # overhead
@@ -14079,7 +14079,7 @@ THE	w[-1]=at	fw=the	fpos=DT	w[0]=home	fw|fpos=the|DT	hw=home	hw|hpos=home|NN	hpo
 # his father
 NONE	w[-1]=of	fw=his	fpos=PRP$	w[0]=his father	fw|fpos=his|PRP$	hw=father	hw|hpos=father|NN	hpos=NN	w[1]=in	pos[-1]=IN	pos[1]=in
 # an effort
-A	w[-1]=in	fw=an	fpos=DT	w[0]=effort	fw|fpos=an|DT	hw=effort	hw|hpos=effort|NN	hpos=NN	w[1]=to	pos[-1]=IN	pos[1]=to
+AN	w[-1]=in	fw=an	fpos=DT	w[0]=effort	fw|fpos=an|DT	hw=effort	hw|hpos=effort|NN	hpos=NN	w[1]=to	pos[-1]=IN	pos[1]=to
 # the agents
 THE	w[-1]=whether	fw=the	fpos=DT	w[0]=agents	fw|fpos=the|DT	hw=agents	hw|hpos=agents|NNS	hpos=NNS	w[1]=were	pos[-1]=IN	pos[1]=were
 # the place
@@ -14113,7 +14113,7 @@ NONE	w[-1]=NONE	fw=AUDREY	fpos=NN	w[0]=AUDREY HANCOCK	fw|fpos=AUDREY|NN	hw=HANCO
 # This woman
 NONE	w[-1]=:	fw=This	fpos=DT	w[0]=woman	fw|fpos=This|DT	hw=woman	hw|hpos=woman|NN	hpos=NN	w[1]=has	pos[-1]=:	pos[1]=has
 # an interview
-A	w[-1]=in	fw=an	fpos=DT	w[0]=interview	fw|fpos=an|DT	hw=interview	hw|hpos=interview|NN	hpos=NN	w[1]=a	pos[-1]=IN	pos[1]=a
+AN	w[-1]=in	fw=an	fpos=DT	w[0]=interview	fw|fpos=an|DT	hw=interview	hw|hpos=interview|NN	hpos=NN	w[1]=a	pos[-1]=IN	pos[1]=a
 # a pleasing
 A	w[-1]=interview	fw=a	fpos=DT	w[0]=pleasing	fw|fpos=a|DT	hw=pleasing	hw|hpos=pleasing|NN	hpos=NN	w[1]=,	pos[-1]=NN	pos[1]=,
 # agreeable attitude
@@ -14165,7 +14165,7 @@ NONE	w[-1]=and	fw=John	fpos=NNP	w[0]=John W	fw|fpos=John|NNP	hw=W	hw|hpos=W|NNP	
 # Dillinger
 NONE	w[-1]=NONE	fw=Dillinger	fpos=NN	w[0]=Dillinger	fw|fpos=Dillinger|NN	hw=Dillinger	hw|hpos=Dillinger|NN	hpos=NN	w[1]=,	pos[-1]=NONE	pos[1]=,
 # an article
-A	w[-1]=in	fw=an	fpos=DT	w[0]=article	fw|fpos=an|DT	hw=article	hw|hpos=article|NN	hpos=NN	w[1]=in	pos[-1]=IN	pos[1]=in
+AN	w[-1]=in	fw=an	fpos=DT	w[0]=article	fw|fpos=an|DT	hw=article	hw|hpos=article|NN	hpos=NN	w[1]=in	pos[-1]=IN	pos[1]=in
 # a newspaper
 A	w[-1]=in	fw=a	fpos=DT	w[0]=newspaper	fw|fpos=a|DT	hw=newspaper	hw|hpos=newspaper|NN	hpos=NN	w[1]=a	pos[-1]=IN	pos[1]=a
 # a hostility
@@ -14317,7 +14317,7 @@ NONE	w[-1]=,	fw=April	fpos=NNP	w[0]=April 9	fw|fpos=April|NNP	hw=9	hw|hpos=9|CD	
 # Dillinger
 NONE	w[-1]=,	fw=Dillinger	fpos=NNP	w[0]=Dillinger	fw|fpos=Dillinger|NNP	hw=Dillinger	hw|hpos=Dillinger|NNP	hpos=NNP	w[1]=had	pos[-1]=,	pos[1]=had
 # an appointment
-A	w[-1]=had	fw=an	fpos=DT	w[0]=appointment	fw|fpos=an|DT	hw=appointment	hw|hpos=appointment|NN	hpos=NN	w[1]=at	pos[-1]=VBD	pos[1]=at
+AN	w[-1]=had	fw=an	fpos=DT	w[0]=appointment	fw|fpos=an|DT	hw=appointment	hw|hpos=appointment|NN	hpos=NN	w[1]=at	pos[-1]=VBD	pos[1]=at
 # a tavern
 A	w[-1]=at	fw=a	fpos=DT	w[0]=tavern	fw|fpos=a|DT	hw=tavern	hw|hpos=tavern|NN	hpos=NN	w[1]=located	pos[-1]=IN	pos[1]=located
 # 416 North State Street
@@ -15577,7 +15577,7 @@ NONE	w[-1]=,	fw=Van	fpos=NNP	w[0]=Van Meter	fw|fpos=Van|NNP	hw=Meter	hw|hpos=Met
 # Nelson
 NONE	w[-1]=,	fw=Nelson	fpos=NNP	w[0]=Nelson	fw|fpos=Nelson|NNP	hw=Nelson	hw|hpos=Nelson|NNP	hpos=NNP	w[1]=,	pos[-1]=,	pos[1]=,
 # an unidentified `` fat man
-A	w[-1]=and	fw=an	fpos=DT	w[0]=unidentified `` fat man	fw|fpos=an|DT	hw=man	hw|hpos=man|NN	hpos=NN	w[1]=''	pos[-1]=CC	pos[1]=''
+AN	w[-1]=and	fw=an	fpos=DT	w[0]=unidentified `` fat man	fw|fpos=an|DT	hw=man	hw|hpos=man|NN	hpos=NN	w[1]=''	pos[-1]=CC	pos[1]=''
 # the Merchants National Bank
 THE	w[-1]=robbed	fw=the	fpos=DT	w[0]=Merchants National Bank	fw|fpos=the|DT	hw=Bank	hw|hpos=Bank|NNP	hpos=NNP	w[1]=in	pos[-1]=VBD	pos[1]=in
 # South Bend
@@ -15677,7 +15677,7 @@ NONE	w[-1]=like	fw=Chicago	fpos=NNP	w[0]=Chicago	fw|fpos=Chicago|NNP	hw=Chicago	
 # he
 NONE	w[-1]=,	fw=he	fpos=PRP	w[0]=he	fw|fpos=he|PRP	hw=he	hw|hpos=he|PRP	hpos=PRP	w[1]=was	pos[-1]=,	pos[1]=was
 # an anonymous existence
-A	w[-1]=lead	fw=an	fpos=DT	w[0]=anonymous existence	fw|fpos=an|DT	hw=existence	hw|hpos=existence|NN	hpos=NN	w[1]=for	pos[-1]=VB	pos[1]=for
+AN	w[-1]=lead	fw=an	fpos=DT	w[0]=anonymous existence	fw|fpos=an|DT	hw=existence	hw|hpos=existence|NN	hpos=NN	w[1]=for	pos[-1]=VB	pos[1]=for
 # a while
 A	w[-1]=for	fw=a	fpos=DT	w[0]=while	fw|fpos=a|DT	hw=while	hw|hpos=while|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
 # What
@@ -15819,7 +15819,7 @@ NONE	w[-1]=to	fw=Art	fpos=NNP	w[0]=Art O'Leary	fw|fpos=Art|NNP	hw=O'Leary	hw|hpo
 # Dillinger
 NONE	w[-1]=,	fw=Dillinger	fpos=NNP	w[0]=Dillinger	fw|fpos=Dillinger|NNP	hw=Dillinger	hw|hpos=Dillinger|NNP	hpos=NNP	w[1]=had	pos[-1]=,	pos[1]=had
 # an interest
-A	w[-1]=expressed	fw=an	fpos=DT	w[0]=interest	fw|fpos=an|DT	hw=interest	hw|hpos=interest|NN	hpos=NN	w[1]=in	pos[-1]=VBN	pos[1]=in
+AN	w[-1]=expressed	fw=an	fpos=DT	w[0]=interest	fw|fpos=an|DT	hw=interest	hw|hpos=interest|NN	hpos=NN	w[1]=in	pos[-1]=VBN	pos[1]=in
 # plastic surgery
 NONE	w[-1]=in	fw=plastic	fpos=NN	w[0]=plastic surgery	fw|fpos=plastic|NN	hw=surgery	hw|hpos=surgery|NN	hpos=NN	w[1]=and	pos[-1]=IN	pos[1]=and
 # O'Leary
@@ -15917,7 +15917,7 @@ NONE	w[-1]=NONE	fw=Loeser	fpos=NNP	w[0]=Loeser	fw|fpos=Loeser|NNP	hw=Loeser	hw|h
 # he
 NONE	w[-1]=stated	fw=he	fpos=PRP	w[0]=he	fw|fpos=he|PRP	hw=he	hw|hpos=he|PRP	hpos=PRP	w[1]=earned	pos[-1]=VBD	pos[1]=earned
 # an M.D. degree
-A	w[-1]=earned	fw=an	fpos=DT	w[0]=M.D. degree	fw|fpos=an|DT	hw=degree	hw|hpos=degree|NN	hpos=NN	w[1]=from	pos[-1]=VBD	pos[1]=from
+AN	w[-1]=earned	fw=an	fpos=DT	w[0]=M.D. degree	fw|fpos=an|DT	hw=degree	hw|hpos=degree|NN	hpos=NN	w[1]=from	pos[-1]=VBD	pos[1]=from
 # Northwestern Medical School
 NONE	w[-1]=from	fw=Northwestern	fpos=NNP	w[0]=Northwestern Medical School	fw|fpos=Northwestern|NNP	hw=School	hw|hpos=School|NNP	hpos=NNP	w[1]=in	pos[-1]=IN	pos[1]=in
 # 1905
@@ -16457,9 +16457,9 @@ NONE	w[-1]=NONE	fw=We	fpos=PRP	w[0]=We	fw|fpos=We|PRP	hw=We	hw|hpos=We|PRP	hpos=
 # night
 NONE	w[-1]=that	fw=night	fpos=NN	w[0]=night	fw|fpos=night|NN	hw=night	hw|hpos=night|NN	hpos=NN	w[1]=about	pos[-1]=IN	pos[1]=about
 # an hour
-A	w[-1]=about	fw=an	fpos=DT	w[0]=hour	fw|fpos=an|DT	hw=hour	hw|hpos=hour|NN	hpos=NN	w[1]=or	pos[-1]=IN	pos[1]=or
+AN	w[-1]=about	fw=an	fpos=DT	w[0]=hour	fw|fpos=an|DT	hw=hour	hw|hpos=hour|NN	hpos=NN	w[1]=or	pos[-1]=IN	pos[1]=or
 # an hour
-A	w[-1]=or	fw=an	fpos=DT	w[0]=hour	fw|fpos=an|DT	hw=hour	hw|hpos=hour|NN	hpos=NN	w[1]=and	pos[-1]=CC	pos[1]=and
+AN	w[-1]=or	fw=an	fpos=DT	w[0]=hour	fw|fpos=an|DT	hw=hour	hw|hpos=hour|NN	hpos=NN	w[1]=and	pos[-1]=CC	pos[1]=and
 # a half
 A	w[-1]=and	fw=a	fpos=DT	w[0]=half	fw|fpos=a|DT	hw=half	hw|hpos=half|NN	hpos=NN	w[1]=.	pos[-1]=CC	pos[1]=.
 # Henry Schoknecht
@@ -16649,7 +16649,7 @@ NONE	w[-1]=examine	fw=anyone	fpos=NN	w[0]=anyone	fw|fpos=anyone|NN	hw=anyone	hw|
 # operating and giving
 NONE	w[-1]=before	fw=operating	fpos=VBG	w[0]=operating and giving	fw|fpos=operating|VBG	hw=giving	hw|hpos=giving|VBG	hpos=VBG	w[1]=an	pos[-1]=IN	pos[1]=an
 # an anesthetic
-A	w[-1]=giving	fw=an	fpos=DT	w[0]=anesthetic	fw|fpos=an|DT	hw=anesthetic	hw|hpos=anesthetic|NN	hpos=NN	w[1]=.	pos[-1]=VBG	pos[1]=.
+AN	w[-1]=giving	fw=an	fpos=DT	w[0]=anesthetic	fw|fpos=an|DT	hw=anesthetic	hw|hpos=anesthetic|NN	hpos=NN	w[1]=.	pos[-1]=VBG	pos[1]=.
 # he
 NONE	w[-1]=When	fw=he	fpos=PRP	w[0]=he	fw|fpos=he|PRP	hw=he	hw|hpos=he|PRP	hpos=PRP	w[1]=said	pos[-1]=WRB	pos[1]=said
 # he
@@ -16751,7 +16751,7 @@ NONE	w[-1]=of	fw=excitment	fpos=NN	w[0]=excitment	fw|fpos=excitment|NN	hw=excitm
 # which
 NONE	w[-1]=,	fw=which	fpos=WDT	w[0]=which	fw|fpos=which|WDT	hw=which	hw|hpos=which|WDT	hpos=WDT	w[1]=often	pos[-1]=,	pos[1]=often
 # An overdose
-A	w[-1]=''	fw=An	fpos=DT	w[0]=overdose	fw|fpos=An|DT	hw=overdose	hw|hpos=overdose|NN	hpos=NN	w[1]=of	pos[-1]=''	pos[1]=of
+AN	w[-1]=''	fw=An	fpos=DT	w[0]=overdose	fw|fpos=An|DT	hw=overdose	hw|hpos=overdose|NN	hpos=NN	w[1]=of	pos[-1]=''	pos[1]=of
 # the ether
 THE	w[-1]=of	fw=the	fpos=DT	w[0]=ether	fw|fpos=the|DT	hw=ether	hw|hpos=ether|NN	hpos=NN	w[1]=given	pos[-1]=IN	pos[1]=given
 # Cassidy
@@ -16819,11 +16819,11 @@ NONE	w[-1]=on	fw=Dillinger	fpos=NNP	w[0]=Dillinger	fw|fpos=Dillinger|NNP	hw=Dill
 # 's forehead
 NONE	w[-1]=Dillinger	fw='s	fpos=POS	w[0]='s forehead	fw|fpos='s|POS	hw=forehead	hw|hpos=forehead|NN	hpos=NN	w[1]=,	pos[-1]=NNP	pos[1]=,
 # an incision
-A	w[-1]=making	fw=an	fpos=DT	w[0]=incision	fw|fpos=an|DT	hw=incision	hw|hpos=incision|NN	hpos=NN	w[1]=in	pos[-1]=VBG	pos[1]=in
+AN	w[-1]=making	fw=an	fpos=DT	w[0]=incision	fw|fpos=an|DT	hw=incision	hw|hpos=incision|NN	hpos=NN	w[1]=in	pos[-1]=VBG	pos[1]=in
 # his nose
 NONE	w[-1]=in	fw=his	fpos=PRP$	w[0]=his nose	fw|fpos=his|PRP$	hw=nose	hw|hpos=nose|NN	hpos=NN	w[1]=and	pos[-1]=IN	pos[1]=and
 # an incision
-A	w[-1]=and	fw=an	fpos=DT	w[0]=incision	fw|fpos=an|DT	hw=incision	hw|hpos=incision|NN	hpos=NN	w[1]=in	pos[-1]=CC	pos[1]=in
+AN	w[-1]=and	fw=an	fpos=DT	w[0]=incision	fw|fpos=an|DT	hw=incision	hw|hpos=incision|NN	hpos=NN	w[1]=in	pos[-1]=CC	pos[1]=in
 # his chin
 NONE	w[-1]=in	fw=his	fpos=PRP$	w[0]=his chin	fw|fpos=his|PRP$	hw=chin	hw|hpos=chin|NN	hpos=NN	w[1]=and	pos[-1]=IN	pos[1]=and
 # both cheeks
@@ -17195,7 +17195,7 @@ NONE	w[-1]=on	fw=his	fpos=PRP$	w[0]=his right forearm	fw|fpos=his|PRP$	hw=forear
 # The tattoo
 THE	w[-1]=NONE	fw=The	fpos=DT	w[0]=tattoo	fw|fpos=The|DT	hw=tattoo	hw|hpos=tattoo|NN	hpos=NN	w[1]=was	pos[-1]=NONE	pos[1]=was
 # an anchor
-A	w[-1]=was	fw=an	fpos=DT	w[0]=anchor	fw|fpos=an|DT	hw=anchor	hw|hpos=anchor|NN	hpos=NN	w[1]=with	pos[-1]=VBD	pos[1]=with
+AN	w[-1]=was	fw=an	fpos=DT	w[0]=anchor	fw|fpos=an|DT	hw=anchor	hw|hpos=anchor|NN	hpos=NN	w[1]=with	pos[-1]=VBD	pos[1]=with
 # the words
 THE	w[-1]=with	fw=the	fpos=DT	w[0]=words	fw|fpos=the|DT	hw=words	hw|hpos=words|NNS	hpos=NNS	w[1]=,	pos[-1]=IN	pos[1]=,
 # 'Good Hope
@@ -17275,7 +17275,7 @@ NONE	w[-1]=NONE	fw=I	fpos=PRP	w[0]=I	fw|fpos=I|PRP	hw=I	hw|hpos=I|PRP	hpos=PRP	w
 # scissors
 NONE	w[-1]=used	fw=scissors	fpos=NNS	w[0]=scissors	fw|fpos=scissors|NNS	hw=scissors	hw|hpos=scissors|NNS	hpos=NNS	w[1]=to	pos[-1]=VBD	pos[1]=to
 # an impression
-A	w[-1]=out	fw=an	fpos=DT	w[0]=impression	fw|fpos=an|DT	hw=impression	hw|hpos=impression|NN	hpos=NN	w[1]=,	pos[-1]=RP	pos[1]=,
+AN	w[-1]=out	fw=an	fpos=DT	w[0]=impression	fw|fpos=an|DT	hw=impression	hw|hpos=impression|NN	hpos=NN	w[1]=,	pos[-1]=RP	pos[1]=,
 # the lower lip
 THE	w[-1]=improve	fw=the	fpos=DT	w[0]=lower lip	fw|fpos=the|DT	hw=lip	hw|hpos=lip|NN	hpos=NN	w[1]=on	pos[-1]=VB	pos[1]=on
 # Van Meter
@@ -17397,7 +17397,7 @@ NONE	w[-1]=in	fw=any	fpos=DT	w[0]=book	fw|fpos=any|DT	hw=book	hw|hpos=book|NN	hp
 # It
 NONE	w[-1]=NONE	fw=It	fpos=PRP	w[0]=It	fw|fpos=It|PRP	hw=It	hw|hpos=It|PRP	hpos=PRP	w[1]=is	pos[-1]=NONE	pos[1]=is
 # an acid
-A	w[-1]=is	fw=an	fpos=DT	w[0]=acid	fw|fpos=an|DT	hw=acid	hw|hpos=acid|NN	hpos=NN	w[1]=.	pos[-1]=VBZ	pos[1]=.
+AN	w[-1]=is	fw=an	fpos=DT	w[0]=acid	fw|fpos=an|DT	hw=acid	hw|hpos=acid|NN	hpos=NN	w[1]=.	pos[-1]=VBZ	pos[1]=.
 # Some use acid
 NONE	w[-1]=NONE	fw=Some	fpos=DT	w[0]=use acid	fw|fpos=Some|DT	hw=acid	hw|hpos=acid|NN	hpos=NN	w[1]=,	pos[-1]=NONE	pos[1]=,
 # there
@@ -17683,7 +17683,7 @@ NONE	w[-1]=that	fw=Dillinger	fpos=NNP	w[0]=Dillinger and Van Meter	fw|fpos=Dilli
 # a machine gun
 A	w[-1]=kept	fw=a	fpos=DT	w[0]=machine gun	fw|fpos=a|DT	hw=gun	hw|hpos=gun|NN	hpos=NN	w[1]=in	pos[-1]=VBD	pos[1]=in
 # an open case
-A	w[-1]=in	fw=an	fpos=DT	w[0]=open case	fw|fpos=an|DT	hw=case	hw|hpos=case|NN	hpos=NN	w[1]=under	pos[-1]=IN	pos[1]=under
+AN	w[-1]=in	fw=an	fpos=DT	w[0]=open case	fw|fpos=an|DT	hw=case	hw|hpos=case|NN	hpos=NN	w[1]=under	pos[-1]=IN	pos[1]=under
 # the piano
 THE	w[-1]=under	fw=the	fpos=DT	w[0]=piano	fw|fpos=the|DT	hw=piano	hw|hpos=piano|NN	hpos=NN	w[1]=in	pos[-1]=IN	pos[1]=in
 # the parlor
@@ -17917,7 +17917,7 @@ NONE	w[-1]=in	fw=this	fpos=DT	w[0]=room	fw|fpos=this|DT	hw=room	hw|hpos=room|NN	
 # a sun ray machine
 A	w[-1]=were	fw=a	fpos=DT	w[0]=sun ray machine	fw|fpos=a|DT	hw=machine	hw|hpos=machine|NN	hpos=NN	w[1]=and	pos[-1]=VBD	pos[1]=and
 # an X-ray machine
-A	w[-1]=and	fw=an	fpos=DT	w[0]=X-ray machine	fw|fpos=an|DT	hw=machine	hw|hpos=machine|NN	hpos=NN	w[1]=.	pos[-1]=CC	pos[1]=.
+AN	w[-1]=and	fw=an	fpos=DT	w[0]=X-ray machine	fw|fpos=an|DT	hw=machine	hw|hpos=machine|NN	hpos=NN	w[1]=.	pos[-1]=CC	pos[1]=.
 # Loeser
 NONE	w[-1]=NONE	fw=Loeser	fpos=NN	w[0]=Loeser	fw|fpos=Loeser|NN	hw=Loeser	hw|hpos=Loeser|NN	hpos=NN	w[1]=later	pos[-1]=NONE	pos[1]=later
 # he
@@ -18275,7 +18275,7 @@ THE	w[-1]=on	fw=the	fpos=DT	w[0]=following day	fw|fpos=the|DT	hw=day	hw|hpos=day
 # She
 NONE	w[-1]=NONE	fw=She	fpos=PRP	w[0]=She	fw|fpos=She|PRP	hw=She	hw|hpos=She|PRP	hpos=PRP	w[1]=agreed	pos[-1]=NONE	pos[1]=agreed
 # an orange dress
-A	w[-1]=wear	fw=an	fpos=DT	w[0]=orange dress	fw|fpos=an|DT	hw=dress	hw|hpos=dress|NN	hpos=NN	w[1]=,	pos[-1]=VB	pos[1]=,
+AN	w[-1]=wear	fw=an	fpos=DT	w[0]=orange dress	fw|fpos=an|DT	hw=dress	hw|hpos=dress|NN	hpos=NN	w[1]=,	pos[-1]=VB	pos[1]=,
 # which
 NONE	w[-1]=,	fw=which	fpos=WDT	w[0]=which	fw|fpos=which|WDT	hw=which	hw|hpos=which|WDT	hpos=WDT	w[1]=is	pos[-1]=,	pos[1]=is
 # the artificial lights
@@ -18391,7 +18391,7 @@ NONE	w[-1]=that	fw=they	fpos=PRP	w[0]=they	fw|fpos=they|PRP	hw=they	hw|hpos=they
 # a stakeout
 A	w[-1]=on	fw=a	fpos=DT	w[0]=stakeout	fw|fpos=a|DT	hw=stakeout	hw|hpos=stakeout|NN	hpos=NN	w[1]=for	pos[-1]=IN	pos[1]=for
 # an important target
-A	w[-1]=for	fw=an	fpos=DT	w[0]=important target	fw|fpos=an|DT	hw=target	hw|hpos=target|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
+AN	w[-1]=for	fw=an	fpos=DT	w[0]=important target	fw|fpos=an|DT	hw=target	hw|hpos=target|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
 # The criminal record
 THE	w[-1]=NONE	fw=The	fpos=DT	w[0]=criminal record	fw|fpos=The|DT	hw=record	hw|hpos=record|NN	hpos=NN	w[1]=of	pos[-1]=NONE	pos[1]=of
 # Anna Sage
@@ -19189,7 +19189,7 @@ NONE	w[-1]=in	fw=Trinidad	fpos=NNP	w[0]=Trinidad	fw|fpos=Trinidad|NNP	hw=Trinida
 # A Dillinger death mask
 A	w[-1]=NONE	fw=A	fpos=DT	w[0]=Dillinger death mask	fw|fpos=A|DT	hw=mask	hw|hpos=mask|NN	hpos=NN	w[1]=made	pos[-1]=NONE	pos[1]=made
 # an original mold
-A	w[-1]=from	fw=an	fpos=DT	w[0]=original mold	fw|fpos=an|DT	hw=mold	hw|hpos=mold|NN	hpos=NN	w[1]=,	pos[-1]=IN	pos[1]=,
+AN	w[-1]=from	fw=an	fpos=DT	w[0]=original mold	fw|fpos=an|DT	hw=mold	hw|hpos=mold|NN	hpos=NN	w[1]=,	pos[-1]=IN	pos[1]=,
 # eyebrow hair
 NONE	w[-1]=and	fw=eyebrow	fpos=NN	w[0]=eyebrow hair	fw|fpos=eyebrow|NN	hw=hair	hw|hpos=hair|NN	hpos=NN	w[1]=,	pos[-1]=CC	pos[1]=,
 # display
@@ -19437,7 +19437,7 @@ NONE	w[-1]=of	fw=commendation	fpos=NN	w[0]=commendation	fw|fpos=commendation|NN	
 # Director Hoover
 NONE	w[-1]=from	fw=Director	fpos=NNP	w[0]=Director Hoover	fw|fpos=Director|NNP	hw=Hoover	hw|hpos=Hoover|NNP	hpos=NNP	w[1]=.	pos[-1]=IN	pos[1]=.
 # An ambulance
-A	w[-1]=NONE	fw=An	fpos=DT	w[0]=ambulance	fw|fpos=An|DT	hw=ambulance	hw|hpos=ambulance|NN	hpos=NN	w[1]=was	pos[-1]=NONE	pos[1]=was
+AN	w[-1]=NONE	fw=An	fpos=DT	w[0]=ambulance	fw|fpos=An|DT	hw=ambulance	hw|hpos=ambulance|NN	hpos=NN	w[1]=was	pos[-1]=NONE	pos[1]=was
 # it
 NONE	w[-1]=though	fw=it	fpos=PRP	w[0]=it	fw|fpos=it|PRP	hw=it	hw|hpos=it|PRP	hpos=PRP	w[1]=was	pos[-1]=IN	pos[1]=was
 # clear Dillinger
@@ -19727,7 +19727,7 @@ THE	w[-1]=at	fw=the	fpos=DT	w[0]=Cook County morgue	fw|fpos=the|DT	hw=morgue	hw|
 # his death
 NONE	w[-1]=after	fw=his	fpos=PRP$	w[0]=his death	fw|fpos=his|PRP$	hw=death	hw|hpos=death|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
 # An estimated 15 , 000 people
-A	w[-1]=NONE	fw=An	fpos=DT	w[0]=estimated 15 , 000 people	fw|fpos=An|DT	hw=people	hw|hpos=people|NNS	hpos=NNS	w[1]=viewed	pos[-1]=NONE	pos[1]=viewed
+AN	w[-1]=NONE	fw=An	fpos=DT	w[0]=estimated 15 , 000 people	fw|fpos=An|DT	hw=people	hw|hpos=people|NNS	hpos=NNS	w[1]=viewed	pos[-1]=NONE	pos[1]=viewed
 # the corpse
 THE	w[-1]=viewed	fw=the	fpos=DT	w[0]=corpse	fw|fpos=the|DT	hw=corpse	hw|hpos=corpse|NN	hpos=NN	w[1]=in	pos[-1]=VBD	pos[1]=in
 # the day-and-half circus
@@ -19891,7 +19891,7 @@ NONE	w[-1]=NONE	fw=Hilton	fpos=NNP	w[0]=Hilton Crouch	fw|fpos=Hilton|NNP	hw=Crou
 # 1903-1976
 NONE	w[-1]=(	fw=1903-1976	fpos=CD	w[0]=1903-1976	fw|fpos=1903-1976|CD	hw=1903-1976	hw|hpos=1903-1976|CD	hpos=CD	w[1]=)	pos[-1]=(	pos[1]=)
 # an associate
-A	w[-1]=,	fw=an	fpos=DT	w[0]=associate	fw|fpos=an|DT	hw=associate	hw|hpos=associate|NN	hpos=NN	w[1]=of	pos[-1]=,	pos[1]=of
+AN	w[-1]=,	fw=an	fpos=DT	w[0]=associate	fw|fpos=an|DT	hw=associate	hw|hpos=associate|NN	hpos=NN	w[1]=of	pos[-1]=,	pos[1]=of
 # Dillinger
 NONE	w[-1]=of	fw=Dillinger	fpos=NNP	w[0]=Dillinger	fw|fpos=Dillinger|NNP	hw=Dillinger	hw|hpos=Dillinger|NNP	hpos=NNP	w[1]='s	pos[-1]=IN	pos[1]='s
 # 's
@@ -20149,7 +20149,7 @@ THE	w[-1]=to	fw=the	fpos=DT	w[0]=newspapers	fw|fpos=the|DT	hw=newspapers	hw|hpos
 # It
 NONE	w[-1]=NONE	fw=It	fpos=PRP	w[0]=It	fw|fpos=It|PRP	hw=It	hw|hpos=It|PRP	hpos=PRP	w[1]=appeared	pos[-1]=NONE	pos[1]=appeared
 # an evening edition
-A	w[-1]=in	fw=an	fpos=DT	w[0]=evening edition	fw|fpos=an|DT	hw=edition	hw|hpos=edition|NN	hpos=NN	w[1]=and	pos[-1]=IN	pos[1]=and
+AN	w[-1]=in	fw=an	fpos=DT	w[0]=evening edition	fw|fpos=an|DT	hw=edition	hw|hpos=edition|NN	hpos=NN	w[1]=and	pos[-1]=IN	pos[1]=and
 # the next day
 THE	w[-1]=also	fw=the	fpos=DT	w[0]=next day	fw|fpos=the|DT	hw=day	hw|hpos=day|NN	hpos=NN	w[1]='s	pos[-1]=RB	pos[1]='s
 # 's edition
@@ -20459,7 +20459,7 @@ NONE	w[-1]=to	fw=Melvin	fpos=NNP	w[0]=Melvin Purvis	fw|fpos=Melvin|NNP	hw=Purvis
 # his 1960 alleged suicide
 NONE	w[-1]=to	fw=his	fpos=PRP$	w[0]=his 1960 alleged suicide	fw|fpos=his|PRP$	hw=suicide	hw|hpos=suicide|NN	hpos=NN	w[1]=(	pos[-1]=TO	pos[1]=(
 # an accident
-A	w[-1]=probably	fw=an	fpos=DT	w[0]=accident	fw|fpos=an|DT	hw=accident	hw|hpos=accident|NN	hpos=NN	w[1]=)	pos[-1]=RB	pos[1]=)
+AN	w[-1]=probably	fw=an	fpos=DT	w[0]=accident	fw|fpos=an|DT	hw=accident	hw|hpos=accident|NN	hpos=NN	w[1]=)	pos[-1]=RB	pos[1]=)
 # Nash
 NONE	w[-1]=NONE	fw=Nash	fpos=NNP	w[0]=Nash	fw|fpos=Nash|NNP	hw=Nash	hw|hpos=Nash|NNP	hpos=NNP	w[1]=alleged	pos[-1]=NONE	pos[1]=alleged
 # Dillinger
@@ -20471,7 +20471,7 @@ A	w[-1]=as	fw=a	fpos=DT	w[0]=machinist	fw|fpos=a|DT	hw=machinist	hw|hpos=machini
 # what
 NONE	w[-1]=under	fw=what	fpos=WP	w[0]=what	fw|fpos=what|WP	hw=what	hw|hpos=what|WP	hpos=WP	w[1]=would	pos[-1]=IN	pos[1]=would
 # an early form
-A	w[-1]=been	fw=an	fpos=DT	w[0]=early form	fw|fpos=an|DT	hw=form	hw|hpos=form|NN	hpos=NN	w[1]=of	pos[-1]=VBN	pos[1]=of
+AN	w[-1]=been	fw=an	fpos=DT	w[0]=early form	fw|fpos=an|DT	hw=form	hw|hpos=form|NN	hpos=NN	w[1]=of	pos[-1]=VBN	pos[1]=of
 # the witness protection program
 THE	w[-1]=of	fw=the	fpos=DT	w[0]=witness protection program	fw|fpos=the|DT	hw=program	hw|hpos=program|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
 # Challenging Nash
@@ -20647,7 +20647,7 @@ NONE	w[-1]=Dillinger	fw='s	fpos=POS	w[0]='s thigh	fw|fpos='s|POS	hw=thigh	hw|hpo
 # a souvenir
 A	w[-1]=,	fw=a	fpos=DT	w[0]=souvenir	fw|fpos=a|DT	hw=souvenir	hw|hpos=souvenir|NN	hpos=NN	w[1]=of	pos[-1]=,	pos[1]=of
 # an encounter
-A	w[-1]=of	fw=an	fpos=DT	w[0]=encounter	fw|fpos=an|DT	hw=encounter	hw|hpos=encounter|NN	hpos=NN	w[1]=with	pos[-1]=IN	pos[1]=with
+AN	w[-1]=of	fw=an	fpos=DT	w[0]=encounter	fw|fpos=an|DT	hw=encounter	hw|hpos=encounter|NN	hpos=NN	w[1]=with	pos[-1]=IN	pos[1]=with
 # a barbed-wire fence years
 A	w[-1]=with	fw=a	fpos=DT	w[0]=barbed-wire fence years	fw|fpos=a|DT	hw=years	hw|hpos=years|NNS	hpos=NNS	w[1]=prior	pos[-1]=IN	pos[1]=prior
 # a watermelon raid
@@ -20741,7 +20741,7 @@ NONE	w[-1]=:	fw=$	fpos=$	w[0]=$ 140	fw|fpos=$|$	hw=140	hw|hpos=140|CD	hpos=CD	w[
 # Copeland
 NONE	w[-1]=by	fw=Copeland	fpos=NN	w[0]=Copeland	fw|fpos=Copeland|NN	hw=Copeland	hw|hpos=Copeland|NN	hpos=NN	w[1]=;	pos[-1]=IN	pos[1]=;
 # an unknown amount
-A	w[-1]=;	fw=an	fpos=DT	w[0]=unknown amount	fw|fpos=an|DT	hw=amount	hw|hpos=amount|NN	hpos=NN	w[1]=by	pos[-1]=:	pos[1]=by
+AN	w[-1]=;	fw=an	fpos=DT	w[0]=unknown amount	fw|fpos=an|DT	hw=amount	hw|hpos=amount|NN	hpos=NN	w[1]=by	pos[-1]=:	pos[1]=by
 # Dillinger
 NONE	w[-1]=by	fw=Dillinger	fpos=NNP	w[0]=Dillinger	fw|fpos=Dillinger|NNP	hw=Dillinger	hw|hpos=Dillinger|NNP	hpos=NNP	w[1]=.	pos[-1]=IN	pos[1]=.
 # 1933 Chevrolet coupe
@@ -21013,7 +21013,7 @@ NONE	w[-1]=,	fw=Clark	fpos=NNP	w[0]=Clark	fw|fpos=Clark|NNP	hw=Clark	hw|hpos=Cla
 # Leslie Homer
 NONE	w[-1]=and	fw=Leslie	fpos=NNP	w[0]=Leslie Homer	fw|fpos=Leslie|NNP	hw=Homer	hw|hpos=Homer|NNP	hpos=NNP	w[1]=.	pos[-1]=CC	pos[1]=.
 # An extremely rare vehicle
-A	w[-1]=NONE	fw=An	fpos=DT	w[0]=extremely rare vehicle	fw|fpos=An|DT	hw=vehicle	hw|hpos=vehicle|NN	hpos=NN	w[1]=even	pos[-1]=NONE	pos[1]=even
+AN	w[-1]=NONE	fw=An	fpos=DT	w[0]=extremely rare vehicle	fw|fpos=An|DT	hw=vehicle	hw|hpos=vehicle|NN	hpos=NN	w[1]=even	pos[-1]=NONE	pos[1]=even
 # its day
 NONE	w[-1]=in	fw=its	fpos=PRP$	w[0]=its day	fw|fpos=its|PRP$	hw=day	hw|hpos=day|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
 # special order
@@ -21115,13 +21115,13 @@ NONE	w[-1]=,	fw=Wisconsin	fpos=NNP	w[0]=Wisconsin	fw|fpos=Wisconsin|NNP	hw=Wisco
 # a result
 A	w[-1]=as	fw=a	fpos=DT	w[0]=result	fw|fpos=a|DT	hw=result	hw|hpos=result|NN	hpos=NN	w[1]=of	pos[-1]=IN	pos[1]=of
 # an icy road
-A	w[-1]=of	fw=an	fpos=DT	w[0]=icy road	fw|fpos=an|DT	hw=road	hw|hpos=road|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
+AN	w[-1]=of	fw=an	fpos=DT	w[0]=icy road	fw|fpos=an|DT	hw=road	hw|hpos=road|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
 # 1934 Ford V8 Tudor
 NONE	w[-1]=NONE	fw=1934	fpos=CD	w[0]=1934 Ford V8 Tudor	fw|fpos=1934|CD	hw=Tudor	hw|hpos=Tudor|NNP	hpos=NNP	w[1]=,	pos[-1]=NONE	pos[1]=,
 # Dillinger and Hamilton
 NONE	w[-1]=by	fw=Dillinger	fpos=NNP	w[0]=Dillinger and Hamilton	fw|fpos=Dillinger|NNP	hw=Hamilton	hw|hpos=Hamilton|NNP	hpos=NNP	w[1]=,	pos[-1]=IN	pos[1]=,
 # an unidentified driver
-A	w[-1]=and	fw=an	fpos=DT	w[0]=unidentified driver	fw|fpos=an|DT	hw=driver	hw|hpos=driver|NN	hpos=NN	w[1]=,	pos[-1]=CC	pos[1]=,
+AN	w[-1]=and	fw=an	fpos=DT	w[0]=unidentified driver	fw|fpos=an|DT	hw=driver	hw|hpos=driver|NN	hpos=NN	w[1]=,	pos[-1]=CC	pos[1]=,
 # Monday
 NONE	w[-1]=on	fw=Monday	fpos=NNP	w[0]=Monday	fw|fpos=Monday|NNP	hw=Monday	hw|hpos=Monday|NNP	hpos=NNP	w[1]=,	pos[-1]=IN	pos[1]=,
 # January 15 , 1934
@@ -21191,9 +21191,9 @@ NONE	w[-1]=,	fw=bison	fpos=NN	w[0]=bison brown	fw|fpos=bison|NN	hw=brown	hw|hpos
 # which
 NONE	w[-1]=``	fw=which	fpos=WDT	w[0]=which	fw|fpos=which|WDT	hw=which	hw|hpos=which|WDT	hpos=WDT	w[1]=was	pos[-1]=``	pos[1]=was
 # an opalescent lacquer
-A	w[-1]=was	fw=an	fpos=DT	w[0]=opalescent lacquer	fw|fpos=an|DT	hw=lacquer	hw|hpos=lacquer|NN	hpos=NN	w[1]=over	pos[-1]=VBD	pos[1]=over
+AN	w[-1]=was	fw=an	fpos=DT	w[0]=opalescent lacquer	fw|fpos=an|DT	hw=lacquer	hw|hpos=lacquer|NN	hpos=NN	w[1]=over	pos[-1]=VBD	pos[1]=over
 # an aluminum paint base
-A	w[-1]=over	fw=an	fpos=DT	w[0]=aluminum paint base	fw|fpos=an|DT	hw=base	hw|hpos=base|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
+AN	w[-1]=over	fw=an	fpos=DT	w[0]=aluminum paint base	fw|fpos=an|DT	hw=base	hw|hpos=base|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
 # six wire wheels
 NONE	w[-1]=with	fw=six	fpos=CD	w[0]=six wire wheels	fw|fpos=six|CD	hw=wheels	hw|hpos=wheels|NNS	hpos=NNS	w[1]=,	pos[-1]=IN	pos[1]=,
 # two fender wells
@@ -21633,7 +21633,7 @@ NONE	w[-1]=(	fw=trunk	fpos=NN	w[0]=trunk	fw|fpos=trunk|NN	hw=trunk	hw|hpos=trunk
 # a Gladstone bag
 A	w[-1]=was	fw=a	fpos=DT	w[0]=Gladstone bag	fw|fpos=a|DT	hw=bag	hw|hpos=bag|NN	hpos=NN	w[1]=containing	pos[-1]=VBD	pos[1]=containing
 # an unassembled Winchester .351 automatic rifle
-A	w[-1]=containing	fw=an	fpos=DT	w[0]=unassembled Winchester .351 automatic rifle	fw|fpos=an|DT	hw=rifle	hw|hpos=rifle|NN	hpos=NN	w[1]=,	pos[-1]=VBG	pos[1]=,
+AN	w[-1]=containing	fw=an	fpos=DT	w[0]=unassembled Winchester .351 automatic rifle	fw|fpos=an|DT	hw=rifle	hw|hpos=rifle|NN	hpos=NN	w[1]=,	pos[-1]=VBG	pos[1]=,
 # serial No. 46190
 NONE	w[-1]=,	fw=serial	fpos=JJ	w[0]=serial No. 46190	fw|fpos=serial|JJ	hw=46190	hw|hpos=46190|CD	hpos=CD	w[1]=,	pos[-1]=,	pos[1]=,
 # 13 20-round clips
@@ -22031,7 +22031,7 @@ THE	w[-1]=of	fw=the	fpos=DT	w[0]=rejected cars	fw|fpos=the|DT	hw=cars	hw|hpos=ca
 # a '31 Ford coupe
 A	w[-1]=was	fw=a	fpos=DT	w[0]='31 Ford coupe	fw|fpos=a|DT	hw=coupe	hw|hpos=coupe|NN	hpos=NN	w[1]=,	pos[-1]=VBD	pos[1]=,
 # an unlikely car
-A	w[-1]=,	fw=an	fpos=DT	w[0]=unlikely car	fw|fpos=an|DT	hw=car	hw|hpos=car|NN	hpos=NN	w[1]=for	pos[-1]=,	pos[1]=for
+AN	w[-1]=,	fw=an	fpos=DT	w[0]=unlikely car	fw|fpos=an|DT	hw=car	hw|hpos=car|NN	hpos=NN	w[1]=for	pos[-1]=,	pos[1]=for
 # Dillinger
 NONE	w[-1]=for	fw=Dillinger	fpos=NNP	w[0]=Dillinger	fw|fpos=Dillinger|NNP	hw=Dillinger	hw|hpos=Dillinger|NNP	hpos=NNP	w[1]=to	pos[-1]=IN	pos[1]=to
 # especially this
@@ -22315,7 +22315,7 @@ NONE	w[-1]=,	fw=size	fpos=NN	w[0]=size 10	fw|fpos=size|NN	hw=10	hw|hpos=10|CD	hp
 # a pillow and case
 A	w[-1]=and	fw=a	fpos=DT	w[0]=pillow and case	fw|fpos=a|DT	hw=case	hw|hpos=case|NN	hpos=NN	w[1]=,	pos[-1]=CC	pos[1]=,
 # an extra case
-A	w[-1]=with	fw=an	fpos=DT	w[0]=extra case	fw|fpos=an|DT	hw=case	hw|hpos=case|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
+AN	w[-1]=with	fw=an	fpos=DT	w[0]=extra case	fw|fpos=an|DT	hw=case	hw|hpos=case|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
 # Dillinger weapons
 NONE	w[-1]=NONE	fw=Dillinger	fpos=NN	w[0]=Dillinger weapons	fw|fpos=Dillinger|NN	hw=weapons	hw|hpos=weapons|NNS	hpos=NNS	w[1]=NONE	pos[-1]=NONE	pos[1]=NONE
 # Colt .38 Super automatic
@@ -22663,7 +22663,7 @@ NONE	w[-1]=on	fw=Monday	fpos=NNP	w[0]=Monday	fw|fpos=Monday|NNP	hw=Monday	hw|hpo
 # January 15 , 1934
 NONE	w[-1]=,	fw=January	fpos=NNP	w[0]=January 15 , 1934	fw|fpos=January|NNP	hw=1934	hw|hpos=1934|CD	hpos=CD	w[1]=)	pos[-1]=,	pos[1]=)
 # an eerie twist
-A	w[-1]=In	fw=an	fpos=DT	w[0]=eerie twist	fw|fpos=an|DT	hw=twist	hw|hpos=twist|NN	hpos=NN	w[1]=of	pos[-1]=IN	pos[1]=of
+AN	w[-1]=In	fw=an	fpos=DT	w[0]=eerie twist	fw|fpos=an|DT	hw=twist	hw|hpos=twist|NN	hpos=NN	w[1]=of	pos[-1]=IN	pos[1]=of
 # fate
 NONE	w[-1]=of	fw=fate	fpos=NN	w[0]=fate	fw|fpos=fate|NN	hw=fate	hw|hpos=fate|NN	hpos=NN	w[1]=,	pos[-1]=IN	pos[1]=,
 # all three policemen
@@ -22867,11 +22867,11 @@ NONE	w[-1]=NONE	fw=Pinkston	fpos=NNP	w[0]=Pinkston	fw|fpos=Pinkston|NNP	hw=Pinks
 # himself
 NONE	w[-1]=Pinkston	fw=himself	fpos=PRP	w[0]=himself	fw|fpos=himself|PRP	hw=himself	hw|hpos=himself|PRP	hpos=PRP	w[1]=makes	pos[-1]=NNP	pos[1]=makes
 # an uncredited cameo
-A	w[-1]=makes	fw=an	fpos=DT	w[0]=uncredited cameo	fw|fpos=an|DT	hw=cameo	hw|hpos=cameo|NN	hpos=NN	w[1]=in	pos[-1]=VBZ	pos[1]=in
+AN	w[-1]=makes	fw=an	fpos=DT	w[0]=uncredited cameo	fw|fpos=an|DT	hw=cameo	hw|hpos=cameo|NN	hpos=NN	w[1]=in	pos[-1]=VBZ	pos[1]=in
 # the Biograph sequence
 THE	w[-1]=in	fw=the	fpos=DT	w[0]=Biograph sequence	fw|fpos=the|DT	hw=sequence	hw|hpos=sequence|NN	hpos=NN	w[1]=,	pos[-1]=IN	pos[1]=,
 # an agent
-A	w[-1]=playing	fw=an	fpos=DT	w[0]=agent	fw|fpos=an|DT	hw=agent	hw|hpos=agent|NN	hpos=NN	w[1]=.	pos[-1]=VBG	pos[1]=.
+AN	w[-1]=playing	fw=an	fpos=DT	w[0]=agent	fw|fpos=an|DT	hw=agent	hw|hpos=agent|NN	hpos=NN	w[1]=.	pos[-1]=VBG	pos[1]=.
 # 1973
 NONE	w[-1]=NONE	fw=1973	fpos=CD	w[0]=1973	fw|fpos=1973|CD	hw=1973	hw|hpos=1973|CD	hpos=CD	w[1]=:	pos[-1]=NONE	pos[1]=:
 # Dillinger
@@ -23007,7 +23007,7 @@ NONE	w[-1]=:	fw=Director	fpos=NNP	w[0]=Director Michael Mann	fw|fpos=Director|NN
 # 's film Public Enemies
 NONE	w[-1]=Mann	fw='s	fpos=POS	w[0]='s film Public Enemies	fw|fpos='s|POS	hw=Enemies	hw|hpos=Enemies|NNP	hpos=NNP	w[1]=is	pos[-1]=NNP	pos[1]=is
 # an adaptation
-A	w[-1]=is	fw=an	fpos=DT	w[0]=adaptation	fw|fpos=an|DT	hw=adaptation	hw|hpos=adaptation|NN	hpos=NN	w[1]=of	pos[-1]=VBZ	pos[1]=of
+AN	w[-1]=is	fw=an	fpos=DT	w[0]=adaptation	fw|fpos=an|DT	hw=adaptation	hw|hpos=adaptation|NN	hpos=NN	w[1]=of	pos[-1]=VBZ	pos[1]=of
 # Bryan Burrough
 NONE	w[-1]=of	fw=Bryan	fpos=NNP	w[0]=Bryan Burrough	fw|fpos=Bryan|NNP	hw=Burrough	hw|hpos=Burrough|NNP	hpos=NNP	w[1]='s	pos[-1]=IN	pos[1]='s
 # 's book Public Enemies

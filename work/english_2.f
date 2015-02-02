@@ -475,7 +475,7 @@ NONE	w[-1]=,	fw=which	fpos=WDT	w[0]=which	fw|fpos=which|WDT	hw=which	hw|hpos=whi
 # test transmissions
 NONE	w[-1]=by	fw=test	fpos=NN	w[0]=test transmissions	fw|fpos=test|NN	hw=transmissions	hw|hpos=transmissions|NNS	hpos=NNS	w[1]=and	pos[-1]=IN	pos[1]=and
 # an announcement
-A	w[-1]=and	fw=an	fpos=DT	w[0]=announcement	fw|fpos=an|DT	hw=announcement	hw|hpos=announcement|NN	hpos=NN	w[1]=of	pos[-1]=CC	pos[1]=of
+AN	w[-1]=and	fw=an	fpos=DT	w[0]=announcement	fw|fpos=an|DT	hw=announcement	hw|hpos=announcement|NN	hpos=NN	w[1]=of	pos[-1]=CC	pos[1]=of
 # the afternoon
 THE	w[-1]=of	fw=the	fpos=DT	w[0]=afternoon	fw|fpos=the|DT	hw=afternoon	hw|hpos=afternoon|NN	hpos=NN	w[1]='s	pos[-1]=IN	pos[1]='s
 # 's programmes
@@ -595,7 +595,7 @@ NONE	w[-1]=-	fw=1984	fpos=CD	w[0]=1984	fw|fpos=1984|CD	hw=1984	hw|hpos=1984|CD	h
 # Replica
 NONE	w[-1]=NONE	fw=Replica	fpos=NNP	w[0]=Replica	fw|fpos=Replica|NNP	hw=Replica	hw|hpos=Replica|NNP	hpos=NNP	w[1]=of	pos[-1]=NONE	pos[1]=of
 # an Emitron camera
-A	w[-1]=of	fw=an	fpos=DT	w[0]=Emitron camera	fw|fpos=an|DT	hw=camera	hw|hpos=camera|NN	hpos=NN	w[1]=used	pos[-1]=IN	pos[1]=used
+AN	w[-1]=of	fw=an	fpos=DT	w[0]=Emitron camera	fw|fpos=an|DT	hw=camera	hw|hpos=camera|NN	hpos=NN	w[1]=used	pos[-1]=IN	pos[1]=used
 # the earliest 405-line programmes
 THE	w[-1]=make	fw=the	fpos=DT	w[0]=earliest 405-line programmes	fw|fpos=the|DT	hw=programmes	hw|hpos=programmes|NNS	hpos=NNS	w[1]=broadcast	pos[-1]=VB	pos[1]=broadcast
 # the channel
@@ -683,7 +683,7 @@ NONE	w[-1]=when	fw=BBC2	fpos=NN	w[0]=BBC2	fw|fpos=BBC2|NN	hw=BBC2	hw|hpos=BBC2|N
 # 20 April 1964
 NONE	w[-1]=on	fw=20	fpos=CD	w[0]=20 April 1964	fw|fpos=20|CD	hw=1964	hw|hpos=1964|CD	hpos=CD	w[1]=transmitting	pos[-1]=IN	pos[1]=transmitting
 # an incompatible 625-line image
-A	w[-1]=transmitting	fw=an	fpos=DT	w[0]=incompatible 625-line image	fw|fpos=an|DT	hw=image	hw|hpos=image|NN	hpos=NN	w[1]=on	pos[-1]=VBG	pos[1]=on
+AN	w[-1]=transmitting	fw=an	fpos=DT	w[0]=incompatible 625-line image	fw|fpos=an|DT	hw=image	hw|hpos=image|NN	hpos=NN	w[1]=on	pos[-1]=VBG	pos[1]=on
 # UHF
 NONE	w[-1]=on	fw=UHF	fpos=NN	w[0]=UHF	fw|fpos=UHF|NN	hw=UHF	hw|hpos=UHF|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
 # The only way
@@ -765,7 +765,7 @@ NONE	w[-1]=between	fw=1973	fpos=CD	w[0]=1973 and 1977	fw|fpos=1973|CD	hw=1977	hw
 # the channel
 THE	w[-1]=when	fw=the	fpos=DT	w[0]=channel	fw|fpos=the|DT	hw=channel	hw|hpos=channel|NN	hpos=NN	w[1]=achieved	pos[-1]=WRB	pos[1]=achieved
 # an average audience share
-A	w[-1]=achieved	fw=an	fpos=DT	w[0]=average audience share	fw|fpos=an|DT	hw=share	hw|hpos=share|NN	hpos=NN	w[1]=of	pos[-1]=VBD	pos[1]=of
+AN	w[-1]=achieved	fw=an	fpos=DT	w[0]=average audience share	fw|fpos=an|DT	hw=share	hw|hpos=share|NN	hpos=NN	w[1]=of	pos[-1]=VBD	pos[1]=of
 # 45 %
 NONE	w[-1]=of	fw=45	fpos=CD	w[0]=45 %	fw|fpos=45|CD	hw=%	hw|hpos=%|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
 # This period
@@ -1115,7 +1115,7 @@ NONE	w[-1]=On	fw=27	fpos=CD	w[0]=27 Feb 1985 Doctor	fw|fpos=27|CD	hw=Doctor	hw|h
 # Who
 NONE	w[-1]=Doctor	fw=Who	fpos=WP	w[0]=Who	fw|fpos=Who|WP	hw=Who	hw|hpos=Who|WP	hpos=WP	w[1]=was	pos[-1]=NNP	pos[1]=was
 # an 18-month hiatus
-A	w[-1]=on	fw=an	fpos=DT	w[0]=18-month hiatus	fw|fpos=an|DT	hw=hiatus	hw|hpos=hiatus|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
+AN	w[-1]=on	fw=an	fpos=DT	w[0]=18-month hiatus	fw|fpos=an|DT	hw=hiatus	hw|hpos=hiatus|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
 # The BBC
 THE	w[-1]=NONE	fw=The	fpos=DT	w[0]=BBC	fw|fpos=The|DT	hw=BBC	hw|hpos=BBC|NNP	hpos=NNP	w[1]=originally	pos[-1]=NONE	pos[1]=originally
 # the series
@@ -1405,7 +1405,7 @@ NONE	w[-1]=on	fw=BBC	fpos=NNP	w[0]=BBC one	fw|fpos=BBC|NNP	hw=one	hw|hpos=one|CD
 # it
 NONE	w[-1]=,	fw=it	fpos=PRP	w[0]=it	fw|fpos=it|PRP	hw=it	hw|hpos=it|PRP	hpos=PRP	w[1]=was	pos[-1]=,	pos[1]=was
 # an extra £20 million
-A	w[-1]=announced	fw=an	fpos=DT	w[0]=extra £20 million	fw|fpos=an|DT	hw=million	hw|hpos=million|CD	hpos=CD	w[1]=was	pos[-1]=VBN	pos[1]=was
+AN	w[-1]=announced	fw=an	fpos=DT	w[0]=extra £20 million	fw|fpos=an|DT	hw=million	hw|hpos=million|CD	hpos=CD	w[1]=was	pos[-1]=VBN	pos[1]=was
 # the channels drama and comedy output
 THE	w[-1]=rejuvenating	fw=the	fpos=DT	w[0]=channels drama and comedy output	fw|fpos=the|DT	hw=output	hw|hpos=output|NN	hpos=NN	w[1]=during	pos[-1]=VBG	pos[1]=during
 # peak times
@@ -1441,7 +1441,7 @@ THE	w[-1]=,	fw=The	fpos=DT	w[0]=Krypton Factor	fw|fpos=The|DT	hw=Factor	hw|hpos=
 # The $ 64 , 000 Question
 THE	w[-1]=and	fw=The	fpos=DT	w[0]=$ 64 , 000 Question	fw|fpos=The|DT	hw=Question	hw|hpos=Question|NNP	hpos=NNP	w[1]=.	pos[-1]=CC	pos[1]=.
 # an extra £40million
-A	w[-1]=Additionally	fw=an	fpos=DT	w[0]=extra £40million	fw|fpos=an|DT	hw=£40million	hw|hpos=£40million|CD	hpos=CD	w[1]=a	pos[-1]=RB	pos[1]=a
+AN	w[-1]=Additionally	fw=an	fpos=DT	w[0]=extra £40million	fw|fpos=an|DT	hw=£40million	hw|hpos=£40million|CD	hpos=CD	w[1]=a	pos[-1]=RB	pos[1]=a
 # a year
 A	w[-1]=£40million	fw=a	fpos=DT	w[0]=year	fw|fpos=a|DT	hw=year	hw|hpos=year|NN	hpos=NN	w[1]=was	pos[-1]=CD	pos[1]=was
 # the gap
@@ -1515,7 +1515,7 @@ NONE	w[-1]=,	fw=enchantment	fpos=NN	w[0]=enchantment	fw|fpos=enchantment|NN	hw=e
 # the arts
 THE	w[-1]=to	fw=the	fpos=DT	w[0]=arts	fw|fpos=the|DT	hw=arts	hw|hpos=arts|NNS	hpos=NNS	w[1]=with	pos[-1]=TO	pos[1]=with
 # an extended 26 week run
-A	w[-1]=with	fw=an	fpos=DT	w[0]=extended 26 week run	fw|fpos=an|DT	hw=run	hw|hpos=run|NN	hpos=NN	w[1]=for	pos[-1]=IN	pos[1]=for
+AN	w[-1]=with	fw=an	fpos=DT	w[0]=extended 26 week run	fw|fpos=an|DT	hw=run	hw|hpos=run|NN	hpos=NN	w[1]=for	pos[-1]=IN	pos[1]=for
 # Omnibus
 NONE	w[-1]=for	fw=Omnibus	fpos=NNP	w[0]=Omnibus	fw|fpos=Omnibus|NNP	hw=Omnibus	hw|hpos=Omnibus|NNP	hpos=NNP	w[1]=,	pos[-1]=IN	pos[1]=,
 # documentaries
@@ -1525,7 +1525,7 @@ THE	w[-1]=with	fw=The	fpos=DT	w[0]=Downing Street Years	fw|fpos=The|DT	hw=Years	
 # new wildlife series
 NONE	w[-1]=,	fw=new	fpos=JJ	w[0]=new wildlife series	fw|fpos=new|JJ	hw=series	hw|hpos=series|NN	hpos=NN	w[1]=and	pos[-1]=,	pos[1]=and
 # an eight-month look
-A	w[-1]=and	fw=an	fpos=DT	w[0]=eight-month look	fw|fpos=an|DT	hw=look	hw|hpos=look|NN	hpos=NN	w[1]=at	pos[-1]=CC	pos[1]=at
+AN	w[-1]=and	fw=an	fpos=DT	w[0]=eight-month look	fw|fpos=an|DT	hw=look	hw|hpos=look|NN	hpos=NN	w[1]=at	pos[-1]=CC	pos[1]=at
 # Sheffield
 NONE	w[-1]=at	fw=Sheffield	fpos=NNP	w[0]=Sheffield	fw|fpos=Sheffield|NNP	hw=Sheffield	hw|hpos=Sheffield|NNP	hpos=NNP	w[1]='s	pos[-1]=IN	pos[1]='s
 # 's Children
@@ -1565,7 +1565,7 @@ NONE	w[-1]=in	fw=1993	fpos=CD	w[0]=1993	fw|fpos=1993|CD	hw=1993	hw|hpos=1993|CD	
 # BBC one
 NONE	w[-1]=,	fw=BBC	fpos=NNP	w[0]=BBC one	fw|fpos=BBC|NNP	hw=one	hw|hpos=one|CD	hpos=CD	w[1]=agreed	pos[-1]=,	pos[1]=agreed
 # an extra 110 hours
-A	w[-1]=broadcast	fw=an	fpos=DT	w[0]=extra 110 hours	fw|fpos=an|DT	hw=hours	hw|hpos=hours|NNS	hpos=NNS	w[1]=worth	pos[-1]=VB	pos[1]=worth
+AN	w[-1]=broadcast	fw=an	fpos=DT	w[0]=extra 110 hours	fw|fpos=an|DT	hw=hours	hw|hpos=hours|NNS	hpos=NNS	w[1]=worth	pos[-1]=VB	pos[1]=worth
 # original programming
 NONE	w[-1]=of	fw=original	fpos=JJ	w[0]=original programming	fw|fpos=original|JJ	hw=programming	hw|hpos=programming|NN	hpos=NN	w[1]=over	pos[-1]=IN	pos[1]=over
 # the same period
@@ -1579,7 +1579,7 @@ NONE	w[-1]=,	fw=which	fpos=WDT	w[0]=which	fw|fpos=which|WDT	hw=which	hw|hpos=whi
 # EastEnders
 NONE	w[-1]=giving	fw=EastEnders	fpos=NNS	w[0]=EastEnders	fw|fpos=EastEnders|NNS	hw=EastEnders	hw|hpos=EastEnders|NNS	hpos=NNS	w[1]=an	pos[-1]=VBG	pos[1]=an
 # an addition episode
-A	w[-1]=EastEnders	fw=an	fpos=DT	w[0]=addition episode	fw|fpos=an|DT	hw=episode	hw|hpos=episode|NN	hpos=NN	w[1]=per	pos[-1]=NNS	pos[1]=per
+AN	w[-1]=EastEnders	fw=an	fpos=DT	w[0]=addition episode	fw|fpos=an|DT	hw=episode	hw|hpos=episode|NN	hpos=NN	w[1]=per	pos[-1]=NNS	pos[1]=per
 # week
 NONE	w[-1]=per	fw=week	fpos=NN	w[0]=week	fw|fpos=week|NN	hw=week	hw|hpos=week|NN	hpos=NN	w[1]=.	pos[-1]=IN	pos[1]=.
 # Efficiency savings
@@ -1993,7 +1993,7 @@ A	w[-1]=of	fw=a	fpos=DT	w[0]='serious ident	fw|fpos=a|DT	hw=ident	hw|hpos=ident|
 # the BBC
 THE	w[-1]=put	fw=the	fpos=DT	w[0]=BBC	fw|fpos=the|DT	hw=BBC	hw|hpos=BBC|NN	hpos=NN	w[1]=in	pos[-1]=VBD	pos[1]=in
 # an embarrassing situation
-A	w[-1]=in	fw=an	fpos=DT	w[0]=embarrassing situation	fw|fpos=an|DT	hw=situation	hw|hpos=situation|NN	hpos=NN	w[1]=just	pos[-1]=IN	pos[1]=just
+AN	w[-1]=in	fw=an	fpos=DT	w[0]=embarrassing situation	fw|fpos=an|DT	hw=situation	hw|hpos=situation|NN	hpos=NN	w[1]=just	pos[-1]=IN	pos[1]=just
 # just one day
 NONE	w[-1]=situation	fw=just	fpos=RB	w[0]=just one day	fw|fpos=just|RB	hw=day	hw|hpos=day|NN	hpos=NN	w[1]=into	pos[-1]=NN	pos[1]=into
 # the new look
@@ -2177,7 +2177,7 @@ THE	w[-1]=initiated	fw=the	fpos=DT	w[0]=creation	fw|fpos=the|DT	hw=creation	hw|h
 # The One Show
 THE	w[-1]=both	fw=The	fpos=DT	w[0]=One Show	fw|fpos=The|DT	hw=Show	hw|hpos=Show|NN	hpos=NN	w[1]=(	pos[-1]=CC	pos[1]=(
 # an early evening
-A	w[-1]=,	fw=an	fpos=DT	w[0]=early evening	fw|fpos=an|DT	hw=evening	hw|hpos=evening|NN	hpos=NN	w[1]=,	pos[-1]=,	pos[1]=,
+AN	w[-1]=,	fw=an	fpos=DT	w[0]=early evening	fw|fpos=an|DT	hw=evening	hw|hpos=evening|NN	hpos=NN	w[1]=,	pos[-1]=,	pos[1]=,
 # current-affairs
 NONE	w[-1]=,	fw=current-affairs	fpos=NNS	w[0]=current-affairs	fw|fpos=current-affairs|NNS	hw=current-affairs	hw|hpos=current-affairs|NNS	hpos=NNS	w[1]=and	pos[-1]=,	pos[1]=and
 # lifestyle programme
@@ -2347,7 +2347,7 @@ THE	w[-1]=took	fw=the	fpos=DT	w[0]=decision	fw|fpos=the|DT	hw=decision	hw|hpos=d
 # Neighbours
 NONE	w[-1]=drop	fw=Neighbours	fpos=NNP	w[0]=Neighbours	fw|fpos=Neighbours|NNP	hw=Neighbours	hw|hpos=Neighbours|NNP	hpos=NNP	w[1]=,	pos[-1]=VB	pos[1]=,
 # an Australian soap opera
-A	w[-1]=,	fw=an	fpos=DT	w[0]=Australian soap opera	fw|fpos=an|DT	hw=opera	hw|hpos=opera|NN	hpos=NN	w[1]=,	pos[-1]=,	pos[1]=,
+AN	w[-1]=,	fw=an	fpos=DT	w[0]=Australian soap opera	fw|fpos=an|DT	hw=opera	hw|hpos=opera|NN	hpos=NN	w[1]=,	pos[-1]=,	pos[1]=,
 # BBC One
 NONE	w[-1]=from	fw=BBC	fpos=NNP	w[0]=BBC One	fw|fpos=BBC|NNP	hw=One	hw|hpos=One|CD	hpos=CD	w[1]=after	pos[-1]=IN	pos[1]=after
 # 21 years
@@ -3435,7 +3435,7 @@ NONE	w[-1]=EastEnders	fw=each	fpos=DT	w[0]=week	fw|fpos=each|DT	hw=week	hw|hpos=
 # Wednesdays
 NONE	w[-1]=on	fw=Wednesdays	fpos=NNS	w[0]=Wednesdays	fw|fpos=Wednesdays|NNS	hw=Wednesdays	hw|hpos=Wednesdays|NNS	hpos=NNS	w[1]=)	pos[-1]=IN	pos[1]=)
 # an omnibus episode
-A	w[-1]=with	fw=an	fpos=DT	w[0]=omnibus episode	fw|fpos=an|DT	hw=episode	hw|hpos=episode|NN	hpos=NN	w[1]=at	pos[-1]=IN	pos[1]=at
+AN	w[-1]=with	fw=an	fpos=DT	w[0]=omnibus episode	fw|fpos=an|DT	hw=episode	hw|hpos=episode|NN	hpos=NN	w[1]=at	pos[-1]=IN	pos[1]=at
 # the weekend
 THE	w[-1]=at	fw=the	fpos=DT	w[0]=weekend	fw|fpos=the|DT	hw=weekend	hw|hpos=weekend|NN	hpos=NN	w[1]=,	pos[-1]=IN	pos[1]=,
 # hospital dramas Casualty and Holby City
@@ -3645,7 +3645,7 @@ NONE	w[-1]=for	fw=2008–09	fpos=CD	w[0]=2008–09	fw|fpos=2008–09|CD	hw=2008�
 # this channel
 NONE	w[-1]=on	fw=this	fpos=DT	w[0]=channel	fw|fpos=this|DT	hw=channel	hw|hpos=channel|NN	hpos=NN	w[1]=costs	pos[-1]=IN	pos[1]=costs
 # an average
-A	w[-1]=costs	fw=an	fpos=DT	w[0]=average	fw|fpos=an|DT	hw=average	hw|hpos=average|NN	hpos=NN	w[1]=of	pos[-1]=VBZ	pos[1]=of
+AN	w[-1]=costs	fw=an	fpos=DT	w[0]=average	fw|fpos=an|DT	hw=average	hw|hpos=average|NN	hpos=NN	w[1]=of	pos[-1]=VBZ	pos[1]=of
 # £162
 NONE	w[-1]=of	fw=£162	fpos=CD	w[0]=£162	fw|fpos=£162|CD	hw=£162	hw|hpos=£162|CD	hpos=CD	w[1]=,	pos[-1]=IN	pos[1]=,
 # 900
@@ -4085,7 +4085,7 @@ NONE	w[-1]=In	fw=England	fpos=NNP	w[0]=England	fw|fpos=England|NNP	hw=England	hw
 # each region
 NONE	w[-1]=,	fw=each	fpos=DT	w[0]=region	fw|fpos=each|DT	hw=region	hw|hpos=region|NN	hpos=NN	w[1]=has	pos[-1]=,	pos[1]=has
 # an individual regional news
-A	w[-1]=has	fw=an	fpos=DT	w[0]=individual regional news	fw|fpos=an|DT	hw=news	hw|hpos=news|NN	hpos=NN	w[1]=and	pos[-1]=VBZ	pos[1]=and
+AN	w[-1]=has	fw=an	fpos=DT	w[0]=individual regional news	fw|fpos=an|DT	hw=news	hw|hpos=news|NN	hpos=NN	w[1]=and	pos[-1]=VBZ	pos[1]=and
 # current affairs
 NONE	w[-1]=and	fw=current	fpos=JJ	w[0]=current affairs	fw|fpos=current|JJ	hw=affairs	hw|hpos=affairs|NNS	hpos=NNS	w[1]=programme	pos[-1]=CC	pos[1]=programme
 # a limited amount

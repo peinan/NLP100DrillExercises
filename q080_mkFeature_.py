@@ -19,18 +19,25 @@ pos[1]  = (名詞句の１語後の品詞)
 """
 
 import sys, pickle
+from q072_loadGeniaResult import loadGeniaResult
+
+NPfile = open('NPs.txt', 'w')
 
 def printLine(aNP, feature_of):
   import re
   formatFeature = '\t'.join(['%s=%s' % (k, v) for k, v in feature_of.items()])
   if re.match(r'^[aA]$', aNP[0]):
-    print '# %s\nA\t%s' % (' '.join(aNP), formatFeature)
+    print >> NPfile, '%s' % ' '.join(aNP)
+    print 'A\t%s' % formatFeature
   elif re.match(r'^[aA]n$', aNP[0]):
-    print '# %s\nAN\t%s' % (' '.join(aNP), formatFeature)
+    print >> NPfile, '%s' % ' '.join(aNP)
+    print 'AN\t%s' % formatFeature
   elif re.match(r'^[tT]he$', aNP[0]):
-    print '# %s\nTHE\t%s' % (' '.join(aNP), formatFeature)
+    print >> NPfile, '%s' % ' '.join(aNP)
+    print 'THE\t%s' % formatFeature
   else:
-    print '# %s\nNONE\t%s' % (' '.join(aNP), formatFeature)
+    print >> NPfile, '%s' % ' '.join(aNP)
+    print 'NONE\t%s' % formatFeature
 
 
 def mkFeatures(NPtokens):
@@ -66,6 +73,14 @@ def extractNPs(geniaResult):
   aNP = []
   NPtokens = []
   for sent in geniaResult:
+    # print original sentence
+    # print '#',
+    # print >> NPfile, '#',
+    # for tok in sent:
+    #   print tok['w'],
+    #   print >> NPfile, tok['w'],
+    # print
+    # print >> NPfile, ''
     for tok in sent:
       if 'NP' not in tok['chk'] and len(aNP) > 0:
         feature_of = mkFeatures(NPtokens)
@@ -87,5 +102,6 @@ def extractNPs(geniaResult):
 
 
 if __name__ == '__main__':
-  geniaResult = pickle.load(open(sys.argv[1]))
-  extractNPs(geniaResult)
+  geniaLines = sys.stdin.readlines()
+  doc = loadGeniaResult(geniaLines)
+  extractNPs(doc)
