@@ -2,3 +2,8 @@ features/
 data/
 *.pyc
 *.swp
+journal/
+*.lock
+*.0
+*.ns
+work/BRAvsGER.json
