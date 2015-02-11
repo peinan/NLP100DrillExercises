@@ -18,7 +18,7 @@ for data in col.find():
   for char in data["body"]:
     bigrams.append(pre_char+char)
     pre_char = char
-    bigrams.append(pre_char+"</s>")
-    data["bigram"] = bigrams
-    col.save(data)
+  bigrams.append(pre_char+"</s>")
+  data["bigram"] = bigrams
+  col.save(data)
 col.create_index([("bigram", ASCENDING)])
